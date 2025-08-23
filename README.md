@@ -1,7 +1,7 @@
 <!-- Profile README Revamped: Clean layout, fixed broken markup, professional & visually engaging -->
 <div align="center">
 
-# 🚀 Ahmad Hassan — Gen AI & Agentic AI Engineer
+# 🚀 Ahmad Hassan —Software Engineer
 
 <!-- Typing animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00D4AA&center=true&vCenter=true&width=700&lines=Gen+AI+Engineer;Agentic+AI+Systems+Architect;Autonomous+Multi-Agent+Orchestrator;RAG+%26+Knowledge+Graph+Builder;Literature+%E2%9D%A4%EF%B8%8F+AI+Philosophy+Explorer" alt="Typing introduction" />
