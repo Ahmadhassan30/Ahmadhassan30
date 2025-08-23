@@ -3,6 +3,9 @@
 
 # 🚀 Ahmad Hassan —Software Engineer
 
+
+
+
 <!-- Typing animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1100&color=00D4AA&center=true&vCenter=true&width=760&height=60&lines=Full+Stack+Engineer;Gen+AI+Engineer;Agentic+AI+Engineer;Multi-Agent+Systems+Architect;RAG+%26+Knowledge+Graph+Builder;DevOps+%26+MLOps+Practitioner;Cloud+%26+Solution+Architect;Literary+AI+Explorer" alt="Typing introduction showing key roles" />
 
@@ -11,6 +14,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/Ahmadhassan30?style=for-the-badge&color=00D4AA&label=FOLLOWERS&labelColor=1e1e2e)](https://github.com/Ahmadhassan30?tab=followers)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Ahmad_Hassan31/)
 
 </div>
 
@@ -22,12 +26,13 @@
 <table>
 <tr>
 <td valign="top" width="58%">
-I build autonomous, reasoning AI agent ecosystems that blend structured retrieval (RAG), tool orchestration, and narrative intelligence. Passionate about the convergence of computational systems and literary structures.
+I'm that rare breed of developer who can both make pretty buttons for websites AND create AI that might eventually replace me. Full stack engineer by day, AI whisperer by night — building web apps that humans love and AI agents that occasionally listen to me.
 
-- Architecting multi-agent coordination + memory + reflection loops
-- Blending knowledge graphs with dense retrieval for hybrid reasoning
-- Exploring narrative structures as scaffolds for long-horizon AI planning
-- Applying literary theory lenses to model interpretability & alignment
+- Turning caffeine into code since before it was cool to talk to your AI assistant
+- Crafting web experiences that work (yes, even in IE... kidding, I have standards)
+- Engineering AI agents that follow instructions better than my roommate's cat
+- Building RAG systems so powerful they can find that one Stack Overflow post you bookmarked but lost
+- Translating business requirements into technical solutions and AI hallucinations into actual features
 </td>
 <td valign="top" width="42%">
 <p align="center"><img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Coding illustration" width="300" /></p>
@@ -78,9 +83,8 @@ const ahmad = {
 - 🧠 Future: Agents that build and revise internal story-worlds while acting
 
 ### Currently Reading
-- *Klara and the Sun* — Ishiguro (embodied perception & affect)
-- *The Alignment Problem* — Brian Christian (value alignment)
-- *Gödel, Escher, Bach* — Hofstadter (self-reference & recursion)
+- **Philosophy** - Exploring consciousness, ethics, and the mind-body problem
+-  **Fiction** - Literary works that challenge perception and reality
 
 ---
 
@@ -133,13 +137,6 @@ const ahmad = {
 
 ---
 
-## 🏆 Trophies
-<div align="center">
-  <!-- If image fails to load (rate limit or service hiccup), it will show alt text. Refresh or reduce 'column' param if persistent. -->
-  <img src="https://github-profile-trophy.vercel.app/?username=Ahmadhassan30&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6&cache_seconds=7200" alt="Trophies (service may rate-limit; try refreshing)" />
-</div>
-
----
 
 ## 🔝 Top Contributed Repositories
 
@@ -159,59 +156,7 @@ const ahmad = {
 
 ---
 
-## 💼 Professional Experience
-<details>
-<summary><b>Click to expand professional journey</b></summary>
 
-### 🧠 Current Role — Senior Gen AI & Agentic AI Engineer (2024–Present)
-- Architecting autonomous agent cohorts with memory + reflection loops
-- Building hybrid RAG + knowledge graph reasoning stacks
-- Leading experimentation on multi-agent collaboration and tool routing
-- Designing fine-tuning + eval harnesses for domain adaptation
-
-### 🛠️ Previous — AI / ML Engineer (2022–2024)
-- Implemented semantic retrieval & scalable embedding pipelines
-- Optimized LLM inference + latency under production constraints
-- Integrated conversational AI APIs across product verticals
-
-### 🌱 Earlier — Full Stack Engineer (2020–2022)
-- Delivered data-rich web platforms with AI-augmented UX features
-- Established MLOps baselines: monitoring, drift alerts, CI/CD for models
-
-</details>
-
----
-
-## 📈 Coding Activity (WakaTime)
-<div align="center">
-
-<!--START_SECTION:waka-->
-```text
-Update your GitHub Actions workflow to auto-populate this block.
-```
-<!--END_SECTION:waka-->
-</div>
-
----
-
-## 📝 Latest Writing & Research
-<!-- BLOG-POST-LIST:START -->
-- [Building Autonomous AI Agents with LangGraph](https://your-blog.com/ai-agents-langgraph)
-- [RAG vs Fine-tuning: When to Use What](https://your-blog.com/rag-vs-finetuning)
-- [Literature Analysis with Large Language Models](https://your-blog.com/llm-literature-analysis)
-- [The Philosophy of Artificial Consciousness](https://your-blog.com/ai-consciousness-philosophy)
-<!-- BLOG-POST-LIST:END -->
-
----
-
-## 🎭 Literary + Experimental AI Projects
-<div align="center">
-  <a href="https://github.com/Ahmadhassan30/ai-agent-framework"><img src="https://img.shields.io/badge/🤖%20Multi--Agent%20Framework-222831?style=for-the-badge" alt="Multi-Agent Framework" /></a>
-  <a href="https://github.com/Ahmadhassan30/literary-ai-assistant"><img src="https://img.shields.io/badge/📚%20Literary%20AI%20Assistant-393E46?style=for-the-badge" alt="Literary AI" /></a>
-  <a href="https://github.com/Ahmadhassan30/rag-knowledge-base"><img src="https://img.shields.io/badge/🧠%20RAG%20Knowledge%20System-00ADB5?style=for-the-badge" alt="RAG System" /></a>
-</div>
-
----
 
 ## ⚡ Personality Snapshot
 - 🤖 AI emergent behavior explorer
@@ -222,16 +167,16 @@ Update your GitHub Actions workflow to auto-populate this block.
 - 🎨 Creativity engineering advocate
 
 ### Favorite Authors
-Asimov • Chiang • Hofstadter • Le Guin • Borges
+Friedrich Nietzsche • Fyodor Dostoevsky • Franz Kafka • Leo Tolstoy • Sylvia Plath
 
 ---
 
 ## 🔗 Connect
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![Twitter](https://img.shields.io/badge/X_%28Twitter%29-111111?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/your-twitter)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-hassan3110)
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](Mailto:ahmadhassan30nov@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-00D4AA?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.com)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/your-discord)
 
@@ -244,11 +189,7 @@ Asimov • Chiang • Hofstadter • Le Guin • Borges
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote" />
 </div>
 
-## 🐍 Contribution Snake
-<div align="center">
-  <!-- The snake SVG requires a GitHub Action that commits to the 'output' branch. If broken, set up action or remove this block. -->
-  <img src="https://raw.githubusercontent.com/Ahmadhassan30/Ahmadhassan30/output/github-contribution-grid-snake-dark.svg" alt="Snake animation (configure action if not displaying)" />
-</div>
+
 
 ---
 <div align="center">
@@ -262,11 +203,3 @@ Made with ❤️ + ☕
 
 ![](https://hit.yhype.me/github/profile?user_id=Ahmadhassan30)
 </div>
-
-<!-- Notes / TODO for dynamic sections:
-1. Replace placeholders (LinkedIn, Portfolio, Blog, Spotify, Email, Discord).
-2. Add GitHub Action for WakaTime + blog auto-update.
-3. Ensure 'output' branch exists for snake animation (set up action from Platane/snk).
-4. Confirm pinned repos exist (replace project1/project2 or remove section).
-5. If trophy image rate-limits, consider self-hosting or reducing columns.
--->
