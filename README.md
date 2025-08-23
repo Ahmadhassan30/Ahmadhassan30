@@ -1,7 +1,7 @@
 <!-- Profile README Revamped: Clean layout, fixed broken markup, professional & visually engaging -->
 <div align="center">
 
-# 🚀 Ahmad Hassan —Software Engineer
+# Ahmad Hassan | Software Engineer
 
 
 
@@ -13,6 +13,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=Ahmadhassan30&color=00D4AA&style=for-the-badge&label=VIEWS)](https://github.com/Ahmadhassan30)
 [![GitHub followers](https://img.shields.io/github/followers/Ahmadhassan30?style=for-the-badge&color=00D4AA&label=FOLLOWERS&labelColor=1e1e2e)](https://github.com/Ahmadhassan30?tab=followers)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/ahmad_hassan3110)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Ahmad_Hassan31/)
 
@@ -64,7 +65,7 @@ const ahmad = {
 
 ---
 
-## 🎯 Strategic Focus (2025)
+##  Strategic Focus (2025)
 - 🤖 Scaling autonomous multi-agent architectures (coordination + memory + reflection)
 - 🧠 Researching emergent alignment behaviors in instruction-tuned LLMs
 - 📚 Encoding literary theory into retrieval + reasoning pipelines
@@ -74,7 +75,7 @@ const ahmad = {
 
 ---
 
-## 📚 Literary AI Perspective
+##  Literary AI Perspective
 > *"Where symbolic pattern meets human metaphor, intelligence becomes narrative."*
 
 - 📖 Literature as training signal: stories = temporal causal compression
@@ -128,7 +129,7 @@ const ahmad = {
 
 ---
 
-## 📊 Analytics & Metrics
+## Analytics & Metrics
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ahmadhassan30&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmadhassan30&layout=compact&theme=tokyonight" alt="Top Languages" />
@@ -146,7 +147,7 @@ const ahmad = {
 
 ---
 
-## 🎵 Currently Vibing
+##  Currently Vibing
 <div align="center">
   <a href="https://open.spotify.com/track/0sTBOp1hdayTjw6UOyPyi6?si=227ff81c736a47a5" target="_blank" rel="noopener noreferrer">
     <img src="assets/open-heart.jpg" alt="Open Heart — The Weeknd album art" width="160" style="border-radius:8px;" />
@@ -158,7 +159,7 @@ const ahmad = {
 
 
 
-## ⚡ Personality Snapshot
+##  Personality Snapshot
 - 🤖 AI emergent behavior explorer
 - 📚 Reads >200 books/year (thematic analysis + embedding experiments)
 - ✍️ Experiments with symbolic + neural narrative synthesis
@@ -184,7 +185,7 @@ Friedrich Nietzsche • Fyodor Dostoevsky • Franz Kafka • Leo Tolstoy • Sy
 
 ---
 
-## 💬 Random Dev Quote
+##  Random Dev Quote
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote" />
 </div>
