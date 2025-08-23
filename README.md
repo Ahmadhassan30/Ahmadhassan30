@@ -179,7 +179,7 @@ Friedrich Nietzsche • Fyodor Dostoevsky • Franz Kafka • Leo Tolstoy • Sy
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](Mailto:ahmadhassan30nov@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-00D4AA?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.com)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/your-discord)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/ahmad_hassan3110)
 
 </div>
 
