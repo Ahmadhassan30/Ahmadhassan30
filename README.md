@@ -16,11 +16,27 @@
 
 ---
 
-<img align="right" alt="Coding animation" width="360" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
-
+<!-- Reworked About section layout for better orientation -->
 ## 👋 About Me
 
+<table>
+<tr>
+<td valign="top" width="58%">
 I build autonomous, reasoning AI agent ecosystems that blend structured retrieval (RAG), tool orchestration, and narrative intelligence. Passionate about the convergence of computational systems and literary structures.
+
+- Architecting multi-agent coordination + memory + reflection loops
+- Blending knowledge graphs with dense retrieval for hybrid reasoning
+- Exploring narrative structures as scaffolds for long-horizon AI planning
+- Applying literary theory lenses to model interpretability & alignment
+</td>
+<td valign="top" width="42%">
+<p align="center"><img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Coding illustration" width="300" /></p>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Tech Snapshot (click to expand)</b></summary>
 
 ```javascript
 const ahmad = {
@@ -39,6 +55,7 @@ const ahmad = {
   fun: ["Literary analysis with LLMs", "Recursive cognition", "Book-driven embeddings"]
 };
 ```
+</details>
 
 ---
 
@@ -74,7 +91,7 @@ const ahmad = {
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)
-<!-- Fixed broken badge: removed extra space after logo= and ensured URL encoding -->
+<!-- Fixed broken badge: removed extra space after logo=and ensured URL encoding -->
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
