@@ -26,7 +26,7 @@
 <table>
 <tr>
 <td valign="top" width="58%">
-I'm that rare breed of developer who can both make pretty buttons for websites AND create AI that might eventually replace me. Full stack engineer by day, AI whisperer by night — building web apps that humans love and AI agents that occasionally listen to me.
+I'm that rare breed of developer who can both make pretty buttons for websites AND create AI that might eventually replace me. Full stack engineer by day, AI whisperer by night, building web apps that humans love and AI agents that occasionally listen to me.
 
 - Turning caffeine into code since before it was cool to talk to your AI assistant
 - Crafting web experiences that work (yes, even in IE... kidding, I have standards)
