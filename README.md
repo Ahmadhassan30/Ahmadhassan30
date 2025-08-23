@@ -126,14 +126,9 @@ const ahmad = {
 
 ## 📊 Analytics & Metrics
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Ahmadhassan30&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=00d4aa" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmadhassan30&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4aa" alt="Top languages" />
-</div>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmadhassan30&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4aa&ring=00d4aa&fire=00d4aa&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=00d4aa&sideLabels=ffffff&dates=ffffff" alt="Streak" />
-</div>
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmadhassan30&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d4aa&line=00d4aa&point=ffffff" alt="Contribution graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Ahmadhassan30&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmadhassan30&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmadhassan30&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
 ---
@@ -158,8 +153,10 @@ const ahmad = {
 
 ## 🎵 Currently Vibing
 <div align="center">
-  <!-- Replace 'your-spotify-username' with real username or deploy your own service -->
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=00d4aa" alt="Spotify now playing" />
+  <a href="https://open.spotify.com/track/0sTBOp1hdayTjw6UOyPyi6?si=227ff81c736a47a5" target="_blank" rel="noopener noreferrer">
+    <img src="assets/open-heart.jpg" alt="Open Heart — The Weeknd album art" width="160" style="border-radius:8px;" />
+  </a>
+  <p><strong>Open Heart</strong> — The Weeknd</p>
 </div>
 
 ---
