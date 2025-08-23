@@ -141,13 +141,11 @@ const ahmad = {
 
 ---
 
-## 🌟 Featured Projects
-<div align="center">
-  <!-- NOTE: Replace 'project1' and 'project2' with existing repository names or remove section to avoid 'User Repository Not found'. -->
-  <a href="https://github.com/Ahmadhassan30/project1"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ahmadhassan30&repo=project1&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=00d4aa" alt="Pinned repo placeholder (update name)" /></a>
-  <a href="https://github.com/Ahmadhassan30/project2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Ahmadhassan30&repo=project2&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=00d4aa" alt="Pinned repo placeholder (update name)" /></a>
-  <!-- OPTIONAL: Add more pinned repos or remove placeholders to eliminate error cards. -->
-</div>
+## 🔝 Top Contributed Repositories
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=Ahmadhassan30&limit=5&theme=blue_navy&combine_all_yearly_contributions=true" alt="Top contributed repositories" />
+</p>
 
 ---
 
