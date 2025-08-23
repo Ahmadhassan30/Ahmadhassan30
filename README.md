@@ -4,7 +4,7 @@
 # 🚀 Ahmad Hassan —Software Engineer
 
 <!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00D4AA&center=true&vCenter=true&width=700&lines=Gen+AI+Engineer;Agentic+AI+Systems+Architect;Autonomous+Multi-Agent+Orchestrator;RAG+%26+Knowledge+Graph+Builder;Literature+%E2%9D%A4%EF%B8%8F+AI+Philosophy+Explorer" alt="Typing introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1100&color=00D4AA&center=true&vCenter=true&width=760&height=60&lines=Full+Stack+Engineer;Gen+AI+Engineer;Agentic+AI+Engineer;Multi-Agent+Systems+Architect;RAG+%26+Knowledge+Graph+Builder;DevOps+%26+MLOps+Practitioner;Cloud+%26+Solution+Architect;Literary+AI+Explorer" alt="Typing introduction showing key roles" />
 
 <!-- Badges -->
 [![Profile Views](https://komarev.com/ghpvc/?username=Ahmadhassan30&color=00D4AA&style=for-the-badge&label=VIEWS)](https://github.com/Ahmadhassan30)
