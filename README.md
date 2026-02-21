@@ -16,9 +16,11 @@
 
 <h2>The Story So Far</h2>
 
-<p>I am that rare breed of developer who can both make pretty buttons for websites AND create AI that might eventually replace me. Full stack engineer by day, AI whisperer by night, building web apps that humans love and AI agents that occasionally listen to me.</p>
+<p>I am a software engineer and AI systems architect who operates at the intersection of autonomous agents, retrieval augmented generation, and knowledge representation. I do not specialize in one layer of the stack because the problems I care about do not live in one layer. I design multi agent architectures that coordinate, reflect, and remember, and then I build the production infrastructure required to scale them.</p>
 
-<p>I have been turning caffeine into code since before it was cool to talk to your AI assistant. I craft web experiences that work (yes, even in IE... kidding, I have standards), engineer AI agents that follow instructions better than my roommate's cat, and build RAG systems so powerful they can find that one Stack Overflow post you bookmarked but lost. My day to day involves translating business requirements into technical solutions and AI hallucinations into actual features.</p>
+<p>My journey into software engineering began with a fascination for how systems are built from the ground up. I spent my early career mastering the full stack, learning how to craft resilient backend architectures and intuitive frontend experiences. I learned how to build web applications that humans actually want to use, focusing on performance, accessibility, and clean design. But as the landscape of technology shifted, so did my focus. I realized that the future of software was not just in building tools for humans, but in building systems that could reason alongside them.</p>
+
+<p>Today, my day to day involves translating complex business requirements into technical solutions and turning AI hallucinations into reliable, production ready features. I build embedding pipelines and vector retrieval systems that power cloud deployed applications at scale. I engineer AI agents that follow instructions with precision, and I construct RAG systems so powerful they can surface the exact piece of context needed from vast oceans of unstructured data. I am that rare breed of developer who can both make pretty buttons for websites and create the AI infrastructure that powers the logic behind them.</p>
 
 <br/>
 
@@ -26,17 +28,19 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,aws,docker,kubernetes,githubactions,postgres,nodejs,react,nextjs,tailwind,fastapi,django&perline=7" />
+    <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,aws,docker,kubernetes,githubactions,postgres,nodejs,react,nextjs,tailwind,fastapi,django,mongodb,redis,graphql,linux,bash,git,figma,vercel,nginx,ubuntu&perline=8" />
   </a>
 </p>
 
 <br/>
 
-<h2>Current Focus</h2>
+<h2>Current Focus & Research</h2>
 
-<p>My primary research thread is resilient multi agent reasoning. I build architectures where agents coordinate under uncertainty, maintain persistent memory, and revise strategy through reflection. I am particularly drawn to emergent alignment behaviors in instruction tuned LLMs.</p>
+<p>My primary research thread is resilient multi agent reasoning. I am deeply invested in building architectures where agents can coordinate under uncertainty, maintain persistent memory across long contexts, and revise their strategies through continuous reflection. The goal is not just to build agents that can execute tasks, but agents that can understand the context of their actions and adapt when things go wrong.</p>
 
-<p>In parallel, I am building hybrid retrieval systems that fuse knowledge graphs with dense vector search and structured tool outputs, moving past naive RAG toward systems that understand relationships.</p>
+<p>I am particularly drawn to emergent alignment behaviors in instruction tuned LLMs. I study the implicit preferences and systemic biases that arise through training and often escape standard evaluation benchmarks. Understanding these behaviors is crucial for building AI systems that are not only capable but also safe and aligned with human intent.</p>
+
+<p>In parallel, I am building hybrid retrieval systems that fuse knowledge graphs with dense vector search and structured tool outputs. The industry is moving past naive RAG, and I am focused on developing systems that understand relationships and semantic meaning, not just surface level similarity. By combining the structured precision of knowledge graphs with the fuzzy recall of vector databases, I aim to create retrieval pipelines that can reason about the information they surface.</p>
 
 <br/>
 
@@ -46,11 +50,11 @@
   <i>Where symbolic pattern meets human metaphor, intelligence becomes narrative.</i>
 </blockquote>
 
-<p>I read over 200 books a year. Not as decoration, but as methodology. Literature is compressed causal reasoning stretched over time. Stories encode precisely the patterns that multi step reasoning systems struggle to learn: long horizon dependencies, unreliable narration, foreshadowing as implicit prediction, motifs as latent clusters.</p>
+<p>I read over 200 books a year. I do not do this as decoration or a hobby, but as a core methodology for my work in AI. Literature is compressed causal reasoning stretched over time. Stories encode precisely the patterns that multi step reasoning systems struggle to learn: long horizon dependencies, unreliable narration, foreshadowing as implicit prediction, and motifs as latent clusters.</p>
 
-<p>My working thesis is that narrative structure is a reasoning substrate. Dostoevsky's recursive psychology, Kafka's systems as absurdity, Tolstoy's emergent complexity, Nietzsche's epistemological provocations, Plath's precision under pressure. They were doing something our best language models are only beginning to approximate.</p>
+<p>My working thesis is that narrative structure is a fundamental reasoning substrate. When you read Dostoevsky's recursive psychology, Kafka's systems as absurdity, Tolstoy's emergent complexity, Nietzsche's epistemological provocations, or Plath's precision under pressure, you realize they were doing something our best language models are only beginning to approximate. They were building complex, internally consistent world models and running simulations within them.</p>
 
-<p>I experiment with encoding literary theory into retrieval and reasoning pipelines. I build embeddings from book level thematic analysis. I study structural parallels between narrative devices and transformer attention patterns. The direction this points toward: agents that construct and revise internal story worlds while operating in external ones.</p>
+<p>I actively experiment with encoding literary theory into retrieval and reasoning pipelines. I build embeddings from book level thematic analysis to see how models cluster abstract concepts. I study the structural parallels between narrative devices in literature and transformer attention patterns in neural networks. The direction this research points toward is fascinating: agents that can construct and revise internal story worlds while operating in external ones, using narrative as a framework for understanding and interacting with reality.</p>
 
 <br/>
 <hr/>
