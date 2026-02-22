@@ -77,6 +77,11 @@
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Ahmadhassan30&theme=default&hide_border=true&background=00000000">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmadhassan30&theme=default&hide_border=true&background=00000000" height="160" />
   </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-contributor-stats.vercel.app/api?username=Ahmadhassan30&limit=5&theme=github_dark&combine_all_yearly_contributions=true&hide_border=true&bg_color=00000000&text_color=ffffff&title_color=ffffff">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-contributor-stats.vercel.app/api?username=Ahmadhassan30&limit=5&theme=default&combine_all_yearly_contributions=true&hide_border=true&bg_color=00000000">
+    <img src="https://github-contributor-stats.vercel.app/api?username=Ahmadhassan30&limit=5&theme=default&combine_all_yearly_contributions=true&hide_border=true&bg_color=00000000" height="160" />
+  </picture>
   <br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Ahmadhassan30&theme=github-dark&hide_border=true&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff&title_color=ffffff">
