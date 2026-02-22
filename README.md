@@ -58,20 +58,9 @@
 
 <br/>
 <hr/>
-<br/>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Ahmadhassan30&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=00000000">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Ahmadhassan30&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=00000000">
-    <img src="https://github-readme-stats.vercel.app/api?username=Ahmadhassan30&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=00000000" height="160" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmadhassan30&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmadhassan30&layout=compact&theme=default&hide_border=true&bg_color=00000000">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmadhassan30&layout=compact&theme=default&hide_border=true&bg_color=00000000" height="160" />
-  </picture>
-  <br/>
+
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Ahmadhassan30&theme=github_dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Ahmadhassan30&theme=default&hide_border=true&background=00000000">
@@ -97,7 +86,7 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/ahmad-hassan3110"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
   <a href="mailto:ahmadhassan30nov@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
-  <a href="https://discordapp.com/users/ahmad_hassan3110"><img src="https://skillicons.dev/icons?i=discord" /></a>
+  <a href="https://www.ahmadhassan.engineer/"><img src="https://skillicons.dev/icons?i=devto" /></a>
 </div>
 
 <br/>
