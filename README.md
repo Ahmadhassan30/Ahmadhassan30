@@ -50,7 +50,7 @@
   <i>Where symbolic pattern meets human metaphor, intelligence becomes narrative.</i>
 </blockquote>
 
-<p>I read over 200 books a year. I do not do this as decoration or a hobby, but as a core methodology for my work in AI. Literature is compressed causal reasoning stretched over time. Stories encode precisely the patterns that multi step reasoning systems struggle to learn: long horizon dependencies, unreliable narration, foreshadowing as implicit prediction, and motifs as latent clusters.</p>
+<p>I try to read as many books as I can. I do not do this as decoration or a hobby, but as a core methodology for my work in AI. Literature is compressed causal reasoning stretched over time. Stories encode precisely the patterns that multi step reasoning systems struggle to learn: long horizon dependencies, unreliable narration, foreshadowing as implicit prediction, and motifs as latent clusters.</p>
 
 <p>My working thesis is that narrative structure is a fundamental reasoning substrate. When you read Dostoevsky's recursive psychology, Kafka's systems as absurdity, Tolstoy's emergent complexity, Nietzsche's epistemological provocations, or Plath's precision under pressure, you realize they were doing something our best language models are only beginning to approximate. They were building complex, internally consistent world models and running simulations within them.</p>
 
