@@ -10,10 +10,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
   * { box-sizing: border-box; }
-  html, body { margin: 0; height: 100%; background: #17130f; overflow: hidden; }
+  :root { --bg: #ffffff; --ink: rgba(28, 26, 23, .85); --dim: rgba(28, 26, 23, .45); }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0d1117; --ink: rgba(240, 246, 252, .85); --dim: rgba(240, 246, 252, .45); } }
+  html, body { margin: 0; height: 100%; background: var(--bg); overflow: hidden; }
+  html.transparent, html.transparent body { background: transparent; }
   canvas { display: block; }
-  .vignette { position: fixed; inset: 0; pointer-events: none;
-    background: radial-gradient(ellipse 75% 85% at 50% 42%, transparent 50%, rgba(12, 9, 6, .55) 100%); }
   .card { position: fixed; left: 0; top: 0; pointer-events: none; opacity: 0; transform: translate(-50%, -100%);
     background: rgba(255, 252, 246, .95); border-radius: 12px; padding: 10px 14px 11px;
     box-shadow: 0 12px 34px rgba(0, 0, 0, .35), 0 0 0 1px rgba(0, 0, 0, .05);
@@ -21,12 +22,12 @@
   .card small { display: block; font: 400 10.5px/1.6 "JetBrains Mono", ui-monospace, monospace; letter-spacing: .14em;
     color: #8a8378; text-transform: uppercase; }
   .card em { display: block; font: 400 11.5px/1.5 Inter, system-ui, sans-serif; color: #8a8378; font-style: normal; margin-top: 2px; }
-  .title { position: fixed; left: 28px; top: 24px; pointer-events: none; color: rgba(255, 246, 232, .82);
+  .title { position: fixed; left: 28px; top: 24px; pointer-events: none; color: var(--ink);
     font: 500 22px/1.2 "Cormorant Garamond", Georgia, serif; letter-spacing: .01em; }
   .title small { display: block; margin-top: 4px; font: 400 10.5px "JetBrains Mono", ui-monospace, monospace;
-    letter-spacing: .14em; color: rgba(255, 246, 232, .45); text-transform: uppercase; }
+    letter-spacing: .14em; color: var(--dim); text-transform: uppercase; }
   .hint { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); pointer-events: none;
-    font: 400 11px "JetBrains Mono", ui-monospace, monospace; letter-spacing: .1em; color: rgba(255, 246, 232, .45); }
+    font: 400 11px "JetBrains Mono", ui-monospace, monospace; letter-spacing: .1em; color: var(--dim); }
   .cursor { position: fixed; left: 0; top: 0; width: 20px; height: 26px; pointer-events: none; display: none;
     filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .35)); }
   body.demo .cursor { display: block; }
@@ -35,7 +36,6 @@
 </style>
 </head>
 <body>
-<div class="vignette"></div>
 <div class="title">Ahmad's shelf<small>stories as reasoning</small></div>
 <div class="card" id="card"><small id="card-author"></small><span id="card-note"></span><em id="card-hint"></em></div>
 <div class="hint">hover a book · click to open it</div>
@@ -58,6 +58,7 @@ const CAPTURE = params.has('capture');
 const ISSUE_URL = 'https://github.com/Ahmadhassan30/Ahmadhassan30/issues/new?title=Book%20recommendation%3A%20&body=Title%3A%0AAuthor%3A%0AWhy%20I%27d%20like%20it%3A%0A';
 const TEX = 'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r170/examples/textures/';
 if (DEMO) document.body.classList.add('demo');
+if (params.has('transparent')) document.documentElement.classList.add('transparent');
 
 // ------------------------------------------------------------------ the books
 const NAMED = {
@@ -85,7 +86,8 @@ const ROW = [
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
 
 // ------------------------------------------------------------------ renderer + scene
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setClearColor(0x000000, 0);
 renderer.setPixelRatio(CAPTURE ? 1 : Math.min(devicePixelRatio, 2));
 renderer.setSize(innerWidth, innerHeight);
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -95,7 +97,6 @@ renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 document.body.prepend(renderer.domElement);
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color('#17130f');
 const pmrem = new THREE.PMREMGenerator(renderer);
 scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
 scene.environmentIntensity = 0.35;
@@ -250,15 +251,6 @@ function edgesMaterial() {   // page edges
   for (let x = 0; x < 512; x += 2) { ctx.fillStyle = `rgba(110,90,60,${.06 + rand() * .14})`; ctx.fillRect(x, 0, 1, 64); }
   return new THREE.MeshStandardMaterial({ map: tex(c), roughness: .95 });
 }
-function plasterMaterial() {
-  const [c, ctx] = canvas(512, 512);
-  ctx.fillStyle = '#808080'; ctx.fillRect(0, 0, 512, 512);
-  for (let i = 0; i < 9000; i++) { ctx.fillStyle = `rgba(${rand() < .5 ? '0,0,0' : '255,255,255'},${.05 + rand() * .12})`;
-    const r = 1 + rand() * 4; ctx.beginPath(); ctx.arc(rand() * 512, rand() * 512, r, 0, 7); ctx.fill(); }
-  const bump = tex(c, false); bump.wrapS = bump.wrapT = THREE.RepeatWrapping; bump.repeat.set(5, 3);
-  return new THREE.MeshStandardMaterial({ color: '#cbbfae', roughness: .97, bumpMap: bump, bumpScale: 1.2 });
-}
-
 // ------------------------------------------------------------------ the room
 await Promise.all(['600 64px "Cormorant Garamond"', '500 40px "Cormorant Garamond"', 'italic 500 40px "Cormorant Garamond"']
   .map(f => document.fonts.load(f)));
@@ -270,8 +262,9 @@ for (const t of [woodMap, woodBump, woodRough]) {   // crop one clean board out 
   t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(.42, .11); t.offset.set(.3, .757); t.anisotropy = 8;
 }
 
-const wall = new THREE.Mesh(new THREE.PlaneGeometry(8, 5), plasterMaterial());
-wall.position.set(0, .6, -.115); wall.receiveShadow = true; scene.add(wall);
+// invisible strip behind the books that only catches their shadows (none below the shelf)
+const wall = new THREE.Mesh(new THREE.PlaneGeometry(1.5, .36), new THREE.ShadowMaterial({ opacity: .14 }));
+wall.position.set(.02, .16, -.115); wall.receiveShadow = true; scene.add(wall);
 
 const plank = new THREE.Mesh(new RoundedBoxGeometry(1.4, .04, .226, 3, .004),
   new THREE.MeshStandardMaterial({ map: woodMap, bumpMap: woodBump, bumpScale: 1.4, roughnessMap: woodRough,
@@ -357,7 +350,7 @@ const slot = { name: 'YOUR PICK?', isSlot: true, h: .24, d: .16, th: .05, pull: 
 }
 
 // ------------------------------------------------------------------ dust in the lamp light
-const DUST = 240, PUFF = 160, N = DUST + PUFF;
+const DUST = 0, PUFF = 160, N = DUST + PUFF;
 const dustPos = new Float32Array(N * 3), dustCol = new Float32Array(N * 4), dustVel = new Float32Array(N * 3), dustLife = new Float32Array(N);
 for (let i = 0; i < DUST; i++) {
   dustPos.set([-.75 + rand() * 1.5, -.05 + rand() * .65, -.08 + rand() * .45], i * 3);
@@ -366,13 +359,14 @@ for (let i = 0; i < DUST; i++) {
 }
 const dustGeo = new THREE.BufferGeometry();
 dustGeo.setAttribute('position', new THREE.BufferAttribute(dustPos, 3));
+for (let i = DUST; i < N; i++) dustCol.set([.74, .67, .56, 0], i * 4);
 dustGeo.setAttribute('color', new THREE.BufferAttribute(dustCol, 4));
 const [dc, dctx] = canvas(64, 64);
 const rg = dctx.createRadialGradient(32, 32, 0, 32, 32, 32);
 rg.addColorStop(0, 'rgba(255,255,255,1)'); rg.addColorStop(.4, 'rgba(255,255,255,.35)'); rg.addColorStop(1, 'rgba(255,255,255,0)');
 dctx.fillStyle = rg; dctx.fillRect(0, 0, 64, 64);
-const dust = new THREE.Points(dustGeo, new THREE.PointsMaterial({ size: .0055, map: tex(dc), vertexColors: true,
-  transparent: true, depthWrite: false, blending: THREE.AdditiveBlending }));
+const dust = new THREE.Points(dustGeo, new THREE.PointsMaterial({ size: .0065, map: tex(dc), vertexColors: true,
+  transparent: true, depthWrite: false }));
 scene.add(dust);
 let puffNext = 0;
 function puff(b) {   // pulling a book off the shelf shakes a little dust loose
