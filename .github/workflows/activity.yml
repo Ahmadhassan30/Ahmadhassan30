@@ -1,9 +1,12 @@
-name: Refresh activity
+name: Refresh activity chart
 
 on:
   schedule:
-    - cron: "23 4 * * *"  # daily
+    - cron: "17 */6 * * *"  # every 6 hours
   workflow_dispatch:
+  push:
+    branches: [master]
+    paths: [assets/activity.mjs]
 
 permissions:
   contents: write
@@ -13,15 +16,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
-      - run: python assets/build.py activity
+          node-version: "22"
+      - run: npm install --no-save --no-package-lock echarts@6.1.0
+      - run: node assets/activity.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || { git commit -m "refresh activity"; git push; }
+          git add assets/activity-light.svg assets/activity-dark.svg
+          git diff --cached --quiet || { git commit -m "refresh activity chart"; git push; }
