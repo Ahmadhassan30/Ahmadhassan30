@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait with parallax depth, an Apache ECharts roofline plot of inference kernels on an H100, and a connectome of interests (neuroscience, AI agents, inference, CUDA, RAG, music, reading, coffee) with signals propagating">
+  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait with parallax depth beside a rotating 3D point cloud of a toroidal neural manifold (grid-cell population activity), with a comet tracing the neural state across it">
 </picture>
 
 ## Hey, I'm Ahmad
