@@ -54,17 +54,39 @@ function stats(cal) {
 
 const fmtDay = d => new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
 
+// Idle stretches (a week or more with no contributions) are cut out of the time axis with ECharts axis breaks,
+// the way an intraday chart drops the hours a market is closed. Active periods get the room.
+const DAY = 864e5;
+const IDLE = 7;
+
+function series(s) {
+  const pts = [], breaks = [];
+  let i = 0;
+  while (i < s.days.length) {
+    let j = i;
+    while (j < s.days.length && s.days[j][1] === 0) j++;
+    const run = j - i;
+    if (run >= IDLE && i > 0 && j < s.days.length) {
+      const start = Date.parse(s.days[i][0] + 'T00:00:00Z'), end = Date.parse(s.days[j - 1][0] + 'T00:00:00Z');
+      pts.push([start - DAY / 2, NaN]);                     // lift the pen across the break
+      breaks.push({ start, end, gap: '1.2%' });
+      i = j;
+    } else {
+      for (let k = i; k < Math.max(j, i + 1) && k < s.days.length; k++) pts.push([Date.parse(s.days[k][0] + 'T00:00:00Z'), s.days[k][1]]);
+      i = Math.max(j, i + 1);
+    }
+  }
+  return { pts, breaks };
+}
+
 function option(s, t) {
-  const [e1, e2, e3] = s.edges;
-  const pieces = [
-    { value: 0, color: t.cells[0] },
-    { min: 1, max: e1, color: t.cells[1] },
-    { min: e1 + 1, max: e2, color: t.cells[2] },
-    { min: e2 + 1, max: e3, color: t.cells[3] },
-    { min: e3 + 1, color: t.cells[4] },
-  ];
-  const legendX = W - 22 - 5 * 15 - 34;   // leaves room for the word 'More'
+  const { pts, breaks } = series(s);
+  const fmt = echarts.time.format;
+  const bg = t.cells[0] === '#161b22' ? '#0d1117' : '#ffffff';
+  const idleDays = breaks.reduce((n, b) => n + Math.round((b.end - b.start) / DAY) + 1, 0);
   return {
+    useUTC: true,
+    animation: false,   // SSR clip animation truncates lines when the axis has breaks
     animationDuration: 1600,
     animationEasing: 'cubicOut',
     textStyle: { fontFamily: FONT },
@@ -81,49 +103,48 @@ function option(s, t) {
       ]),
       { type: 'circle', left: 22, top: H - 21, shape: { r: 4 }, style: { fill: t.line } },
       { type: 'text', left: 36, top: H - 22, style: { text: `live from the GitHub API · updated ${s.updated}`, fill: t.muted, font: `400 11px ${FONT}` } },
-      { type: 'text', left: legendX - 34, top: H - 22, style: { text: 'Less', fill: t.muted, font: `400 11px ${FONT}` } },
-      ...t.cells.map((c, i) => ({ type: 'rect', left: legendX + i * 15, top: H - 23, shape: { width: 11, height: 11, r: 2.5 }, style: { fill: c } })),
-      { type: 'text', left: legendX + 5 * 15 + 4, top: H - 22, style: { text: 'More', fill: t.muted, font: `400 11px ${FONT}` } },
+      { type: 'text', right: 22, top: H - 22, style: { text: `${breaks.length} idle stretches (${idleDays} days) folded out of the axis`, fill: t.muted, font: `400 11px ${FONT}`, align: 'right' } },
     ],
-    grid: { left: 52, right: 22, top: 100, height: 150 },   // same columns as the calendar below
+    grid: { left: 52, right: 22, top: 104, height: 196 },
     xAxis: {
-      type: 'time', boundaryGap: false,
-      axisLine: { show: false }, axisTick: { show: false },
-      axisLabel: { show: false },
+      type: 'time',
+      axisLine: { lineStyle: { color: t.faint } }, axisTick: { show: false },
       splitLine: { show: false },
+      axisLabel: {
+        color: t.muted, fontSize: 11, showMinLabel: true, showMaxLabel: true, hideOverlap: true,
+        formatter: (ts, _, opt) => (opt && opt.break ? fmt(ts, '{MMM}\n{weak|{d}}', true) : fmt(ts, '{MMM}', true)),
+        rich: { weak: { color: t.faint, fontSize: 10 } },
+      },
+      breaks,
+      breakArea: { expandOnClick: false, zigzagAmplitude: 0, zigzagZ: 200, itemStyle: { borderColor: 'none', opacity: 0 } },
     },
     yAxis: {
-      type: 'value', splitNumber: 3, axisLabel: { show: false },
+      type: 'value', min: 0, splitNumber: 3,
+      axisLabel: { color: t.muted, fontSize: 10, margin: 10 },
       splitLine: { lineStyle: { color: t.faint, type: [3, 4], opacity: .7 } },
     },
-    visualMap: { show: false, type: 'piecewise', seriesIndex: 1, pieces },
-    calendar: {
-      left: 52, right: 22, top: 284, cellSize: ['auto', 15],
-      range: [s.days[0][0], s.days[s.days.length - 1][0]],
-      splitLine: { show: false },
-      itemStyle: { color: 'transparent', borderWidth: 3, borderColor: 'transparent' },
-      yearLabel: { show: false },
-      monthLabel: { color: t.muted, fontSize: 11, margin: 8 },
-      dayLabel: { color: t.muted, fontSize: 10, firstDay: 0, nameMap: ['', 'Mon', '', 'Wed', '', 'Fri', ''], margin: 10 },
-    },
-    series: [
-      {
-        type: 'line', data: s.weeks, smooth: .45, showSymbol: false, z: 3,
-        lineStyle: { width: 2.6, color: t.line, shadowColor: t.glow, shadowBlur: 12, shadowOffsetY: 6 },
-        areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-          { offset: 0, color: t.glow }, { offset: 1, color: 'rgba(0,0,0,0)' }]) },
-        markPoint: {
-          symbol: 'circle', symbolSize: 9, data: [{ coord: s.peak, value: s.peak[1] }],
-          itemStyle: { color: t.line, borderColor: t.cells[0] === '#161b22' ? '#0d1117' : '#ffffff', borderWidth: 2 },
-          label: { show: true, position: 'top', distance: 8, color: t.ink, fontSize: 12, fontWeight: 600,
-            formatter: `busiest week · ${s.peak[1]}` },
-        },
+    dataZoom: [{
+      type: 'slider', left: 52, right: 22, top: 336, height: 34, start: 0, end: 100,
+      borderColor: t.faint, backgroundColor: 'transparent', fillerColor: t.glow.replace(/[\d.]+\)$/, '.10)'),
+      handleStyle: { color: t.line, borderColor: t.line }, moveHandleStyle: { color: t.faint, opacity: .6 },
+      textStyle: { color: t.muted, fontSize: 10 }, labelFormatter: () => '',
+      dataBackground: { lineStyle: { color: t.line, opacity: .7, width: 1 }, areaStyle: { color: t.line, opacity: .18 } },
+      selectedDataBackground: { lineStyle: { color: t.line, width: 1 }, areaStyle: { color: t.line, opacity: .28 } },
+      brushSelect: false,
+    }],
+    series: [{
+      type: 'line', data: pts, showSymbol: false, symbolSize: 0, connectNulls: false, z: 3,
+      lineStyle: { width: 1.8, color: t.line, shadowColor: t.glow, shadowBlur: 10, shadowOffsetY: 4 },
+      areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+        { offset: 0, color: t.glow }, { offset: 1, color: 'rgba(0,0,0,0)' }]) },
+      markPoint: {
+        symbol: 'circle', symbolSize: 9,
+        data: [{ coord: [Date.parse(s.best[0] + 'T00:00:00Z'), s.best[1]], value: s.best[1] }],
+        itemStyle: { color: t.line, borderColor: bg, borderWidth: 2 },
+        label: { show: true, position: 'top', distance: 8, color: t.ink, fontSize: 12, fontWeight: 600,
+          formatter: `busiest day · ${s.best[1]}` },
       },
-      {
-        type: 'heatmap', coordinateSystem: 'calendar', data: s.days,
-        itemStyle: { borderRadius: 3, borderColor: 'transparent', borderWidth: 2 },
-      },
-    ],
+    }],
   };
 }
 
