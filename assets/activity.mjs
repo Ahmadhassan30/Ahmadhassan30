@@ -73,10 +73,17 @@ function option(s, t) {
   const dates = s.days.map(d => d[0]);
   const roll = s.days.map((_, i) => s.days.slice(Math.max(0, i - 6), i + 1).reduce((x, d) => x + d[1], 0));
   const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  // every month's peak: the highest rolling value inside each calendar month
+  // (months are placed highest-first; a month's label keeps 10 days from labels already placed, so none collide)
+  const byMonth = new Map();
+  dates.forEach((d, i) => { const m = d.slice(0, 7); if (!byMonth.has(m)) byMonth.set(m, []); byMonth.get(m).push(i); });
   const peaks = [];
-  roll.map((v, i) => [v, i]).sort((a, b) => b[0] - a[0]).forEach(([v, i]) => {
-    if (v > 0 && peaks.length < 6 && peaks.every(j => Math.abs(j - i) >= 21)) peaks.push(i);
-  });
+  [...byMonth.values()]
+    .sort((a, b) => Math.max(...b.map(i => roll[i])) - Math.max(...a.map(i => roll[i])))
+    .forEach(ix => {
+      const ok = ix.filter(i => roll[i] > 0 && peaks.every(j => Math.abs(j - i) >= 10));
+      if (ok.length) peaks.push(ok.reduce((x, y) => (roll[y] > roll[x] ? y : x)));
+    });
   return {
     animationDuration: 1200,
     animationEasing: 'cubicOut',
