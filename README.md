@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait with parallax depth, an Apache ECharts firing-rate ridgeline of interests (neuroscience, AI agents, CUDA kernels, inference, music, reading, coffee) and a membrane-potential trace">
+  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait with parallax depth, an Apache ECharts roofline plot of inference kernels on an H100, and a connectome of interests (neuroscience, AI agents, inference, CUDA, RAG, music, reading, coffee) with signals propagating">
 </picture>
 
 ## Hey, I'm Ahmad
