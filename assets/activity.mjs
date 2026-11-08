@@ -54,40 +54,24 @@ function stats(cal) {
 
 const fmtDay = d => new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
 
-// Idle stretches (a week or more with no contributions) are cut out of the time axis with ECharts axis breaks,
-// the way an intraday chart drops the hours a market is closed. Active periods get the room.
-const DAY = 864e5;
-const IDLE = 7;
-
-function series(s) {
-  const pts = [], breaks = [];
-  let i = 0;
-  while (i < s.days.length) {
-    let j = i;
-    while (j < s.days.length && s.days[j][1] === 0) j++;
-    const run = j - i;
-    if (run >= IDLE && i > 0 && j < s.days.length) {
-      const start = Date.parse(s.days[i][0] + 'T00:00:00Z'), end = Date.parse(s.days[j - 1][0] + 'T00:00:00Z');
-      pts.push([start - DAY / 2, NaN]);                     // lift the pen across the break
-      breaks.push({ start, end, gap: '1.2%' });
-      i = j;
-    } else {
-      for (let k = i; k < Math.max(j, i + 1) && k < s.days.length; k++) pts.push([Date.parse(s.days[k][0] + 'T00:00:00Z'), s.days[k][1]]);
-      i = Math.max(j, i + 1);
-    }
-  }
-  return { pts, breaks };
+// Monthly view: one bar per month, the count on top, the strongest month emphasised, the average as a quiet reference line.
+function months(s) {
+  const by = new Map();
+  for (const [d, n] of s.days) by.set(d.slice(0, 7), (by.get(d.slice(0, 7)) || 0) + n);
+  return [...by.entries()].map(([ym, n]) => {
+    const dt = new Date(ym + '-01T00:00:00Z');
+    const m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][dt.getUTCMonth()];
+    return [dt.getUTCMonth() === 0 || ym === [...by.keys()][0] ? `${m} ’${String(dt.getUTCFullYear()).slice(2)}` : m, n];
+  });
 }
 
 function option(s, t) {
-  const { pts, breaks } = series(s);
-  const fmt = echarts.time.format;
-  const bg = t.cells[0] === '#161b22' ? '#0d1117' : '#ffffff';
-  const idleDays = breaks.reduce((n, b) => n + Math.round((b.end - b.start) / DAY) + 1, 0);
+  const ms = months(s);
+  const top = Math.max(...ms.map(m => m[1]));
+  const avg = Math.round(s.total / ms.length);
+  const dark = t.cells[0] === '#161b22';
   return {
-    useUTC: true,
-    animation: false,   // SSR clip animation truncates lines when the axis has breaks
-    animationDuration: 1600,
+    animationDuration: 1200,
     animationEasing: 'cubicOut',
     textStyle: { fontFamily: FONT },
     graphic: [
@@ -103,46 +87,33 @@ function option(s, t) {
       ]),
       { type: 'circle', left: 22, top: H - 21, shape: { r: 4 }, style: { fill: t.line } },
       { type: 'text', left: 36, top: H - 22, style: { text: `live from the GitHub API · updated ${s.updated}`, fill: t.muted, font: `400 11px ${FONT}` } },
-      { type: 'text', right: 22, top: H - 22, style: { text: `${breaks.length} idle stretches (${idleDays} days) folded out of the axis`, fill: t.muted, font: `400 11px ${FONT}`, align: 'right' } },
+      { type: 'text', right: 22, top: H - 22, style: { text: 'contributions per month', fill: t.muted, font: `400 11px ${FONT}`, align: 'right' } },
     ],
-    grid: { left: 52, right: 22, top: 104, height: 196 },
+    grid: { left: 22, right: 22, top: 128, bottom: 70 },
     xAxis: {
-      type: 'time',
+      type: 'category', data: ms.map(m => m[0]),
       axisLine: { lineStyle: { color: t.faint } }, axisTick: { show: false },
-      splitLine: { show: false },
-      axisLabel: {
-        color: t.muted, fontSize: 11, showMinLabel: true, showMaxLabel: true, hideOverlap: true,
-        formatter: (ts, _, opt) => (opt && opt.break ? fmt(ts, '{MMM}\n{weak|{d}}', true) : fmt(ts, '{MMM}', true)),
-        rich: { weak: { color: t.faint, fontSize: 10 } },
-      },
-      breaks,
-      breakArea: { expandOnClick: false, zigzagAmplitude: 0, zigzagZ: 200, itemStyle: { borderColor: 'none', opacity: 0 } },
+      axisLabel: { color: t.muted, fontSize: 12, margin: 12 },
     },
-    yAxis: {
-      type: 'value', min: 0, splitNumber: 3,
-      axisLabel: { color: t.muted, fontSize: 10, margin: 10 },
-      splitLine: { lineStyle: { color: t.faint, type: [3, 4], opacity: .7 } },
-    },
-    dataZoom: [{
-      type: 'slider', left: 52, right: 22, top: 336, height: 34, start: 0, end: 100,
-      borderColor: t.faint, backgroundColor: 'transparent', fillerColor: t.glow.replace(/[\d.]+\)$/, '.10)'),
-      handleStyle: { color: t.line, borderColor: t.line }, moveHandleStyle: { color: t.faint, opacity: .6 },
-      textStyle: { color: t.muted, fontSize: 10 }, labelFormatter: () => '',
-      dataBackground: { lineStyle: { color: t.line, opacity: .7, width: 1 }, areaStyle: { color: t.line, opacity: .18 } },
-      selectedDataBackground: { lineStyle: { color: t.line, width: 1 }, areaStyle: { color: t.line, opacity: .28 } },
-      brushSelect: false,
-    }],
+    yAxis: { type: 'value', show: false, max: Math.ceil(top * 1.12) },
     series: [{
-      type: 'line', data: pts, showSymbol: false, symbolSize: 0, connectNulls: false, z: 3,
-      lineStyle: { width: 1.8, color: t.line, shadowColor: t.glow, shadowBlur: 10, shadowOffsetY: 4 },
-      areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-        { offset: 0, color: t.glow }, { offset: 1, color: 'rgba(0,0,0,0)' }]) },
-      markPoint: {
-        symbol: 'circle', symbolSize: 9,
-        data: [{ coord: [Date.parse(s.best[0] + 'T00:00:00Z'), s.best[1]], value: s.best[1] }],
-        itemStyle: { color: t.line, borderColor: bg, borderWidth: 2 },
-        label: { show: true, position: 'top', distance: 8, color: t.ink, fontSize: 12, fontWeight: 600,
-          formatter: `busiest day · ${s.best[1]}` },
+      type: 'bar', barWidth: '54%',
+      data: ms.map(([, n]) => ({
+        value: n,
+        itemStyle: {
+          borderRadius: [5, 5, 0, 0],
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, n === top
+            ? [{ offset: 0, color: t.line }, { offset: 1, color: t.cells[3] }]
+            : [{ offset: 0, color: t.cells[2] }, { offset: 1, color: dark ? t.cells[1] : t.cells[1] }]),
+        },
+        label: { show: true, position: 'top', distance: 6, color: n === top ? t.ink : t.muted,
+          fontSize: n === top ? 13 : 12, fontWeight: n === top ? 600 : 400, formatter: n ? String(n) : '–' },
+      })),
+      markLine: {
+        silent: true, symbol: 'none',
+        lineStyle: { color: t.muted, type: [4, 4], width: 1, opacity: .55 },
+        label: { position: 'insideEndTop', color: t.muted, fontSize: 11, formatter: `avg ${avg} / month` },
+        data: [{ yAxis: avg }],
       },
     }],
   };

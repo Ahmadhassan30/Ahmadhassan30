@@ -119,12 +119,6 @@ I build systems that reason in steps and read books that reason in centuries.
   <img hspace="7" height="44" src="assets/icons/brian2.png" alt="Brian2" title="Brian2">
   <img hspace="7" height="44" src="assets/icons/neurokit2.png" alt="NeuroKit2" title="NeuroKit2">
   <br>
-  <code>NEURON</code> <code>PyNN</code> <code>Elephant</code> <code>NWB</code>
-</p>
-
-<p align="center">
-  <b>Scientific computing</b>
-  <br><br>
   <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy">
   <img hspace="7" height="44" src="https://cdn.simpleicons.org/scipy" alt="SciPy" title="SciPy">
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/pandas/white"><img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/pandas/pandas-original.svg" alt="pandas" title="pandas"></picture>
@@ -133,6 +127,8 @@ I build systems that reason in steps and read books that reason in centuries.
   <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/matlab/matlab-original.svg" alt="MATLAB" title="MATLAB">
   <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/julia/julia-original.svg" alt="Julia" title="Julia">
   <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/r/r-original.svg" alt="R" title="R">
+  <br>
+  <code>NEURON</code> <code>PyNN</code> <code>Elephant</code> <code>NWB</code>
 </p>
 
 <p align="center">
@@ -170,7 +166,7 @@ I build systems that reason in steps and read books that reason in centuries.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img alt="Daily contributions over the last year as an intraday-style line chart, with idle stretches folded out of the time axis, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
+  <img alt="Contributions per month over the last year as a bar chart with the monthly average, plus total, longest streak, active days and best day, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
 </picture>
 
 <br>
