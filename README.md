@@ -78,15 +78,93 @@ I build systems that reason in steps and read books that reason in centuries.
 
 ## Tech stack
 
-| Area | Stack | Focus |
-|:--|:--|:--|
-| **Languages** | Python · TypeScript · Rust · C++ · CUDA · Bash | Research and ML in Python, systems work in Rust and C++, product in TypeScript |
-| **Inference & GPU** | CUDA · TensorRT · vLLM · ONNX Runtime · Triton Inference Server · llama.cpp · Ollama | Kernel optimization and high-throughput model serving |
-| **ML & agents** | PyTorch · TensorFlow · scikit-learn · Hugging Face · LangChain | Model training and evaluation, multi-agent systems, retrieval pipelines |
-| **Computational neuroscience** | Brian2 · NEST · NEURON · MNE-Python · Nilearn · NumPy · SciPy · pandas · Jupyter · MATLAB · Julia · R | Spiking-network simulation and neural data analysis |
-| **Backend & data** | FastAPI · Django · Node.js · GraphQL · PostgreSQL · MongoDB · Redis | APIs and data services that hold up in production |
-| **Infrastructure** | Docker · Kubernetes · AWS · GitHub Actions · Nginx · Linux | Containerized deployment and CI/CD |
-| **Frontend** | React · Next.js · Tailwind CSS | Interfaces for the systems above |
+<p align="center">
+  <b>Languages</b>
+  <br><br>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" title="Python">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/rust/white"><img hspace="7" height="44" src="https://cdn.simpleicons.org/rust/000000" alt="Rust" title="Rust"></picture>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript">
+  <img hspace="7" height="44" src="https://cdn.simpleicons.org/gnubash" alt="Bash" title="Bash">
+</p>
+
+<p align="center">
+  <b>AI & ML</b>
+  <br><br>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" title="TensorFlow">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn" title="scikit-learn">
+  <img hspace="7" height="44" src="https://cdn.simpleicons.org/huggingface" alt="Hugging Face" title="Hugging Face">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/langchain/white"><img hspace="7" height="44" src="https://cdn.simpleicons.org/langchain" alt="LangChain" title="LangChain"></picture>
+</p>
+
+<p align="center">
+  <b>GPU & inference</b>
+  <br><br>
+  <img hspace="7" height="44" src="https://cdn.simpleicons.org/nvidia" alt="CUDA" title="CUDA">
+  <img hspace="7" height="44" src="https://cdn.simpleicons.org/onnx" alt="ONNX Runtime" title="ONNX Runtime">
+  <img hspace="7" height="44" src="https://cdn.simpleicons.org/vllm" alt="vLLM" title="vLLM">
+  <br>
+  <code>cuDNN</code> <code>TensorRT</code> <code>Triton Inference Server</code> <code>llama.cpp</code> <code>Ollama</code>
+</p>
+
+<p align="center">
+  <b>Computational neuroscience</b>
+  <br><br>
+  <img hspace="7" height="44" src="assets/icons/brainflow.png" alt="BrainFlow" title="BrainFlow">
+  <img hspace="7" height="44" src="assets/icons/mne.png" alt="MNE-Python" title="MNE-Python">
+  <img hspace="7" height="44" src="assets/icons/nilearn.png" alt="Nilearn" title="Nilearn">
+  <img hspace="7" height="44" src="assets/icons/nest.png" alt="NEST" title="NEST">
+  <img hspace="7" height="44" src="assets/icons/brian2.png" alt="Brian2" title="Brian2">
+  <img hspace="7" height="44" src="assets/icons/neurokit2.png" alt="NeuroKit2" title="NeuroKit2">
+  <br>
+  <code>NEURON</code> <code>PyNN</code> <code>Elephant</code> <code>NWB</code>
+</p>
+
+<p align="center">
+  <b>Scientific computing</b>
+  <br><br>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy">
+  <img hspace="7" height="44" src="https://cdn.simpleicons.org/scipy" alt="SciPy" title="SciPy">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/pandas/white"><img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/pandas/pandas-original.svg" alt="pandas" title="pandas"></picture>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" title="Matplotlib">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/jupyter/jupyter-original.svg" alt="Jupyter" title="Jupyter">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/matlab/matlab-original.svg" alt="MATLAB" title="MATLAB">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/julia/julia-original.svg" alt="Julia" title="Julia">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/r/r-original.svg" alt="R" title="R">
+</p>
+
+<p align="center">
+  <b>Backend & data</b>
+  <br><br>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/fastapi/fastapi-original.svg" alt="FastAPI" title="FastAPI">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/django/white"><img hspace="7" height="44" src="https://cdn.simpleicons.org/django" alt="Django" title="Django"></picture>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/graphql/graphql-plain.svg" alt="GraphQL" title="GraphQL">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mongodb/mongodb-original.svg" alt="MongoDB" title="MongoDB">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/redis/redis-original.svg" alt="Redis" title="Redis">
+</p>
+
+<p align="center">
+  <b>Infrastructure</b>
+  <br><br>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt="Docker" title="Docker">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/kubernetes/kubernetes-original.svg" alt="Kubernetes" title="Kubernetes">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" title="AWS">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" title="GitHub Actions">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nginx/nginx-original.svg" alt="Nginx" title="Nginx">
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg" alt="Linux" title="Linux">
+</p>
+
+<p align="center">
+  <b>Frontend</b>
+  <br><br>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React" title="React">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/white"><img hspace="7" height="44" src="https://cdn.simpleicons.org/nextdotjs/000000" alt="Next.js" title="Next.js"></picture>
+  <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" title="Tailwind CSS">
+</p>
 
 ## GitHub activity
 
