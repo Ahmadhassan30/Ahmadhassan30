@@ -78,6 +78,15 @@ I build systems that reason in steps and read books that reason in centuries.
 
 ## Tech stack
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img width="100%" src="assets/stack-light.svg" alt="Tech stack as an orbital system around a glowing AH core. Languages: Python, TypeScript, Rust, C++, JavaScript, Bash. AI & ML: PyTorch, TensorFlow, scikit-learn, Hugging Face, LangChain. GPU & inference: CUDA, ONNX Runtime, vLLM, cuDNN, TensorRT, Triton Inference Server, llama.cpp, Ollama. Computational neuroscience: NumPy, SciPy, pandas, Matplotlib, Jupyter, MATLAB, Julia, R, Brian2, NEST, NEURON, MNE-Python, Nilearn. Backend & infra: FastAPI, Django, Node.js, GraphQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, GitHub Actions, Nginx, Linux. Frontend: React, Next.js, Tailwind CSS.">
+</picture>
+
+<details>
+<summary>Full list</summary>
+<br>
+
 <table>
   <tr>
     <td width="160" valign="middle"><b>Languages</b></td>
@@ -152,6 +161,8 @@ I build systems that reason in steps and read books that reason in centuries.
     </td>
   </tr>
 </table>
+
+</details>
 
 ## GitHub activity
 
