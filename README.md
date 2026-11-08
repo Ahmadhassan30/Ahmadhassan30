@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait with parallax depth beside a rotating 3D point cloud of a toroidal neural manifold (grid-cell population activity), with a comet tracing the neural state across it">
+  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait beside an Apache ECharts dendritic tree of skills and fields, with light beams carrying signals from each skill into the soma">
 </picture>
 
 ## Hey, I'm Ahmad
