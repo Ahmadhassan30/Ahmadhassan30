@@ -70,20 +70,20 @@ function months(s) {
 
 function option(s, t) {
   // rolling 7-day total for every day: the year as one continuous terrain
-  const dates = s.days.map(d => d[0]);
-  const roll = s.days.map((_, i) => s.days.slice(Math.max(0, i - 6), i + 1).reduce((x, d) => x + d[1], 0));
+  // only days with a full 7-day window behind them, so no point is undercounted
+  const full = s.days.slice(6);
+  const dates = full.map(d => d[0]);
+  const roll = full.map((_, k) => s.days.slice(k, k + 7).reduce((x, d) => x + d[1], 0));
   const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   // every month's peak: the highest rolling value inside each calendar month
-  // (months are placed highest-first; a month's label keeps 10 days from labels already placed, so none collide)
+  // every month's true peak (highest rolling value in that calendar month); when two labels would sit
+  // within 10 days of each other, the later one is lifted so both stay readable. Values are never moved.
   const byMonth = new Map();
   dates.forEach((d, i) => { const m = d.slice(0, 7); if (!byMonth.has(m)) byMonth.set(m, []); byMonth.get(m).push(i); });
-  const peaks = [];
-  [...byMonth.values()]
-    .sort((a, b) => Math.max(...b.map(i => roll[i])) - Math.max(...a.map(i => roll[i])))
-    .forEach(ix => {
-      const ok = ix.filter(i => roll[i] > 0 && peaks.every(j => Math.abs(j - i) >= 10));
-      if (ok.length) peaks.push(ok.reduce((x, y) => (roll[y] > roll[x] ? y : x)));
-    });
+  const peaks = [...byMonth.values()]
+    .map(ix => ix.reduce((x, y) => (roll[y] > roll[x] ? y : x)))
+    .filter(i => roll[i] > 0);
+  const lift = peaks.map((i, k) => (k > 0 && i - peaks[k - 1] < 10 ? 16 : 0));
   return {
     animationDuration: 1200,
     animationEasing: 'cubicOut',
@@ -131,7 +131,7 @@ function option(s, t) {
         symbol: 'circle', symbolSize: 6, animation: false,
         itemStyle: { color: t.line, borderColor: t.bg, borderWidth: 1.5 },
         label: { show: true, position: 'top', distance: 6, color: t.ink, fontSize: 11, fontWeight: 600 },
-        data: peaks.map(i => ({ coord: [dates[i], roll[i]], value: roll[i] })),
+        data: peaks.map((i, k) => ({ coord: [dates[i], roll[i]], value: roll[i], label: { offset: [0, -lift[k]] } })),
       },
     }],
   };
