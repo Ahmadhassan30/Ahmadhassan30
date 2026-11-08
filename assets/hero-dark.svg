@@ -1,11 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1016" height="520" viewBox="0 0 1016 520" xml:space="preserve" role="img" aria-label="Ahmad Hassan: ASCII portrait made of spiking neurons, an activity raster of interests, and a membrane potential trace">
 <style>
-@font-face{font-family:JBM;src:url(data:font/woff;base64,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) format('woff')}
-@font-face{font-family:JBMB;src:url(data:font/woff;base64,d09GRgABAAAAAAS8AAwAAAAABSQAAk3SAAAAAAAAAAAAAAAAAAAAAAAAAABHREVGAAAEpAAAABYAAAAWABIACk9TLzIAAAGMAAAATgAAAGAUnlj4Y21hcAAAAfQAAABVAAAAbAHxAaRnYXNwAAAEnAAAAAgAAAAIAAAAEGdseWYAAAJkAAACFwAAApiMHBLyaGVhZAAAARwAAAA2AAAANiiLxKhoaGVhAAABVAAAACAAAAAkBlYBUWhtdHgAAAHcAAAAFgAAABYDXAFRbG9jYQAAAkwAAAAWAAAAFgMNAlhtYXhwAAABdAAAABgAAAAgAA0ALW5hbWUAAAR8AAAABgAAAAYABgAAcG9zdAAABIQAAAAXAAAAIP9oADMAAQAAAAJN0kfqYMtfDzz1AB8D6AAAAADf6GZ5AAAAAOcVzKoAI//2AjUC2gABAAYAAgAAAAAAAHicY2BkYGD+8+8KAwNTBIMygzKTKQMjAypgBABn7AOseJxjYGRgYOBi0GFgYgABRgY0AAAF2AA7eJxjYGGKYNrDwMrAwNTFFMHAwOANoRnjGIwYHRgYmBgYOBlggJEBCXg5MTAwLmBQYChm/vPvCgMD8x9GHZgaJjWmWwwMDAoMjADupgr6AAACWABaAAAAIwBNADoARwBNAC8ATQBBAAB4nGNgYGBiYGBgZmBgEGFgZmAE0ywMEQwMDEIMAgzMDEwMCgyODB4MiQwpDBkMeQzF//8zMKCI5YLE/j/8f/D/7v+L/y/8P+//rP/TwCahAQCl3heGAAAAAAAAAAAAACEANwBsAJwAvQDuAQ4BTAAAeJxlkU1rE1EUhs/cSSckQcznjFHbpHObO9OaZKZz751qiB+pYEGbj9KgRCtt0pK2UIsEBYlGKogggitF6M6d24ILXQmSHyHzJ9wpCJlKM9Va5Cze3fs8LwcQYADEkQN+CAPQGI1hDftjVCNEkyQ//vT+847+Vb/8JhsKi2I4hJwB2dsTlP50NRqtmgAClAFQCDkQAqAR73AER8q9fq/XR477TdAHRCi5XwBBYf8HCiETkjABoKiEM5tSzrAq+bFtU0tORDCXJM2yOceqlIjL3+vN7ZUXzSwTH/kerm4+6Ppvjs5c2Zk0aXC5XFvWFtXU9aVWw321zottO1fKT2RyAAjmhiQHopD2SAcoS1Y0To8QjBxAEnH5V221tXChGvb1uicrIZNz0+Q82Fl52+wU2NPdAVljha0Cf84LzH5ts8PVJ5AD8eHqhP+PfcTrjJR7YrBSXGj2eM7gyPnYZsWtO+474TadOc/cDyCAAYAmkQnjXgMdNijHeo7S2BBFi2RYwEc1a3Y7qeTWFNlEpKZbhq4b1UvuXWH3TKrgtg8D/jqaEPMI/yl2/zEk6+ziMUEQoLT/EynIgHMAIyrhNC5TatmcEU0j3ussWcGEYO9ViiLLibiEhUSr89iYyuamVfxydm6jlV+6j54I2Uxen0qNPZsv39sMNObTqpoeGx2JBupXK4v1a6dT42eTp8RooHGjdus3/xGMRAAAAAAAAAYAAHicY2BmAIP/qQxGDAwMjAxoAAAlowGbAAABAAH//wAPAAEAAAAMAAAAAAAAAAIAAQACAAkAAQAA) format('woff')}
+@font-face{font-family:JBM;src:url(data:font/woff;base64,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) format('woff')}
+@font-face{font-family:JBMB;src:url(data:font/woff;base64,d09GRgABAAAAAAS8AAwAAAAABSQAAk3SAAAAAAAAAAAAAAAAAAAAAAAAAABHREVGAAAEpAAAABYAAAAWABIACk9TLzIAAAGMAAAATgAAAGAUnlj4Y21hcAAAAfQAAABVAAAAbAHxAaRnYXNwAAAEnAAAAAgAAAAIAAAAEGdseWYAAAJkAAACFwAAApiMHBLyaGVhZAAAARwAAAA2AAAANiiLxctoaGVhAAABVAAAACAAAAAkBlYBUWhtdHgAAAHcAAAAFgAAABYDXAFRbG9jYQAAAkwAAAAWAAAAFgMNAlhtYXhwAAABdAAAABgAAAAgAA0ALW5hbWUAAAR8AAAABgAAAAYABgAAcG9zdAAABIQAAAAXAAAAIP9oADMAAQAAAAJN0kfqXoVfDzz1AB8D6AAAAADf6GZ5AAAAAOcVzc0AI//2AjUC2gABAAYAAgAAAAAAAHicY2BkYGD+8+8KAwNTBIMygzKTKQMjAypgBABn7AOseJxjYGRgYOBi0GFgYgABRgY0AAAF2AA7eJxjYGGKYNrDwMrAwNTFFMHAwOANoRnjGIwYHRgYmBgYOBlggJEBCXg5MTAwLmBQYChm/vPvCgMD8x9GHZgaJjWmWwwMDAoMjADupgr6AAACWABaAAAAIwBNADoARwBNAC8ATQBBAAB4nGNgYGBiYGBgZmBgEGFgZmAE0ywMEQwMDEIMAgzMDEwMCgyODB4MiQwpDBkMeQzF//8zMKCI5YLE/j/8f/D/7v+L/y/8P+//rP/TwCahAQCl3heGAAAAAAAAAAAAACEANwBsAJwAvQDuAQ4BTAAAeJxlkU1rE1EUhs/cSSckQcznjFHbpHObO9OaZKZz751qiB+pYEGbj9KgRCtt0pK2UIsEBYlGKogggitF6M6d24ILXQmSHyHzJ9wpCJlKM9Va5Cze3fs8LwcQYADEkQN+CAPQGI1hDftjVCNEkyQ//vT+847+Vb/8JhsKi2I4hJwB2dsTlP50NRqtmgAClAFQCDkQAqAR73AER8q9fq/XR477TdAHRCi5XwBBYf8HCiETkjABoKiEM5tSzrAq+bFtU0tORDCXJM2yOceqlIjL3+vN7ZUXzSwTH/kerm4+6Ppvjs5c2Zk0aXC5XFvWFtXU9aVWw321zottO1fKT2RyAAjmhiQHopD2SAcoS1Y0To8QjBxAEnH5V221tXChGvb1uicrIZNz0+Q82Fl52+wU2NPdAVljha0Cf84LzH5ts8PVJ5AD8eHqhP+PfcTrjJR7YrBSXGj2eM7gyPnYZsWtO+474TadOc/cDyCAAYAmkQnjXgMdNijHeo7S2BBFi2RYwEc1a3Y7qeTWFNlEpKZbhq4b1UvuXWH3TKrgtg8D/jqaEPMI/yl2/zEk6+ziMUEQoLT/EynIgHMAIyrhNC5TatmcEU0j3ussWcGEYO9ViiLLibiEhUSr89iYyuamVfxydm6jlV+6j54I2Uxen0qNPZsv39sMNObTqpoeGx2JBupXK4v1a6dT42eTp8RooHGjdus3/xGMRAAAAAAAAAYAAHicY2BmAIP/qQxGDAwMjAxoAAAlowGbAAABAAH//wAPAAEAAAAMAAAAAAAAAAIAAQACAAkAAQAA) format('woff')}
 text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre}
 .art text,.sp{font-size:9.33px}
 .art{opacity:0;animation:in 1.1s ease-out .1s forwards}@keyframes in{to{opacity:1}}
-.sp{fill:#e3f1ff;opacity:0;animation:spk 4s ease-out infinite}
+.sp{fill:#fffbe6;opacity:0;animation:spk 4s ease-out infinite}
+.hud{font-size:10.5px;fill:rgba(255,255,255,.72);letter-spacing:.6px}
+.scan{animation:scan 4.5s linear 1s infinite}@keyframes scan{to{transform:translateY(536px)}}
+.read{opacity:0;animation:rd 3.6s steps(1) infinite}.r1{animation-delay:1.2s}.r2{animation-delay:2.4s}@keyframes rd{0%{opacity:1}33.33%{opacity:0}100%{opacity:0}}.r0{opacity:1}
 @keyframes spk{0%{opacity:0}3%{opacity:.95}9%{opacity:.95}20%{opacity:0}100%{opacity:0}}
 .wave{transform:translateX(-200px);animation:wave 8s cubic-bezier(.45,0,.55,1) 1.2s infinite}
 @keyframes wave{0%{transform:translateX(-200px)}50%,100%{transform:translateX(510px)}}
@@ -14,758 +17,148 @@ text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:
 .trace{animation:trace 8s linear infinite}@keyframes trace{to{transform:translateX(-424px)}}
 .live{animation:live 1.4s ease-in-out infinite}@keyframes live{50%{opacity:.25}}
 .name{font-family:JBMB,JBM,monospace;font-size:34px;fill:#e6edf3;letter-spacing:-.5px}.role{font-size:13.5px;fill:#7d8590}.q{font-size:13.5px;fill:#79c0ff}.cap{font-size:10.5px;letter-spacing:1.6px;fill:#7d8590}.lab{font-size:13px;fill:#a5d6ff}.hz{font-size:11px;fill:#7d8590}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}.art,.up{opacity:1}.sp,.wave{display:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.art,.up{opacity:1}.sp,.scan{display:none}.r1,.r2{display:none}.r0{opacity:1}}
 </style><defs>
-<mask id="am" maskUnits="userSpaceOnUse">
-<text x="30" y="45.5" fill="#fff" style="font-size:9.33px">                                   %wsL+|i|vw%g8N</text>
-<text x="30" y="56.7" fill="#fff" style="font-size:9.33px">                              @Nei!"L+;.|s|!Leei+L+SgN</text>
-<text x="30" y="67.9" fill="#fff" style="font-size:9.33px">                            %e|"vLv|L"!"_vi`v""+"+LL`LL||g$</text>
-<text x="30" y="79.1" fill="#fff" style="font-size:9.33px">                        %S|_``_L"vvL+!""_`!L.L!.+v``_Livs+"LeN</text>
-<text x="30" y="90.3" fill="#fff" style="font-size:9.33px">                      Ne``LL_"s+`_|esLv"'v`"evL"i```_`_se`|SveeN</text>
-<text x="30" y="101.5" fill="#fff" style="font-size:9.33px">                     $+`+e+;"v|L|Li;";"|LiL|ev"`.``.v+"|sv|ivivvN</text>
-<text x="30" y="112.7" fill="#fff" style="font-size:9.33px">                   Si`!!`+v"`_L!|i||`'ssS8Swsi!+|"iLv`"+++S|!+vvs8</text>
-<text x="30" y="123.8" fill="#fff" style="font-size:9.33px">                  g";``.;L;'.;v`i|s+sveSgNNN%swsSssv|"vL!L|ws!iiiv@</text>
-<text x="30" y="135.0" fill="#fff" style="font-size:9.33px">                 %+_```";+"``.|Ls"v!iLLsg%NNN%8%gww|ssvi"|iv"+||+v%</text>
-<text x="30" y="146.2" fill="#fff" style="font-size:9.33px">                8v``'`LvL"!Li`i!Lv!!v|iS8$N$$$8SSSeSeeL_"L|iv!`";ve</text>
-<text x="30" y="157.4" fill="#fff" style="font-size:9.33px">                8```_!is_`"_i;veii+wssw8g$$WWW$gSSgwswwLv|sL++e|!vi</text>
-<text x="30" y="168.6" fill="#fff" style="font-size:9.33px">                N``'`.+"v`L`esv"LiiwSsew%$WW@@@$gggwwewgwL`""'!_`+8</text>
-<text x="30" y="179.8" fill="#fff" style="font-size:9.33px">                 ```+;!!"+".`+'"vL|LL"'viSSSNNNgsi`+"iSeeg``'`````e</text>
-<text x="30" y="191.0" fill="#fff" style="font-size:9.33px">                N"`````._iv``;;_+egSSwsL_.!swN%S|L||ssiS88L`!+_``+</text>
-<text x="30" y="202.2" fill="#fff" style="font-size:9.33px">                 $```````!'``!LeSS+Lv.!gSs+L8W@8wsevsgeg88w+'+8N8</text>
-<text x="30" y="213.4" fill="#fff" style="font-size:9.33px">                  "``````;```|sg88wwg8%%%gSew%WN88%8%%NN$N%S`</text>
-<text x="30" y="224.6" fill="#fff" style="font-size:9.33px">                   $.````+v+`vS8%N$$WW$$N%wsw8$$%%WWN$$$$$%wS</text>
-<text x="30" y="235.8" fill="#fff" style="font-size:9.33px">                    8s`;sSvv`vs8NNN$$$$WW%ieSg$W%8$@@WWW$N%ew</text>
-<text x="30" y="246.9" fill="#fff" style="font-size:9.33px">                      +`|wv+"|ig8%N$$$WWWgLs"_sSewN$WWW$N%8LL</text>
-<text x="30" y="258.1" fill="#fff" style="font-size:9.33px">                      %'`+seL`|ew8%N$$$$$%wiLigiseg8%NNN%8S"`</text>
-<text x="30" y="269.3" fill="#fff" style="font-size:9.33px">                       ```;ie'.|swg%NNSws|+LLigSvvvSL+e$8S+L</text>
-<text x="30" y="280.5" fill="#fff" style="font-size:9.33px">                         w``````|sSw%Ne"Lvswg%g8%%gwwSeNwvL</text>
-<text x="30" y="291.7" fill="#fff" style="font-size:9.33px">                          e+!_!``_vew8%g8888%N$$NN%%88Ss""</text>
-<text x="30" y="302.9" fill="#fff" style="font-size:9.33px">                             %v"```'"sSwSwgSsLsLLsw8wes!_</text>
-<text x="30" y="314.1" fill="#fff" style="font-size:9.33px">                              vsL```''`vewSwwiw|eS%8ii!s</text>
-<text x="30" y="325.3" fill="#fff" style="font-size:9.33px">                              iesL!`````;+!vvssSewiL++g</text>
-<text x="30" y="336.5" fill="#fff" style="font-size:9.33px">                            %|sSSsL|".````"';`.`""``vg</text>
-<text x="30" y="347.7" fill="#fff" style="font-size:9.33px">                         ggeeveSwSei|++"".``_`'__|igN%</text>
-<text x="30" y="358.8" fill="#fff" style="font-size:9.33px">                     wv`vgggwsswggwSesvvvLLLviewwwgNNg</text>
-<text x="30" y="370.0" fill="#fff" style="font-size:9.33px">                 8S"`_""'L%%%weg888gggwwwSSSSSSwggN$%g++S</text>
-<text x="30" y="381.2" fill="#fff" style="font-size:9.33px">              S!``.;``;";;_w$%g%%%N%%%%%%8888%%%8%N%8ge.'"`|S</text>
-<text x="30" y="392.4" fill="#fff" style="font-size:9.33px">          gs""_``_!_;__!""";!S%NN$NNN%NNNN888888%N%8N8s""";"";_Lw</text>
-<text x="30" y="403.6" fill="#fff" style="font-size:9.33px">       e;"';";..;"!;___";""!!;"s8$$$NN%%NNN%88%%NNgNN%|"+"!"!;;'._.|S</text>
-<text x="30" y="414.8" fill="#fff" style="font-size:9.33px">   8s;"_'.`.'';"";"";__'__.`'"!+!+S8$$N%N$$N888%$%%W%v_+!|;!"""!"__'_;'ig</text>
-<text x="30" y="426.0" fill="#fff" style="font-size:9.33px">s!;`````'_"";"""""""__;;;_'`'_;_!++|!+sS8%N$WWW$$gwL"!!"++""+|+!+"_""";";;"8</text>
-<text x="30" y="437.2" fill="#fff" style="font-size:9.33px">';'_;_''_"""""!!"""!"";";;;_;";_;"!+!"!!!";'""";'"""!"!+||++|+|++"""!;;+!""_S</text>
-<text x="30" y="448.4" fill="#fff" style="font-size:9.33px">"++;_""""!""!"+!"""+"";_"";_"!!!"""";"";";;""""!;"""+!+!|+++!!|+++"_+"_+"!+"+v</text>
-<text x="30" y="459.6" fill="#fff" style="font-size:9.33px">"!!!+_!|++!"!"++!"!!""""";."""+_!"!;"""";""_;;!""!"!++!+||"!+"+|+!!"|!'+!!!"!+g</text>
-<text x="30" y="470.8" fill="#fff" style="font-size:9.33px">';"""+`+|++L|!"!|!;"+!;"";;;"""""!!"";!""";"!""""!!!!"!++!++!"+!+++!+|;+|;_!|;+</text>
-<text x="30" y="481.9" fill="#fff" style="font-size:9.33px">''_;""+`!++|+!;;|+""+++_!;"""!"";"!!""!!!++;";""""!+!+"+++!++"+|||||"L+"+!`+L`!w</text>
-<text x="30" y="493.1" fill="#fff" style="font-size:9.33px">`___.`++`_;L+!;'+|+"!""";""";"!"+"""!!"+!!!"!"!"!!!!"+!!!!+!+""!+|||++L!+L;`|`;!</text>
-</mask>
 <linearGradient id="band"><stop offset="0" stop-color="#e3f1ff" stop-opacity="0"/><stop offset=".5" stop-color="#e3f1ff" stop-opacity=".7"/><stop offset="1" stop-color="#e3f1ff" stop-opacity="0"/></linearGradient>
 <linearGradient id="edge"><stop offset="0" stop-color="#0d1117"/><stop offset=".1" stop-color="#0d1117" stop-opacity="0"/><stop offset=".9" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
-<linearGradient id="fadeY" x1="0" x2="0" y1="25" y2="497" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset=".74" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="fadeY" x1="0" x2="0" y1="36" y2="508" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset=".74" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <mask id="fy" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="1016" height="520" fill="url(#fadeY)"/></mask>
+<linearGradient id="ironv" x1="0" x2="0" y1="1" y2="0"><stop offset="0.0" stop-color="rgb(6, 4, 26)"/><stop offset="0.14" stop-color="rgb(31, 12, 94)"/><stop offset="0.28" stop-color="rgb(86, 15, 138)"/><stop offset="0.42" stop-color="rgb(150, 22, 128)"/><stop offset="0.56" stop-color="rgb(214, 54, 70)"/><stop offset="0.7" stop-color="rgb(245, 116, 28)"/><stop offset="0.84" stop-color="rgb(253, 192, 48)"/><stop offset="0.94" stop-color="rgb(255, 236, 140)"/><stop offset="1.0" stop-color="rgb(255, 252, 230)"/></linearGradient>
+<linearGradient id="scan" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".8" stop-color="#fff" stop-opacity=".035"/><stop offset="1" stop-color="#fff" stop-opacity=".09"/></linearGradient>
+<clipPath id="vp"><rect x="22" y="22" width="500" height="476" rx="10"/></clipPath>
 <clipPath id="lanes"><rect x="674" y="0" width="248" height="520"/></clipPath>
 <clipPath id="tr"><rect x="556" y="0" width="424" height="520"/></clipPath>
 </defs>
 <rect x=".5" y=".5" width="1015" height="519" rx="16" fill="#0d1117" stroke="#30363d"/>
+<rect x="22" y="22" width="500" height="476" rx="10" fill="#07051a"/>
 <g mask="url(#fy)">
-<g class="art" fill="#58a6ff" fill-opacity="0.20">
-<text x="30" y="56.7">                                       .</text>
-<text x="30" y="67.9">                                           `        `</text>
-<text x="30" y="79.1">                            ``           `  .  .  ``</text>
-<text x="30" y="90.3">                        ``      `       ' `      ``` `   `</text>
-<text x="30" y="101.5">                       `                       `.``.</text>
-<text x="30" y="112.7">                     `  `   `       `'               `</text>
-<text x="30" y="123.8">                     ``.   '.  `</text>
-<text x="30" y="135.0">                    ```    ``.</text>
-<text x="30" y="146.2">                  ``'`       `                                `</text>
-<text x="30" y="157.4">                 ```     `</text>
-<text x="30" y="168.6">                 ``'`.   ` `                              `  '  `</text>
-<text x="30" y="179.8">                 ```       .` '       '           `       ``'`````</text>
-<text x="30" y="191.0">                  `````.   ``            .                 `   ``</text>
-<text x="30" y="202.2">                  ``````` '``        .                      '</text>
-<text x="30" y="213.4">                   `````` ```                               `</text>
-<text x="30" y="224.6">                    .````   `</text>
-<text x="30" y="235.8">                      `     `</text>
-<text x="30" y="246.9">                       `</text>
-<text x="30" y="258.1">                       '`    `                              `</text>
-<text x="30" y="269.3">                       ```   '.</text>
-<text x="30" y="280.5">                          ``````</text>
-<text x="30" y="291.7">                               ``</text>
-<text x="30" y="302.9">                                ```'</text>
-<text x="30" y="314.1">                                 ```''`</text>
-<text x="30" y="325.3">                                   `````</text>
-<text x="30" y="336.5">                                     .```` ' `.`  ``</text>
-<text x="30" y="347.7">                                         .`` `'</text>
-<text x="30" y="358.8">                       `</text>
-<text x="30" y="370.0">                    `   '</text>
-<text x="30" y="381.2">                ``. ``                                 .' `</text>
-<text x="30" y="392.4">               ``</text>
-<text x="30" y="403.6">          '   ..                                               '. .</text>
-<text x="30" y="414.8">        '.`.''         '  .`'                                      '  '</text>
-<text x="30" y="426.0">   `````'                 '`'</text>
-<text x="30" y="437.2">' '   ''                                   '    '</text>
-<text x="30" y="459.6">                          .                                           '</text>
-<text x="30" y="470.8">'     `</text>
-<text x="30" y="481.9">''     `                                                                  `  `</text>
-<text x="30" y="493.1">`   .`  `      '                                                           ` `</text>
+<image class="art" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAACoCAYAAAB0S6W0AABd6klEQVR42u392ZYcR7IsCoqomrl7ROQAgKw9dq/b/dBr9Vr3T/r/H7tPn7NP7arauzgAmTG5m5nqfTBzD4/MBAiyWIWBBCsKAIlMZEZI6CAqKsp/3vx/8PuPyw+C698RJAkSIJc/ApKrj6g/3AHAsfy/15/dHfD609Mfqw9Z/o3//iKsfoTfn4I1zPgSMIWg4AJSaX/gRYCuwOkVnG4EHHR7Dj86AF6w7WD9d78D9XeA/mTEVEKUEAVESSpAaQCVSxTljMoaKC8ANXcvhBeHFcANgHMFPJ//R1gD8xxpnavI+lsGa/gdlC9FTAmEBFIjIR0gkZAAMMwAZcXnHElrLod7w5cDXpyeAc8OT4A3kF4gzEukLQ4vhJmz/rkLWN3nr/e3CNTw2wQm228JAgREKjhFKzClI7QnpCd1ELAnGFkBqqs0/xyg9DkyFgeSw6cKUGT3CtBLdod7BW52WHK3DCyPAro53Ob69RJVfztQDb8xYDZQ1khZ0zSFEEEFZiS0I2QQykYwP54BlBeALmjzmuB9Dn0FQAY8OZAAz06Yr9souDlQHJ7MbXKW0WETYJO7JYdlwrLX+tUbWNFKgN8EVMNvCZyksIGx1pac0zkDoZHUXsChAXMr4EYgA8FOKkCvoueTcmEF0FaDLiBFBlAwF5jtz7WPyQZPRhsNMhr87F5Gp50rWD01sLYSwH5T6T/8JsDZgEmoCkMFIyQCEknGBsBOIEN9cNPA2dcHA8lQo+1cezbQryDq11HUHDAAxvZzA5K7e+uq3AxWDJ4MNhlsNPholJPBzw4/u/vYImsCSna37ChPgPr1NlXhtwJOQVAydoLYB2qLjOgBdgBmgM4RtG+/74QSBBKkgXMVOWdwLiB1ALVgNL9EUvhMHc2Nu7GC2CpArbhlg+UKUp8MtnXg7PCT08+GcDbYaF4mZ5kMOcFLIaw4raV/PqtVvwaghq+az1xFTjJ2ym7TIe4C9EYgWwAD4J0DcxSNFZSMAglaHyoQEchccxIrYAqE0krRRsu7LQB1n98ql1QMOMwN7gXmBrPCUgqsmFtnteufHL5x+NaB0eFng50K9ZxRRrqMxpzcS2uoPANuqAzAQld9DUANXzefOaf1GAVx0yHedIh3AXon5A6OweHRgUBAyQWQQSGqFZjt0Tp+LoAjQQqE9b+xdkqsAK3djC9fG2fmAHCDwdyswLzATCFaYGa0YPBisM7h2X1hAUaDjQI7C3jO5Dm7jM4yOUqrUz0BlisrYAWrEuBLBmr4Sol2qXymqjBEQRwiwy5A7wL0PlDvBNyB6Lw+B0JQBFxAuQInhXzWFFWQCqWBdNWs0EBfzzZnQM9fpUHcaBSYi5sYzBQuBlODm8PM4MXoncN6gw/uMglsEnAkeCY5FsjoCKO7jaBPDhsrXVWSwzJQKlXldlWnfklADV8FddR6dCzAnPlM7QSxV4ZtgN4E6J1S7gRyI+CAmtq1gVMEQl1AWcHH5fFSIXFpkuaUX2eXAqtMkK/eOev5OwipH0+6Q2i1dXKrQPUZrAYLBo9O6wkmOhPBieCkraly+uitqSpu59pU5dGdyWEFZCX/vdar9ev03wH6j6GOKKgRrI4kQUUl2juBDsKwCZCtQm4I3hDcEWjUkYQWNSkQUcocDSmVK52hyJdr3ae/XD6CglaANsi+58+AEDhAoS8MgEHcWmQ1iFSQigksKi0XSC8u2WDJWglQywA/K+1UIMficnaWs6NMS0Qli8NsTvtfAkjDFwpONl6zRUsNoATWkWQHSE/IoJSNQrcKbbymbAgOBDuFRIWIQlUpVKjM6fqlcehLL+a68SGeQpFX/8Xf87Fz7Qo4G01FgbuRbk7WiCpz06UGCwVmSi0FJZvXKVTr/scCnggOJE8GOZnrDNSxArUkp5m72ZcA0vCFglPICsxKsIdOoD0gvZA9Fy5TNgoZFDootFdKJ5Co0FibIJVAFcUFoEvCxmXmU2HGD76SXoUg9EuNylnitJY5vQxSELVu5eXPz1+NU+GzZk9aGVC7f5RQaGawXGB9ceuJ0hMcBDwZ7GT0U4EezcvRmc/mJJAT6HDHZw/S8IWCs5Ht2pNhEISNNm5TaoSsERTsBdoppAvUqNAQoBqgqpAFnAKV1o1zHRWvisYGnveneq9iufdEWr+uSfG8Nr0uUmXR4j0P6BWk5sVVywxUWM4sgc4osK7AeoMNDt8orC+ULkP2AMTczw6fQMtwN9Y3x+8A/RXB2RG6IXUrCFul7moql2uSHRKVM5+pNWLWyElla4YWmmihg7gCVasjscy//f0RFKyE+ZqIXdqRRuVfgZxXnMAz3HudVF0+es0EONyNLgXmxYslZCGoQmqBBXFbGACDdUSJADQhCumkz4UFMtw+W5CGL4d/J1tab+AMNwK9EeptA+empvKWwusESGc+s3bnKrXenMG5AJLvIft5ASpX00T3l3L2XBJc/iABkLL8d/q6f76MS69x7hdw+vw5+IQ1AEiHQ2Fe2Bo7FxaIFBQt9GCwaLBY3GapoBpd3ANJmwuQ9qb6PCNp+DKiJ8FF2KG9MOyIcCvUO4XcKGQboL1Cu8CaxrWlcbnwmhTOxPoyFbrKnXOSXk+KZsg1KbKvpPBPxcdPoukVB7q8y56UDivR8/Jbv8g/yPXnmH+W1cjVIS6wJmQls9MUKgab078Ki8IhDmdoTC08zNIoq6Hf/LIV8DtAf8bYsgWO2q1HMgxE3AbqrUJuFbpT6BCgMVJjQFhqzDWfKc9JdeI9oHqhi1+15AsBf5Xx+QJIZZnT1zeDP+2pVn/TS40Uf+KNW0HqrEIUlfZU0eFi7m1SJZJnZWBTq7bxUgG8mCN7HZMa3Pm5RdHw+U/WCc7kO7UThCFQd6ECcxugG4V2kRoCQogIoi9wmlyl9AtAZ7Bd/t8rkb1uUObGZ+7KuWThVSmApQa9BtdaVIIrwTGvV+xWXwFeVP0/e8csjENtqBw6h2A4jU6BuPhq6a+17F4V/DkhJtIT3XJT9X92UTR89o3ROnpCO6EOCt0E6BAqWLsAjRFBA4K2zlzWYFyBFOupkK+oID7hPPkkGvrVVtw1OLluypf/fmEELgITJ54hYCGz1pTU1Sd8KZ62ELyuTb0OF2T++imopBJ9pVmlm3tdQzH66B7OhI2AZ9DMK93w2UTR8AVI5ZaxJREGvXCbvdaUHiKCRoQQG21ECNc15Bqccj0Vml/nZxDwJy/SSmR8FcXeUw6AV9GaL9Sqy2rIpfXCde/1nh6fL40P+ESbWkEmc2naNkc9OtyMNpjbZLCNUTcOHeGWHFJAM3jdLv0cQBo+4zGm1NSuQRg6QRiUstWqdh8E0gVICFCNUI1UCY3PfA6Yuen5sNiE75kc+dK1+/PiA1fbnVetFp7UnytB89Wi/BqYq4/m83Xoq1JkKQauVVO1MPXlDWoABEoVc1eFBYV2CusVtlHYxhHORkv0Wa7HUmf2+OQQDZ9lU7SMMXWJnMKwU+hO6ly9V0qUhUJSUejSCGElhuAzKmiuMd3xQr24BoxfQ9XX6Xom9RdByTquvfiqLoBcCr2nwHw5TPIJQn2houyF74+rssMBr6Nbgy+NoqhCglJ6dd0E2M7pk3vIpJfGOvmsgPrUEP3MIigbOKmNUuoEYSMMN02NdBMq59lfyHeRJ8qjhdr25zvoywTySTPzNOquAPT0z1ZQCoRKMgCi8GUH2es7AA4uNaXVHeSn5g4fWoXmutB5bkPiL47/eQmeWGf6pQ4nRV2kPXddgG0cmhyenJ7hXqw2S7Ni8JNzo+EzSu1zva91D117UjfEouO8a5TSRqmdQsOF5+R6BfiJTOMqnrZ5+QuEzdKv+7o1WoC6StkQCCMpES4dXSIhCpeZxDTA5wX3AlqqlKa5k3b5CucUype2AVadP55E8pdAurzJiKexvE6jCM5AlRZFo1EHcy91sxTZiezw3FK9fQ5dffjMRpla13tlAGVDhButk6JbhdwE6DZQ+wCN6+h5/aLwhXYEq91HOt5Tj740vryuO2vkDKR0cNnQw4YWerpGuswTowI2twaWyWkjWM4OOOnm4oDVDboXUjlfmnh+4OvDpWZ1PG/a6FfTKFIoVFcxeHB453SD19Xn+ggTaJN5U+V/Ym40fH6jTOkI2RB6S0gj4+VGobvASsgHaAjLSsZCJf2Ml/a9s/SfpMYVsoDzRize0uK2gVQbQArgyWlnsJxc8sGYCWEtMgTF4ZUz9Zf4zqt62fFcXswnRcH15OoSedvC3jx+Xd5gCheHqreu3oHB4VuDn412ctczUZJD8pqb/U0ClBcPBAUYARlI3RF6O6vfFbJVyqCQroJTRaGt9pT1C/Kzf8yNykWX+fICnizRE+zouhULd7T4Skp/G09xE84hahYAKKY2lc5Oecj7EnOETOogTSAOTpRiT3LnpTpdyoonkyuu6uX3WJ5dEfiXP9vewC5gHZ9SpL491B0enejdfQiwjUH7Ao2kKJ1SJamfLs2Hz6NrB+vqhURCB0K3UhVKO4Vs2yizC9BFlbSeFF2PLv09bcj1X+vPCoJnNd0s0vBKeleRSYRLT5ctPdyKda+6Q/dqeOi38RiiZiEcxcWn0tkpbfIw7VIcbyS4U+GMLnl0Spnt7ho4jfNaZv33dan+qkHj+72l5hqeuK5D6YRdcbKCWohozdvahNDBKJ25dgrrhBrNVYFCwvhS0/kbiaDEKrU3IYgORNiGNsYM0H7Wcq7qzrV+k3xPovSXx+z+E3N4zqlx1eG3rh0MhHRwHWC6lRxuukO86x/jrjvGTicROs3FUwl2iqfQh1GjZInjnXRQPbjn0VkyWC3vnJ4JL05LcMugJ6dl0tylGt+tou1LsrsXuZC5AXM2sQudi7JKAEAcDquNptb1F2kyRcY6IKH48hk/TRQNn8cokzpbzxBhE6ibJWoyxHVaV74ITD6tyV6KoZc6k1dKIr5fPLyq3WoNonCG1sl1mqQPk/Zh1E04h9hNQq0ip76I92kqUZJEydLpJJtpp6e8KaNJSU7LtcO3CbRqHyJlBIoAZB1kGlxaS3UpRV5gPz5C0QBKpb6Wp0xYJXoNoCpkEJco1d1PAZGP7Ce/2gjKtRCkEvIrcNaGSBdwXos+nlnPrGH5nHC8pgz5RMz3/rYIrMQSKPC6Ngon4RQahUalUbVQYhEJRUinu7imIkFzA/KoN90hjqUvU4mWSrSpRJtKV04l5qNLPrrno0tWsEirGhNpxQX2XDLw4raUrwgov0ohXGWHStmuJk8UsIIUDFKN1KrVj5P+6QLopwHoe4QgvdQufVBIH6Cd8tKt60o6dxHwXge8DzyFbfT3olaKH4o6fGFMOrOi7nR3+ixRJp2iRgkmQIHHLBKL6JhlGEcduy6mEixbfdRGqs/HtM37aZf2uUvRXdQkE9IofpKkFb/etV+RTP50JOFY+e48E1eTXATRl0f1BoASDBWk1NIi6BP51tcNUF7BtIlBWJVKVQQiQ50Vzy4fKgIRcp3WiWvP+PdUnz8l4nsCTn9R6vYihN1BNxcUFy+mbi7uTlCcVCPFCAASalTVLmvMk1kR9yJeithUOjvnIR+mMfc6aRxvRKddlWLZUitmcSCTTbR5sc/zJ8VMWy7xNaVvK1HK0+Ti13LWmYdupXb9NS725+/ZT/3qIujSGM2pPRAalVURX7cuJQjnyHkRG69TEt/Tzf4NdNPqFXReK+sBvtBpVZCqV5CKu9HbpJ8STEiHqznVaEHFi1SAmrhmMZ2KBSlLqSA0kk6MNzCp65uofXcRwIrDC+iFcKtx81lgu1aaroF8iaSLd+O1eIUOF8C14UKbYIf+y6jlLw+gS91YfZOU0CAInTL0Cu3rjH0dPZt0jgtNskTQCyH9Po2SX40RP4ILXVNPT2bci2VJ8190rk8nmIsXV/cG0nljiGqkghR3irtlBehuGVYH40bNhZ1OalHcvE6aiqmXtDEjQRgUwgluCbQEGJw253V/8uZa87m+kOy+Fr6sQTlbRS4gtbraLBWgLi+8N7/6GnSuOwMZemEcVsr4fo6eq43Lp8B8kVryj3Cif2lR+Jon92cE+EzZSN1Pn7t4CXCpEW9WAdfU7UskBYTVebG25DAvQjjNi7gltZLUiqu704WFfZik+EmzaSiuZrmHOBEcMjprh9/eOuY15b/8nV9+9aw2XblAX7QGTdTiXtHfHk/KgK8boIsMbF5+o/RSlUk3YSHkpZcmo5NVwJJrYK63Ma9WfvHCXPu5Cv4ncP1kLiMtes7UUk/XHq4dXaIkERpr4ccKzEJ3E1+EedK0TUaCDjd6SWp5jGUq0bKFGaQQGjtNuo0nNxcnnCH37ODlDMmh+Ue5Ixswu4/4qnZesxOtY3c+fQL8RcX+JaJarVzdP/GY8xNE0MXgK6AeKNjKxTNpK2BfPTq5WB7KqjmS5SGrrUZfH81wrFL/xSPkRf+ktf7T+cwU7HIgKdAlNnJ+Q9MtTTeaQh8mjZJFxVaJdb0AUrv66kZPUpzuhBdtDVJfkgVzr2SO0BEkyxDOAQCEJlGT9GmTT6YSXbI6CBM4gOJ0g/jF/QTrnavm/8SVbtQ5K7rm8efqDX+1OeBuT0i73wbNNPc4SjAC6AFsCG4A9gC62W3uSc25pPrL2vBlZLlcFnimRJ/J9wpcX5WW14515NNtyVnrGenSV3GI7sTjLa271dztukPYhLN2OmqQJMoiFCfFSDXKwotmqV2W07K6qNEdbRwaS7Jo7oRKYZAsSqOESVQsBinSaaqPNEhIG5EW1s2knf+gJ1dz2Eu8rl9TctLkKlVR5RAStqabXtRz/VYi6FXu9MqhKIDg8AD4cuLlCUB5vV5xbYf4fGr0nPKcFfR8bpvIpzWbgJVngbOKUl02sLCr4pDuXnN31z90t/0hbuMxDGHUIYzah0m1T6J90tAnDUPSMEyqXRbSKUkNICyFoqcsMlbBXTFxhzgMoixOMSpNlAahUaVwAa8UkWlH2Dy7r16jAJFd/NnbzUFvK3Nz1GzsQ3vXugkFdF4ORS1boPPTw98MQH19IrBdYqu1/vVuA6/aoUv6IZ/ZxTynrddi3pd0jBfAX49H6+gPV1Gzp+uGFpowJN6HsbvvH7q7/rHbdccwhDF0OkkMFZBxO4W4O4duN8a4O8e4TQG9CAXUlEyCiRs9j8GGU1dqio9WbL1XNDdXBWgiaMJRaag6Vcd0UzOHzbWlgG22/z5CnU+cUup5u6dDCK5QuWbX+KlYpk/SxXu9uoYMILVHrmOTZ9zje0Z7XLw+fOk010toVyD96cuczdk7ANLRZaDrlhZ2tLilhxtavOsO8X546O77x+6mO8RNPIcQk2pXRLssYZhC3I6huznH7vYU9Y6RN13gIAolkcz4WDLlkbWLD7YrwdwFU4mlbgkaVyeQGuFrUCnSIYHw0IBKjLf1fuJc30DyVC8qYHVUadXsXNvtrE1O/Kkut1GBlU37Tc3ifd71yqjnAScAUwUpM+vJlvcVPu7Ls3rZsvTnV4af0StPm6L1jtLKTJYBzh6uO1Yh8q1YvNUUb7p9d9fv413/2N31+zj0pxCGFLTL0h46gzPepU5ehcj7EOVWIzeqUNCzV4B2k2zx4FbE3Ojy4DjlQYqJk0BjBSq3auLmszyukOo6E/qAw8/37gKYXcagk7N4qzB98cq/5kjX3Kcth8fWphEzu/ahad1XBtAW9xbpo7snECuAorQBn79v9aJ5Yy7WhM8jwHWqxAuOdU9DedtvhgKMrGl9Sws3LaXfdvvutt/H2+4Qb7p9HIZTjNsxhD5prTezhs2k3e4c9d6jvOk6eR06eRU63obA4UahvcAm98NDZi8CjtjZu9rCiDPsc0o5lmLzVEqtmPhMQZnXzlto6NR0BrFD3M63MM4aUql7UGSpffgMxOWZcV4/l3652nSxT3nqBvXbUjO5u9ONzX6lPlAPrT619HimRPKnJl4vbCHxPYzmRSV5mU1fnD8UzojKc84pfhtPYRtPS7ceNYmEUgUhsUjoa+SMuzGEO+/4JnbyTezkTejkfhex+6eI/pUyDAIrjs0PQeP/JAB0+exuDxUUapRDn9LYFctdmQXPyWLJpt4oJwbJDFIYNYvjrMUkZlPP064eWiI9VQkfryijJ6OJGjltFTnnMEtvPiTzwQXnJ949/lRyu0ujNIMTmO3V3kueXzw4X6otr81j1xTVNYWyONUt8UGqwlwC65Zmh0rCB8kiNDgIc7Vs0XQqprGYGx10SCjUvih3UWWnKjsN3GnA5pvAzTcB/StF3AjcwbgRB1zS/zA/m3Xnc7F0MCvilsXKVCPmmPtyykMZc1+yqQFAkCJRk3Q6udJE6Ow0yTaewlSiTd7bSCujU6szLfnCbv8yGrVFSLKk9wWYjR+dKyr/lFE0fDJ8rjp6b+B8aY/yZ3Ksz9jydcp6Kc42lXkdYbZRprRmtpj6VKIByMXUkwXflGC7Ck5ql9WKLI7dUBIKUhSXm1/LJB8Ig7C/U2xvA+9y4H2I8WFM4TCoqLGY2jkPVXo3bfNY+lJMnXQ00bPmoNpp8llYUon9Ubcl6okMZ3oZ4WVy2hP90dIsrepOX2ckv3qB6PhNpvgXuqaVoMGflpW8lse9kPRflNr4eveIV3WY42rywpkjvCC8OHwq0U55yNmCqRQqC6Mm3YSzjqWz1yaVs+yyxE0KPFvxycxHLz5mZfdYXId6hMSyQwJRpnpxm0IGCjuKBBcSsCJ+zn3ZT9v8brxN+2mXRtNS3UHATooWF3fQ3UWDZCEdSmOvkww6ha335UTmk1PG6hW6SI39yqTM1zdD/VI4+TWBAPzuzfR0qdGflTzve66eK8mfN0DeLrtdQOovmn9dAF5An0BTIJc02LzzQDqVhUMY9ZSHkkos3/p82Nu51QcyZvFAMQWFb+taeTk74k4gsZbd40PBdCie3JDdvbCKRsZYjmnToucuHSyk5NXnIdJFTFlMxFza/B0ucAbJ7AN1a2cfS1cO9NDRs7oXAa1cDPyuwfnkZ2tpv3npr8Pnb3HlY+U5/54nwd/jQOfvF8ivAqlfGxldqef8Wvp3zUZX80zQRoB57UvvdSPyZEHH0lkqsXXYWiV2Tt/6Qz1b15bNpTxUy4YFoAakfbFjKn60YsdS0imWfOrKdO7zOQ9lzF1JplZ8PqbgDHDpNGkfknQ6aadJoyZRFpKOYEXcibF0ZTNttaNL4CyimhHqVwZmc4ffjobN/yy/9gtY8duS23GOiDKPNNvsHVKPDKzVmd7sKunzk3Vphdx5/UlXbhp8poHEFUHAlQnYLCP3RU4ua70nLj5LBYA5s5XO/Xy/aDezqTWZHXZ4t9xWNADi7hiSUmNl18ZsfizZjyX7oeR82uR06vIiHAGhdPZVj4lIl6Et5W3iKQxh1E5rA6e1DkUxdcBxzl0Z0qAdRKtflDwxQ1tpQKu07nLSpt4OtVLPg5tdetZPOpD/VDtJ0i7ENRUbA0BtDTUvtl3P1MNzoU+uKHg+038+89x80fVeQAZUpdI81tw0OV2zsuHl7AvcKlHrDvhoWh6nm+mJyQ4pxp2+IzqKdCLeiTA4HUngcM/umNz9bOZnL/kcS5lCKV7XQaNk2YRz6F28ye9kCGcdwhg28aydTgs4ZQVQc/oQRu1pGul1JXPVNvrisOd1xtwO2RaUGZyl1HtLuaAk95Idpfjcv/5m9KDr/RfOey9QzpbuV2sJ18PM1ed6luOfqnj8qSHctdMGqwEYpKucp95wtrHx0OukUS8RalbNZwuerYqM67SHqI3NLkVJ0r2dqkhkM+nmdoq4tYDioY6qQpWsSssF5m5ZvK6A1LzQpHaqUrjSh0ofJum1ClKiJFFp4IQ1rsA9apaouYK3RCqdNZXwaj+ppfELOGGWUUpBSe0xFi+jt47OLyZiX/ss3t9byrywvPZU+b1I6biaSs216Vpa8mQRzJ8ezSKEASKRbFMj1xvxeEeLt5q7XTyGNRAII0CY04urZwuWyiIydhWjOz1ZLKe8ycPhlNKxz8PhlH00c3OnkAibupBqD0BgppIUB8UhaoyaZAijOohQiplX15kgRZqSiYv4uBUsZH0OKkiNysIghYFOWak9Vs+pFzcvKJZRSkYpyXPOFZhTQTkXt5OjnA1lcpQMWJmF9/51jzoXRbFzUTNZ8WoEl1uJV5olMJ4U9nPl+UJz9Nyf6CUV/Sx0VohEyiIIaZGzu9XS3XSHuK1pVC81ni32W+b0eRxpTQUPOEKTwwGA5dqRl1GLTGbN4JiIG0Ji1cAP7xSdiEQXjVm1zzqEMWQL89QI2YJ7c4p0J9oGqcGCCM3rTL7d9Kirz8vESQGZ1zEvJYp7cTODWYaVjFJyA2dGGTPsXNyOjnx0lJN7Gb3en/dPacH4KUadqEb+lp2WDPMpaYwA+pZSrN6lbMNiXm5gvq+l9BcEeP5UhLwC5ywIuRPrbmiLtjO0NY5FOYkaqAiH1ukNq/zN2aQXFDqURXodlWJ0o1tWQ6WS6huuevFWB6b+UTiIcpAq09tMoUyh7JwuNEgyjqUrM2C9iUesqu+smo0KpGpGFxCTXrWjcAbWocPqdKLZUmeWXFByhq0iZzk48sFRju7lDNgEeEGT1v+W7BfbiNOyo4wGOxv85PCNwwcHOgdCpUHMvV6tmK0K+ZR658rV/T01a3UlgDA8Aee9WHdHizdNHR8kkw0MlzWMqsNss3CJ0uxudJIQslCs2uu1Lc4wpEA1cQc8e22KbL4PG4jQk50IexFuVMNm0rg7BzdW4v9UJErOpzzIVKLNk6SmYpovhcy7+cuxr6p4ql9jR9cOrjPVZHArbqXAUoFNBTYVt6mC08YCOzvy3lH27uXoaNHTZ4npb4QHbZVkqyutuFtylNGo5wpUTnRmI4uBWm+lu69S1dMGabnJbk+UOmsvI9Zrxqy+njWt34t191K62+4QN/EUoiQhHeaEu1TbhAZQpZHiJBydJtn1xxB35xg3U5BY6v57252jFgl9EooT5o7sjuSOMhmsNEpWiUCip4QhhW5X5fUSs+QhhXAec3865zR1JVlopreVQfNnd2rqt61SxSS9TrrRrIOpdnDVav5gBq+Rsj5OBWWs4CyjeT63yHlwlJPDplp2zbXnb80f1N1BM0fJhjJllLOAZ4IjwERnJ6RVxY1Ve5m6kdDA6U/suuFry4L1fJnN23PeyFzU8VK6+6aM73RSwmudBzUzXl1NmJVEfZh01x1jd3vqhvtj192co3ZJKYAV1rVjJzQW0VgEFCC7+WSF06OBSnipDA4cVBK9SNhMSjGEIaml0fIYYz7HXMZY8hiLZa2rym1jtF45mM/Bsi2zuFmgbuM5bOMx7nIMA00CA+jIBhsz7JBQ9tnLIaOcMvJYvEztlvzoKOcGzvSpU/snBOhCGjth5l6yIadMLtpQAkVAE5gpvEXRStpzjiRXUdRXh9yub2q22pMBPqf3cEuLt90+3nT7uI3noJIJENmCoUAotW7U1kHPXORNd4zd7TkO98dueHXou9tTlAEKAVHgPrlZESNB6U0gQi+N8zwcM0tyuLmfLPvo5gangtoVpRjDkDDXr3kMsYxdbjyplaQ2A3XZva8PuImHIhQazdXPuQ+P403YmEqs8E0GO2bkh+T5XULaJ+RT9jwaUnbPyWrHnrxdncOS6X5js/iLisO9biiU4mAqziZgZgKQxCUqTWtxL6xm6U6/XF31+eJv2z0in8/aZwcodrTWuXu4CWO86Y5x151Cr6MKqzyp1nnFrOo3qFIqD6mjbuMpdDfn2N+eYtceeieRG1EI6NmdkxtT1QEzNPv87O6nUkwAjlZgDj9a9kPJGM28VAW2dF7NosWpZh6mycqYNJ9bFE1qJQWzLHVqVRqH2ux0LItIMnPQz10Xd90xbEuQjm50TgY/Zi+PCendhLTPnk+OlMxzcRSrJVebR3wm4PzEYpG5VjRzL8XICc6J5CjgYLBs8DATy9Y0is/9MV/ybb+MReu0CDKn+E0TItex4Vk7TSqt9gxSvJjIvPMUKkC1D2Nd6didY9y22nOAchBFV5fioHU5E6HVnlKldzB3P1uBwV2NqBG1+L5kP1lBbaIAJRkpCE3937kw5tl4TOYo6kVtJvgt16hquf06GDeA7/Ipb+NJhvMtIpEJng12yCiPE/I+ezqYp9GRs8PMYSu7Jvx+THYh2mstWhzMcJuc5WzQs8EHqwb/oXkF0eAUNzdWOy2ujFj55ATLLChfrnLAGeHaw2oDUUeHOk+MLjc0L/4ky8pvKBL6urEZNpOGIavEXIG03owQEgFSC2ReAAoAyWugAhzZ3UczP1nx0cxTLSc4/1khqaSrz907KBOpZhKlpXmtAuektBRoKm5qNDXC6cN01iGM0tE9wDPBs8OPBeVYPJ8qOFPy2qiu5KCf27X4Ty63a8uHsAzY6LCTw3vAO8CDuweji8GEIEvL7PXW0Rof0oj4qytznNO7NqV8T9dexwWcs+hilv1UHyW0CU8zYGjWidon1S6rhFwNGuZerdYe9YtRVqDK/AXxwoQVN89wZHOf3Dx727pYpwE24XN1jqgUhBBiDJppWWjJaNmcolwW2kVsnkpZEek0SZSEUF3xJgCjwU8FNjry1CJnWd+I//yg+YkBurCX1RwjN2L46G6h+mUhtBSvpXlUtuGeSB3xzcCk1glRu5paZ6DzSx8ACbNkjWhytUk7nSRqUgnG+RzwDEyp/p4ioZrRSswS+qQai1CdtRauQ/olbstqib+qDKoHrQNe3JFhNIcLa7QMFDcBpcXsQCJS2Ikwtnu4xR3JKyWlRklOSibFjbP9E2v4bYbJ0FxEtEDFXOoWcvY6DJkMPnl1cbQLOD9XaH4mivp20awANrmbeG2M1GDBYKE4Azk7jtQAZ3DXBliFSqRKbCcJ0WalxirqbVMViQRj1VVKp1miJpFYRNQ4S35IJ9UpWkidAdpsvbVyoVeruVUsSEQRhnZQWVkBGhpgHTMXSkR3FHdkF2QxTmae2jwiUDhU8n7epadVDtVHK342w2iFoxnHUjh6i6DtZ1GrPOzC2bqDxYHk8GywOWpa3bD5GKvf3zhAV7Wo1eNsNjqKZC8qlEiwc6CDe/Bq/CECo3s9B68QRqr0TS63PqSVATOHa70GQIVLnbRU6ihomTc0ZbbzrqneVzr+Os7k1TZ+S8lKIFIwiLAXZaQs4Gy7SfNxDJYms5un67PsbjTz0QpKbaq4EeVOA7daPx8AT25+NvNTyX604sdScDKRUArPqZTqB1V9GR1eNNSnFHRzlgKUAitW73DaRd/p/vnD87NY+WjKtbpwkd05OiUk8Ih6Aa0DNMKhQopCBIDXUk3ZwXVDDwNdlZW9zqBNDhbC5oU4ac4dc/MjWqoLshiXA5veDnqZNGMeuhu57DuieW0Iajqu48rAjWiNoEsUrX+m3ml3N3hjbkltsbq4Y7Tip7rLBAIcRHkbgtz2Ef29QgJZJsf0WPwwZtuX7I+SfV+yB9K1kJqL1ahZ4EB1dgbMxTJg2WmlzuGXHaRFHQr8DtCfw4su0yXPI8BTJg4AOjTXO4WrwdXhivksYbOq2dBUWe3bpvYpc82xs0r+EhHhmJ3oRKu4w13qlo+xys3XS/Pi8GajSHGiYxV7bDVwK8q+2dvM1IIsB0jaEQSv2y2BZOwE2pGW4eNZoIU4ocAB9qLciGLzTcD2D4FxJ3CDp0Ph8F2Q4b/SvPPUrNcIJSVYoUx0o0soRKXNvICeQbc6E8CXUHN+lktzy4zeYdUDKycDRjiOIDuCUWHB3ILRtLrh1aI0tIvDHV0DQLtYaCyvhFz00r6MoNisEqUSV7S211hPq8Oqf4lTzD00rIpTQqmRs6qRalPTuMuaxKt3SqtrfSn3FKhRNhBhELiBlt2D1chrq9UKiWTcCoZXNYrms0L7uupuf3GpOxntz7I2WGJFSzbqEkGRq5YRBWXegv/0e8Rf9r14d3czkBleRqeouQajBYNHg8X2c6kE88WeOzSjWau6DalHzzFfN26qeMLrllBldHS+yOF0h9ErJXp9PmMFTjWRaMI+KgcRxHoqtN0LrhynrSYwhnljwhEoMFfIsR7WA+GWvR3CNs/VUYmjGdLBkKf6HTAQYQDiTtDdCru36v2hsBdBcZ3FBgCgYy7NMJfFtBpegSwwsXoggfii4udnBNCVaM4dVgAm93J2lmDQaLDe4L3BulIftSXlLDtbmpvKFrWV0RkvhiY2ng252CilUJukuTEy6iy1A/USZRsnSnQUdCItpRMGRzFvO/GGcnGU8eKOUgdm7ITIWp9vfwRVieSG5OaTGSY3z3TTQul/EMStUBToU+39ylTJDjSuNVAQxWcCAgb3SKFUY6FsAcmJ5KDB5sMIsrK245dQhn5WEfS6q7fsMKnrB9Y1onlT3DaFlrOXklksQS03q8wndjYU1M1Kb5aEGbBswcylngBRo8YsIChqtGy0XJrHfAVopZkaN6rGmWxFpQvMzYi0TIYKkrcFcwdmgALwzkQcQKBQSQ8unt0riN09m6OwQEGPzJT/pJfk6O8KJBB5dIxvi6dTfRO06ZNHkhBBdmGobrRu4qkBNKNIgbW63eWpm/TnXpGGz/PLqhMmVtHstNKMjgabSl1TKAm5TB6Wu5cBqDekUW/4SR0MeQVnPdKaLFr1O6pHt7TPWm25qZZlUQwtkyVx0ZhJLcvEyc2dyd3Fqlp+Hl2eS6kTosvJDJQ5Vgl8MGduKqZWEPpC8rPSk6MX3xeaA5z+Yuz+2nbqM3zK5uf2RmgghTbARQqEgNMti08l2gQiozyNoHJ1bvb3CPrLJ0w1WVlx2GSw0eENoJYzSs7IZXIvo7MkUju4K+qOe3TSAJa6n+7FYYm0qURLFm1RsHd1SgR6NZbN2o5t0S9nH4x14rSA03y0wrkpmqrmc3YLgbUoOtefSko1/6yikJnQB8DIWstmumeYmwOjFXc4JysMRSDTZSKVWr3qqwux0tI+qoVOKtGn0vnk9IzCAhNv9uqfg1vIVxBBl7bG6mjOssGnGkF9NLepsOTkOU9MZfRYJocNhHcz79nmQ+bABJqBSE4bc1/G3BXL6iRQzWeniFhn6568iYPFZgHyQi/BF90ntOmpK6dpKH5tHVeaSqnOW+t8PVKaYqmmeZ9FJvXByq7DszvNzBPdxcrSsJVWEsympmE+XTo3ZQ7L6mOp9uKj0zMyihsNxt+7+F85ivo8Cq0mAlOhnLXu0EwZJSXkPCGXEV2ZUA+uko5YC9llqlTPtcAnwM6m1Rs+x+JGFzVyK8qtKogKtuQuyQwpm2fMSnmneE3dydwVBS4CdcKeaP9KG1GWOrKHLg66y8lLLw4kq03S7NNkF6PjOgua1d0OFFyzBIGkS3XkAZpy3y2fYzmloZxcyhm05NlLNbO5uCt+wtOGX1EEnTeOahQ1lFSgU0EZBZyyS0rMefKUR+QyupREmjVTLW3kS3ZIgludpdLOznLKm3xKfSkp1Je7E+FOAyKFjgquyeqqxtnMJzdPjXlsqZbZ/er8enXcdk/mfnabVzVIRyjJ2Zn4WEsBnKq22k9NF3osZfn88xwfhEsDU4Ejtbl9i6BeGuYp9SrC2awcJadj38zHJJ2cOSGXWrD62vby9wj6K6+GlPVqCMGJkJyQy4RUJqR89k2Z3Et2mpMQOCJcIikBYGoj0NGlHKZNPqRdSsculykU+OSIFG5VqaAXOCczP5l4KAVHK6ABeeGsajSTlfA815m5HZnTccjp2OWSQiGdYTPZRg5kn8UD6VOLmIeS/bEBtLhBSPYi2LTpVBsQ1C5/qT9tPgVad+ms/vd9SePjZhrfbad34+346DKdfUoTUs4o2b0UdzO/voTyO0B/pdUQr6shkotLIpkJJnHmiTmPnsoZfT458+gMyWGhqTHrHL4eSyiAn8FyKF16GG+m6XGT0mHIw+lcYO6cFUUAfKItHXKpNaUXL3Nn7oDBzCtN4I7RLZ9jng59TochNYAaxRGTmqhxiKc6oT9K8eTm+5zLg6d87kobU0oYkkrRutASWemE2pQZproiQkVTHZp7YfHRrLz1dH67G388vjr/eHp1fjA5n3A6T57HgpIcJVUi9XJCzn/v4v8uqyElOzPJLJCckMqIKZ8x5oNv8sYt9y5aHTYqjz23EcXpI1D2Lvnt+X764fRq3L59HDcP+16OlnHrAQJFkKpImqPXZIaxenVaoXsSu9gW0y2rlzGUfO5KOvYpHbucx1i8iNfRozENScMhpaAZ7ER8Mit7ydNhk/I5FjdxjVksa+hwhpi7dyIwdx/dMFqxwvpOi6irzoIqptuXfH63G08/3Jy/O745/mByfHA5nnw8JqRT9nJylKkKw73A3X9P8b+6qNncUeqECUwZTAJJyXOamPTskx7R6d5Fo0NgYEcXqyuKfpHg0fcm6e20Hb8/vjm/+e5tP7w6dOHubccbjbIRZURAJFnEvXNhFHEpgMGXVeCktuwFJa3+8lNoG5ihcql0qJjX+5ziZQomx1I4FrOklo59LQXGWCrrKz4zBsEmF820Qi9TMEt9cQc0FgmcAszJAkdyywdN47vt+O7dq9N3xzfHH1z3ex/3Z0yHVN1CTu42Oiz5leTud4D+mhfqzOGFbslpo7uNhWUs0JiQdUTSE87yYDsRgC7AAFcAmJyW2mM2lH9rqn89vjnd9Y+x/+9T7G7O3XCTZumcINZxJiPFm8LdCj2fYxkfNykd+zSvBFuu/qDVAqXdE6yze2pXdafVt0ksj7EADkvB8jkWS8EsNxNc0HNd3eAM8AbsYkW8Ul0TtK/rrTC4j2bpsEnnt7vx+9Pr4/fTZv/WdH/ww+Po02NC2Ve/JTsDnj+XffevCaBzLDXWszUTYGeHHQ0eCkyKGxMTT64UCukbFKMPNFWABfDRWSanedV2+DvzaZOGcHP49nT7/b7rbs4xbP47cMhCJblDQCPAGbgolkoKlg5DOr/djcfzJk+lK8vpbMmMWu1xRItIzFW13+b9ltWatnTefW/77mLu1YABdCN9AWTdkxerStVS1fLilfk3h01Spv0mHd7dnL8/vjl+b7p/Z/54wviYkB/N897d1m4hhi+ojQ9fBDRXqnvAJrgcUWV3dBgKDBkFExLE6y5b9s56agjVhAylDve93mGkC4S96bg9vgk33TFu/3wKYZjCXfeDUKsEFINUtVCs+0KiLnMknKZYTmmTx9IVdyJIJuAapKyU+I3MbaXALOuoV6JkMWOwUiNoW7VyAFAnNGZSnBrrJeV5N4p9HWv6ZJZOfRkfNtMPp9en7893xx9NDwec9meM+4S8N5STo4xfYvT8giIo5j24AvgIGJuBtRm9Wgp6AZngcBY3JGbrPJYAFbnchW8DF3VC+M59Gkx1s/8nHcJZw5+SSihyow91efhViLMYuQqUpV4w7rPGmLTLU/GmMZ0PbKmU9n4iZlDWga24hGJt7l+F0dV4YTZhsMWlTp3aZZFgdZs0FqEW0WhEL8pOBAb3M8r0uJnm5ug708Nbl/3Rz/vR0yF5PtUrDjY97eB/B+jfJ4pWPhKsRtYsVqCWUWrl506DSWFB9uwJyQKDKkTmXfq2dEd6KAeT9CMgXRq0f/wX7TRp04dih0eIA3IfgFj5Sd6G0B9OXRljgQP6mGVucNBm9vPdFy/iOYsxqUkwasmqXVLEIvOfgzQviouzeRurGjVmjdsxxtspcKsBUar8Ds0171TK+LhJx+9vz/99+Pb434dvD9+b7h/9dDjhfJyQTo48Okr6HGwUv/YIukxA3NFAWtxAgzfqBS4G1QKT7AWZxTOKBS8hQkWhohQRyKyFhHgHdZFoeo7nW+rDv9aT1021tMMjALjcaoSQ3GnQb2O/4wPCkLQ/HLvSJkazsddsUVPGUCwFL0VcSyFQt0WxrC7XSIonFinaZY2bKXS35xhf507edB13GhjqHpMfreCcU3oM6fjd7fndX18f/vz4z/u/mO6/N93v/XQ4+3RMyOe6A19tvL+UJbkvFqAr22+4W5kvGjqJ7KDRVWFBarRkqao2syq/CAGu7upKl7qdDpuQePSY1IQCpZxeN5vtC3J2/uAoHXijgZGCO40SyeF2iv3xVGyUUtJMNcWSz7GkY5+T9gknFCa1ZgjRzPGr8Fmqh6jPOlO3aggRhkmH+2PXvZl6/aeu5+vYcSsKB3C04gfLvi/p9MP9ef/n14c/Pvzb/o/H149/KWH/1o+HA07HEdPZPE/mTSr7CS28f0sRdA3S6nNFZvNEwtVhwaFKKgXS6tW6jNOM5gPBwNopo8AEKFb9DkJiu1aP05tZ1VFtH018l9+6fht73LZ5/a1GbiR4CiaTmyYzTJP56VzyKeRpP2Ttk0gccj53uU6JTKSVD/PCHlk9nSQUAR0as8TdGOPr0ukful6+iT3vQmCk+OTmhzoWPf24G/d/eXX849t/3f+vd//++J8lPP7V7PHBD/uTj8epRU+grKLnl/lDb+L/64v7orlcOVzfOfXmymjtKBKNoAlo0naApZk9PD2sVIlWdWvi5pJ7L6VzZPE4usMFaiPESzUb1XlDszmB9KJ1kU5VOtMYxhmMy0OWX7f32HypqXXpYUja3YwxvLZOvo29vImd3IXIQRQg/FyK/5Cn/J/p9PC/v9n/5c///vD/++H/+e5/puHt/7b49nt/9/bBD+9OOL/LPj2a5zo98sVK8XeAfgKQLgeM/WJG0O7Os5AsAikC8bayznY8TFq/tFxBdBAG9YK2rls6z3ljVoKFY5XcMRfXdPZZLb+crtW6I8ROhB2FQUSQ6qqmiXvRmWpqjnSNnC+VF6U6Q5817lKUV6GT1yHyViMHUQLwkxX/ISf783je//H+8PZ//fPD//eH/8fD/zi9evsfJb77q+/fvcP+3QHnd5OnB8N0APK5jTYNX/CP8KV+4at0b+4G0qeF5nRmJ8cCnjJkq5CpQIrAIBAhXFhd8+ppFhiA3EKvwgyeEWw635Qx9+WYhvKv0ya/2Q9p+/gwDPfHvrs5R9m6NuMGaeojIohggHMjIseiopVsT6eu5HPMZurugM5q/s0U+ttT1FivhMyfg0Igu9lo5m9zKn8aT8c/bg4Pf/xm/7/f/dvhP4/f7v9s4fCDT4dHP85z96Mjnd3rhl2tg760TfivBKDPQQqgTjINyNmACc6RlEkhWV2glGDwqPCIa097GMxzA6lBvRg9kTZl2unhX8sxbdLjdDP94eGHaXf/2Pf3x66/PcXu5hzjzRR5GyK3otRqWgtzeFEvU7Dp0Kfj/mZ8GG/SOffFXE1YOIRJb4+P3U0W0y5rP51MrF0qbNY49i5P9ufpfPzjcHj3H394/NN3//b4H+/+/fFPJey/Kzw8+OF48vNxQjoWL2ebSXlYwae6vvV7in/pUhJma9B5ibOQLACNFAhElRoV0iskKjQIRbjUpbxopwAvXtN9gtjktCkPdp5u7JQ3eRr7bIdY7Fhn8Z7FmJOzZEd2w2hme8vjY52RH3+4G787fnP+/vTm/MPp9fnt+W56nG7SOQ/FXLz3LHGYNO7GqDsLMqjC3P0x5wrOzeHdf/zh8T//8u8P/+PH/+Pxf6btwx9LePge+8dHHB5OGB8m5EdDemxXOlZHEL5ofH4dAF0B1ZfrLMsdWDooopAYqENAGAK0D9SoUK201FVFu0TVAvEC8Qz65Cxn13KetuU03eRTHso09QUnLZjULQf3RPPRzU6Sp8OQxnfb6fTDzfjD4fX5u+M35++Pr88/ps30aDGdSiw5DyYEe5102x9jf3OOcZciAwWjmX2fx9N/Dsd3//GH/Z/+8u+P//8f/4/H/znePvyxxMe/+vnhne8fD35+mJAeiqdHRzk4yhmw1RGEL/tHwFf04zJxssaBM7sXMVhyeoIjCVkU6gHKaqiE2XBulQ8vdam7eoF4Au1sUo60/DhJesh9ehhvp/20S9+kH9Ob/Y+pv990cTsGCSaW1Kb9kI6Hm+lxvJn20y7tLaa9S6r36Ktj2TZt8jkPZZHxHQ4ZIdOT2/TXeH780+vDf//XP+//17v/++N/nG9rare0f/DD4ejn/YS0zygHawe4GjFfvgJsfn0AfUlDWj0drNSNDxaBWKAiIDBApZ13b0dWfeV6400+D7h7Ka6WSBvJciLzyZmPvs3HNORD2qbH8SbdnR66m+4YoiYFgFMa8rvxbtpPu3RKmzw6y9QcKRxkJi2VYFOp4EzHPk+PQwopWT73Zf9f98cf//JtJeNP9/s/W9j/1fzwzg/7A877EVNTLKW9ez55NQHOF2Lefwfo571xtwRFA2ACmkI8QNkhSqhmiFIddIuXdrDBLy9uc2FwNxjNxZOrTFSbSBud5SzMx+Or/DDepNvu/upySLZgx7TJD+NNOrmU7PTZwUt4OSmeLfgpD2V4HNI8WZr2Q378r1fHPz782/5Ph28P/216/N709IjH4wnnw+jTPiHvi6e91fuao6PkalD7dUTPrxyg19VpOyaLwArOgdRIVwBSACSozQ4lFZSXk/MGXyarBnfzpTa1yWgnStm7pG15HTbn+9BL0ShZHPRUgp1dy9mZczuUu/YsBYBkwQ7TNvVvxzGPdf3jcNxN/3X4w+k/H//l+N8WTj+ang8+nkefTpPnU0bZF9jeL6n9Su/5NUTPrxygMwlfvUEEogGqEVEHatjRQkePACSBPgGFENCJytEY/LJZijqm8tnG0OqwVT272kgvRzIPcO0p2plKRBRZXE3ouelRsfKeIYBi6mPuy+N0k8zF9VwklWjvxtvpr4dvTv+Vu+OPJuPROWXk2WHl6NXP/+hup+rvb19Vav+NRFAhKaKUEKAxInQ9YrejdbdiXU/vCMjktFM1IyEhpW2KWKtL2wnGi617g66buxeoJ9BG13KiS3SXSJcIiNDJdcHR3PdCjZ5IgIxg2U/bVFx8P+2SO3HOfX5Im/Sj6fjWZDy6pOJeCGaBTEI503kCcAJ8ql4k8xEu/6pewfD1JfM2aqcIIUqEGBC6yND3jJstw+aGebinDRtaT0Am0jqXLCZkO/AOV9SUfA3SSzSt1+kcbubC3Dp9BRncRQmq+xIp558VzgBKwWzf5J482tFiJhwF9LOzHEzywSWdnMkcpqRHj9Yhp4hpFPAMYAI8zacLga8Nnl8RQLk6NlQXdlSEMShj3yFuBnS7DYbdLW17L7Z5LWXYxfNAOMfSWVdCEnHStPVUa5C6z2Z011eXnbUjsfprJwuEue7stdtNzdu5Rc16Nsclgpzcy0jXOF89AlAcNoE2OS23Jb+OTgVARC8o+ezjpJD5bKR9SUcRfnMAXYzka4xqlwxUhTEq+35At92wv91yuLthvL2TvHstZftmeLe57Q+90GTMXenHW5W0rZ/uCqQBBaWdY1yPV9eHbOuCZfPbdEMVLvHqQONyxIkCWnBnIKnuJTS7yGa0uxSRSkcPSKCrOTRAPHmfA05JIJl18dgux7jwO0A/86hJIqgwhshuGNDvthxub7G9v8Xu/pWUu9dSbl53h82bzdvhrn/sVYpMpbM+TBpOhTLeVI9Cm1dEBJNXk9xZyucXIZNfuew3D12/HGMl13rAxTOfTBDU8ziU2tGzRVhnAKSjy4amm+q/n7NzVIcfPZTgkglWK7F2ZPNr7SLCFwzMemeQJCAiVaCpgV3s0fUb9Nsth/sdN29usXvzjeD1N1Lu3mi+ebN5u3mzebu52zx2EopYVtvUw7KiUiin+3YmCdVkFCyEInuloBrt5Gs16gqFvpIHvNhRO+iE011goHmNpCKsR2+3tHBDi7e0cCMmQfJ0LlGKwTt6JiV71XkavmJwfnEA5YU+qg6ZnNN5UEGvHbu4Qd/vuNnusLm74eb1LeM391K+eS3lzR+k3H2z+WH7evN2c7971/f3p067pF7E43GM/cOoUZIos+jxG4qBIiBNkjgwUlgqSFsn75cQeoUTd79gd6WNXu6Lsp3zZJgv4NF1U+/Zx3ux7pXk7tXwELfxBAB8N97K/nxnWhuippQ3/4wuZ/92AXqpM5fFzLlDD8IYA/u4Qd/tOAw32G7vuLu9Z3x1L/b6junNrdj9vZS7N5sfb7/Z/rh9Pbwb+vtjN9wfe+3rWLK7OZewmTT+kDRIliCFevxWtAQK6j0FdckTyAx1c1iNpTWSLpcTXihBVmr+etwWYIBLoEuHeuR2W6NlvKd1r4eH/s3mbXfXP8ZeJxurOQTjeGsEqrN9dVrxrzyAft4AvaTyJRAJKQJIEGgUdn3kMGwxDLfcbu95s3vF7c03Uu7fSHp1L/bqVtLdrjve3HTHzV3/sPlm83Yz3B+7/vbc3EQmpTgti4fNFOajsVGzBCmih28Y8sBowgMgZ7R5OmBV7TQjxX2W6q3eSZWJrUdt681QmMQKTO1b1JzBedc/dq+Hd92bzdv+fvPQxe2oANL5cXN6HG+g8OJAMZjZF3iU66sB6AqYC41YA49ovYSlnbAbOvbbHTa7O+5uXvPu5luJd/8k6e5bKXdv4vnurn+82XXH3RDO/Sacu1137Da3x767PXVxdw5xOwbdWkAk1QviZq+hTyKxqMQsUerR2e7wjfTTLjyaTAeXKvogS2oTokLUkAZZQlqlmZyBvqTwGZAbWtjSw1Zy2MZjuOkO8a7fx7v+sbvdPfb93TF2uzFIKChToBfReMiYV+4vbwbH7xH00zVAUlM5FPUebKg9hHbCOER2uw36m1tub1/z7v5fJNz/q6a7f5Zy9+32h5tXw7vdTXfcDOHc9WGKISYNQwrdzTnG7RjCkIL2RTloXdcQwDei3ZBUu7eqXRbtivTfjboJZ92dXo/vznfxMffp5JLPznq8AdWULBNW6kVOPL2CN8B1IxZ29HirU7zt9/G228fb/hBvun3cDsfY3dSI3t2cQ9xOQWIWL1Km/ZDHh40Ii8wX7f36GALxexf/DwVmS+VUQGoPgXrqnZSOCENg3PbodlsOd7fc3X0j8dU/a64AvfnrzZvN2+1dvx+GeIqhz0FCUYlZQ581bKYQhqQasyC2g1jtVrv0gPei7Irs4jvRLksYptB9P4bbx3339nw3Poy36TBt0zFt8tlCmSV0yVlyu4FQv4E67hxouqWH2+4Y7/rH7tXw0L0e3vW7m33X3x277uYc424McTuGsMmBg2g76OB+TMmyBommSte6Ou2B9XULBDOrppCXFZbfAfr32s5cRU0GQroGzIGUgZCe0EEZhoi47RF3G/Q3Owz397T711LuXm/e3r4e3u3u+4dhM5xiGFKo7nJFNBbRLtcU3u6/L8vHte2qq8QdMK8SbzYnjZsxdDfn2L89dHcP7/rTflc94NMmHdOmnPOQz7kvU+lKKsFtOX3k7HSSTRjDrjuEVl/2N/eP/eb1vh9eH/r+7tjpLSN3GjiooIvVocdR95GQXR5zEC1RWDoFNgpsBbJRyEhIAcRJaXfgsfbR+R2gv35nzjmV9xWYuiFkS+iG1EEhQ0Doe8ShY7fpGHc9ZTswDQN82ISxH8IY+zAF7YrWK3HXD6pdvJG8Xe2wVtaxWi2iI9BTdKMqNyWEu4c4vDp00+Mm7fZDutsPKR37PJ36fEybfEpDHktnqcRi1UwPKkWiJBnCqLvuGHfbQxxeHfrNm30/vN734Rv28qrveKs1aoY6a3Bzx+TmUjLPphKKSrAYNW+j5JvI7i5Q9+qaSXW6isMm0nM9fOM2+wb8Llj+NYC5dOZzjSk9KAOhO4FuSd1pjRiDQruI0HWMXYfQB4Re4ZHtSFVbQKrucb7S3bGZdM0VXHOcYzFDdnpygzoZ2pXZSJFe4Bsod6K80yhHy3F/LNv9Y07HLqVjl9Opz7fHLudzVxYz2uZSJ/W2Z43amyl0N+fQ3x274f7Uy7ex4+vQyX2I3KqyqzUwHEAycxqQ6oEvCRYk5r7XaTuE8W5Im9c9unPHaNEDjUHhpgZvILVG4M9A9S+aJQ2fuM6UVmfW6R60J2VD6FYYdgLZKWQToINC+wANgRo7hBCgUcDgIBPoZ7Ccc1/OuS+bEE1zdo+lSTfpl7MhzeSriDEZm2FsdZpTpwcno9SbmoHERpQGx51FH734uZicLHfHU/HDPpeTlnzucj5Hs6zF2hlFsl5SXkqLYVLdWZD7GHkfotyGwK1qqzmFZD1vY1VO4EJSKeyooU/d0J23u+54vzvfHTbspt6jRwRJjMFhURxnRxlBJsBaNK0PfmCq9TtA3wtMBkLCqgEaCN0QYaOUnUK3K3B2gRoDVOsjaKAqQWZgkac9jjdpG09hCKN201JrOpXuJli8OOv9IgIoiuKA1atKSjI6UbyemNfaPNUbmAoWD8jBfTTz0YqfrciplHBKBeexHuSab2jONzjruIjoRNhH4VYCNxWU9Ubncsxk0SQtH68kO9GwSV3cnbe33f72jvbqhjZtOFjvZybk6LDOiCOcZ8BGgBNoqRo1zkD9MlN/+IfymaTWOlPinM4bMAdCN0LdKGSr0CFANwHaKzUGSAjQoM1GMVQHOwGA7G4nl/Lonra5m4bzrfZaR5Y3U/WHFxV6MTcRZ9Z5Lbl4vVAD8QwRqxY2kcLohuKy3MMMlOUkjbszi3v2gKne7PTR6knt5PO2iF/rRNqVTKUwtjp3qYHpyI6rcze2OhTbU8Mwxe7m3N8Pj9v7MN7el3DeYkgbdkieg9O75Byc+egoZ3c7AzbW2vTLBmr4R8zMLw2QBIJdBaYOhGxaA7SpdaYOoT66AO0qODUopPp7QhaPT4Vwvoh9di17ZxpctB9vtQ+Tdjppp3UqZMGExYxSD3w3F0eueW5KIoMZIs07EomG6GS74dlufJNUeqjOpOhc0FOY5HIFztavevUya1tCPov8a0RuJ26SG6Xp94pX44f5xmeNoNJq2O6uf9y8Gh62d2mzu7Fu2vtgE7O4WyTZZ8hgXk7Oclpd9hgBm0B/kvq/DKD+qsYNXGkf20NJmQn2QaBboe7IcCsIt8J4GxhuI/Q2Iuw6hG2HsIkMQ2SIHUKMUI0IGqCiVNEGTl7yIwltcktWuZpHRikSJEvPJFSjqMss0rwINdk+gVdbRPWq2NN67JUKYU3T7dMToDdhJ4hqRbYo/RikOd61R5T5c6Hdma/udvX8Nhc7ZsN8unu5H8/55ry1K3YjbDr0+XjcpXfnV3lvkk+gZRT6wpEykIwgIyA1VpMBlR2ppmnkhVxbaQX4tQN0BUxp7/1Aamz85YYIOzLsiHCrjHfKcBsqMG9iBebQMQ6RsesQY6yNkAaoKis4BSIKmZVAWOktiXZTlWwXYCAMUiRIkU4avVRXequMSNqhA6ldPtVFxNpLSkIhSw05v5BzxHWfGcdV8Glfx/zeaQ9yee8suuVFvzzjwueY5o6njkot0uKcLR2GfH7cprfHN+ODh3S0WDIKHC6tfIqCKpAiZQZq+46oHwdUfl0p/mkDNBPtNZ3PRLsOhG4J3Splo9BN5TS1XzdACg2hpXKp6ZyzNK29wrNR8eyuCdTg48ndzpDyaEgRKnHa1Vm6ZAmS5SYshL03MoqsHvEr9WY7oz3fxQzGRv/UFaS5FtUaSa8P4a0EzOtXmQRkkZBcLQA8ORHhl/q1Lc4HCDoBelEdkobNpJt41k08xyEPYSBij5iLFwAUpYTsJShKl1H6AhkKbSjQzZPU32pUps+9Rg2/UgP0BJjrOlM3rQHaBiy1Zn+pMSXoHCnRUngz9ZKrNL40vKtVissrbDCfXO0I5uDCYC7hfMcgud4vkkyplI8oZv1c5SolmLSrmBUerRbkVM/cwAEWugc6lPVMolx9CZfXcpmQr+64tzHEFShfAOlloOZLCYGIxgCIape1r7W1dHDtCI0eQ8ficLDW6EUVJQYvMS9AtaFQXgSq12bqA0D9tDxq+DsBs58boNqZ10eljGSOmEGXzlxaA1RPxrwUMV8G5jpDuhcUG6E4uFANkwLU4xtqS/Wquc7X+6SkYx6B1hq1tEMgqNOles3YaploQCFRKkDn1F/P1T75oliTKOjzf6//UnE1PVh6yLZORJJNa8JriTMEseoFRK1er2NhoDPAGaASoOJ0iAtbQ6nlGVClLygNqLIx16dAnV5upmYe9dMANfzCCdAKmJxT+TwB2gh0IGdQLhGzD9CoSzqXOWKKsDY+VdQrfB8wn38duApB1STB/AwphCSaV9nb4Zv6okoW3RfRLmkYktbas1CCCbXyoLM2yM3B4u65unx5Xf8gxOkNpBQnhA5Zl+DtSlLt1Dl3//VL5CVW+hqobd+OK2VS22Zxh0Na90/nOv7OL4RCxVEntQKhukl5L1DXqV825nJy2tL1v59H/TRADb+MaBcFGBdgLnPzhcucKaN+TueB2rjMCsyl4eFl/WEu0q9rTLwUNV9C6BJJk7tVpY+ABhIBcviWKsYgmRqzarc8aselrRO/dO3rT9rugjehp8EvQEV1eKq1ZgWsXy2bPvV25LOT7Yupw4sReal12wTMzWVpz9pfu2Qdg4uREAjFi9hPAlWHgrKOqM94VIdnfKLJVPj5RPsigZsFHdvWAG2Uug11Zr5EzNmHs9WY2jhMubAu7cTBAs51V/miTe2L4FyVgm4wJBcDJBNoZ5U6cP8HEkZhNeiajbrqr6FLtBMSLaJS63J7s8wDjBWp1rp6aTITbam5Htx8Ulc++RLNL36PL3N160arQiOZW1JLFi1ZqNK+Rb1fAVnfGU6p90hVSDcYZYmoooWqihLVSywvRtQ1UMvZwRHwTzaZCh8vHF4mQLMEblOBGXZK2bY6cyHZLxFTNdSoSWnAvK4xl3TO62DDF6sMfkQhsvjOu9gRktuUBkAP7P/ZFxT4fGqG3vkIgSu0jTiDkB0F89RnFaJRFZjVzUGXkyNYszY+30ayJSq2l7ZNimzVWi0U1JqSWvTz7snNz1bSqcunNJQx95ZAs6vWipeCAbViEBAGEaG5wlhcpMBEIRqomlHC+4EqJ6ecHHaagerwdTNV5mJouV/1jwDo+4XDMjdAm9aZ74S6VUjrzpdUHkOli/TSAOkamM868zlq8idwyI+83c0XQOpgPQjoA+zxX1FcLVmwN/XOu1k6WHd77oKUevZQQXZSGxRe+EjP3q4vLZfv2gWclf/SrKFCvag9J3W3+WPb1GkNUCFaDXx5GipJ734uJR9jToc+7adtOuY+T85S2p3Qa/4K/gSoJOgCulBcYNRroIb8QkTNLfW7lydAlXkylVsztaw//z20qOEn5uaBkKZo1yWdV2DqLqxqzcCwAqZcUUbvA+bzzvx6ouE/E5wzPF8CKcBcL3gQJcOmh38p59yVUxryP52+y/kch03a28b3HkMhBqlfdGh+EFUqb6z+i5ijYUt47dBIJZ/a329Q0G1lfm+Oy7RoXght37Y667a81AbLwNrxWfF9yePjLp3fbaeH8XY6OvPo8/Xm2dFk+c755L3aqNz6TRB0fxmougaqovQZMtNTg3vZXIBqV6KUS406R9NfD6jhBWA+6c61KdrndH7hM2udGda00SLkUAov/u/CJ8B8MWryF0TMl0F6aYVnO293MQezQbwYbHLaePimnNImH9I2/1P6Lr8+/1Asq+3wgKiZHimIM+85jzedDWzV/cvdIWiXtGHzSKvtImNpiertuxo5Z5D64kUGKukGIR1OCFCvfPhjyeVHm04/7M4/Hl+N78a7ae+SxhpBrdlBYo6YuAZqWwNhW4sWEt5uMX8QqEG9REXpCkqfUYZCPRvKYG7DNeFflll//Q6r/XjzrvJfIYJSLlTyomjvVkqjDRG263TeDhGs03lYU0ZzVy5YF1Tv4zNfBid+NUNwLE7JyWmG2gUn0kfQTuNNOaRNnveM/vkciyW1XXnnvU0uOTp2GloAqsCqpOtVszNDwmtOxXxau5VnF+V+wTJvh108Hry0M6EAUNp8YJ+zfZ+m43e35+N3d+fvjt+cf0yb8VB97kt54hjGFVHQ/p8tzfs8Y20boc0m6v0RtVlWhuwlhusadVMgJ3M5OsvJwBMWoNZmqqZ9L/Pf9zfN4m+7/3dHis7yN6nqoh0Zboh4K4x3gXoXEW47hF2HuO0Yho6hiwjds5l5o5DkIuhYk+5c9QN/Z3C+/2SyQVBPzHB2kitjHmxMu5JLND3RkGhI5ppOjmSGZOaTGyavsrrsfvG4vfIuA2UlSVlMyOeFDK+GIPPs3ZYqztkGBJjMfV+yf5/H05/748Mfvz386bt/2//x4d/2/5W701vTqVqKu9kLrot8QVm2yl28fi2W7EZyDizSXkOqkCoUFUiQJi6vs35GUGqmrXN+adXEqlD72yf7ehf/zxuB9oQOwrAlw41cBB13cSXoiIibyNBHhBgRQgOnKFWVIq1TX6KnPAHm0yE1/07g9A+UCL78Qy+gZafPdoejxTKOd+Wch2LnaHLQuspxQsaxFBxTwbkUn6zJ65YAUZvv6rd4GWuuS2p/4dHqVxSvzdBkPtec/n2aTv+1PT3+55vjX//yL4//8e7f938ab4/fWzjvIblG0A9FJz5lrri+CXVhTpbSa1aQkAs3/RSoVAFDE6TMQG0ghTb/M/J6lOt/y2schN1dS+0LfST1fOB61WJdZzZOc6kzySfp/Gmd+RLRzr9fhHzW0V8n/Etdak635jWfQBuN5eQs+/0f0sN4O/1wenX+9vGH05vN22FZEd5OIQyTap9VuyTamaIXQQ+tAyGB02QuI2uAmgNXs2ya6cN5pDrN0dmsjFLyqSvjw/10+Ovd6bvv/nD4j3f/t/2fT6+PP5ie985af7qtitj37cZfP+uXN+7C1T6pUZ1toEWhu4FeJ1OViSko86y/1ai5y5AuUboC6eG5czK6F63R1Orsy72tR//8dB8C+zcAlGAn4CDLgpqslUZhrTRa15pcRUo8Uxp93ATo1xZL+0ccqsHKncNcrICevV7vOLvkvW/Sj+nfxr8evjm/Gh66+4eH7r5/7G77/WywEON2DDNgwzAFbqgcRNiJeufC2KZTTY3v3mim5ObJzUerXfrRSj53JR27lA5DHh820+mHm/G/D9+e/vz4z8c/nV4f/rvo6Z3JOrX7h751/kRMbf3bVY16ef3q8yJgJS0oLm5LVG01qiokiOcgkJjALpOxOANIWTq2OiV2rPxTfxZAO8RvWQEaBewE0imkq2cDNTaSXRufSaHMgo6nRPuvBMz3EU2/6DTiT11TaoazBne6gZ4hPlXyLz/S0o+u000ewu3h2242X7h/fIx3/WN3Mxy67uYc4q6BdTaF6JPKAJ3PdHto4hI0XnOqy3d+8pJOfU6HPk37IY2PmzS+204/nF6N3x/rdbq/ps3pe9PxXbPdSY5iML/+Lj6KJl/TT1gT+gttevWCETOFK3AaWUWnTikQW9I/RcRzHW/UEYcUB43LF2WoZ5+9NU4/i4IKA7rXs/pQyCCQ2HjMsETLn07n71Ma/cyIyZ8dD//Wk18Xu8T2cjhtvix3cpaDe35H0Q193J1vw27cxVv5Q7zr991tv4+3D/t40x3irjtWS53NFOJm0jCkVgok1a6IqAkAtyxeplDyeVPSqcvp0Odpv0mn/XZ6e76bfjzdjz+eX40/Ttvxren0zmTau6RjA2epd5yuwLkC1EtP2FMRMpfC+UnHf6EcrqdSF6CS1jp+cbnUqaRU9paympu5cZFgW9v499X9qo8DaM941wqkWgzXongB5po2mtM5XoiaHw9Mvic6Ei8LQPg3RdOPmztdzGfrBLK4OZkgNoF2cuQDXR4hOtCnjWnYlVdhd74PW8lxF49hG0/LYxPPYRNOoWupX/s8AxRWxMoYLJ+7PJ6HfJi26XHapYfxNj2Mt9O7NEwPptOjSzo487GZldW0/jI4nw5b/AXd9Pve+XyRlsIHgcplHaAuJsiyv9L2t2o+N3fPQs/mXs8z0mrF8DNSfejRDZgZ+roOUAF5PZr8CH3mx0RMfgRQ3xdD/xag8gOt1DVM5/EOMa/ksWSQk9cziEd36cj0QNHeXHuqDrnT4XyvAy0MUnQI1XBsCOe6Aq1JghSpe3HiU+nKOffllIZ8TJt8SJt8cOaDSzq45JMzn1zK5CwJsHr4fUnrzp/oMfmTioXraPsEpA3kXB3ovU79szKQYBX9rPz4W7lZZ2YNnKyXSDLgpdWjH53qQ4cYZ7CRuAKkrBdonggS8LPJdr4HZvwbGh/+RB/P97wdfhrsvhwmqC9GpS2XqMqTo4Rqryh1Q63eR+pKkC532vFGerh2y82kardTTJCByr2inVN0KWNzyxvBUi/ezcBcWy0+IyZ+ccX+IZA++bzrRgrr8SlnISwhWMlFKtPrZrCc4BNpE7zecyLbqOMjvc7CbICAF1L28wnQyy/636fb/lAk9Z/VIvG9Lyg/6vuYwWqXqOq5Ev2NPwTV63lDJSS0nyOcinozSS5KDi+A5wpCz14prjkHlnYg7Mlh2xfrSb44P/rZIH3yHD//LDMVtU79XKKsEdDlw6q8yaO5mcGz01P2MBl9pHud29MKfBmH/gRA68XfF755fuBJea6C49+QeP1X2cP/+SIT/vy2yteNhi0F30oE403z7BWU0iaf6yfRHG5Nz2nt941NeApKX6fWD9fRv7ih/MAH8mknwHYAYvmyBDJLEOiERHd1mBuDmVtfYJtCG+k2sq6VJIDF65XIn/yigzQDhKdm/x9+MT9GPPy3A+KXRt2/t0/musD358uc7UYNr/fNnU8+Yl4HvcSQlxqHD9WTfrWV9cuXH593/8+jtF+AOtenM1AbSEGtqikJcDV4KLCuwHqDbRNsJMvoLiPgCeRHRdHA1WTqIyH2C8h2/sMA5f/Y4P3k/re/D7QvSVg+grj86cTkv8I3s071fM+o+IV/v4qmmHsWKIVWJ08aqaG49gWWCm3jrmfCzvX4LZPP8poPfOlrud1L36g/beL4Gd39+IXNAZ9wgn/PI21/iy6Sv8ab8iMop5/xF/Npe0sHV0cjpJ4apzC4SGluhMWtKyiDQQey9O4SAQ9tz8E+hFBZHTt9aWWbq9/xQws07/+2Pj4281eLoe/lgj9Xh5e/r9jw502aPpKHuQBk1vnK0jRKM3lTaYuSnUJ7WYzipAPaSPTKQOAFgH7EV/wehPIFaK5/x1+t4/94IDt+//E3W7H/klfh2imuugYtO/ozSKtqTnqSXVNDKS4HIX4+QPGB+MgPfsn84Mf+mkDlL0i5q3/8M0b1mv+8+qr/PqD7uOjKF0LU5WTu+nDZIiyRJiyJCulI7dpGcKynSp+RHNcA/WWvEH9t4PwjY8IHa4DPLktfbh3+oq/5Z4KUH/PvnubJ9ZblSmO6Amn13RJIFLAntKu+CtS6IvPhFD/7tX2xCZK/bqn51dWpfOYe8fFgXi84fszHcdnTJ2V2sFxFUZlX1ykRkMvK0Xs+v6zemD+jnf2oP9XU2//IF5zvFZ38THDys3mvfdqvgT8vEnMF6aVhYhMeVf1ou3dVN4Wbd2lV4r/4N8gT0PmvUBJee8T+g55zfh0h0D+vM5Q/+w3EdXCamyW5yDbbbhNjdadhWCR67+nm5eXi/Gc/k/6xqcT/IfHzbwaI/9Y7+pdeS36ksOe6LuVlEa/tNLUFzYiV+/MHUvzL8PGf/2b/aFLaP++6zz+TNPtekvnz9JR/quS4pPkrkEJUql3nEkVxfXv0o2gm/7lE8MeA9HeW8m+PYl/Q03ix5K+6YpEmim9e+qE1SdroU76XZvrlUfRFk7afiKT+S2PA58Fe/R7liZ81b6pi+5lyIuY0Pz+wTvHP+FD5wHfr+Gjy7RmF7F9gWv0aOvBPxi7z2VTpKgdwleqlLdgFLBZLsxf1B5okfxkv67sWH2S9fz7O/Oe+wP9oqvZjRAZ88s7/1aL836PO/LmTqF/jzchlslRXRFjvD+gcQbG6PvLS8yfvf+Gf2mB8sLv3n2h/+Zk2Sx8ClP+07vC6TvwVKTV/AVCfDZPGD4iH+IE/39xmpEZRNB+wn2yS/CPpJf+JamD2EvxlUfRjpx2/dkr+iSnJB6O2v/DPP4JJ+xufp1/FGpE/KQv2F6VFXM5MUNGuVH9IMCJPTpj+rSncX0pRP0+L+A+TnPrf4fP5r0QrvagZ+FvfxKuP/YeA9MnfwZmQ5+X7bODkB2km/5jm5uMYbP/iGp9f+EL5r1gb8wOU0mffzL0E0o94QnilL/lAqfV/AfyD8hMqokqmAAAAAElFTkSuQmCC" x="37.0" y="36.0" width="470.0" height="470.0" preserveAspectRatio="none" opacity=".30"/>
+<g class="art">
+<g fill="rgb(52,13,111)"><text x="37.0" y="56.5">                                   N  iv  vs %8%</text><text x="37.0" y="67.7">                                S                 L</text><text x="37.0" y="78.9">                            N                          vv</text><text x="37.0" y="90.1">                        %</text><text x="37.0" y="101.3">                      N                                       S</text><text x="37.0" y="112.5">                      v                                        s</text><text x="37.0" y="123.7">                   w</text><text x="37.0" y="134.8">                  8+                                             s</text><text x="37.0" y="146.0">                  v</text><text x="37.0" y="157.2">                                                                  w</text><text x="37.0" y="168.4">                 _                                                e</text><text x="37.0" y="179.6">                 _</text><text x="37.0" y="190.8">                 _                                               _</text><text x="37.0" y="202.0">                 +                                              _L</text><text x="37.0" y="213.2">                  _                                             %</text><text x="37.0" y="224.4">                  |</text><text x="37.0" y="235.6">                    "</text><text x="37.0" y="246.8">                    %</text><text x="37.0" y="257.9">                      v                                     i</text><text x="37.0" y="269.1">                       "                                    _</text><text x="37.0" y="280.3">                       __                                  i</text><text x="37.0" y="291.5">                          _                               i</text><text x="37.0" y="302.7">                          wv                             +</text><text x="37.0" y="313.9">                                                        !</text><text x="37.0" y="325.1">                                                       e</text><text x="37.0" y="369.8">                     gs_</text><text x="37.0" y="381.0">                 %w|                                   Lw</text><text x="37.0" y="392.2">              wL                                          _vg</text><text x="37.0" y="403.4">          8e|                                                 !ig</text><text x="37.0" y="414.6">       S+                                                         "vw</text><text x="37.0" y="425.8">   %e+                                                                "e8</text><text x="37.0" y="437.0">                                                                          |%</text><text x="37.0" y="448.2">                                                                           !w</text><text x="37.0" y="459.4">                                                                            Ls</text><text x="37.0" y="470.6">                                                                             v8</text><text x="37.0" y="481.8">                                                                              L</text><text x="37.0" y="492.9">                                                                              |g</text><text x="37.0" y="504.1">                                                                               |</text></g>
+<g fill="rgb(74,14,128)"><text x="37.0" y="56.5">                                    gS  vs  g   $</text><text x="37.0" y="67.7">                                 eL|            Li w8$</text><text x="37.0" y="78.9">                             Sv|                    _ii  8$</text><text x="37.0" y="90.1">                         wv!__                           L+iSN</text><text x="37.0" y="101.3">                       w__                                   S $</text><text x="37.0" y="112.5">                     $ _                                      s $</text><text x="37.0" y="123.7">                    e_                                          e%</text><text x="37.0" y="134.8">                    +                                             @</text><text x="37.0" y="146.0">                 % !                                            vs</text><text x="37.0" y="157.2">                %s_                                              s</text><text x="37.0" y="168.4">                % _                                              s</text><text x="37.0" y="179.6">                $ _                                              L</text><text x="37.0" y="190.8">                  _                                             _ w</text><text x="37.0" y="202.0">                $ _                                           !_</text><text x="37.0" y="213.2">                   _                                        "L%$</text><text x="37.0" y="224.4">                   __                                       _</text><text x="37.0" y="235.6">                     _</text><text x="37.0" y="246.8">                     S_                                     g</text><text x="37.0" y="257.9">                       _</text><text x="37.0" y="269.1">                      N _                                  |</text><text x="37.0" y="280.3">                         _</text><text x="37.0" y="291.5">                           _</text><text x="37.0" y="302.7">                            |!</text><text x="37.0" y="313.9">                             Ns                        |</text><text x="37.0" y="325.1">                                                      L</text><text x="37.0" y="347.5">                            N</text><text x="37.0" y="358.7">                         8</text><text x="37.0" y="381.0">                    _!</text><text x="37.0" y="392.2">                __                                      "|</text><text x="37.0" y="403.4">             |!                                             ++</text><text x="37.0" y="414.6">         +"                                                     "!</text><text x="37.0" y="425.8">      +!                                                            !!</text><text x="37.0" y="437.0">eL+_                                                                    ++</text><text x="37.0" y="448.2">                                                                          +</text><text x="37.0" y="481.8">                                                                             !</text><text x="37.0" y="504.1">                                                                              +</text></g>
+<g fill="rgb(97,16,136)"><text x="37.0" y="67.7">                              @N    iL!"v vLiwwe</text><text x="37.0" y="78.9">                                sisvi+L+!ss_s++L|Lii</text><text x="37.0" y="90.1">                              !i+ssiLL||!_|i"i|"Ls__!iesS</text><text x="37.0" y="101.3">                          ii!|ev_!v  is|" _|S i+ ___!_!  _v s</text><text x="37.0" y="112.5">                        L L+|svivis+|++vi iv s+_"__"sL|v svese</text><text x="37.0" y="123.7">                      |L_Ls|_!i|vevv_"        LLv+eis_|LLL vLvss</text><text x="37.0" y="134.8">                     __"!i+""+s_evev s             sv+si|iv  Lese</text><text x="37.0" y="146.0">                    ___+!L|__"vi |sL ii                e|ves|vvv  %</text><text x="37.0" y="157.2">                   _"_i i|Li _e|isL|                   !|iv sL_++</text><text x="37.0" y="168.4">                   _!|  !_|!s+s eeL                      v ivv v|</text><text x="37.0" y="179.6">                   "_"L+s_i_   |i                         _+|"L!_ 8</text><text x="37.0" y="190.8">                   _L+|L|L+"_L"+s                          _"___</text><text x="37.0" y="202.0">                   ____"!  __!+!                           _Lv</text><text x="37.0" y="213.2">                 $  _____L"__|</text><text x="37.0" y="224.4">                     ____+___</text><text x="37.0" y="235.6">                   W  ___  L_                               w</text><text x="37.0" y="246.8">                       +    _</text><text x="37.0" y="257.9">                            +</text><text x="37.0" y="269.1">                             _</text><text x="37.0" y="280.3">                              "                           L</text><text x="37.0" y="291.5">                         g  ____</text><text x="37.0" y="302.7">                              |__!</text><text x="37.0" y="313.9">                               |___"+</text><text x="37.0" y="325.1">                              s i___""_        v</text><text x="37.0" y="336.3">                                  |_____!vL         vv8</text><text x="37.0" y="347.5">                             v      +"____|"!_"_++__</text><text x="37.0" y="358.7">                                        |"__!_</text><text x="37.0" y="381.0">                      ||"</text><text x="37.0" y="392.2">                  "!__+++!!                            "</text><text x="37.0" y="403.4">               __!|!+!!|++|+                           +||+|</text><text x="37.0" y="414.6">           ++!""+||!!!!++|+L|+                         |v+L+|!+"</text><text x="37.0" y="425.8">        ""_"""!+|+++!!!"!!"_"+|L|                     !L|v+|+||L+!!"</text><text x="37.0" y="437.0">    ____"!+++||+|||+!!+!!!"_"!+!LLLvL               ||L|LL||LvLLL+!+|+++</text><text x="37.0" y="448.2">"+"!+!""!|+|||L|+||L||!++!!!+++!!+LL|||LL+!"   !"||||||vvvvvvvvLL|++|++L||</text><text x="37.0" y="459.4">|LL+!||+|||+||LL|||L||!!++!!+||L|+|+++|++++|||||++|+L|L|vvLL|LvvLL+!v+!L||L|</text><text x="37.0" y="470.6">||||v!|vLL||L|LL||||||||++"+++L!|+L+++||+||!++|++|||LL|vvv|Lv|vvv|L+v|"LL|L+|</text><text x="37.0" y="481.8">"!||+v_vvvLivL+LvL++L|+|+!!+|||++|||++|||+++||+|+L|||||LL|LL||v|LLv|vv+Lv+!|v</text><text x="37.0" y="492.9">""!++|L_LLLvv|++vL++LLL!L++|||+|++LL|||||LL+|+||||LL|L+LLLLLL|Lvvvvv|iL+L|_Li_</text><text x="37.0" y="504.1">_!!!"_LL_!+ivL!"LvL+|||+++||++L|L||||||L|LL||||||||L|L||L|LLL|||LvvvLLiLLi+_v_</text></g>
+<g fill="rgb(123,19,132)"><text x="37.0" y="67.7">                                         e</text><text x="37.0" y="101.3">                                   Se    s   s  e      ew  w</text><text x="37.0" y="112.5">                         S               e  S           S</text><text x="37.0" y="123.7">                                      eS     e            w</text><text x="37.0" y="134.8">                                    e S          ee        ge</text><text x="37.0" y="146.0">                                S   e              vSes</text><text x="37.0" y="157.2">                       s    e       sv                     e</text><text x="37.0" y="168.4">                      se       S                        s S   w</text><text x="37.0" y="179.6">                            Ses  e</text><text x="37.0" y="190.8">                                 iv i+"           _L|     _</text><text x="37.0" y="202.0">                         es     L</text><text x="37.0" y="213.2">                              i                            L</text><text x="37.0" y="224.4">                             v</text><text x="37.0" y="235.6">                         Ls</text><text x="37.0" y="257.9">                        v    v                             i</text><text x="37.0" y="269.1">                         L    v</text><text x="37.0" y="280.3">                          !  "</text><text x="37.0" y="291.5">                                v                        s</text><text x="37.0" y="302.7">                                                        |</text><text x="37.0" y="325.1">                               S       s     sg      s</text><text x="37.0" y="336.3">                              e  i         sse     i</text><text x="37.0" y="347.5">                                   v</text><text x="37.0" y="358.7">                                     LL|      "!</text><text x="37.0" y="369.8">                        s</text><text x="37.0" y="381.0">                                                      v</text><text x="37.0" y="403.4">                            L</text><text x="37.0" y="414.6">                              +</text><text x="37.0" y="425.8">                                 L</text><text x="37.0" y="437.0">                                     v</text><text x="37.0" y="448.2">                                            ++|</text></g>
+<g fill="rgb(148,21,128)"><text x="37.0" y="123.7">                                            S</text><text x="37.0" y="146.0">                                       e</text><text x="37.0" y="157.2">                                      e               i</text><text x="37.0" y="179.6">                                  e                      i</text><text x="37.0" y="190.8">                                   i</text><text x="37.0" y="202.0">                                                          i</text><text x="37.0" y="213.2">                                  L  "</text><text x="37.0" y="235.6">                             s</text><text x="37.0" y="246.8">                        S ss s</text><text x="37.0" y="257.9">                          sL</text><text x="37.0" y="269.1">                            i</text><text x="37.0" y="280.3">                               v</text><text x="37.0" y="302.7">                                  s</text><text x="37.0" y="313.9">                                               i</text><text x="37.0" y="325.1">                                        S</text><text x="37.0" y="336.3">                                S             e</text><text x="37.0" y="347.5">                                  i</text><text x="37.0" y="358.7">                          8         v           !</text><text x="37.0" y="381.0">                         i</text><text x="37.0" y="414.6">                                                      v</text><text x="37.0" y="425.8">                                                     s</text><text x="37.0" y="437.0">                                      S            i</text></g>
+<g fill="rgb(173,33,106)"><text x="37.0" y="123.7">                                        g w</text><text x="37.0" y="134.8">                                       w      gSw</text><text x="37.0" y="157.2">                                                     S</text><text x="37.0" y="168.4">                                   ge                  i</text><text x="37.0" y="190.8">                                       s             e</text><text x="37.0" y="202.0">                                        !"</text><text x="37.0" y="213.2">                                   i</text><text x="37.0" y="246.8">                         w                                 S</text><text x="37.0" y="257.9">                         g</text><text x="37.0" y="291.5">                                       +i</text><text x="37.0" y="313.9">                                     e       ie</text><text x="37.0" y="325.1">                                                w   e</text><text x="37.0" y="336.3">                               w               wS e</text><text x="37.0" y="347.5">                                                    s</text><text x="37.0" y="358.7">                                                 v</text><text x="37.0" y="369.8">                                         iii</text></g>
+<g fill="rgb(199,46,83)"><text x="37.0" y="123.7">                                         8 g</text><text x="37.0" y="134.8">                                             S</text><text x="37.0" y="146.0">                                                  g</text><text x="37.0" y="157.2">                                       w%      ww  wS</text><text x="37.0" y="168.4">                                     e         8ww</text><text x="37.0" y="179.6">                                                   ggS</text><text x="37.0" y="190.8">                                                 s    wSS</text><text x="37.0" y="202.0">                                 w     i          vve</text><text x="37.0" y="213.2">                               S    s |               w</text><text x="37.0" y="224.4">                              e</text><text x="37.0" y="257.9">                              e</text><text x="37.0" y="269.1">                          ew</text><text x="37.0" y="280.3">                           ew             L          L</text><text x="37.0" y="291.5">                                 e                8</text><text x="37.0" y="302.7">                                   S                   e</text><text x="37.0" y="313.9">                                                i     S</text><text x="37.0" y="325.1">                                         g</text><text x="37.0" y="336.3">                                                 g</text><text x="37.0" y="347.5">                              S  e</text><text x="37.0" y="358.7">                           S s</text><text x="37.0" y="369.8">                                        s   s</text><text x="37.0" y="392.2">                           g                          S</text><text x="37.0" y="403.4">                             g                        S</text><text x="37.0" y="414.6">                               S</text><text x="37.0" y="425.8">                                  w</text><text x="37.0" y="437.0">                                       g          g</text></g>
+<g fill="rgb(219,64,63)"><text x="37.0" y="146.0">                                        8N       g</text><text x="37.0" y="157.2">                                         $$   %  wS</text><text x="37.0" y="168.4">                                                  8gSgg</text><text x="37.0" y="179.6">                                   gwS            8   g g</text><text x="37.0" y="190.8">                                        e                8</text><text x="37.0" y="202.0">                                  8ww S   L     vi   Sew8</text><text x="37.0" y="213.2">                                ww                 se  8%%g</text><text x="37.0" y="224.4">                                %%gg8                      w</text><text x="37.0" y="235.6">                                                           g</text><text x="37.0" y="246.8">                              S   $$</text><text x="37.0" y="280.3">                                S        v ii</text><text x="37.0" y="291.5">                                         s g8  % %</text><text x="37.0" y="302.7">                                            N</text><text x="37.0" y="313.9">                                      g     e</text><text x="37.0" y="325.1">                                          w g</text><text x="37.0" y="347.5">                                                     8</text><text x="37.0" y="358.7">                            S      e              e</text><text x="37.0" y="369.8">                                      ss     e       8</text><text x="37.0" y="381.0">                          N</text></g>
+<g fill="rgb(231,88,46)"><text x="37.0" y="134.8">                                        8$NN%</text><text x="37.0" y="146.0">                                             N  8</text><text x="37.0" y="157.2">                                           $</text><text x="37.0" y="168.4">                                      g%8$</text><text x="37.0" y="179.6">                                      w          8     8</text><text x="37.0" y="202.0">                                     g                   %</text><text x="37.0" y="213.2">                                          L          8</text><text x="37.0" y="224.4">                               8     %                  $N</text><text x="37.0" y="235.6">                              w%N$$                      $</text><text x="37.0" y="246.8">                                N$  WW</text><text x="37.0" y="257.9">                                  N         +!</text><text x="37.0" y="269.1">                               S            i             g</text><text x="37.0" y="280.3">                                        e       ss</text><text x="37.0" y="291.5">                                      S   e  %8 N  g</text><text x="37.0" y="302.7">                                             $</text><text x="37.0" y="313.9">                                       g         S   w</text><text x="37.0" y="325.1">                                           g     w</text><text x="37.0" y="347.5">                               ww</text><text x="37.0" y="358.7">                              S                      %</text><text x="37.0" y="369.8">                         888g</text><text x="37.0" y="381.0">                           N%g</text><text x="37.0" y="392.2">                            $%8</text><text x="37.0" y="437.0">                                        %        8</text></g>
+<g fill="rgb(243,113,29)"><text x="37.0" y="146.0">                                          $$$ %N</text><text x="37.0" y="157.2">                                            W$</text><text x="37.0" y="179.6">                                       g        8</text><text x="37.0" y="190.8">                                                e</text><text x="37.0" y="213.2">                                       8 S i    gSw</text><text x="37.0" y="224.4">                                                %     N$  %</text><text x="37.0" y="235.6">                                   WWW$         N       $</text><text x="37.0" y="246.8">                               %</text><text x="37.0" y="257.9">                                 N $W$   8i      g</text><text x="37.0" y="269.1">                                     WW    e</text><text x="37.0" y="280.3">                                      wg     e    s i S  w</text><text x="37.0" y="302.7">                                           %    NN</text><text x="37.0" y="313.9">                                        g</text><text x="37.0" y="358.7">                                  w</text><text x="37.0" y="369.8">                             SS      e</text><text x="37.0" y="381.0">                              S8%                    8</text><text x="37.0" y="392.2">                               %NN</text><text x="37.0" y="403.4">                              N</text><text x="37.0" y="414.6">                                %</text><text x="37.0" y="425.8">                                   %</text><text x="37.0" y="437.0">                                         N</text></g>
+<g fill="rgb(247,143,35)"><text x="37.0" y="168.4">                                          W   $</text><text x="37.0" y="179.6">                                        %</text><text x="37.0" y="190.8">                                         w</text><text x="37.0" y="202.0">                                               w</text><text x="37.0" y="213.2">                                        w</text><text x="37.0" y="224.4">                                      %   wSg  N % %%N</text><text x="37.0" y="235.6">                                       $     %   N  $$$W  N</text><text x="37.0" y="246.8">                                      W          %       $N</text><text x="37.0" y="257.9">                               8%     W    e      $       %</text><text x="37.0" y="269.1">                                    $  $        SS    $$</text><text x="37.0" y="280.3">                                     N         w</text><text x="37.0" y="291.5">                                  w                 gw  g</text><text x="37.0" y="302.7">                                    g         $$  N   w</text><text x="37.0" y="313.9">                                           w        g</text><text x="37.0" y="325.1">                                                   %</text><text x="37.0" y="358.7">                               gg                  8N</text><text x="37.0" y="369.8">                               g8   S         S     N</text><text x="37.0" y="381.0">                                 %</text><text x="37.0" y="392.2">                                  N</text><text x="37.0" y="403.4">                               NN$$$N</text><text x="37.0" y="414.6">                                 W     N</text><text x="37.0" y="425.8">                                       N$$     N$%  N</text><text x="37.0" y="437.0">                                          $    $$</text></g>
+<g fill="rgb(251,173,43)"><text x="37.0" y="168.4">                                           WW</text><text x="37.0" y="179.6">                                         $</text><text x="37.0" y="190.8">                                          wg   8</text><text x="37.0" y="202.0">                                           e</text><text x="37.0" y="213.2">                                               %</text><text x="37.0" y="224.4">                                       N 8   NW   N</text><text x="37.0" y="235.6">                                        $Ng   $$</text><text x="37.0" y="246.8">                                                N      W$</text><text x="37.0" y="257.9">                                        W       w  W  WW$</text><text x="37.0" y="269.1">                                  NN    $Ng  e    8%N$</text><text x="37.0" y="280.3">                                 g  N         8    w   $%</text><text x="37.0" y="291.5">                                                      S</text><text x="37.0" y="302.7">                                         %%</text><text x="37.0" y="313.9">                                         g</text><text x="37.0" y="358.7">                                 g</text><text x="37.0" y="369.8">                                 8                 $</text><text x="37.0" y="381.0">                                  %      wwwwww    $N</text><text x="37.0" y="392.2">                                   N%        N%N%%$N%8</text><text x="37.0" y="403.4">                                     NNN$N%       %%</text><text x="37.0" y="414.6">                                  $$ NN $$$   %%$$   N</text><text x="37.0" y="425.8">                                      $   $N%%%   N</text><text x="37.0" y="437.0">                                           W</text></g>
+<g fill="rgb(253,201,67)"><text x="37.0" y="168.4">                                             W</text><text x="37.0" y="179.6">                                               $</text><text x="37.0" y="190.8">                                            N$$</text><text x="37.0" y="213.2">                                            %</text><text x="37.0" y="224.4">                                        %</text><text x="37.0" y="235.6">                                           Sg     WW</text><text x="37.0" y="246.8">                                       W Ne g8        W</text><text x="37.0" y="257.9">                                       W      S     WW   N</text><text x="37.0" y="269.1">                                g%             e        N</text><text x="37.0" y="291.5">                                   gN$                 N</text><text x="37.0" y="302.7">                                     % 8%          N</text><text x="37.0" y="313.9">                                          8       g</text><text x="37.0" y="325.1">                                                  N</text><text x="37.0" y="369.8">                                  gg           ggg8</text><text x="37.0" y="381.0">                                   88 ggg      g 8N</text><text x="37.0" y="392.2">                                     N%%%%8%%</text><text x="37.0" y="403.4">                                           8%%%%%$  N8</text><text x="37.0" y="414.6">                                    $      N%%    8N$</text><text x="37.0" y="425.8">                                    $W             W</text><text x="37.0" y="437.0">                                            WW@</text></g>
+<g fill="rgb(254,225,118)"><text x="37.0" y="179.6">                                          W</text><text x="37.0" y="202.0">                                            g N</text><text x="37.0" y="246.8">                                        W  w      $</text><text x="37.0" y="257.9">                                               g</text><text x="37.0" y="269.1">                                                         %</text><text x="37.0" y="280.3">                                  8%</text><text x="37.0" y="302.7">                                      %             %</text><text x="37.0" y="313.9">                                                   %</text><text x="37.0" y="381.0">                                     8          8</text></g>
+<g fill="rgb(255,244,188)"><text x="37.0" y="179.6">                                           W@@@</text><text x="37.0" y="202.0">                                             N</text><text x="37.0" y="213.2">                                             W@</text><text x="37.0" y="246.8">                                              $W   @@W</text><text x="37.0" y="269.1">                                              8</text><text x="37.0" y="302.7">                                                     %</text></g>
 </g>
-<g class="art" fill="#58a6ff" fill-opacity="0.31">
-<text x="30" y="56.7">                                      ;</text>
-<text x="30" y="67.9">                               "     " "_    "" "</text>
-<text x="30" y="79.1">                           _  _ "       _           _     "</text>
-<text x="30" y="90.3">                            _    _     "   "   "    _ _</text>
-<text x="30" y="101.5">                           ;       ; ;"       "       "</text>
-<text x="30" y="112.7">                           " _                   "</text>
-<text x="30" y="123.8">                   ";   ; ;  ;                       "</text>
-<text x="30" y="135.0">                   _   "; "                                 "</text>
-<text x="30" y="146.2">                         "                             _"      ";</text>
-<text x="30" y="157.4">                    _   _ "_ ;</text>
-<text x="30" y="168.6">                       "       "                           ""  _</text>
-<text x="30" y="179.8">                     ;  " "    "     "              "</text>
-<text x="30" y="191.0">                 "      _    ;;_        _                     _</text>
-<text x="30" y="213.4">                         ;</text>
-<text x="30" y="235.8">                       ;</text>
-<text x="30" y="246.9">                            "               "_</text>
-<text x="30" y="269.3">                          ;</text>
-<text x="30" y="280.5">                                       "</text>
-<text x="30" y="291.7">                             _   _                       "</text>
-<text x="30" y="302.9">                               "    "                   _</text>
-<text x="30" y="325.3">                                        ;</text>
-<text x="30" y="336.5">                                    "     " ;   ""</text>
-<text x="30" y="347.7">                                            _  __</text>
-<text x="30" y="370.0">                   " _ "</text>
-<text x="30" y="381.2">                   ;  ;";;_</text>
-<text x="30" y="392.4">            ""_  _ _;__ """;                           " ";"";_</text>
-<text x="30" y="403.6">        ;" ;";  ;  ;___"; "  ;"                        " " " ;;  _</text>
-<text x="30" y="414.8">     ;"_      ;"";"";__ __   "                        _   ; ""  "__ _;</text>
-<text x="30" y="426.0">  ;      _"";""" " "__;;;_   _;_                       "   "     "_""";";;"</text>
-<text x="30" y="437.2"> ; _;_  _"""    """  ";";;;_;";_;"       "; "" ; ""  "            "" ;;   "_</text>
-<text x="30" y="448.4">"  ;_  "   " "    "  ";_"";_"   """";"";";;" "" ;"""              "_ "_ "  "</text>
-<text x="30" y="459.6">"    _       "   "   "" "; """ _ " ;"""";""_;; "" "          "     "       "</text>
-<text x="30" y="470.8"> ;" "         "   ;"  ;"";;; """"  ""; """;" """"                     ;  ;_  ;</text>
-<text x="30" y="481.9">  _;""        ;;  ""   _ ;" " "";"         ;";""""    "      "      "  "</text>
-<text x="30" y="493.1"> ___     _;   ;    " """;""";"   """  "      " "              "           ;   ;</text>
+<text class="sp" x="305.6" y="146.0" style="animation-duration:6.94s;animation-delay:-4.63s">8</text>
+<text class="sp" x="288.8" y="157.2" style="animation-duration:5.73s;animation-delay:-1.05s">$</text>
+<text class="sp" x="294.4" y="168.4" style="animation-duration:6.31s;animation-delay:-3.29s">$</text>
+<text class="sp" x="322.4" y="168.4" style="animation-duration:3.67s;animation-delay:-3.62s">g</text>
+<text class="sp" x="339.1" y="168.4" style="animation-duration:4.22s;animation-delay:-2.36s">g</text>
+<text class="sp" x="232.8" y="179.6" style="animation-duration:4.09s;animation-delay:-1.05s">g</text>
+<text class="sp" x="238.4" y="179.6" style="animation-duration:6.86s;animation-delay:-6.60s">w</text>
+<text class="sp" x="255.2" y="179.6" style="animation-duration:4.42s;animation-delay:-2.32s">g</text>
+<text class="sp" x="305.6" y="179.6" style="animation-duration:3.66s;animation-delay:-2.42s">8</text>
+<text class="sp" x="339.1" y="179.6" style="animation-duration:3.54s;animation-delay:-1.50s">g</text>
+<text class="sp" x="300.0" y="190.8" style="animation-duration:4.44s;animation-delay:-1.45s">8</text>
+<text class="sp" x="355.9" y="190.8" style="animation-duration:6.39s;animation-delay:-5.25s">8</text>
+<text class="sp" x="227.2" y="202.0" style="animation-duration:7.51s;animation-delay:-0.68s">8</text>
+<text class="sp" x="288.8" y="202.0" style="animation-duration:5.35s;animation-delay:-0.80s">N</text>
+<text class="sp" x="350.3" y="202.0" style="animation-duration:2.71s;animation-delay:-1.81s">8</text>
+<text class="sp" x="272.0" y="213.2" style="animation-duration:3.71s;animation-delay:-1.70s">L</text>
+<text class="sp" x="277.6" y="213.2" style="animation-duration:4.04s;animation-delay:-2.98s">i</text>
+<text class="sp" x="311.2" y="213.2" style="animation-duration:7.14s;animation-delay:-5.53s">S</text>
+<text class="sp" x="333.5" y="213.2" style="animation-duration:5.63s;animation-delay:-5.57s">8</text>
+<text class="sp" x="210.5" y="224.4" style="animation-duration:3.60s;animation-delay:-3.45s">8</text>
+<text class="sp" x="232.8" y="224.4" style="animation-duration:5.45s;animation-delay:-3.43s">g</text>
+<text class="sp" x="238.4" y="224.4" style="animation-duration:5.14s;animation-delay:-4.85s">8</text>
+<text class="sp" x="244.0" y="224.4" style="animation-duration:2.75s;animation-delay:-0.28s">%</text>
+<text class="sp" x="260.8" y="224.4" style="animation-duration:7.15s;animation-delay:-1.59s">%</text>
+<text class="sp" x="277.6" y="224.4" style="animation-duration:5.13s;animation-delay:-4.44s">S</text>
+<text class="sp" x="316.8" y="224.4" style="animation-duration:4.36s;animation-delay:-0.64s">N</text>
+<text class="sp" x="216.0" y="235.6" style="animation-duration:7.09s;animation-delay:-2.53s">N</text>
+<text class="sp" x="272.0" y="235.6" style="animation-duration:7.60s;animation-delay:-3.50s">g</text>
+<text class="sp" x="305.6" y="235.6" style="animation-duration:4.43s;animation-delay:-2.15s">N</text>
+<text class="sp" x="316.8" y="235.6" style="animation-duration:7.39s;animation-delay:-1.12s">W</text>
+<text class="sp" x="344.7" y="235.6" style="animation-duration:5.19s;animation-delay:-2.38s">W</text>
+<text class="sp" x="355.9" y="235.6" style="animation-duration:2.56s;animation-delay:-1.26s">$</text>
+<text class="sp" x="204.9" y="246.8" style="animation-duration:4.50s;animation-delay:-3.03s">S</text>
+<text class="sp" x="221.6" y="246.8" style="animation-duration:4.36s;animation-delay:-2.13s">$</text>
+<text class="sp" x="249.6" y="246.8" style="animation-duration:7.90s;animation-delay:-4.40s">W</text>
+<text class="sp" x="288.8" y="246.8" style="animation-duration:6.70s;animation-delay:-4.31s">8</text>
+<text class="sp" x="322.4" y="246.8" style="animation-duration:3.81s;animation-delay:-3.23s">@</text>
+<text class="sp" x="328.0" y="246.8" style="animation-duration:3.22s;animation-delay:-2.96s">@</text>
+<text class="sp" x="350.3" y="246.8" style="animation-duration:3.20s;animation-delay:-0.04s">$</text>
+<text class="sp" x="210.5" y="257.9" style="animation-duration:7.08s;animation-delay:-3.45s">8</text>
+<text class="sp" x="249.6" y="257.9" style="animation-duration:3.90s;animation-delay:-1.78s">W</text>
+<text class="sp" x="283.2" y="257.9" style="animation-duration:5.59s;animation-delay:-5.28s">+</text>
+<text class="sp" x="288.8" y="257.9" style="animation-duration:5.05s;animation-delay:-3.30s">!</text>
+<text class="sp" x="300.0" y="257.9" style="animation-duration:5.33s;animation-delay:-0.42s">g</text>
+<text class="sp" x="305.6" y="257.9" style="animation-duration:4.36s;animation-delay:-0.77s">w</text>
+<text class="sp" x="188.1" y="269.1" style="animation-duration:7.40s;animation-delay:-0.89s">w</text>
+<text class="sp" x="216.0" y="269.1" style="animation-duration:4.15s;animation-delay:-0.55s">g</text>
+<text class="sp" x="283.2" y="269.1" style="animation-duration:3.82s;animation-delay:-0.60s">i</text>
+<text class="sp" x="305.6" y="269.1" style="animation-duration:3.39s;animation-delay:-1.22s">S</text>
+<text class="sp" x="221.6" y="280.3" style="animation-duration:3.93s;animation-delay:-0.16s">g</text>
+<text class="sp" x="227.2" y="280.3" style="animation-duration:2.96s;animation-delay:-2.66s">8</text>
+<text class="sp" x="249.6" y="280.3" style="animation-duration:4.44s;animation-delay:-2.58s">w</text>
+<text class="sp" x="266.4" y="280.3" style="animation-duration:2.74s;animation-delay:-0.10s">v</text>
+<text class="sp" x="288.8" y="280.3" style="animation-duration:6.95s;animation-delay:-0.29s">e</text>
+<text class="sp" x="232.8" y="291.5" style="animation-duration:3.10s;animation-delay:-3.03s">g</text>
+<text class="sp" x="272.0" y="291.5" style="animation-duration:5.71s;animation-delay:-0.06s">e</text>
+<text class="sp" x="277.6" y="291.5" style="animation-duration:4.39s;animation-delay:-2.57s">g</text>
+<text class="sp" x="328.0" y="291.5" style="animation-duration:3.08s;animation-delay:-0.03s">g</text>
+<text class="sp" x="255.2" y="302.7" style="animation-duration:6.18s;animation-delay:-0.18s">8</text>
+<text class="sp" x="322.4" y="302.7" style="animation-duration:5.00s;animation-delay:-0.28s">N</text>
+<text class="sp" x="266.4" y="313.9" style="animation-duration:6.47s;animation-delay:-4.92s">g</text>
+<text class="sp" x="272.0" y="313.9" style="animation-duration:4.43s;animation-delay:-2.82s">8</text>
+<text class="sp" x="277.6" y="313.9" style="animation-duration:6.93s;animation-delay:-6.74s">w</text>
+<text class="sp" x="277.6" y="325.1" style="animation-duration:7.53s;animation-delay:-0.44s">g</text>
+<text class="sp" x="216.0" y="358.7" style="animation-duration:6.22s;animation-delay:-5.66s">g</text>
+<text class="sp" x="221.6" y="358.7" style="animation-duration:6.81s;animation-delay:-5.34s">g</text>
+<text class="sp" x="227.2" y="358.7" style="animation-duration:5.88s;animation-delay:-1.83s">w</text>
+<text class="sp" x="182.5" y="369.8" style="animation-duration:7.89s;animation-delay:-1.27s">8</text>
+<text class="sp" x="204.9" y="369.8" style="animation-duration:5.03s;animation-delay:-2.73s">S</text>
+<text class="sp" x="227.2" y="369.8" style="animation-duration:7.90s;animation-delay:-0.02s">g</text>
+<text class="sp" x="182.5" y="381.0" style="animation-duration:6.05s;animation-delay:-1.12s">N</text>
+<text class="sp" x="188.1" y="381.0" style="animation-duration:5.82s;animation-delay:-0.05s">N</text>
+<text class="sp" x="193.7" y="381.0" style="animation-duration:4.65s;animation-delay:-0.84s">%</text>
+<text class="sp" x="244.0" y="381.0" style="animation-duration:2.81s;animation-delay:-2.11s">8</text>
+<text class="sp" x="255.2" y="381.0" style="animation-duration:5.42s;animation-delay:-1.74s">g</text>
+<text class="sp" x="311.2" y="381.0" style="animation-duration:5.05s;animation-delay:-1.40s">8</text>
+<text class="sp" x="322.4" y="381.0" style="animation-duration:5.44s;animation-delay:-2.20s">$</text>
+<text class="sp" x="199.3" y="392.2" style="animation-duration:3.07s;animation-delay:-1.86s">%</text>
+<text class="sp" x="210.5" y="392.2" style="animation-duration:4.82s;animation-delay:-1.78s">%</text>
+<text class="sp" x="216.0" y="392.2" style="animation-duration:5.93s;animation-delay:-2.75s">N</text>
+<text class="sp" x="260.8" y="392.2" style="animation-duration:5.98s;animation-delay:-0.01s">%</text>
+<text class="sp" x="232.8" y="403.4" style="animation-duration:7.86s;animation-delay:-1.68s">$</text>
+<text class="sp" x="238.4" y="403.4" style="animation-duration:5.55s;animation-delay:-4.77s">N</text>
+<text class="sp" x="260.8" y="414.6" style="animation-duration:7.91s;animation-delay:-3.90s">$</text>
+<text class="sp" x="272.0" y="414.6" style="animation-duration:2.88s;animation-delay:-2.85s">$</text>
+<text class="sp" x="316.8" y="414.6" style="animation-duration:5.55s;animation-delay:-3.17s">8</text>
+<text class="sp" x="333.5" y="414.6" style="animation-duration:3.44s;animation-delay:-1.92s">N</text>
+<text class="sp" x="255.2" y="425.8" style="animation-duration:4.89s;animation-delay:-4.22s">N</text>
+<text class="sp" x="260.8" y="425.8" style="animation-duration:5.39s;animation-delay:-5.12s">$</text>
+<text class="sp" x="272.0" y="425.8" style="animation-duration:4.19s;animation-delay:-0.82s">$</text>
+<text class="sp" x="305.6" y="425.8" style="animation-duration:3.42s;animation-delay:-2.70s">$</text>
+<text class="sp" x="305.6" y="437.0" style="animation-duration:3.41s;animation-delay:-3.01s">$</text>
 </g>
-<g class="art" fill="#58a6ff" fill-opacity="0.43">
-<text x="30" y="45.5">                                       +| |</text>
-<text x="30" y="56.7">                                  !" +  |  !    + +</text>
-<text x="30" y="67.9">                              |    |  !        + +      |</text>
-<text x="30" y="79.1">                          |         +!""  !   ! +        +</text>
-<text x="30" y="90.3">                             " +  |                       |</text>
-<text x="30" y="101.5">                      + + + " |     "      |         +    |</text>
-<text x="30" y="112.7">                      !! +     !| ||          !+|     "+++ |!+</text>
-<text x="30" y="123.8">                                 | +                |   !    !</text>
-<text x="30" y="135.0">                  +      +       " !                    "|   +||+</text>
-<text x="30" y="146.2">                          !    !  !!                      |  !</text>
-<text x="30" y="157.4">                     !            +                      |  ++  !</text>
-<text x="30" y="168.6">                      +                                       !  +</text>
-<text x="30" y="179.8">                    + !! +   +    |                +</text>
-<text x="30" y="191.0">                                +         !     |           !+   +</text>
-<text x="30" y="202.2">                         !   !    +   !   +                + +</text>
-<text x="30" y="213.4">                  "          |</text>
-<text x="30" y="224.6">                         + +</text>
-<text x="30" y="246.9">                      +    +</text>
-<text x="30" y="258.1">                         +    |                            "</text>
-<text x="30" y="269.3">                               |         |+          +    +</text>
-<text x="30" y="280.5">                                |</text>
-<text x="30" y="291.7">                           +! !                         "</text>
-<text x="30" y="302.9">                                                       !</text>
-<text x="30" y="314.1">                                                      !</text>
-<text x="30" y="325.3">                                  !      +!         ++</text>
-<text x="30" y="347.7">                                     ++""        |</text>
-<text x="30" y="370.0">                      "                               ++</text>
-<text x="30" y="381.2">               !                                         " |</text>
-<text x="30" y="392.4">                  !    !    !                           "</text>
-<text x="30" y="403.6">                 "!      " !!                         | + ! !      |</text>
-<text x="30" y="414.8">                              !+!+                     +!| !  "!</text>
-<text x="30" y="426.0"> !              " "             !++|!+              "!! ++" +|+!+</text>
-<text x="30" y="437.2">            ""!!   !"             !+!"!!!     "    "! !+| ++ + ++"  !  +!"</text>
-<text x="30" y="448.4"> ++  "" "!" ! +!"" +"        !!!            "  !    +!+! +++!!|+++  +  + !+ +</text>
-<text x="30" y="459.6"> !!!+ !|++!"! ++! !!"  "      + ! !           !  ! !++!+||"!+ +|+!! |! +!!! !+</text>
-<text x="30" y="470.8">   " + +|++ |! !|!  +!      "    !!   !     !    !!!!"!++!++!"+!+++!+  +|  !  +</text>
-<text x="30" y="481.9">      + !++|+!  |+  +++ !  " !    !!""!!!++       !+!+ +++!++ +|||||  + +! +  !</text>
-<text x="30" y="493.1">      ++    +!  +|+ !         !"+   !! +!!!"! ! !!!!"+!!!!+!+" !+|||++ !+      !</text>
-</g>
-<g class="art" fill="#58a6ff" fill-opacity="0.54">
-<text x="30" y="45.5">                                      L  i v</text>
-<text x="30" y="56.7">                                    L     | L    L</text>
-<text x="30" y="67.9">                                vLv L    vi v     LL LL|</text>
-<text x="30" y="79.1">                               L vvL       L L   v   L v   L</text>
-<text x="30" y="90.3">                          LL         Lv  v   vL             v</text>
-<text x="30" y="101.5">                             v L|Li    |LiL  v      v  | v  vivv</text>
-<text x="30" y="112.7">                          v   L                    Lv         vv</text>
-<text x="30" y="123.8">                         L    v      v             v  vL L|    i v</text>
-<text x="30" y="135.0">                              |L  v  LL            |  vi  iv     v</text>
-<text x="30" y="146.2">                 v    LvL  L    Lv  v|i               L  L  v    v</text>
-<text x="30" y="157.4">                      i     i v i                      Lv  L   | v</text>
-<text x="30" y="168.6">                        v L   v L                        L</text>
-<text x="30" y="179.8">                                vL LL  vi        i   i</text>
-<text x="30" y="191.0">                          v            L         L||      L</text>
-<text x="30" y="202.2">                              L    Lv      L       v</text>
-<text x="30" y="224.6">                          v  v</text>
-<text x="30" y="235.8">                          vv v</text>
-<text x="30" y="246.9">                        | v  |            L                LL</text>
-<text x="30" y="258.1">                            L              iL</text>
-<text x="30" y="269.3">                                           LL   vvv L      L</text>
-<text x="30" y="280.5">                                        Lv               vL</text>
-<text x="30" y="291.7">                                  v</text>
-<text x="30" y="302.9">                              v              L LL</text>
-<text x="30" y="314.1">                              v L      v     i |     i</text>
-<text x="30" y="325.3">                                 L         vv      L</text>
-<text x="30" y="336.5">                             |    L|                v</text>
-<text x="30" y="347.7">                             v     i|</text>
-<text x="30" y="358.8">                      v v             vvvLLLvi</text>
-<text x="30" y="370.0">                         L</text>
-<text x="30" y="392.4">                                                               L</text>
-<text x="30" y="414.8">                                                     v</text>
-<text x="30" y="426.0">                                                   L</text>
-<text x="30" y="437.2">                                                         |  | |</text>
-<text x="30" y="448.4">                                                        |                    v</text>
-<text x="30" y="470.8">           L                                                         |      |</text>
-<text x="30" y="481.9">                                                                     L      L</text>
-<text x="30" y="493.1">           L                                                          L  L  |</text>
-</g>
-<g class="art" fill="#58a6ff" fill-opacity="0.66">
-<text x="30" y="45.5">                                     s</text>
-<text x="30" y="56.7">                                ei       s   eei</text>
-<text x="30" y="67.9">                             e</text>
-<text x="30" y="79.1">                                                      i s   e</text>
-<text x="30" y="90.3">                       e      s    es       e   i      se  S ee</text>
-<text x="30" y="101.5">                         e                  e           s  i</text>
-<text x="30" y="112.7">                    i            i    ss    si    i       S     s</text>
-<text x="30" y="123.8">                                i s s e      s sSss         s i i</text>
-<text x="30" y="135.0">                                s   i  s            ss</text>
-<text x="30" y="146.2">                            i i                 S e ee     i      e</text>
-<text x="30" y="157.4">                       s       e i  ss          S   s     s   e   i</text>
-<text x="30" y="168.6">                            es   ii  se              e</text>
-<text x="30" y="179.8">                                                s      ee         e</text>
-<text x="30" y="191.0">                         i       e SS s    s        ssiS</text>
-<text x="30" y="202.2">                               e S       s       se s e</text>
-<text x="30" y="213.4">                              s            e               S</text>
-<text x="30" y="224.6">                              S            s</text>
-<text x="30" y="235.8">                     s  s     s           ie               e</text>
-<text x="30" y="246.9">                              i            s  s e</text>
-<text x="30" y="258.1">                          se   e             i ise</text>
-<text x="30" y="269.3">                           ie   s       s    i     S  e</text>
-<text x="30" y="280.5">                                 s    e   s          Se</text>
-<text x="30" y="291.7">                          e        e                   s</text>
-<text x="30" y="302.9">                                     s      s s  s   es</text>
-<text x="30" y="314.1">                               s        e S     e   i  s</text>
-<text x="30" y="325.3">                              ies            ss e i</text>
-<text x="30" y="336.5">                              s  s</text>
-<text x="30" y="347.7">                           ee e   e               i</text>
-<text x="30" y="358.8">                             ss     es        e</text>
-<text x="30" y="370.0">                              e              S</text>
-<text x="30" y="381.2">                                                      e</text>
-<text x="30" y="392.4">           s                                          s</text>
-<text x="30" y="403.6">       e                       s</text>
-<text x="30" y="414.8">    s                             S                                    i</text>
-<text x="30" y="426.0">s                                     s</text>
-<text x="30" y="437.2">                                                                            S</text>
-</g>
-<g class="art" fill="#58a6ff" fill-opacity="0.77">
-<text x="30" y="45.5">                                    w       w g</text>
-<text x="30" y="56.7">                                                   S</text>
-<text x="30" y="67.9">                                                         g</text>
-<text x="30" y="79.1">                         S</text>
-<text x="30" y="112.7">                   S                    S Sw</text>
-<text x="30" y="123.8">                  g                    Sg     w            w</text>
-<text x="30" y="135.0">                                                gww</text>
-<text x="30" y="146.2">                                       S       S S S</text>
-<text x="30" y="157.4">                                   w  w g      g Sgw ww</text>
-<text x="30" y="168.6">                                   wS  w        gggww wgw</text>
-<text x="30" y="179.8">                                         SSS   g      S  g</text>
-<text x="30" y="191.0">                                  g  w      w  S</text>
-<text x="30" y="202.2">                                S      gS       w    g g  w</text>
-<text x="30" y="213.4">                               g  wwg    gS w</text>
-<text x="30" y="224.6">                                          w w              wS</text>
-<text x="30" y="235.8">                         S                  Sg              w</text>
-<text x="30" y="246.9">                         w     g         g     S w</text>
-<text x="30" y="258.1">                                w         w   g   g       S</text>
-<text x="30" y="269.3">                                 wg   Sw      gS         S</text>
-<text x="30" y="280.5">                         w        Sw       wg     gww   w</text>
-<text x="30" y="291.7">                                    w  g              S</text>
-<text x="30" y="302.9">                                      SwSwgS      w w</text>
-<text x="30" y="314.1">                                         w ww w  S</text>
-<text x="30" y="325.3">                                               S w    g</text>
-<text x="30" y="336.5">                               SS                    g</text>
-<text x="30" y="347.7">                          g    SwS                 g</text>
-<text x="30" y="358.8">                     w   gggw  wggwS           wwwg  g</text>
-<text x="30" y="370.0">                  S          w g   gggwwwSSSS Swg    g  S</text>
-<text x="30" y="381.2">              S            w  g                      g      S</text>
-<text x="30" y="392.4">          g                  S                                  w</text>
-<text x="30" y="403.6">                                                  g                 S</text>
-<text x="30" y="414.8">                                                                        g</text>
-<text x="30" y="426.0">                                       S         gw</text>
-<text x="30" y="459.6">                                                                              g</text>
-<text x="30" y="481.9">                                                                               w</text>
-</g>
-<g class="art" fill="#58a6ff" fill-opacity="0.89">
-<text x="30" y="45.5">                                   %         % 8N</text>
-<text x="30" y="56.7">                               N                    g</text>
-<text x="30" y="67.9">                            %</text>
-<text x="30" y="79.1">                        %                                    N</text>
-<text x="30" y="90.3">                      N</text>
-<text x="30" y="112.7">                                         8                       8</text>
-<text x="30" y="123.8">                                         NNN%</text>
-<text x="30" y="135.0">                 %                      g%  N%8%                  %</text>
-<text x="30" y="146.2">                8                       8     8</text>
-<text x="30" y="157.4">                8                      8</text>
-<text x="30" y="168.6">                                        %                         8</text>
-<text x="30" y="179.8">                                            N</text>
-<text x="30" y="191.0">                                             N%         88</text>
-<text x="30" y="202.2">                                            8  8        88    8 8</text>
-<text x="30" y="213.4">                                88   8%%%    % N88%8%%N  N%</text>
-<text x="30" y="224.6">                               8%        %   8  %%        %</text>
-<text x="30" y="235.8">                    8          8N        %      %8        %</text>
-<text x="30" y="246.9">                                8%N               N     N%8</text>
-<text x="30" y="258.1">                      %          8%N     %         8%NNN%8</text>
-<text x="30" y="269.3">                                   %NN                  8</text>
-<text x="30" y="280.5">                                    %        %g8%%     N</text>
-<text x="30" y="291.7">                                     8% 8888%N  NN%%88</text>
-<text x="30" y="302.9">                             %                     8</text>
-<text x="30" y="314.1">                                                  %8</text>
-<text x="30" y="336.5">                            %</text>
-<text x="30" y="347.7">                         g                          N%</text>
-<text x="30" y="358.8">                                                    N</text>
-<text x="30" y="370.0">                 8        %%%   888              gN %</text>
-<text x="30" y="381.2">                             % %%%N%%%%%%8888%%%8% %8</text>
-<text x="30" y="392.4">                              %NN  NN%NNNN888888% %8N8</text>
-<text x="30" y="403.6">                                8    N%%N N%88%% N N %</text>
-<text x="30" y="414.8">   8                               8  N%   N888% %% %</text>
-<text x="30" y="426.0">                                        8%                                 8</text>
-</g>
-<g class="art" fill="#e3f1ff" fill-opacity="1.00">
-<text x="30" y="56.7">                              @                      N</text>
-<text x="30" y="67.9">                                                          $</text>
-<text x="30" y="90.3">                                                               N</text>
-<text x="30" y="101.5">                     $                                          N</text>
-<text x="30" y="123.8">                                                                  @</text>
-<text x="30" y="135.0">                                          NN</text>
-<text x="30" y="146.2">                                         $N$$$</text>
-<text x="30" y="157.4">                                         $$WWW$</text>
-<text x="30" y="168.6">                N                        $WW@@@$</text>
-<text x="30" y="179.8">                                             NN</text>
-<text x="30" y="191.0">                N</text>
-<text x="30" y="202.2">                 $                           W@                N</text>
-<text x="30" y="213.4">                                              W        N$</text>
-<text x="30" y="224.6">                   $             N$$WW$$N     $$  WWN$$$$$</text>
-<text x="30" y="235.8">                                 NN$$$$WW     $W  $@@WWW$N</text>
-<text x="30" y="246.9">                                   $$$WWW          $WWW$</text>
-<text x="30" y="258.1">                                    $$$$$</text>
-<text x="30" y="269.3">                                                       $</text>
-<text x="30" y="280.5">                                     N</text>
-<text x="30" y="291.7">                                              $$</text>
-<text x="30" y="358.8">                                                   N</text>
-<text x="30" y="370.0">                                                   $</text>
-<text x="30" y="381.2">                            $                     N</text>
-<text x="30" y="392.4">                                 $N              N</text>
-<text x="30" y="403.6">                                 $$$N    N      N   N</text>
-<text x="30" y="414.8">                                    $$  N$$     $  W</text>
-<text x="30" y="426.0">                                          N$WWW$$</text>
-</g>
-<g mask="url(#am)"><rect class="wave" x="30" y="24.999999999999996" width="150" height="476" fill="url(#band)"/></g>
-<text class="sp" x="231.4" y="45.5" style="animation-duration:3.73s;animation-delay:-2.18s">w</text>
-<text class="sp" x="237.0" y="45.5" style="animation-duration:7.85s;animation-delay:-2.88s">s</text>
-<text class="sp" x="276.2" y="45.5" style="animation-duration:6.89s;animation-delay:-4.59s">w</text>
-<text class="sp" x="293.0" y="45.5" style="animation-duration:3.96s;animation-delay:-2.04s">8</text>
-<text class="sp" x="298.6" y="45.5" style="animation-duration:5.61s;animation-delay:-1.02s">N</text>
-<text class="sp" x="197.9" y="56.7" style="animation-duration:7.42s;animation-delay:-4.36s">@</text>
-<text class="sp" x="203.5" y="56.7" style="animation-duration:6.25s;animation-delay:-6.23s">N</text>
-<text class="sp" x="237.0" y="56.7" style="animation-duration:6.22s;animation-delay:-3.24s">+</text>
-<text class="sp" x="253.8" y="56.7" style="animation-duration:3.43s;animation-delay:-3.39s">|</text>
-<text class="sp" x="270.6" y="56.7" style="animation-duration:4.01s;animation-delay:-2.25s">!</text>
-<text class="sp" x="276.2" y="56.7" style="animation-duration:3.88s;animation-delay:-0.99s">L</text>
-<text class="sp" x="281.8" y="56.7" style="animation-duration:6.79s;animation-delay:-6.54s">e</text>
-<text class="sp" x="298.6" y="56.7" style="animation-duration:4.22s;animation-delay:-2.22s">+</text>
-<text class="sp" x="186.7" y="67.9" style="animation-duration:7.48s;animation-delay:-6.62s">%</text>
-<text class="sp" x="192.3" y="67.9" style="animation-duration:3.43s;animation-delay:-2.26s">e</text>
-<text class="sp" x="209.0" y="67.9" style="animation-duration:3.30s;animation-delay:-1.39s">v</text>
-<text class="sp" x="259.4" y="67.9" style="animation-duration:2.92s;animation-delay:-1.03s">v</text>
-<text class="sp" x="276.2" y="67.9" style="animation-duration:6.30s;animation-delay:-5.18s">v</text>
-<text class="sp" x="281.8" y="67.9" style="animation-duration:7.48s;animation-delay:-0.68s">"</text>
-<text class="sp" x="326.5" y="67.9" style="animation-duration:5.21s;animation-delay:-0.77s">L</text>
-<text class="sp" x="175.5" y="79.1" style="animation-duration:2.42s;animation-delay:-1.62s">|</text>
-<text class="sp" x="214.6" y="79.1" style="animation-duration:3.47s;animation-delay:-1.59s">v</text>
-<text class="sp" x="220.2" y="79.1" style="animation-duration:3.83s;animation-delay:-2.82s">v</text>
-<text class="sp" x="287.4" y="79.1" style="animation-duration:5.50s;animation-delay:-5.44s">!</text>
-<text class="sp" x="315.4" y="79.1" style="animation-duration:3.36s;animation-delay:-3.22s">`</text>
-<text class="sp" x="337.7" y="79.1" style="animation-duration:5.31s;animation-delay:-3.34s">v</text>
-<text class="sp" x="343.3" y="79.1" style="animation-duration:4.99s;animation-delay:-4.70s">s</text>
-<text class="sp" x="348.9" y="79.1" style="animation-duration:2.47s;animation-delay:-0.25s">+</text>
-<text class="sp" x="365.7" y="79.1" style="animation-duration:7.10s;animation-delay:-1.58s">e</text>
-<text class="sp" x="158.7" y="90.3" style="animation-duration:4.97s;animation-delay:-4.31s">e</text>
-<text class="sp" x="197.9" y="90.3" style="animation-duration:4.17s;animation-delay:-0.61s">s</text>
-<text class="sp" x="298.6" y="90.3" style="animation-duration:4.42s;animation-delay:-2.28s">i</text>
-<text class="sp" x="321.0" y="90.3" style="animation-duration:7.57s;animation-delay:-3.49s">_</text>
-<text class="sp" x="354.5" y="90.3" style="animation-duration:4.23s;animation-delay:-2.05s">|</text>
-<text class="sp" x="365.7" y="90.3" style="animation-duration:7.36s;animation-delay:-1.11s">v</text>
-<text class="sp" x="153.1" y="101.5" style="animation-duration:5.04s;animation-delay:-2.31s">+</text>
-<text class="sp" x="164.3" y="101.5" style="animation-duration:2.27s;animation-delay:-1.11s">+</text>
-<text class="sp" x="181.1" y="101.5" style="animation-duration:4.31s;animation-delay:-2.90s">;</text>
-<text class="sp" x="197.9" y="101.5" style="animation-duration:4.16s;animation-delay:-2.04s">|</text>
-<text class="sp" x="225.8" y="101.5" style="animation-duration:7.89s;animation-delay:-4.40s">;</text>
-<text class="sp" x="265.0" y="101.5" style="animation-duration:6.63s;animation-delay:-4.26s">L</text>
-<text class="sp" x="315.4" y="101.5" style="animation-duration:2.96s;animation-delay:-2.72s">.</text>
-<text class="sp" x="337.7" y="101.5" style="animation-duration:2.94s;animation-delay:-0.03s">|</text>
-<text class="sp" x="354.5" y="101.5" style="animation-duration:7.03s;animation-delay:-3.43s">|</text>
-<text class="sp" x="371.3" y="101.5" style="animation-duration:6.86s;animation-delay:-2.82s">i</text>
-<text class="sp" x="382.5" y="101.5" style="animation-duration:3.68s;animation-delay:-1.67s">v</text>
-<text class="sp" x="158.7" y="112.7" style="animation-duration:5.46s;animation-delay:-5.15s">!</text>
-<text class="sp" x="164.3" y="112.7" style="animation-duration:4.88s;animation-delay:-3.20s">`</text>
-<text class="sp" x="175.5" y="112.7" style="animation-duration:5.18s;animation-delay:-0.41s">v</text>
-<text class="sp" x="181.1" y="112.7" style="animation-duration:4.16s;animation-delay:-0.74s">"</text>
-<text class="sp" x="242.6" y="112.7" style="animation-duration:7.37s;animation-delay:-0.88s">s</text>
-<text class="sp" x="253.8" y="112.7" style="animation-duration:3.94s;animation-delay:-0.52s">S</text>
-<text class="sp" x="276.2" y="112.7" style="animation-duration:4.52s;animation-delay:-4.07s">s</text>
-<text class="sp" x="309.8" y="112.7" style="animation-duration:3.60s;animation-delay:-0.56s">i</text>
-<text class="sp" x="332.1" y="112.7" style="animation-duration:3.14s;animation-delay:-1.13s">"</text>
-<text class="sp" x="130.7" y="123.8" style="animation-duration:3.70s;animation-delay:-0.15s">g</text>
-<text class="sp" x="136.3" y="123.8" style="animation-duration:2.69s;animation-delay:-2.41s">"</text>
-<text class="sp" x="192.3" y="123.8" style="animation-duration:2.40s;animation-delay:-1.82s">;</text>
-<text class="sp" x="214.6" y="123.8" style="animation-duration:7.04s;animation-delay:-4.95s">|</text>
-<text class="sp" x="231.4" y="123.8" style="animation-duration:7.60s;animation-delay:-2.07s">s</text>
-<text class="sp" x="265.0" y="123.8" style="animation-duration:2.83s;animation-delay:-2.77s">N</text>
-<text class="sp" x="287.4" y="123.8" style="animation-duration:3.11s;animation-delay:-1.82s">w</text>
-<text class="sp" x="293.0" y="123.8" style="animation-duration:2.36s;animation-delay:-0.81s">s</text>
-<text class="sp" x="343.3" y="123.8" style="animation-duration:2.81s;animation-delay:-0.02s">!</text>
-<text class="sp" x="388.1" y="123.8" style="animation-duration:6.08s;animation-delay:-0.18s">i</text>
-<text class="sp" x="399.3" y="123.8" style="animation-duration:4.67s;animation-delay:-3.40s">@</text>
-<text class="sp" x="164.3" y="135.0" style="animation-duration:4.83s;animation-delay:-0.27s">;</text>
-<text class="sp" x="203.5" y="135.0" style="animation-duration:6.38s;animation-delay:-4.86s">L</text>
-<text class="sp" x="209.0" y="135.0" style="animation-duration:4.24s;animation-delay:-2.70s">s</text>
-<text class="sp" x="214.6" y="135.0" style="animation-duration:6.87s;animation-delay:-6.69s">"</text>
-<text class="sp" x="259.4" y="135.0" style="animation-duration:7.51s;animation-delay:-0.44s">%</text>
-<text class="sp" x="265.0" y="135.0" style="animation-duration:5.52s;animation-delay:-1.23s">N</text>
-<text class="sp" x="309.8" y="135.0" style="animation-duration:6.12s;animation-delay:-5.57s">w</text>
-<text class="sp" x="315.4" y="135.0" style="animation-duration:6.74s;animation-delay:-5.29s">|</text>
-<text class="sp" x="321.0" y="135.0" style="animation-duration:5.77s;animation-delay:-1.80s">s</text>
-<text class="sp" x="360.1" y="135.0" style="animation-duration:7.89s;animation-delay:-1.27s">v</text>
-<text class="sp" x="382.5" y="135.0" style="animation-duration:4.87s;animation-delay:-2.65s">|</text>
-<text class="sp" x="399.3" y="135.0" style="animation-duration:2.40s;animation-delay:-2.35s">%</text>
-<text class="sp" x="119.5" y="146.2" style="animation-duration:7.78s;animation-delay:-6.95s">8</text>
-<text class="sp" x="158.7" y="146.2" style="animation-duration:4.93s;animation-delay:-4.50s">v</text>
-<text class="sp" x="181.1" y="146.2" style="animation-duration:5.94s;animation-delay:-1.10s">L</text>
-<text class="sp" x="186.7" y="146.2" style="animation-duration:5.70s;animation-delay:-0.05s">i</text>
-<text class="sp" x="192.3" y="146.2" style="animation-duration:4.47s;animation-delay:-0.81s">`</text>
-<text class="sp" x="242.6" y="146.2" style="animation-duration:2.53s;animation-delay:-1.90s">i</text>
-<text class="sp" x="253.8" y="146.2" style="animation-duration:5.27s;animation-delay:-1.69s">8</text>
-<text class="sp" x="259.4" y="146.2" style="animation-duration:6.06s;animation-delay:-4.45s">$</text>
-<text class="sp" x="265.0" y="146.2" style="animation-duration:6.06s;animation-delay:-1.37s">N</text>
-<text class="sp" x="287.4" y="146.2" style="animation-duration:4.89s;animation-delay:-1.36s">8</text>
-<text class="sp" x="298.6" y="146.2" style="animation-duration:5.30s;animation-delay:-2.14s">S</text>
-<text class="sp" x="321.0" y="146.2" style="animation-duration:2.80s;animation-delay:-1.70s">e</text>
-<text class="sp" x="332.1" y="146.2" style="animation-duration:4.65s;animation-delay:-1.72s">L</text>
-<text class="sp" x="337.7" y="146.2" style="animation-duration:5.82s;animation-delay:-2.70s">_</text>
-<text class="sp" x="382.5" y="146.2" style="animation-duration:5.87s;animation-delay:-0.01s">"</text>
-<text class="sp" x="203.5" y="157.4" style="animation-duration:7.85s;animation-delay:-1.68s">e</text>
-<text class="sp" x="209.0" y="157.4" style="animation-duration:5.41s;animation-delay:-4.65s">i</text>
-<text class="sp" x="259.4" y="157.4" style="animation-duration:4.30s;animation-delay:-4.30s">$</text>
-<text class="sp" x="276.2" y="157.4" style="animation-duration:7.42s;animation-delay:-2.10s">W</text>
-<text class="sp" x="309.8" y="157.4" style="animation-duration:4.16s;animation-delay:-3.12s">g</text>
-<text class="sp" x="326.5" y="157.4" style="animation-duration:7.91s;animation-delay:-3.90s">w</text>
-<text class="sp" x="337.7" y="157.4" style="animation-duration:2.60s;animation-delay:-2.58s">L</text>
-<text class="sp" x="376.9" y="157.4" style="animation-duration:3.12s;animation-delay:-1.74s">e</text>
-<text class="sp" x="399.3" y="157.4" style="animation-duration:3.20s;animation-delay:-1.79s">i</text>
-<text class="sp" x="141.9" y="168.6" style="animation-duration:4.72s;animation-delay:-4.08s">`</text>
-<text class="sp" x="147.5" y="168.6" style="animation-duration:5.25s;animation-delay:-4.99s">.</text>
-<text class="sp" x="158.7" y="168.6" style="animation-duration:3.98s;animation-delay:-0.77s">"</text>
-<text class="sp" x="192.3" y="168.6" style="animation-duration:3.17s;animation-delay:-2.50s">s</text>
-<text class="sp" x="237.0" y="168.6" style="animation-duration:6.23s;animation-delay:-3.41s">s</text>
-<text class="sp" x="259.4" y="168.6" style="animation-duration:3.16s;animation-delay:-2.79s">$</text>
-<text class="sp" x="276.2" y="168.6" style="animation-duration:5.22s;animation-delay:-0.06s">@</text>
-<text class="sp" x="281.8" y="168.6" style="animation-duration:2.47s;animation-delay:-0.47s">@</text>
-<text class="sp" x="287.4" y="168.6" style="animation-duration:2.62s;animation-delay:-1.70s">@</text>
-<text class="sp" x="309.8" y="168.6" style="animation-duration:3.61s;animation-delay:-1.10s">g</text>
-<text class="sp" x="332.1" y="168.6" style="animation-duration:2.98s;animation-delay:-1.41s">w</text>
-<text class="sp" x="343.3" y="168.6" style="animation-duration:6.62s;animation-delay:-4.65s">w</text>
-<text class="sp" x="175.5" y="179.8" style="animation-duration:4.84s;animation-delay:-3.33s">"</text>
-<text class="sp" x="214.6" y="179.8" style="animation-duration:5.96s;animation-delay:-3.73s">L</text>
-<text class="sp" x="231.4" y="179.8" style="animation-duration:5.35s;animation-delay:-4.59s">L</text>
-<text class="sp" x="237.0" y="179.8" style="animation-duration:3.40s;animation-delay:-0.36s">"</text>
-<text class="sp" x="253.8" y="179.8" style="animation-duration:7.12s;animation-delay:-3.11s">i</text>
-<text class="sp" x="259.4" y="179.8" style="animation-duration:2.56s;animation-delay:-0.63s">S</text>
-<text class="sp" x="265.0" y="179.8" style="animation-duration:3.18s;animation-delay:-0.20s">S</text>
-<text class="sp" x="270.6" y="179.8" style="animation-duration:2.77s;animation-delay:-1.18s">S</text>
-<text class="sp" x="293.0" y="179.8" style="animation-duration:7.70s;animation-delay:-0.51s">g</text>
-<text class="sp" x="298.6" y="179.8" style="animation-duration:6.54s;animation-delay:-4.09s">s</text>
-<text class="sp" x="326.5" y="179.8" style="animation-duration:7.75s;animation-delay:-5.96s">i</text>
-<text class="sp" x="237.0" y="191.0" style="animation-duration:4.46s;animation-delay:-0.38s">w</text>
-<text class="sp" x="253.8" y="191.0" style="animation-duration:4.29s;animation-delay:-4.08s">_</text>
-<text class="sp" x="270.6" y="191.0" style="animation-duration:4.88s;animation-delay:-3.82s">s</text>
-<text class="sp" x="287.4" y="191.0" style="animation-duration:5.33s;animation-delay:-0.69s">%</text>
-<text class="sp" x="337.7" y="191.0" style="animation-duration:7.71s;animation-delay:-4.23s">S</text>
-<text class="sp" x="354.5" y="191.0" style="animation-duration:4.09s;animation-delay:-1.88s">L</text>
-<text class="sp" x="360.1" y="191.0" style="animation-duration:2.27s;animation-delay:-0.01s">`</text>
-<text class="sp" x="371.3" y="191.0" style="animation-duration:7.73s;animation-delay:-4.83s">+</text>
-<text class="sp" x="382.5" y="191.0" style="animation-duration:5.15s;animation-delay:-1.06s">`</text>
-<text class="sp" x="125.1" y="202.2" style="animation-duration:4.70s;animation-delay:-1.52s">$</text>
-<text class="sp" x="181.1" y="202.2" style="animation-duration:3.70s;animation-delay:-3.35s">`</text>
-<text class="sp" x="248.2" y="202.2" style="animation-duration:7.89s;animation-delay:-1.52s">g</text>
-<text class="sp" x="253.8" y="202.2" style="animation-duration:2.29s;animation-delay:-0.18s">S</text>
-<text class="sp" x="281.8" y="202.2" style="animation-duration:5.08s;animation-delay:-2.04s">W</text>
-<text class="sp" x="326.5" y="202.2" style="animation-duration:6.11s;animation-delay:-4.88s">g</text>
-<text class="sp" x="337.7" y="202.2" style="animation-duration:6.28s;animation-delay:-1.40s">g</text>
-<text class="sp" x="382.5" y="202.2" style="animation-duration:6.80s;animation-delay:-5.12s">N</text>
-<text class="sp" x="388.1" y="202.2" style="animation-duration:7.01s;animation-delay:-2.63s">8</text>
-<text class="sp" x="214.6" y="213.4" style="animation-duration:5.21s;animation-delay:-0.24s">8</text>
-<text class="sp" x="237.0" y="213.4" style="animation-duration:7.40s;animation-delay:-6.81s">8</text>
-<text class="sp" x="265.0" y="213.4" style="animation-duration:3.79s;animation-delay:-3.17s">S</text>
-<text class="sp" x="270.6" y="213.4" style="animation-duration:4.78s;animation-delay:-3.22s">e</text>
-<text class="sp" x="293.0" y="213.4" style="animation-duration:2.43s;animation-delay:-1.27s">N</text>
-<text class="sp" x="315.4" y="213.4" style="animation-duration:2.70s;animation-delay:-2.26s">8</text>
-<text class="sp" x="141.9" y="224.6" style="animation-duration:7.51s;animation-delay:-3.16s">.</text>
-<text class="sp" x="231.4" y="224.6" style="animation-duration:5.69s;animation-delay:-2.89s">W</text>
-<text class="sp" x="237.0" y="224.6" style="animation-duration:7.20s;animation-delay:-4.39s">W</text>
-<text class="sp" x="287.4" y="224.6" style="animation-duration:4.05s;animation-delay:-3.01s">$</text>
-<text class="sp" x="298.6" y="224.6" style="animation-duration:4.28s;animation-delay:-1.89s">%</text>
-<text class="sp" x="309.8" y="224.6" style="animation-duration:3.09s;animation-delay:-0.93s">W</text>
-<text class="sp" x="337.7" y="224.6" style="animation-duration:4.30s;animation-delay:-3.33s">$</text>
-<text class="sp" x="360.1" y="224.6" style="animation-duration:5.14s;animation-delay:-0.23s">w</text>
-<text class="sp" x="365.7" y="224.6" style="animation-duration:6.46s;animation-delay:-4.80s">S</text>
-<text class="sp" x="164.3" y="235.8" style="animation-duration:3.68s;animation-delay:-3.36s">s</text>
-<text class="sp" x="197.9" y="235.8" style="animation-duration:5.90s;animation-delay:-1.36s">s</text>
-<text class="sp" x="220.2" y="235.8" style="animation-duration:3.79s;animation-delay:-1.06s">N</text>
-<text class="sp" x="248.2" y="235.8" style="animation-duration:6.08s;animation-delay:-2.84s">W</text>
-<text class="sp" x="270.6" y="235.8" style="animation-duration:7.47s;animation-delay:-1.28s">e</text>
-<text class="sp" x="293.0" y="235.8" style="animation-duration:5.42s;animation-delay:-3.51s">W</text>
-<text class="sp" x="298.6" y="235.8" style="animation-duration:4.60s;animation-delay:-2.78s">%</text>
-<text class="sp" x="304.2" y="235.8" style="animation-duration:6.59s;animation-delay:-6.57s">8</text>
-<text class="sp" x="309.8" y="235.8" style="animation-duration:7.98s;animation-delay:-3.91s">$</text>
-<text class="sp" x="332.1" y="235.8" style="animation-duration:3.77s;animation-delay:-0.15s">W</text>
-<text class="sp" x="365.7" y="235.8" style="animation-duration:4.11s;animation-delay:-0.82s">w</text>
-<text class="sp" x="192.3" y="246.9" style="animation-duration:5.24s;animation-delay:-1.56s">|</text>
-<text class="sp" x="209.0" y="246.9" style="animation-duration:7.72s;animation-delay:-7.42s">8</text>
-<text class="sp" x="220.2" y="246.9" style="animation-duration:4.07s;animation-delay:-1.54s">N</text>
-<text class="sp" x="298.6" y="246.9" style="animation-duration:6.37s;animation-delay:-4.26s">e</text>
-<text class="sp" x="315.4" y="246.9" style="animation-duration:7.50s;animation-delay:-3.82s">$</text>
-<text class="sp" x="337.7" y="246.9" style="animation-duration:3.02s;animation-delay:-1.11s">$</text>
-<text class="sp" x="348.9" y="246.9" style="animation-duration:2.54s;animation-delay:-0.51s">%</text>
-<text class="sp" x="354.5" y="246.9" style="animation-duration:5.63s;animation-delay:-0.69s">8</text>
-<text class="sp" x="203.5" y="258.1" style="animation-duration:5.30s;animation-delay:-2.78s">e</text>
-<text class="sp" x="209.0" y="258.1" style="animation-duration:5.51s;animation-delay:-5.41s">w</text>
-<text class="sp" x="220.2" y="258.1" style="animation-duration:5.71s;animation-delay:-4.45s">%</text>
-<text class="sp" x="315.4" y="258.1" style="animation-duration:4.71s;animation-delay:-1.17s">8</text>
-<text class="sp" x="332.1" y="258.1" style="animation-duration:3.24s;animation-delay:-0.13s">N</text>
-<text class="sp" x="354.5" y="258.1" style="animation-duration:3.71s;animation-delay:-2.20s">S</text>
-<text class="sp" x="360.1" y="258.1" style="animation-duration:2.40s;animation-delay:-0.69s">"</text>
-<text class="sp" x="220.2" y="269.3" style="animation-duration:7.23s;animation-delay:-6.11s">g</text>
-<text class="sp" x="231.4" y="269.3" style="animation-duration:3.57s;animation-delay:-1.77s">N</text>
-<text class="sp" x="237.0" y="269.3" style="animation-duration:3.12s;animation-delay:-0.02s">N</text>
-<text class="sp" x="242.6" y="269.3" style="animation-duration:3.18s;animation-delay:-1.60s">S</text>
-<text class="sp" x="253.8" y="269.3" style="animation-duration:2.46s;animation-delay:-2.40s">s</text>
-<text class="sp" x="259.4" y="269.3" style="animation-duration:3.34s;animation-delay:-2.49s">|</text>
-<text class="sp" x="281.8" y="269.3" style="animation-duration:5.59s;animation-delay:-4.70s">i</text>
-<text class="sp" x="293.0" y="269.3" style="animation-duration:5.52s;animation-delay:-1.33s">S</text>
-<text class="sp" x="304.2" y="269.3" style="animation-duration:2.71s;animation-delay:-2.66s">v</text>
-<text class="sp" x="348.9" y="269.3" style="animation-duration:6.96s;animation-delay:-0.58s">S</text>
-<text class="sp" x="225.8" y="280.5" style="animation-duration:3.29s;animation-delay:-2.08s">w</text>
-<text class="sp" x="265.0" y="280.5" style="animation-duration:4.56s;animation-delay:-4.04s">s</text>
-<text class="sp" x="287.4" y="280.5" style="animation-duration:2.50s;animation-delay:-2.21s">g</text>
-<text class="sp" x="293.0" y="280.5" style="animation-duration:5.63s;animation-delay:-1.21s">8</text>
-<text class="sp" x="309.8" y="280.5" style="animation-duration:5.83s;animation-delay:-2.02s">g</text>
-<text class="sp" x="315.4" y="280.5" style="animation-duration:2.96s;animation-delay:-0.94s">w</text>
-<text class="sp" x="343.3" y="280.5" style="animation-duration:7.28s;animation-delay:-4.66s">w</text>
-<text class="sp" x="225.8" y="291.7" style="animation-duration:5.09s;animation-delay:-4.26s">e</text>
-<text class="sp" x="231.4" y="291.7" style="animation-duration:5.39s;animation-delay:-3.03s">w</text>
-<text class="sp" x="237.0" y="291.7" style="animation-duration:2.48s;animation-delay:-1.36s">8</text>
-<text class="sp" x="276.2" y="291.7" style="animation-duration:3.60s;animation-delay:-3.17s">%</text>
-<text class="sp" x="287.4" y="291.7" style="animation-duration:7.31s;animation-delay:-2.74s">$</text>
-<text class="sp" x="293.0" y="291.7" style="animation-duration:3.45s;animation-delay:-0.98s">$</text>
-<text class="sp" x="304.2" y="291.7" style="animation-duration:7.56s;animation-delay:-0.92s">N</text>
-<text class="sp" x="343.3" y="291.7" style="animation-duration:3.22s;animation-delay:-0.36s">"</text>
-<text class="sp" x="192.3" y="302.9" style="animation-duration:2.46s;animation-delay:-1.88s">%</text>
-<text class="sp" x="197.9" y="302.9" style="animation-duration:5.61s;animation-delay:-0.24s">v</text>
-<text class="sp" x="253.8" y="302.9" style="animation-duration:7.46s;animation-delay:-7.42s">S</text>
-<text class="sp" x="265.0" y="302.9" style="animation-duration:6.30s;animation-delay:-0.43s">g</text>
-<text class="sp" x="270.6" y="302.9" style="animation-duration:2.45s;animation-delay:-1.53s">S</text>
-<text class="sp" x="287.4" y="302.9" style="animation-duration:5.26s;animation-delay:-4.25s">s</text>
-<text class="sp" x="293.0" y="302.9" style="animation-duration:4.33s;animation-delay:-1.91s">L</text>
-<text class="sp" x="321.0" y="302.9" style="animation-duration:3.81s;animation-delay:-1.44s">w</text>
-<text class="sp" x="209.0" y="314.1" style="animation-duration:7.53s;animation-delay:-4.46s">L</text>
-<text class="sp" x="237.0" y="314.1" style="animation-duration:7.51s;animation-delay:-2.23s">'</text>
-<text class="sp" x="259.4" y="314.1" style="animation-duration:5.71s;animation-delay:-1.21s">w</text>
-<text class="sp" x="287.4" y="314.1" style="animation-duration:7.71s;animation-delay:-0.22s">w</text>
-<text class="sp" x="309.8" y="314.1" style="animation-duration:4.26s;animation-delay:-2.90s">%</text>
-<text class="sp" x="337.7" y="314.1" style="animation-duration:2.74s;animation-delay:-1.92s">s</text>
-<text class="sp" x="203.5" y="325.3" style="animation-duration:4.20s;animation-delay:-0.75s">e</text>
-<text class="sp" x="259.4" y="325.3" style="animation-duration:6.81s;animation-delay:-4.99s">+</text>
-<text class="sp" x="281.8" y="325.3" style="animation-duration:3.89s;animation-delay:-0.29s">s</text>
-<text class="sp" x="287.4" y="325.3" style="animation-duration:3.48s;animation-delay:-0.88s">s</text>
-<text class="sp" x="293.0" y="325.3" style="animation-duration:2.24s;animation-delay:-0.02s">S</text>
-<text class="sp" x="315.4" y="325.3" style="animation-duration:3.56s;animation-delay:-1.03s">L</text>
-<text class="sp" x="321.0" y="325.3" style="animation-duration:5.77s;animation-delay:-1.94s">+</text>
-<text class="sp" x="326.5" y="325.3" style="animation-duration:7.23s;animation-delay:-5.78s">+</text>
-<text class="sp" x="197.9" y="336.5" style="animation-duration:7.88s;animation-delay:-4.28s">s</text>
-<text class="sp" x="203.5" y="336.5" style="animation-duration:2.96s;animation-delay:-1.10s">S</text>
-<text class="sp" x="315.4" y="336.5" style="animation-duration:5.59s;animation-delay:-1.60s">`</text>
-<text class="sp" x="231.4" y="347.7" style="animation-duration:7.50s;animation-delay:-5.72s">|</text>
-<text class="sp" x="242.6" y="347.7" style="animation-duration:5.32s;animation-delay:-0.33s">+</text>
-<text class="sp" x="265.0" y="347.7" style="animation-duration:5.15s;animation-delay:-3.56s">`</text>
-<text class="sp" x="321.0" y="347.7" style="animation-duration:2.96s;animation-delay:-2.17s">N</text>
-<text class="sp" x="326.5" y="347.7" style="animation-duration:4.31s;animation-delay:-0.75s">%</text>
-<text class="sp" x="147.5" y="358.8" style="animation-duration:3.40s;animation-delay:-2.55s">w</text>
-<text class="sp" x="175.5" y="358.8" style="animation-duration:2.45s;animation-delay:-0.06s">g</text>
-<text class="sp" x="181.1" y="358.8" style="animation-duration:5.49s;animation-delay:-0.99s">g</text>
-<text class="sp" x="192.3" y="358.8" style="animation-duration:5.78s;animation-delay:-2.18s">s</text>
-<text class="sp" x="231.4" y="358.8" style="animation-duration:5.18s;animation-delay:-2.73s">e</text>
-<text class="sp" x="265.0" y="358.8" style="animation-duration:6.34s;animation-delay:-4.21s">L</text>
-<text class="sp" x="281.8" y="358.8" style="animation-duration:3.86s;animation-delay:-3.03s">i</text>
-<text class="sp" x="309.8" y="358.8" style="animation-duration:6.96s;animation-delay:-6.41s">g</text>
-<text class="sp" x="321.0" y="358.8" style="animation-duration:5.85s;animation-delay:-4.97s">N</text>
-<text class="sp" x="197.9" y="370.0" style="animation-duration:6.23s;animation-delay:-2.78s">e</text>
-<text class="sp" x="203.5" y="370.0" style="animation-duration:4.43s;animation-delay:-0.94s">g</text>
-<text class="sp" x="214.6" y="370.0" style="animation-duration:2.59s;animation-delay:-0.91s">8</text>
-<text class="sp" x="220.2" y="370.0" style="animation-duration:5.74s;animation-delay:-0.23s">8</text>
-<text class="sp" x="225.8" y="370.0" style="animation-duration:4.06s;animation-delay:-1.32s">g</text>
-<text class="sp" x="231.4" y="370.0" style="animation-duration:6.45s;animation-delay:-5.33s">g</text>
-<text class="sp" x="248.2" y="370.0" style="animation-duration:7.04s;animation-delay:-0.42s">w</text>
-<text class="sp" x="253.8" y="370.0" style="animation-duration:5.61s;animation-delay:-0.45s">w</text>
-<text class="sp" x="309.8" y="370.0" style="animation-duration:5.50s;animation-delay:-0.02s">N</text>
-<text class="sp" x="343.3" y="370.0" style="animation-duration:5.36s;animation-delay:-2.67s">S</text>
-<text class="sp" x="181.1" y="381.2" style="animation-duration:3.17s;animation-delay:-1.00s">w</text>
-<text class="sp" x="186.7" y="381.2" style="animation-duration:2.88s;animation-delay:-2.40s">$</text>
-<text class="sp" x="192.3" y="381.2" style="animation-duration:5.08s;animation-delay:-2.29s">%</text>
-<text class="sp" x="203.5" y="381.2" style="animation-duration:3.96s;animation-delay:-2.81s">%</text>
-<text class="sp" x="209.0" y="381.2" style="animation-duration:4.61s;animation-delay:-3.31s">%</text>
-<text class="sp" x="214.6" y="381.2" style="animation-duration:2.81s;animation-delay:-0.03s">%</text>
-<text class="sp" x="225.8" y="381.2" style="animation-duration:3.44s;animation-delay:-2.59s">%</text>
-<text class="sp" x="231.4" y="381.2" style="animation-duration:2.67s;animation-delay:-2.04s">%</text>
-<text class="sp" x="270.6" y="381.2" style="animation-duration:6.24s;animation-delay:-3.97s">8</text>
-<text class="sp" x="276.2" y="381.2" style="animation-duration:6.89s;animation-delay:-4.03s">8</text>
-<text class="sp" x="281.8" y="381.2" style="animation-duration:6.60s;animation-delay:-1.77s">%</text>
-<text class="sp" x="343.3" y="381.2" style="animation-duration:5.54s;animation-delay:-4.72s">'</text>
-<text class="sp" x="360.1" y="381.2" style="animation-duration:7.16s;animation-delay:-1.76s">|</text>
-<text class="sp" x="365.7" y="381.2" style="animation-duration:5.33s;animation-delay:-3.46s">S</text>
-<text class="sp" x="130.7" y="392.4" style="animation-duration:3.99s;animation-delay:-1.19s">!</text>
-<text class="sp" x="209.0" y="392.4" style="animation-duration:4.60s;animation-delay:-2.26s">N</text>
-<text class="sp" x="220.2" y="392.4" style="animation-duration:4.25s;animation-delay:-3.34s">N</text>
-<text class="sp" x="242.6" y="392.4" style="animation-duration:4.87s;animation-delay:-4.62s">N</text>
-<text class="sp" x="248.2" y="392.4" style="animation-duration:3.87s;animation-delay:-2.80s">N</text>
-<text class="sp" x="259.4" y="392.4" style="animation-duration:4.90s;animation-delay:-4.12s">N</text>
-<text class="sp" x="276.2" y="392.4" style="animation-duration:6.85s;animation-delay:-3.82s">8</text>
-<text class="sp" x="281.8" y="392.4" style="animation-duration:2.35s;animation-delay:-0.31s">8</text>
-<text class="sp" x="287.4" y="392.4" style="animation-duration:5.03s;animation-delay:-1.63s">8</text>
-<text class="sp" x="332.1" y="392.4" style="animation-duration:6.52s;animation-delay:-1.05s">s</text>
-<text class="sp" x="382.5" y="392.4" style="animation-duration:6.43s;animation-delay:-5.54s">L</text>
-<text class="sp" x="158.7" y="403.6" style="animation-duration:3.71s;animation-delay:-2.04s">"</text>
-<text class="sp" x="231.4" y="403.6" style="animation-duration:2.49s;animation-delay:-0.48s">N</text>
-<text class="sp" x="270.6" y="403.6" style="animation-duration:4.86s;animation-delay:-4.24s">%</text>
-<text class="sp" x="281.8" y="403.6" style="animation-duration:4.07s;animation-delay:-1.53s">8</text>
-<text class="sp" x="287.4" y="403.6" style="animation-duration:2.60s;animation-delay:-2.38s">%</text>
-<text class="sp" x="298.6" y="403.6" style="animation-duration:6.23s;animation-delay:-0.71s">N</text>
-<text class="sp" x="304.2" y="403.6" style="animation-duration:5.10s;animation-delay:-3.93s">N</text>
-<text class="sp" x="309.8" y="403.6" style="animation-duration:7.45s;animation-delay:-1.63s">g</text>
-<text class="sp" x="315.4" y="403.6" style="animation-duration:7.41s;animation-delay:-1.58s">N</text>
-<text class="sp" x="321.0" y="403.6" style="animation-duration:7.79s;animation-delay:-1.22s">N</text>
-<text class="sp" x="326.5" y="403.6" style="animation-duration:3.88s;animation-delay:-1.77s">%</text>
-<text class="sp" x="371.3" y="403.6" style="animation-duration:4.05s;animation-delay:-2.30s">;</text>
-<text class="sp" x="382.5" y="403.6" style="animation-duration:5.94s;animation-delay:-2.72s">'</text>
-<text class="sp" x="393.7" y="403.6" style="animation-duration:4.45s;animation-delay:-1.27s">_</text>
-<text class="sp" x="74.8" y="414.8" style="animation-duration:3.08s;animation-delay:-1.34s">'</text>
-<text class="sp" x="97.1" y="414.8" style="animation-duration:2.96s;animation-delay:-2.18s">'</text>
-<text class="sp" x="130.7" y="414.8" style="animation-duration:6.33s;animation-delay:-0.93s">"</text>
-<text class="sp" x="186.7" y="414.8" style="animation-duration:4.43s;animation-delay:-2.20s">'</text>
-<text class="sp" x="220.2" y="414.8" style="animation-duration:5.16s;animation-delay:-3.14s">S</text>
-<text class="sp" x="248.2" y="414.8" style="animation-duration:7.56s;animation-delay:-7.49s">%</text>
-<text class="sp" x="253.8" y="414.8" style="animation-duration:6.95s;animation-delay:-1.40s">N</text>
-<text class="sp" x="259.4" y="414.8" style="animation-duration:6.02s;animation-delay:-6.01s">$</text>
-<text class="sp" x="287.4" y="414.8" style="animation-duration:3.63s;animation-delay:-2.86s">8</text>
-<text class="sp" x="309.8" y="414.8" style="animation-duration:4.21s;animation-delay:-2.41s">%</text>
-<text class="sp" x="343.3" y="414.8" style="animation-duration:2.36s;animation-delay:-1.70s">!</text>
-<text class="sp" x="360.1" y="414.8" style="animation-duration:5.27s;animation-delay:-5.19s">!</text>
-<text class="sp" x="388.1" y="414.8" style="animation-duration:4.62s;animation-delay:-4.57s">"</text>
-<text class="sp" x="427.3" y="414.8" style="animation-duration:5.05s;animation-delay:-0.57s">i</text>
-<text class="sp" x="41.2" y="426.0" style="animation-duration:7.13s;animation-delay:-1.57s">;</text>
-<text class="sp" x="74.8" y="426.0" style="animation-duration:7.05s;animation-delay:-5.01s">'</text>
-<text class="sp" x="102.7" y="426.0" style="animation-duration:7.65s;animation-delay:-4.57s">"</text>
-<text class="sp" x="108.3" y="426.0" style="animation-duration:5.11s;animation-delay:-4.84s">"</text>
-<text class="sp" x="186.7" y="426.0" style="animation-duration:2.61s;animation-delay:-1.89s">'</text>
-<text class="sp" x="203.5" y="426.0" style="animation-duration:2.50s;animation-delay:-1.24s">_</text>
-<text class="sp" x="237.0" y="426.0" style="animation-duration:6.39s;animation-delay:-4.04s">+</text>
-<text class="sp" x="248.2" y="426.0" style="animation-duration:6.88s;animation-delay:-6.35s">S</text>
-<text class="sp" x="293.0" y="426.0" style="animation-duration:7.44s;animation-delay:-2.61s">$</text>
-<text class="sp" x="309.8" y="426.0" style="animation-duration:2.76s;animation-delay:-2.23s">w</text>
-<text class="sp" x="393.7" y="426.0" style="animation-duration:3.16s;animation-delay:-3.11s">"</text>
-<text class="sp" x="421.7" y="426.0" style="animation-duration:2.36s;animation-delay:-0.43s">;</text>
-<text class="sp" x="438.5" y="426.0" style="animation-duration:4.86s;animation-delay:-3.55s">;</text>
-<text class="sp" x="30.0" y="437.2" style="animation-duration:7.29s;animation-delay:-3.75s">'</text>
-<text class="sp" x="125.1" y="437.2" style="animation-duration:4.21s;animation-delay:-3.37s">"</text>
-<text class="sp" x="231.4" y="437.2" style="animation-duration:6.96s;animation-delay:-0.58s">!</text>
-<text class="sp" x="248.2" y="437.2" style="animation-duration:2.85s;animation-delay:-2.74s">!</text>
-<text class="sp" x="253.8" y="437.2" style="animation-duration:7.77s;animation-delay:-1.83s">!</text>
-<text class="sp" x="265.0" y="437.2" style="animation-duration:6.68s;animation-delay:-0.17s">;</text>
-<text class="sp" x="276.2" y="437.2" style="animation-duration:5.91s;animation-delay:-2.40s">"</text>
-<text class="sp" x="287.4" y="437.2" style="animation-duration:3.21s;animation-delay:-2.52s">"</text>
-<text class="sp" x="298.6" y="437.2" style="animation-duration:4.42s;animation-delay:-0.25s">'</text>
-<text class="sp" x="309.8" y="437.2" style="animation-duration:7.52s;animation-delay:-5.72s">"</text>
-<text class="sp" x="326.5" y="437.2" style="animation-duration:2.68s;animation-delay:-1.06s">"</text>
-<text class="sp" x="332.1" y="437.2" style="animation-duration:2.46s;animation-delay:-1.44s">!</text>
-<text class="sp" x="388.1" y="437.2" style="animation-duration:6.67s;animation-delay:-1.17s">+</text>
-<text class="sp" x="427.3" y="437.2" style="animation-duration:6.91s;animation-delay:-4.89s">+</text>
-<text class="sp" x="438.5" y="437.2" style="animation-duration:4.23s;animation-delay:-0.80s">"</text>
-<text class="sp" x="455.2" y="437.2" style="animation-duration:7.54s;animation-delay:-2.29s">S</text>
-<text class="sp" x="30.0" y="448.4" style="animation-duration:7.29s;animation-delay:-4.10s">"</text>
-<text class="sp" x="35.6" y="448.4" style="animation-duration:6.08s;animation-delay:-5.15s">+</text>
-<text class="sp" x="41.2" y="448.4" style="animation-duration:6.10s;animation-delay:-1.59s">+</text>
-<text class="sp" x="52.4" y="448.4" style="animation-duration:6.69s;animation-delay:-2.13s">_</text>
-<text class="sp" x="63.6" y="448.4" style="animation-duration:5.93s;animation-delay:-5.48s">"</text>
-<text class="sp" x="108.3" y="448.4" style="animation-duration:6.57s;animation-delay:-3.35s">+</text>
-<text class="sp" x="125.1" y="448.4" style="animation-duration:3.16s;animation-delay:-0.75s">"</text>
-<text class="sp" x="136.3" y="448.4" style="animation-duration:4.02s;animation-delay:-1.68s">+</text>
-<text class="sp" x="147.5" y="448.4" style="animation-duration:5.00s;animation-delay:-1.03s">"</text>
-<text class="sp" x="214.6" y="448.4" style="animation-duration:2.47s;animation-delay:-2.24s">"</text>
-<text class="sp" x="237.0" y="448.4" style="animation-duration:5.49s;animation-delay:-1.77s">"</text>
-<text class="sp" x="259.4" y="448.4" style="animation-duration:8.00s;animation-delay:-7.65s">;</text>
-<text class="sp" x="265.0" y="448.4" style="animation-duration:4.27s;animation-delay:-2.48s">;</text>
-<text class="sp" x="321.0" y="448.4" style="animation-duration:3.56s;animation-delay:-1.39s">+</text>
-<text class="sp" x="337.7" y="448.4" style="animation-duration:6.47s;animation-delay:-3.81s">!</text>
-<text class="sp" x="399.3" y="448.4" style="animation-duration:3.88s;animation-delay:-3.33s">"</text>
-<text class="sp" x="410.5" y="448.4" style="animation-duration:2.79s;animation-delay:-0.24s">+</text>
-<text class="sp" x="197.9" y="459.6" style="animation-duration:5.20s;animation-delay:-2.07s">+</text>
-<text class="sp" x="225.8" y="459.6" style="animation-duration:3.40s;animation-delay:-3.21s">;</text>
-<text class="sp" x="231.4" y="459.6" style="animation-duration:4.66s;animation-delay:-2.53s">"</text>
-<text class="sp" x="237.0" y="459.6" style="animation-duration:7.86s;animation-delay:-5.62s">"</text>
-<text class="sp" x="321.0" y="459.6" style="animation-duration:5.25s;animation-delay:-0.07s">+</text>
-<text class="sp" x="337.7" y="459.6" style="animation-duration:6.84s;animation-delay:-5.66s">+</text>
-<text class="sp" x="376.9" y="459.6" style="animation-duration:6.88s;animation-delay:-1.64s">+</text>
-<text class="sp" x="404.9" y="459.6" style="animation-duration:6.29s;animation-delay:-5.33s">"</text>
-<text class="sp" x="427.3" y="459.6" style="animation-duration:2.52s;animation-delay:-0.13s">+</text>
-<text class="sp" x="432.9" y="459.6" style="animation-duration:6.38s;animation-delay:-0.32s">!</text>
-<text class="sp" x="444.0" y="459.6" style="animation-duration:5.46s;animation-delay:-2.23s">!</text>
-<text class="sp" x="455.2" y="459.6" style="animation-duration:5.18s;animation-delay:-3.73s">!</text>
-<text class="sp" x="41.2" y="470.8" style="animation-duration:7.04s;animation-delay:-2.86s">"</text>
-<text class="sp" x="80.4" y="470.8" style="animation-duration:6.02s;animation-delay:-1.17s">+</text>
-<text class="sp" x="108.3" y="470.8" style="animation-duration:6.66s;animation-delay:-3.41s">"</text>
-<text class="sp" x="130.7" y="470.8" style="animation-duration:6.23s;animation-delay:-5.47s">;</text>
-<text class="sp" x="214.6" y="470.8" style="animation-duration:6.23s;animation-delay:-4.64s">!</text>
-<text class="sp" x="304.2" y="470.8" style="animation-duration:7.61s;animation-delay:-0.24s">!</text>
-<text class="sp" x="326.5" y="470.8" style="animation-duration:5.60s;animation-delay:-3.67s">"</text>
-<text class="sp" x="399.3" y="470.8" style="animation-duration:7.97s;animation-delay:-5.89s">+</text>
-<text class="sp" x="404.9" y="470.8" style="animation-duration:6.96s;animation-delay:-5.38s">!</text>
-<text class="sp" x="466.4" y="470.8" style="animation-duration:3.28s;animation-delay:-0.68s">+</text>
-<text class="sp" x="52.4" y="481.9" style="animation-duration:7.05s;animation-delay:-0.17s">"</text>
-<text class="sp" x="86.0" y="481.9" style="animation-duration:2.94s;animation-delay:-0.21s">+</text>
-<text class="sp" x="91.5" y="481.9" style="animation-duration:3.16s;animation-delay:-2.37s">|</text>
-<text class="sp" x="119.5" y="481.9" style="animation-duration:6.73s;animation-delay:-6.56s">|</text>
-<text class="sp" x="147.5" y="481.9" style="animation-duration:2.47s;animation-delay:-0.28s">+</text>
-<text class="sp" x="197.9" y="481.9" style="animation-duration:7.82s;animation-delay:-5.99s">"</text>
-<text class="sp" x="315.4" y="481.9" style="animation-duration:5.50s;animation-delay:-5.28s">+</text>
-<text class="sp" x="337.7" y="481.9" style="animation-duration:2.46s;animation-delay:-1.49s">+</text>
-<text class="sp" x="365.7" y="481.9" style="animation-duration:4.22s;animation-delay:-0.32s">+</text>
-<text class="sp" x="371.3" y="481.9" style="animation-duration:5.95s;animation-delay:-0.43s">"</text>
-<text class="sp" x="30.0" y="493.1" style="animation-duration:5.30s;animation-delay:-0.58s">`</text>
-<text class="sp" x="164.3" y="493.1" style="animation-duration:5.96s;animation-delay:-2.06s">;</text>
-<text class="sp" x="175.5" y="493.1" style="animation-duration:7.64s;animation-delay:-2.80s">"</text>
-<text class="sp" x="181.1" y="493.1" style="animation-duration:5.04s;animation-delay:-2.56s">"</text>
-<text class="sp" x="197.9" y="493.1" style="animation-duration:3.68s;animation-delay:-1.12s">!</text>
-<text class="sp" x="270.6" y="493.1" style="animation-duration:7.22s;animation-delay:-6.86s">"</text>
-<text class="sp" x="281.8" y="493.1" style="animation-duration:3.14s;animation-delay:-0.14s">"</text>
-<text class="sp" x="337.7" y="493.1" style="animation-duration:5.22s;animation-delay:-1.49s">!</text>
-<text class="sp" x="354.5" y="493.1" style="animation-duration:6.28s;animation-delay:-1.45s">+</text>
-<text class="sp" x="388.1" y="493.1" style="animation-duration:3.04s;animation-delay:-1.00s">+</text>
-<text class="sp" x="404.9" y="493.1" style="animation-duration:5.34s;animation-delay:-2.95s">|</text>
-</g>
+<path d="M34 52V34H52" fill="none" stroke="rgba(255,255,255,.72)" stroke-width="1.4"/>
+<path d="M510 52V34H492" fill="none" stroke="rgba(255,255,255,.72)" stroke-width="1.4"/>
+<path d="M34 468V486H52" fill="none" stroke="rgba(255,255,255,.72)" stroke-width="1.4"/>
+<path d="M510 468V486H492" fill="none" stroke="rgba(255,255,255,.72)" stroke-width="1.4"/>
+<text class="hud" x="40" y="50">IR · 8–14µm</text>
+<text class="hud" x="504" y="50" text-anchor="end">ε 0.98</text>
+<text class="hud" x="40" y="478">ironbow</text>
+<g class="xh" stroke="rgba(255,255,255,.72)" stroke-width="1.2" fill="none"><circle cx="283.8" cy="239.5" r="9"/><path d="M267.8 239.5h8M291.8 239.5h8M283.8 223.5v8M283.8 247.5v8"/></g>
+<rect x="298.8" y="215.5" width="50" height="17" rx="3" fill="#07051a" fill-opacity=".7"/>
+<text class="hud read r0" x="303.8" y="227.5">36.8°C</text>
+<text class="hud read r1" x="303.8" y="227.5">36.9°C</text>
+<text class="hud read r2" x="303.8" y="227.5">36.7°C</text>
+<rect x="500" y="92" width="6" height="336" rx="3" fill="url(#ironv)"/>
+<text class="hud" x="494" y="100" text-anchor="end">37.4°</text>
+<text class="hud" x="494" y="428" text-anchor="end">22.1°</text>
+<g clip-path="url(#vp)"><rect class="scan" x="22" y="-38" width="500" height="44" fill="url(#scan)"/></g>
 <text class="name up" x="556" y="84" style="animation-delay:.15s">Ahmad Hassan</text>
 <text class="role up" x="556" y="116" style="animation-delay:.25s">AI engineer · computational neuroscience</text>
 <text class="role up" x="556" y="138" style="animation-delay:.32s">CUDA &amp; inference · music producer · reader</text>
@@ -775,7 +168,7 @@ text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:
 <g class="up" style="animation-delay:0.58s">
 <text class="lab" x="556" y="250.5">neuroscience</text>
 <line x1="674" x2="922" y1="246" y2="246" stroke="#21262d"/>
-<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-3.14s">
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-4.16s">
 <line x1="715.1" x2="715.1" y1="239" y2="253" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="730.6" x2="730.6" y1="239" y2="253" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="757.5" x2="757.5" y1="239" y2="253" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
@@ -811,7 +204,7 @@ text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:
 <g class="up" style="animation-delay:0.64s">
 <text class="lab" x="556" y="276.5">ai agents</text>
 <line x1="674" x2="922" y1="272" y2="272" stroke="#21262d"/>
-<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-3.70s">
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-0.27s">
 <line x1="723.9" x2="723.9" y1="265" y2="279" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="736.8" x2="736.8" y1="265" y2="279" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="738.8" x2="738.8" y1="265" y2="279" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
@@ -845,7 +238,7 @@ text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:
 <g class="up" style="animation-delay:0.70s">
 <text class="lab" x="556" y="302.5">cuda kernels</text>
 <line x1="674" x2="922" y1="298" y2="298" stroke="#21262d"/>
-<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-2.46s">
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-2.50s">
 <line x1="674.3" x2="674.3" y1="291" y2="305" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="678.6" x2="678.6" y1="291" y2="305" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="683.0" x2="683.0" y1="291" y2="305" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
@@ -877,7 +270,7 @@ text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:
 <g class="up" style="animation-delay:0.76s">
 <text class="lab" x="556" y="328.5">inference</text>
 <line x1="674" x2="922" y1="324" y2="324" stroke="#21262d"/>
-<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-3.35s">
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-0.06s">
 <line x1="679.0" x2="679.0" y1="317" y2="331" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="692.0" x2="692.0" y1="317" y2="331" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="705.0" x2="705.0" y1="317" y2="331" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
@@ -923,7 +316,7 @@ text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:
 <g class="up" style="animation-delay:0.82s">
 <text class="lab" x="556" y="354.5">music</text>
 <line x1="674" x2="922" y1="350" y2="350" stroke="#21262d"/>
-<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-4.67s">
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-0.76s">
 <line x1="674.0" x2="674.0" y1="343" y2="357" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="736.0" x2="736.0" y1="343" y2="357" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="798.0" x2="798.0" y1="343" y2="357" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
@@ -941,7 +334,7 @@ text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:
 <g class="up" style="animation-delay:0.88s">
 <text class="lab" x="556" y="380.5">reading</text>
 <line x1="674" x2="922" y1="376" y2="376" stroke="#21262d"/>
-<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-3.65s">
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-0.23s">
 <line x1="711.2" x2="711.2" y1="369" y2="383" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="835.2" x2="835.2" y1="369" y2="383" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="959.2" x2="959.2" y1="369" y2="383" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
@@ -953,7 +346,7 @@ text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;white-space:
 <g class="up" style="animation-delay:0.94s">
 <text class="lab" x="556" y="406.5">coffee</text>
 <line x1="674" x2="922" y1="402" y2="402" stroke="#21262d"/>
-<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-0.04s">
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-0.91s">
 <line x1="684.7" x2="684.7" y1="395" y2="409" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="711.5" x2="711.5" y1="395" y2="409" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
 <line x1="720.6" x2="720.6" y1="395" y2="409" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round"/>
