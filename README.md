@@ -49,10 +49,13 @@ I build systems that reason in steps and read books that reason in centuries.
 ## What I love to do
 
 <p align="center">
-  <img width="220" src="assets/studio.gif" alt="Ahmad in headphones at a pad controller, nodding along to a beat">
-  <img width="220" src="assets/reading.gif" alt="Ahmad reading Nietzsche's Thus Spoke Zarathustra beside a stack of Dostoevsky, Camus, Kafka and Plato">
-  <img width="220" src="assets/coffee.gif" alt="Ahmad pouring himself a cup of coffee">
+  <img width="185" src="assets/research.gif" alt="Ahmad sketching out research notes on a tablet with a stylus">
+  <img width="185" src="assets/studio.gif" alt="Ahmad in headphones at a pad controller, nodding along to a beat">
+  <img width="185" src="assets/reading.gif" alt="Ahmad reading Nietzsche's Thus Spoke Zarathustra beside a stack of Dostoevsky, Camus, Kafka and Plato">
+  <img width="185" src="assets/coffee.gif" alt="Ahmad pouring himself a cup of coffee">
 </p>
+
+**Research.** Sketching models of how brains compute, then testing whether machines can learn the same tricks.
 
 **Making music.** Producing is pattern work too: build tension, hold it, and release it at exactly the right moment. It's also why [Harmony](https://github.com/Ahmadhassan30/Harmony) exists.
 
