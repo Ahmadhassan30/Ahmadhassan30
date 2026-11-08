@@ -18,9 +18,11 @@ const FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvet
 const THEMES = {
   // same blues as the hero
   light: { ink: '#1f2328', muted: '#59636e', faint: '#d1d9e0', line: '#0969da', bg: '#ffffff',
-    barTop: '#54aeff', barBot: '#b6e3ff', peakTop: '#0969da', peakBot: '#0550ae' },
+    barTop: '#54aeff', barBot: '#b6e3ff', peakTop: '#0969da', peakBot: '#0550ae',
+    areaTop: '#0969da', areaBot: 'rgba(84,174,255,.25)', zoomFill: 'rgba(9,105,218,.10)' },
   dark: { ink: '#f0f6fc', muted: '#9198a1', faint: '#3d444d', line: '#58a6ff', bg: '#0d1117',
-    barTop: '#1f6feb', barBot: '#0c2d6b', peakTop: '#79c0ff', peakBot: '#1f6feb' },
+    barTop: '#1f6feb', barBot: '#0c2d6b', peakTop: '#79c0ff', peakBot: '#1f6feb',
+    areaTop: '#58a6ff', areaBot: 'rgba(31,111,235,.18)', zoomFill: 'rgba(88,166,255,.10)' },
 };
 
 async function calendar() {
@@ -67,9 +69,10 @@ function months(s) {
 }
 
 function option(s, t) {
-  const ms = months(s);
-  const top = Math.max(...ms.map(m => m[1]));
-  const avg = Math.round(s.total / ms.length);
+  // rolling 7-day total for every day: the year as one continuous terrain
+  const dates = s.days.map(d => d[0]);
+  const roll = s.days.map((_, i) => s.days.slice(Math.max(0, i - 6), i + 1).reduce((x, d) => x + d[1], 0));
+  const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   return {
     animationDuration: 1200,
     animationEasing: 'cubicOut',
@@ -87,34 +90,35 @@ function option(s, t) {
       ]),
       { type: 'circle', left: 22, top: H - 21, shape: { r: 4 }, style: { fill: t.line } },
       { type: 'text', left: 36, top: H - 22, style: { text: `live from the GitHub API · updated ${s.updated}`, fill: t.muted, font: `400 11px ${FONT}` } },
-      { type: 'text', right: 22, top: H - 22, style: { text: 'contributions per month', fill: t.muted, font: `400 11px ${FONT}`, align: 'right' } },
+      { type: 'text', right: 22, top: H - 22, style: { text: 'rolling 7-day contributions', fill: t.muted, font: `400 11px ${FONT}`, align: 'right' } },
     ],
-    grid: { left: 22, right: 22, top: 128, bottom: 70 },
+    grid: { left: 46, right: 22, top: 120, height: 196 },
     xAxis: {
-      type: 'category', data: ms.map(m => m[0]),
+      type: 'category', data: dates, boundaryGap: false,
       axisLine: { lineStyle: { color: t.faint } }, axisTick: { show: false },
-      axisLabel: { color: t.muted, fontSize: 12, margin: 12 },
+      axisLabel: { color: t.muted, fontSize: 11, margin: 10,
+        interval: (i, v) => v.endsWith('-01'), formatter: v => MON[+v.slice(5, 7) - 1] },
     },
-    yAxis: { type: 'value', show: false, max: Math.ceil(top * 1.12) },
+    yAxis: {
+      type: 'value', boundaryGap: [0, '12%'], splitNumber: 3,
+      axisLabel: { color: t.muted, fontSize: 10 },
+      splitLine: { lineStyle: { color: t.faint, type: [3, 4], opacity: .6 } },
+    },
+    dataZoom: [{
+      type: 'slider', start: 0, end: 100, left: 46, right: 22, top: 346, height: 30,
+      borderColor: t.faint, backgroundColor: 'transparent', fillerColor: t.zoomFill,
+      handleStyle: { color: t.line, borderColor: t.line }, moveHandleStyle: { color: t.faint, opacity: .6 },
+      labelFormatter: () => '', brushSelect: false,
+      dataBackground: { lineStyle: { color: t.line, width: 1, opacity: .8 }, areaStyle: { color: t.line, opacity: .2 } },
+      selectedDataBackground: { lineStyle: { color: t.line, width: 1 }, areaStyle: { color: t.line, opacity: .3 } },
+    }],
     series: [{
-      type: 'bar', barWidth: '54%',
-      data: ms.map(([, n]) => ({
-        value: n,
-        itemStyle: {
-          borderRadius: [5, 5, 0, 0],
-          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, n === top
-            ? [{ offset: 0, color: t.peakTop }, { offset: 1, color: t.peakBot }]
-            : [{ offset: 0, color: t.barTop }, { offset: 1, color: t.barBot }]),
-        },
-        label: { show: true, position: 'top', distance: 6, color: n === top ? t.ink : t.muted,
-          fontSize: n === top ? 13 : 12, fontWeight: n === top ? 600 : 400, formatter: n ? String(n) : '–' },
-      })),
-      markLine: {
-        silent: true, symbol: 'none',
-        lineStyle: { color: t.muted, type: [4, 4], width: 1, opacity: .55 },
-        label: { position: 'insideEndTop', color: t.muted, fontSize: 11, formatter: `avg ${avg} / month` },
-        data: [{ yAxis: avg }],
-      },
+      type: 'line', data: roll, symbol: 'none', sampling: 'lttb', smooth: .25,
+      animation: false,   // ECharts' SSR clip animation leaves lines undrawn in a static image
+      itemStyle: { color: t.line },
+      lineStyle: { width: 1.6, color: t.line },
+      areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+        { offset: 0, color: t.areaTop }, { offset: 1, color: t.areaBot }]) },
     }],
   };
 }
