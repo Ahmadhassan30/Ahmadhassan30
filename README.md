@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait beside an Apache ECharts dendritic tree of skills and fields, with light beams carrying signals from each skill into the soma">
+  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait acting as the soma of a neuron, with a glowing dendritic tree growing out of his head to his fields (neuroscience, AI systems, inference, life) and skills, light flowing continuously back into him">
 </picture>
 
 ## Hey, I'm Ahmad
