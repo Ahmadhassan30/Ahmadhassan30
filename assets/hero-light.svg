@@ -1,63 +1,712 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1016" height="530" viewBox="0 0 1016 530" xml:space="preserve" role="img" aria-label="Ahmad Hassan: ASCII portrait and profile card">
+<svg xmlns="http://www.w3.org/2000/svg" width="1016" height="580" viewBox="0 0 1016 580" xml:space="preserve" role="img" aria-label="Neural portrait of Ahmad Hassan: an ASCII face made of spiking neurons, a spike raster of interests, and a membrane potential trace">
 <style>
-@font-face{font-family:JBM;src:url(data:font/woff;base64,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) format('woff');}
-text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:13px;white-space:pre;}
-.art{fill:#0969da;} .k{fill:#953800;} .v{fill:#0a3069;} .m{fill:#57606a;} .t{fill:#0550ae;font-weight:bold;}
-.r{opacity:0;animation:rain .5s cubic-bezier(.2,.7,.3,1) forwards;}
-@keyframes rain{0%{opacity:0;transform:translateY(-10px);}60%{opacity:1;}100%{opacity:1;transform:none;}}
-.i{opacity:0;animation:slide .45s ease-out forwards;}
-@keyframes slide{from{opacity:0;transform:translateX(-12px);}to{opacity:1;transform:none;}}
-.scan{animation:scan 6s linear infinite;animation-delay:2.4s;opacity:0;}
-@keyframes scan{0%{opacity:0;transform:translateY(0);}4%{opacity:.55;}70%{opacity:.55;}80%{opacity:0;transform:translateY(437px);}100%{opacity:0;transform:translateY(437px);}}
-.cur{animation:blink 1.05s steps(1) infinite;}
-@keyframes blink{50%{opacity:0;}}
-@media (prefers-reduced-motion:reduce){.r,.i{animation:none;opacity:1;}.scan{display:none;}.cur{animation:none;}}
+@font-face{font-family:JBM;src:url(data:font/woff;base64,d09GRgABAAAAABBsAAwAAAAAFfQAAk3SAAAAAAAAAAAAAAAAAAAAAAAAAABHREVGAAAQUAAAABwAAAAcAGcAT09TLzIAAAGUAAAAUgAAAGAzdH50Y21hcAAAAmQAAACTAAAA1AULKylnYXNwAAAQSAAAAAgAAAAIAAAAEGdseWYAAAOMAAAMnAAAEgJPx8kjaGVhZAAAARwAAAA2AAAANibewq9oaGVhAAABVAAAACAAAAAkBKsBJGhtdHgAAAHoAAAAfAAAAJIL7AxPbG9jYQAAAvgAAACSAAAAkqUYoGRtYXhwAAABdAAAAB0AAAAgAFIAWG5hbWUAABAoAAAABgAAAAYABgAAcG9zdAAAEDAAAAAXAAAAIP9oADMAAQAAAAJN0iz2sP9fDzz1AB8D6AAAAADf6GZ5AAAAAOcVyvf+Sv9MAmIDPgAAAAYAAgAAAAAAAHicY2BkYGD+8+8KAwNTxD+v/9+YkhgYGVABIwCtzQbQeJxjYGRgYPBgsGFgZZBiYGIA8RCAiYERABCGAKsAAAB4nGNgYYpgnMDAysDA1MUUwcDA4A2hGeMYjBgdGBiYGBg4GWCAmYFBAc7xcmJgYDzAoKB6nvnPvysMDMx/GHUYGBgYQXJMaky3GECKGQH37guQAAB4nB3LMQqCYACA0UcH6Ah1gggccnGQgoZskFCSHyOClrbO4Fy0dYDu09KWBwlaLIpvfV+vEnDR9/Zw0soFS3NzmdTKVOqp/NcYidT2Ng5GGhuxIFK6y1zlEjczlbVCrFL/z52BRK1QOyqNBUMTQWar/Zlu0Z0/ry/k1R44eJyNzj8LAXEAxvEvd6PRC7jUZblklkVSkkky3CZvQEpH8gq8oFtv8OeuSBGOIl7Jo37lZs/yXT7DA+QBCyhikTO1iQAPB5sCDiVcylSo0aBJiw5degwYMmZKwIIloXuUINMeVepGt43u4zNiQsD8p/XRWy89dVeqm6666KyTDtorUaydttpordVjZn79vS/0sjk4AAAAAAAAAAALAGUAdACCAI8ApQDiAPYBHQFIAWABiQG+AdICIAJUAnsClwKqAsUC9wNBA2IDiwOiA7gDzQPoA/cEHgQvBE0EaAR+BI8EngSvBMsE1wTgBRcFQQV0BaYFwgX+Bh8GKwY3Bk8GZwacBr0G5wcZBzcHcQePB60H5AgCCBgIUAiLCJQIpwjACM4I5QkBAAB4nIVYDWwb93V/738Sj6ItWWfxyMSSbZFnHW2J1NfpSEmkyCMlkpGoD4r6PstSSFG2ZWeKbEm2nMYe4DRpgtltZsxuUrepnHpDF2Re2rhdizZZk2BpFiTZFhjzRmxYvXoYYGBZti5CsljH4X8kLWnFMAj3ofv/73383nu/947ZLHwDb+Bfkky5CEVXoNwARccAiqEs+yXpIf8EpcDBXnCBF6DCLnpk0S01W6y82cCghBXNblluEQW7gefNFrSLcm6d580Gx6Y1g+VFJYYYU5QYxj7A/+zRykJ7BGHPHkHAkBLDXkWJxZQ9grB3t4ACPt/tD/q79ZO2QDLrIt7atze4d59+0hwbq2Gh8FgAQPgCb+A0yQADgIzEIBoPs3gDndotuvpx9lFchkt01VohMR97HousYrP2EV27gHb8AE/StQrZxl9ABe3xOF3JZNfwHLwA2wCK7aLcortnNqCzxuWqqXG5TE6hpr6+RnACA/HsGjGSu1AGVbA/t5/LvcCZDTogXA4QzmzxbBE2e/r07Oxp90ynr7vbR49Km62y0mYzLadQSS0vp7RfBJNyX18HKh19fR3aLzr6frOnqnL37sqqPdRKFYBUkQyYACRZ4ljZI3ESr7777h9+5eUEaf+DI19ZX0kAQi8A2UHuwkN0X4XbnQ+Q4M5bwrI2fvQ3sjPs7YiqzMrM7Om28F9g7xAWtY7X+qLd/pmlk6mWpUc+SlCtkewaaiQDVTlfJbNFygddkD022cazFj0V0DZ7So34fJGIb+B17RZeek09etp0IkkfNPsi/W8mhn/GPn6wOXlClwqA90iGIm6TbTJKyFOf8Hntx2g6rN37VF29iH+iBRw/1Cbp/lh2jTAkA5W/bQVn423WfD6imDeiq/2X+LT2V+TU7HzBCJcvgjOJP3981pU8AQSU7Bp5iGSAB5suk0bKUyExVh0mipMezBx2Zgu6Isd9+/b+cfomU9qyN5j0+OaiwcHBYHBw0OSdCzfOerBB+yXhdralQ5HjvvhoODxKD0BIABA7yYARQEIbL8g2Ht/EIu2ein+taeTZU+8Nrz8BDISya8RC7sJuOADyhk2yfikYxfI525hNtlVsttMZPuYdCLV1uZMB5VF3V1towDsXae3qavWEwx4lHleUeNzkTgbC6W1M6UR721hT01hb+0Qpsy0dDiTd+FpIlkP00K7FfB2xWIcvRtECIA+Ruzm0pAqHwSDYt9rFcJuseOcmY3JXB6bdvmPh6DGKWx4rbCPlFW3pUPSYL4ea9jc49QArAn+fXcPfJY2wDawAuKl8mC2ldKC29sCmA7+9327fTw9NLdzRrBmBIGHIEGwHqKmRa/hig4G1WKzFhNESeEN7v8JmLLFz6A7eTt8ee6GklJDSkheBwAi8Qhi8BwywOa4olm38CN6gb+G34vFP4/Gt0j1yjdvtEUVHjVzMj6A7J1h7H28Ec3LLjC+qt9MABM5nv8R/IRkwg52+J+VQE+RC0rE8m3M156vwUbMSiwXPno0caWscae3YZbfv2rN7r33X7VeiXm90RH401HbQzUz/g33XLrtt1y6B6nBle0kjuQuOB3m0QVECJXD9P6skP2AqSeKZrTwfHjkXfv7cyadGe7rHIsoBdwkZiavp44fmBbG2VhRra29GnxrH4a9dfeqk9h/9B8ejSz2D1VWREXXpqPZqejGG9U11y86GRudSXRO1qRmAiCQDLJTTDJIqBIfAVkgOUXQYDGzzm2feONj4j42hn7SW7yRkZzntCG+/jWV3lNHS0tEAjeZkdo2YyN0CB+RdEjZ8aHbLktmALemlpXRqSQ16vZ2dXm9QXTItpLAntXAi6e/s9Gs/pufkCUCgATHmWEiiNEL/OBufxuvaj3C/9ncYI5nEP8e1+zoTHgLALwu7c38CJ3CH1Huqeo9ktPewdV3EuPYaIMwB4L/n98oSR2te4CR+7vJlfOby5QRxJxLr7+tSXdk1feeOLczGSZzZgGVzK2pUUaLqGdOpw53d3Z3EuP754VOAcD6PZnHOFht/XsUekqENAAi1lNhIBspoFUlcoUQrBEbguELGHboTTLl7A5dnvnHmWcoPz5KMPBXoOcZrb6Fbex+/Fm33UpoGT14aS2XlPMm+h/feI88mEusremfK9wguHxmJ2+yF8/BjqrfD51OPm04kyc71Tygb02tqAfBBXmwHkBipwmKxunUe/uTnk2dLuaKiitKVQ2+QjLajZdxqnWjBT9dFvfZA7wclFF+kbQhphXZrP8fvan+GQyqpT6jrH+sIf5i9hG8zfmq/lZP0OHz42dWr88yr8fv/Fc91l0uklPHTyaAYJcQb2nemcWaeefX+MCBcyV7C38u/r8dS4q5cvfrZfJzZHr8/TN+P47CeR9sBKmhmM7mkZuKvD/9gcMFYyhSVlSziMD6jPYHEXGMy1Zg1DRB82W+Tquy/6tOKbON9+Kt0LJbNwsvkaVxiuHIWwmQcaEQ7s2t4nzRCJYgAVnuOeSW5RbAb2Hxj5wRZyPUsOUfC90fS9Qn5leUWhajFj0+mj08Q42hTqH/V6ekwTfdJvXV1x0V7cOTRUe2ZtOTtVTx9srNeBoTx7BrZpmvT45mnC0EskIPU7PZIBlppKyvp6WVGZUKt3mjU2xpiVGbZtJC6klo4PC63dfq/6e9qbxk/DATGdA/yvLdJquTQMS2YvkFA2xMzqSH/oBGJqiIbr25VlNY2RTHNT12bnvfLZ1fXxTl3R3/Ef8Uf8XatdvooTsPZNVJEGsEK1Zu1WHjetmE3Y8urQWfy9OlkMOnWvh9pbw6yasnSbYTOjo5O0/KR80eWW6aUVEtH1GELD2JvVTAaDRbqYSfJwM5cPUg6WfOCnedpct1eXU08cu2acucOPpdYDMYS7YsJ7TS1bTzbi1+SRqiCWj2TqLsewbCVkWnFCFup+NrVBjdhjP3ekVRqxNtvJBNHJjgdjUDgZkJ2NatN8mNTS1PzrU3T65mhJNZE/HP+SKj1bGtI500AvTrNed4qpEthTp1Uke0NDKXUgLs1SDLarz2+w+Pa13HG3xlRtJezWb3a6piSnSJ0ApSzECFHAOjzbC++oz/vyj//PlCNSQDSkK9pqtEjMZTu+aQ6960jP/jZ3OpxktHmfq39t/arzz4DhD15DigFsFH+EGRbrifhk91jb+JDYvUrIxH8t8T6W3YHnXB9+iTcCPt0+XzOI+tvOfbgxtdPipvEfc3bkG0S5cBwdVVldU91ZVU1Ebtr6mv37asdCGhT+D2bQ7Rpk4XrBnaNeez4/wc7cS4PXSqgQ5fLyM9JEamH0q3V9L+/nujkNrO8lE4vLc/QttXe1WVcOnpubnFx7tzRpXhIuaSE9BOVOZntJahbZc9xWt4uXm/vDsHKe7aIplbG/UOp1JA/zjJkpU1R2jzB4E2SmXN3/M50vp4+93Wudnn1egKEBT3LG6Fii+e8oHMOzy2ohO1VRg+py14/Eedk/5HphoaVLuo0wkj2c8KQ+sL3Ee1petdxOMTCaKOzic5TVqs+56BlclZ1NzmbPcEXWv0zY874bNFBIh1w1rfIX78wO2kc6hXrnPujJRZjX+CRxICyW6zd1240m5/vG6GRatB7+VvU3nwOSbKkV2Quk2a6Ei+9pN65Y6tcHQhhZ+Lq1YT2RpWQ2Ohf4v/Rv+qmT6qKp5XOESeSOKW97ItGffSqzxB7AUgbEWkOb+5fG43sQTc4o/a3MgYkxUVhNVzEIjEw7T1TM4EilqCxOERE7UmLzHGyBb+6cbeewSerAhwXqNK+CgjubC+xE5FWitWzSR3+cPDD5HljGcOUsWemtU9u/i0p0l41O8vLnWYcXhfz34+6l1t6poot2i38fe1dDKv4RELVnknkOyJ+wfhphRXbRY/HnRtR3Q6HmCM7g9VqocM0yxp0eD8YP8ruKN4fXFwM7i/ewR4dd7kaWop2FIdisVDxjqKWBtf82MB1uSHeIF8fGIvX1V33Rlm2v/16XR2dpafzHVjMMyPV4xE3FD9QlNdsEKZdDR724ZJ2SWoveZj1NLhc3gmX8WFjXfDsWcVpfNjomvDOUz1tAyXGSBvV4+iR8xa0xByUvzJYhOfwj3aytLdjWX6uqCtgpE87nMSPvPOnWPLTBJ5PaE4dHcp7r+ejoPM4Z6OMZRDUJ/1h7T5OrczeTHR14I8S618kT1LYe8jT2SqG03+1cEhW7Y3F9Dx5+sIFunaRPJetZErorLj5i0e7ZRNFm00UyXP23fSHlN12AMyuQTNJkZfovFiz9RPMgM7xi4ODF8cnLgwOXmgu3EyMXxz8H0ONGg8AAAAAAAYAAHicY2BmAIP/qQxGDAwMjAxoAAAlowGbAAABAAH//wAPAAEAAAAMAAAAAAAAAAIAAgAYACMAAQApAD8AAQ==) format('woff');}
+@font-face{font-family:JBMB;src:url(data:font/woff;base64,d09GRgABAAAAAAS8AAwAAAAABSQAAk3SAAAAAAAAAAAAAAAAAAAAAAAAAABHREVGAAAEpAAAABYAAAAWABIACk9TLzIAAAGMAAAATgAAAGAUnlj4Y21hcAAAAfQAAABVAAAAbAHxAaRnYXNwAAAEnAAAAAgAAAAIAAAAEGdseWYAAAJkAAACFwAAApiMHBLyaGVhZAAAARwAAAA2AAAANiiLwvVoaGVhAAABVAAAACAAAAAkBlYBUWhtdHgAAAHcAAAAFgAAABYDXAFRbG9jYQAAAkwAAAAWAAAAFgMNAlhtYXhwAAABdAAAABgAAAAgAA0ALW5hbWUAAAR8AAAABgAAAAYABgAAcG9zdAAABIQAAAAXAAAAIP9oADMAAQAAAAJN0kfqZDFfDzz1AB8D6AAAAADf6GZ5AAAAAOcVyvcAI//2AjUC2gABAAYAAgAAAAAAAHicY2BkYGD+8+8KAwNTBIMygzKTKQMjAypgBABn7AOseJxjYGRgYOBi0GFgYgABRgY0AAAF2AA7eJxjYGGKYNrDwMrAwNTFFMHAwOANoRnjGIwYHRgYmBgYOBlggJEBCXg5MTAwLmBQYChm/vPvCgMD8x9GHZgaJjWmWwwMDAoMjADupgr6AAACWABaAAAAIwBNADoARwBNAC8ATQBBAAB4nGNgYGBiYGBgZmBgEGFgZmAE0ywMEQwMDEIMAgzMDEwMCgyODB4MiQwpDBkMeQzF//8zMKCI5YLE/j/8f/D/7v+L/y/8P+//rP/TwCahAQCl3heGAAAAAAAAAAAAACEANwBsAJwAvQDuAQ4BTAAAeJxlkU1rE1EUhs/cSSckQcznjFHbpHObO9OaZKZz751qiB+pYEGbj9KgRCtt0pK2UIsEBYlGKogggitF6M6d24ILXQmSHyHzJ9wpCJlKM9Va5Cze3fs8LwcQYADEkQN+CAPQGI1hDftjVCNEkyQ//vT+847+Vb/8JhsKi2I4hJwB2dsTlP50NRqtmgAClAFQCDkQAqAR73AER8q9fq/XR477TdAHRCi5XwBBYf8HCiETkjABoKiEM5tSzrAq+bFtU0tORDCXJM2yOceqlIjL3+vN7ZUXzSwTH/kerm4+6Ppvjs5c2Zk0aXC5XFvWFtXU9aVWw321zottO1fKT2RyAAjmhiQHopD2SAcoS1Y0To8QjBxAEnH5V221tXChGvb1uicrIZNz0+Q82Fl52+wU2NPdAVljha0Cf84LzH5ts8PVJ5AD8eHqhP+PfcTrjJR7YrBSXGj2eM7gyPnYZsWtO+474TadOc/cDyCAAYAmkQnjXgMdNijHeo7S2BBFi2RYwEc1a3Y7qeTWFNlEpKZbhq4b1UvuXWH3TKrgtg8D/jqaEPMI/yl2/zEk6+ziMUEQoLT/EynIgHMAIyrhNC5TatmcEU0j3ussWcGEYO9ViiLLibiEhUSr89iYyuamVfxydm6jlV+6j54I2Uxen0qNPZsv39sMNObTqpoeGx2JBupXK4v1a6dT42eTp8RooHGjdus3/xGMRAAAAAAAAAYAAHicY2BmAIP/qQxGDAwMjAxoAAAlowGbAAABAAH//wAPAAEAAAAMAAAAAAAAAAIAAQACAAkAAQAA) format('woff');}
+text{font-family:JBM,ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12.5px;white-space:pre;}
+.art{fill:#0969da;opacity:.62} .sp{fill:#032563;stroke:#032563;stroke-width:.7;opacity:0;animation-name:spk;animation-iteration-count:infinite;animation-timing-function:ease-out}
+@keyframes spk{0%{opacity:0}2%{opacity:1}6%{opacity:1}16%{opacity:0}100%{opacity:0}}
+.row{opacity:0;animation:boot .6s ease-out forwards}
+@keyframes boot{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+.wave{animation:wave 7s cubic-bezier(.45,0,.55,1) infinite;animation-delay:1.6s;transform:translateX(-260px)}
+@keyframes wave{0%{transform:translateX(-260px)}55%{transform:translateX(540px)}100%{transform:translateX(540px)}}
+.lane{animation:scroll 4.4s linear infinite}
+@keyframes scroll{to{transform:translateX(-200px)}}
+.trace{animation:trace 9s linear infinite}
+@keyframes trace{to{transform:translateX(-1016px)}}
+.rec{animation:rec 1.6s steps(1) infinite}@keyframes rec{50%{opacity:.25}}
+.fade{opacity:0;animation:fade .7s ease-out forwards}@keyframes fade{to{opacity:1}}
+.name{font-family:JBMB,JBM,monospace;font-size:30px;fill:#1f2328} .m{fill:#57606a} .lab{fill:#0550ae;font-size:13px} .acc{fill:#0a3069} .sm{font-size:11px;letter-spacing:.4px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.row,.fade{opacity:1}.sp,.wave{display:none}}
 </style>
-<rect x=".5" y=".5" width="1015" height="529" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-<text class="art r" x="34" y="78.2" style="animation-delay:0.090s">                              __     __</text>
-<text class="art r" x="34" y="93.8" style="animation-delay:0.135s">                         "JCmm00mj==_ `^</text>
-<text class="art r" x="34" y="109.4" style="animation-delay:0.180s">                     _mmu_@0@0@000@@@@m_sj==,</text>
-<text class="art r" x="34" y="125.0" style="animation-delay:0.225s">                 ___J@@@@L@@0@@m@@@@@@@00@mmj</text>
-<text class="art r" x="34" y="140.6" style="animation-delay:0.270s">                 jj@@@@@@C0@@@@@@@@@@@00@@@@@__==</text>
-<text class="art r" x="34" y="156.2" style="animation-delay:0.315s">              `_j@0@@0@@@0@@@@@@@@@@@@@@@@@0@@mmm'</text>
-<text class="art r" x="34" y="171.8" style="animation-delay:0.360s">              _uC@0@@m@@@m@@@@@=000@@@@@@@@@@@0uCj_</text>
-<text class="art r" x="34" y="187.4" style="animation-delay:0.405s">            __j0C@@@0@@@@@@@@@@  j00@@@00@@@@@@@@@0j_</text>
-<text class="art r" x="34" y="203.0" style="animation-delay:0.450s">            _j0@m@@@@@@@0@0{Z"_   ^=@@0j@@@@@@@@@@0C"</text>
-<text class="art r" x="34" y="218.6" style="animation-delay:0.495s">            00@@C@@@@@@@m00"00"     0mr00^0@@@@0@0L0C</text>
-<text class="art r" x="34" y="234.2" style="animation-delay:0.540s">             ^{@@@@@@@@C_mmmuu,    ummmmm_j@@@@@0@0L</text>
-<text class="art r" x="34" y="249.8" style="animation-delay:0.585s">              m00@@@@@@J" _gs``  . `_ms.`"J@@@@@0@mJ</text>
-<text class="art r" x="34" y="265.4" style="animation-delay:0.630s">              "=J@@@@@}=   ""   ,   "0"   '@0@@@m^</text>
-<text class="art r" x="34" y="281.0" style="animation-delay:0.675s">                =0h@``@_       J`   `     _@`]@0"=</text>
-<text class="art r" x="34" y="296.6" style="animation-delay:0.720s">                  `"m {L      `%__@ ` `  .J}_@^0</text>
-<text class="art r" x="34" y="312.2" style="animation-delay:0.765s">                   =000@_   ___Jmmu__    j@0j0=</text>
-<text class="art r" x="34" y="327.8" style="animation-delay:0.810s">                     ^U@@s_J@0C_]"CT0@L_g@@r"</text>
-<text class="art r" x="34" y="343.4" style="animation-delay:0.855s">                       "00@@`  L__&gt;  j@@00"</text>
-<text class="art r" x="34" y="359.0" style="animation-delay:0.900s">                         \@0@__J@0__g0@0r`</text>
-<text class="art r" x="34" y="374.6" style="animation-delay:0.945s">                          "j@@@@@@@@@@0`</text>
-<text class="art r" x="34" y="390.2" style="animation-delay:0.990s">                           `"0@@@@@@0"```</text>
-<text class="art r" x="34" y="405.8" style="animation-delay:1.035s">                       m-   _"""j^"`=  ` -u</text>
-<text class="art r" x="34" y="421.4" style="animation-delay:1.080s">                   _Jm0@m_  j-` "`= ? _ _j@@ss_</text>
-<text class="art r" x="34" y="437.0" style="animation-delay:1.125s">                cm@0@@@@@@0mg_  "``___jm0@@@@@@0m_</text>
-<text class="art r" x="34" y="452.6" style="animation-delay:1.170s">            _s0@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@0@@@mc_</text>
-<text class="art r" x="34" y="468.2" style="animation-delay:1.215s">         _m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@0%@@@@@mj_</text>
-<rect class="scan" x="28" y="34" width="511" height="2" rx="1" fill="#0969da"/>
-<text class="i" x="577" y="47.0" style="animation-delay:0.350s"><tspan class="t">ahmad@hassan</tspan></text>
-<text class="i" x="577" y="69.0" style="animation-delay:0.435s"><tspan class="m">────────────</tspan></text>
-<text class="i" x="577" y="91.0" style="animation-delay:0.520s"><tspan class="k">Role</tspan><tspan class="m">: </tspan><tspan class="v">"AI engineer, researcher, music producer"</tspan></text>
-<text class="i" x="577" y="113.0" style="animation-delay:0.605s"><tspan class="k">Research<tspan class="m">.</tspan>Neuro</tspan><tspan class="m">: </tspan><tspan class="v">"computational neuroscience"</tspan></text>
-<text class="i" x="577" y="135.0" style="animation-delay:0.690s"><tspan class="k">Research<tspan class="m">.</tspan>AI</tspan><tspan class="m">: </tspan><tspan class="v">"agents, retrieval, alignment"</tspan></text>
-<text class="i" x="577" y="157.0" style="animation-delay:0.775s"><tspan class="k">GPU</tspan><tspan class="m">: </tspan><tspan class="v">"CUDA kernels, inference engineering"</tspan></text>
-<text class="i" x="577" y="179.0" style="animation-delay:0.860s"><tspan class="k">Languages<tspan class="m">.</tspan>Code</tspan><tspan class="m">: </tspan><tspan class="v">"Python, TypeScript, Rust, C++, CUDA"</tspan></text>
-<text class="i" x="577" y="201.0" style="animation-delay:0.945s"><tspan class="k">Stack<tspan class="m">.</tspan>ML</tspan><tspan class="m">: </tspan><tspan class="v">"PyTorch, TensorFlow, vLLM, TensorRT"</tspan></text>
-<text class="i" x="577" y="223.0" style="animation-delay:1.030s"><tspan class="k">Builds</tspan><tspan class="m">: </tspan><tspan class="v">"ArgusVision, Aether, Anemo, Morpheus"</tspan></text>
-<text class="i" x="577" y="245.0" style="animation-delay:1.115s"><tspan class="k">Hobbies<tspan class="m">.</tspan>Music</tspan><tspan class="m">: </tspan><tspan class="v">"producing, built a BPM/key detector"</tspan></text>
-<text class="i" x="577" y="267.0" style="animation-delay:1.200s"><tspan class="k">Hobbies<tspan class="m">.</tspan>Reading</tspan><tspan class="m">: </tspan><tspan class="v">"Dostoevsky, Kafka, Nietzsche"</tspan></text>
-<text class="i" x="577" y="289.0" style="animation-delay:1.285s"><tspan class="k">Fuel</tspan><tspan class="m">: </tspan><tspan class="v">"coffee"</tspan></text>
-<text class="i" x="577" y="311.0" style="animation-delay:1.370s"><tspan class="k">OS</tspan><tspan class="m">: </tspan><tspan class="v">"Fedora Linux"</tspan></text>
-<text class="i" x="577" y="355.0" style="animation-delay:1.540s"><tspan class="t">Contact:</tspan></text>
-<text class="i" x="577" y="377.0" style="animation-delay:1.625s"><tspan class="m">────────</tspan></text>
-<text class="i" x="577" y="399.0" style="animation-delay:1.710s"><tspan class="k">Web</tspan><tspan class="m">: </tspan><tspan class="v">"ahmadhassan.engineer"</tspan></text>
-<text class="i" x="577" y="421.0" style="animation-delay:1.795s"><tspan class="k">Email</tspan><tspan class="m">: </tspan><tspan class="v">"ahmadhassan30nov@gmail.com"</tspan></text>
-<text class="i" x="577" y="443.0" style="animation-delay:1.880s"><tspan class="k">LinkedIn</tspan><tspan class="m">: </tspan><tspan class="v">"ahmad-hassan3110"</tspan></text>
-<text class="i" x="577" y="487.0" style="animation-delay:2.050s"><tspan class="t">ahmad@hassan</tspan><tspan class="m">:</tspan><tspan class="k">~</tspan><tspan class="m">$ </tspan><tspan class="v cur">█</tspan></text>
+<defs>
+<pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0969da" stroke-opacity=".07"/></pattern>
+<linearGradient id="band" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#032563" stop-opacity="0"/><stop offset=".5" stop-color="#032563" stop-opacity=".95"/><stop offset="1" stop-color="#032563" stop-opacity="0"/></linearGradient>
+<linearGradient id="fadeR" x1="0" x2="1"><stop offset="0" stop-color="#f6f8fa" stop-opacity="1"/><stop offset=".08" stop-color="#f6f8fa" stop-opacity="0"/><stop offset=".92" stop-color="#f6f8fa" stop-opacity="0"/><stop offset="1" stop-color="#f6f8fa" stop-opacity="1"/></linearGradient>
+<mask id="artmask" maskUnits="userSpaceOnUse">
+<text x="34" y="92.0" fill="#fff">                              __     __</text>
+<text x="34" y="107.0" fill="#fff">                         "JCmm00mj==_ `^</text>
+<text x="34" y="122.0" fill="#fff">                     _mmu_@0@0@000@@@@m_sj==,</text>
+<text x="34" y="137.0" fill="#fff">                 ___J@@@@L@@0@@m@@@@@@@00@mmj</text>
+<text x="34" y="152.0" fill="#fff">                 jj@@@@@@C0@@@@@@@@@@@00@@@@@__==</text>
+<text x="34" y="167.0" fill="#fff">              `_j@0@@0@@@0@@@@@@@@@@@@@@@@@0@@mmm'</text>
+<text x="34" y="182.0" fill="#fff">              _uC@0@@m@@@m@@@@@=000@@@@@@@@@@@0uCj_</text>
+<text x="34" y="197.0" fill="#fff">            __j0C@@@0@@@@@@@@@@  j00@@@00@@@@@@@@@0j_</text>
+<text x="34" y="212.0" fill="#fff">            _j0@m@@@@@@@0@0{Z"_   ^=@@0j@@@@@@@@@@0C"</text>
+<text x="34" y="227.0" fill="#fff">            00@@C@@@@@@@m00"00"     0mr00^0@@@@0@0L0C</text>
+<text x="34" y="242.0" fill="#fff">             ^{@@@@@@@@C_mmmuu,    ummmmm_j@@@@@0@0L</text>
+<text x="34" y="257.0" fill="#fff">              m00@@@@@@J" _gs``  . `_ms.`"J@@@@@0@mJ</text>
+<text x="34" y="272.0" fill="#fff">              "=J@@@@@}=   ""   ,   "0"   '@0@@@m^</text>
+<text x="34" y="287.0" fill="#fff">                =0h@``@_       J`   `     _@`]@0"=</text>
+<text x="34" y="302.0" fill="#fff">                  `"m {L      `%__@ ` `  .J}_@^0</text>
+<text x="34" y="317.0" fill="#fff">                   =000@_   ___Jmmu__    j@0j0=</text>
+<text x="34" y="332.0" fill="#fff">                     ^U@@s_J@0C_]"CT0@L_g@@r"</text>
+<text x="34" y="347.0" fill="#fff">                       "00@@`  L__&gt;  j@@00"</text>
+<text x="34" y="362.0" fill="#fff">                         \@0@__J@0__g0@0r`</text>
+<text x="34" y="377.0" fill="#fff">                          "j@@@@@@@@@@0`</text>
+<text x="34" y="392.0" fill="#fff">                           `"0@@@@@@0"```</text>
+<text x="34" y="407.0" fill="#fff">                       m-   _"""j^"`=  ` -u</text>
+<text x="34" y="422.0" fill="#fff">                   _Jm0@m_  j-` "`= ? _ _j@@ss_</text>
+<text x="34" y="437.0" fill="#fff">                cm@0@@@@@@0mg_  "``___jm0@@@@@@0m_</text>
+<text x="34" y="452.0" fill="#fff">            _s0@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@0@@@mc_</text>
+<text x="34" y="467.0" fill="#fff">         _m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@0%@@@@@mj_</text>
+</mask>
+<clipPath id="lanes"><rect x="714" y="0" width="200" height="580"/></clipPath>
+<clipPath id="card"><rect x="1" y="1" width="1014" height="578" rx="12"/></clipPath>
+</defs>
+<rect x=".5" y=".5" width="1015" height="579" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="1" y="1" width="1014" height="578" rx="12" fill="url(#g)"/>
+<text class="m sm" x="34" y="32"><tspan class="rec" fill="#0969da">●</tspan> REC   ch01   neural portrait   n = 683 neurons   poisson-encoded</text>
+<text class="art row" x="34" y="92.0" style="animation-delay:0.070s">                              __     __</text>
+<text class="art row" x="34" y="107.0" style="animation-delay:0.105s">                         "JCmm00mj==_ `^</text>
+<text class="art row" x="34" y="122.0" style="animation-delay:0.140s">                     _mmu_@0@0@000@@@@m_sj==,</text>
+<text class="art row" x="34" y="137.0" style="animation-delay:0.175s">                 ___J@@@@L@@0@@m@@@@@@@00@mmj</text>
+<text class="art row" x="34" y="152.0" style="animation-delay:0.210s">                 jj@@@@@@C0@@@@@@@@@@@00@@@@@__==</text>
+<text class="art row" x="34" y="167.0" style="animation-delay:0.245s">              `_j@0@@0@@@0@@@@@@@@@@@@@@@@@0@@mmm'</text>
+<text class="art row" x="34" y="182.0" style="animation-delay:0.280s">              _uC@0@@m@@@m@@@@@=000@@@@@@@@@@@0uCj_</text>
+<text class="art row" x="34" y="197.0" style="animation-delay:0.315s">            __j0C@@@0@@@@@@@@@@  j00@@@00@@@@@@@@@0j_</text>
+<text class="art row" x="34" y="212.0" style="animation-delay:0.350s">            _j0@m@@@@@@@0@0{Z"_   ^=@@0j@@@@@@@@@@0C"</text>
+<text class="art row" x="34" y="227.0" style="animation-delay:0.385s">            00@@C@@@@@@@m00"00"     0mr00^0@@@@0@0L0C</text>
+<text class="art row" x="34" y="242.0" style="animation-delay:0.420s">             ^{@@@@@@@@C_mmmuu,    ummmmm_j@@@@@0@0L</text>
+<text class="art row" x="34" y="257.0" style="animation-delay:0.455s">              m00@@@@@@J" _gs``  . `_ms.`"J@@@@@0@mJ</text>
+<text class="art row" x="34" y="272.0" style="animation-delay:0.490s">              "=J@@@@@}=   ""   ,   "0"   '@0@@@m^</text>
+<text class="art row" x="34" y="287.0" style="animation-delay:0.525s">                =0h@``@_       J`   `     _@`]@0"=</text>
+<text class="art row" x="34" y="302.0" style="animation-delay:0.560s">                  `"m {L      `%__@ ` `  .J}_@^0</text>
+<text class="art row" x="34" y="317.0" style="animation-delay:0.595s">                   =000@_   ___Jmmu__    j@0j0=</text>
+<text class="art row" x="34" y="332.0" style="animation-delay:0.630s">                     ^U@@s_J@0C_]"CT0@L_g@@r"</text>
+<text class="art row" x="34" y="347.0" style="animation-delay:0.665s">                       "00@@`  L__&gt;  j@@00"</text>
+<text class="art row" x="34" y="362.0" style="animation-delay:0.700s">                         \@0@__J@0__g0@0r`</text>
+<text class="art row" x="34" y="377.0" style="animation-delay:0.735s">                          "j@@@@@@@@@@0`</text>
+<text class="art row" x="34" y="392.0" style="animation-delay:0.770s">                           `"0@@@@@@0"```</text>
+<text class="art row" x="34" y="407.0" style="animation-delay:0.805s">                       m-   _"""j^"`=  ` -u</text>
+<text class="art row" x="34" y="422.0" style="animation-delay:0.840s">                   _Jm0@m_  j-` "`= ? _ _j@@ss_</text>
+<text class="art row" x="34" y="437.0" style="animation-delay:0.875s">                cm@0@@@@@@0mg_  "``___jm0@@@@@@0m_</text>
+<text class="art row" x="34" y="452.0" style="animation-delay:0.910s">            _s0@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@0@@@mc_</text>
+<text class="art row" x="34" y="467.0" style="animation-delay:0.945s">         _m@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@0%@@@@@mj_</text>
+<g mask="url(#artmask)"><rect class="wave" x="34" y="49.5" width="200" height="430" fill="url(#band)"/></g>
+<text class="sp" x="259.0" y="92.0" style="animation-duration:6.25s;animation-delay:-3.76s">_</text>
+<text class="sp" x="266.5" y="92.0" style="animation-duration:4.31s;animation-delay:-4.00s">_</text>
+<text class="sp" x="311.5" y="92.0" style="animation-duration:4.21s;animation-delay:-4.00s">_</text>
+<text class="sp" x="244.0" y="107.0" style="animation-duration:2.45s;animation-delay:-1.93s">m</text>
+<text class="sp" x="251.5" y="107.0" style="animation-duration:4.21s;animation-delay:-3.44s">m</text>
+<text class="sp" x="259.0" y="107.0" style="animation-duration:6.41s;animation-delay:-1.31s">0</text>
+<text class="sp" x="266.5" y="107.0" style="animation-duration:4.07s;animation-delay:-1.44s">0</text>
+<text class="sp" x="274.0" y="107.0" style="animation-duration:2.91s;animation-delay:-2.33s">m</text>
+<text class="sp" x="289.0" y="107.0" style="animation-duration:6.07s;animation-delay:-1.68s">=</text>
+<text class="sp" x="296.5" y="107.0" style="animation-duration:8.43s;animation-delay:-3.62s">=</text>
+<text class="sp" x="304.0" y="107.0" style="animation-duration:7.20s;animation-delay:-1.46s">_</text>
+<text class="sp" x="191.5" y="122.0" style="animation-duration:4.60s;animation-delay:-1.59s">_</text>
+<text class="sp" x="199.0" y="122.0" style="animation-duration:6.06s;animation-delay:-4.23s">m</text>
+<text class="sp" x="206.5" y="122.0" style="animation-duration:1.88s;animation-delay:-0.30s">m</text>
+<text class="sp" x="229.0" y="122.0" style="animation-duration:2.06s;animation-delay:-0.07s">@</text>
+<text class="sp" x="244.0" y="122.0" style="animation-duration:3.25s;animation-delay:-1.03s">@</text>
+<text class="sp" x="251.5" y="122.0" style="animation-duration:2.61s;animation-delay:-0.06s">0</text>
+<text class="sp" x="266.5" y="122.0" style="animation-duration:2.40s;animation-delay:-1.77s">0</text>
+<text class="sp" x="274.0" y="122.0" style="animation-duration:2.09s;animation-delay:-1.25s">0</text>
+<text class="sp" x="289.0" y="122.0" style="animation-duration:5.58s;animation-delay:-1.06s">@</text>
+<text class="sp" x="296.5" y="122.0" style="animation-duration:1.88s;animation-delay:-0.55s">@</text>
+<text class="sp" x="311.5" y="122.0" style="animation-duration:5.81s;animation-delay:-1.26s">@</text>
+<text class="sp" x="319.0" y="122.0" style="animation-duration:3.01s;animation-delay:-2.95s">m</text>
+<text class="sp" x="334.0" y="122.0" style="animation-duration:5.90s;animation-delay:-1.85s">s</text>
+<text class="sp" x="349.0" y="122.0" style="animation-duration:3.87s;animation-delay:-1.56s">=</text>
+<text class="sp" x="206.5" y="137.0" style="animation-duration:4.74s;animation-delay:-0.68s">@</text>
+<text class="sp" x="214.0" y="137.0" style="animation-duration:5.50s;animation-delay:-4.92s">@</text>
+<text class="sp" x="229.0" y="137.0" style="animation-duration:3.49s;animation-delay:-0.57s">@</text>
+<text class="sp" x="244.0" y="137.0" style="animation-duration:2.95s;animation-delay:-1.05s">0</text>
+<text class="sp" x="251.5" y="137.0" style="animation-duration:5.89s;animation-delay:-3.75s">@</text>
+<text class="sp" x="259.0" y="137.0" style="animation-duration:4.14s;animation-delay:-0.33s">@</text>
+<text class="sp" x="266.5" y="137.0" style="animation-duration:2.89s;animation-delay:-0.11s">m</text>
+<text class="sp" x="274.0" y="137.0" style="animation-duration:4.41s;animation-delay:-2.81s">@</text>
+<text class="sp" x="281.5" y="137.0" style="animation-duration:4.82s;animation-delay:-1.70s">@</text>
+<text class="sp" x="289.0" y="137.0" style="animation-duration:3.28s;animation-delay:-1.30s">@</text>
+<text class="sp" x="304.0" y="137.0" style="animation-duration:2.20s;animation-delay:-1.24s">@</text>
+<text class="sp" x="334.0" y="137.0" style="animation-duration:5.59s;animation-delay:-3.82s">0</text>
+<text class="sp" x="341.5" y="137.0" style="animation-duration:3.99s;animation-delay:-0.20s">@</text>
+<text class="sp" x="169.0" y="152.0" style="animation-duration:7.84s;animation-delay:-1.95s">j</text>
+<text class="sp" x="176.5" y="152.0" style="animation-duration:3.63s;animation-delay:-1.81s">@</text>
+<text class="sp" x="184.0" y="152.0" style="animation-duration:4.65s;animation-delay:-2.80s">@</text>
+<text class="sp" x="191.5" y="152.0" style="animation-duration:4.73s;animation-delay:-1.69s">@</text>
+<text class="sp" x="206.5" y="152.0" style="animation-duration:5.55s;animation-delay:-2.31s">@</text>
+<text class="sp" x="214.0" y="152.0" style="animation-duration:4.96s;animation-delay:-2.57s">@</text>
+<text class="sp" x="221.5" y="152.0" style="animation-duration:8.89s;animation-delay:-0.85s">C</text>
+<text class="sp" x="229.0" y="152.0" style="animation-duration:4.38s;animation-delay:-0.13s">0</text>
+<text class="sp" x="236.5" y="152.0" style="animation-duration:5.56s;animation-delay:-4.36s">@</text>
+<text class="sp" x="244.0" y="152.0" style="animation-duration:6.04s;animation-delay:-4.56s">@</text>
+<text class="sp" x="251.5" y="152.0" style="animation-duration:4.83s;animation-delay:-1.64s">@</text>
+<text class="sp" x="266.5" y="152.0" style="animation-duration:2.52s;animation-delay:-2.21s">@</text>
+<text class="sp" x="274.0" y="152.0" style="animation-duration:5.30s;animation-delay:-2.97s">@</text>
+<text class="sp" x="289.0" y="152.0" style="animation-duration:4.46s;animation-delay:-0.28s">@</text>
+<text class="sp" x="296.5" y="152.0" style="animation-duration:5.63s;animation-delay:-3.97s">@</text>
+<text class="sp" x="311.5" y="152.0" style="animation-duration:5.94s;animation-delay:-0.64s">@</text>
+<text class="sp" x="326.5" y="152.0" style="animation-duration:2.23s;animation-delay:-1.38s">0</text>
+<text class="sp" x="334.0" y="152.0" style="animation-duration:3.81s;animation-delay:-3.25s">@</text>
+<text class="sp" x="341.5" y="152.0" style="animation-duration:4.70s;animation-delay:-1.94s">@</text>
+<text class="sp" x="349.0" y="152.0" style="animation-duration:4.15s;animation-delay:-0.56s">@</text>
+<text class="sp" x="356.5" y="152.0" style="animation-duration:5.85s;animation-delay:-1.00s">@</text>
+<text class="sp" x="364.0" y="152.0" style="animation-duration:2.12s;animation-delay:-0.97s">@</text>
+<text class="sp" x="379.0" y="152.0" style="animation-duration:8.95s;animation-delay:-4.80s">_</text>
+<text class="sp" x="386.5" y="152.0" style="animation-duration:5.80s;animation-delay:-1.20s">=</text>
+<text class="sp" x="154.0" y="167.0" style="animation-duration:8.27s;animation-delay:-6.34s">j</text>
+<text class="sp" x="161.5" y="167.0" style="animation-duration:3.71s;animation-delay:-2.73s">@</text>
+<text class="sp" x="176.5" y="167.0" style="animation-duration:2.55s;animation-delay:-0.92s">@</text>
+<text class="sp" x="184.0" y="167.0" style="animation-duration:2.14s;animation-delay:-0.11s">@</text>
+<text class="sp" x="191.5" y="167.0" style="animation-duration:3.61s;animation-delay:-2.67s">0</text>
+<text class="sp" x="199.0" y="167.0" style="animation-duration:1.94s;animation-delay:-0.09s">@</text>
+<text class="sp" x="206.5" y="167.0" style="animation-duration:5.91s;animation-delay:-5.41s">@</text>
+<text class="sp" x="214.0" y="167.0" style="animation-duration:5.97s;animation-delay:-5.55s">@</text>
+<text class="sp" x="221.5" y="167.0" style="animation-duration:5.31s;animation-delay:-1.94s">0</text>
+<text class="sp" x="229.0" y="167.0" style="animation-duration:4.50s;animation-delay:-0.39s">@</text>
+<text class="sp" x="236.5" y="167.0" style="animation-duration:5.60s;animation-delay:-5.13s">@</text>
+<text class="sp" x="244.0" y="167.0" style="animation-duration:2.35s;animation-delay:-2.12s">@</text>
+<text class="sp" x="266.5" y="167.0" style="animation-duration:4.96s;animation-delay:-1.85s">@</text>
+<text class="sp" x="274.0" y="167.0" style="animation-duration:3.17s;animation-delay:-2.29s">@</text>
+<text class="sp" x="281.5" y="167.0" style="animation-duration:5.05s;animation-delay:-2.54s">@</text>
+<text class="sp" x="289.0" y="167.0" style="animation-duration:6.35s;animation-delay:-1.05s">@</text>
+<text class="sp" x="296.5" y="167.0" style="animation-duration:2.55s;animation-delay:-2.39s">@</text>
+<text class="sp" x="304.0" y="167.0" style="animation-duration:3.36s;animation-delay:-0.57s">@</text>
+<text class="sp" x="311.5" y="167.0" style="animation-duration:3.68s;animation-delay:-0.47s">@</text>
+<text class="sp" x="319.0" y="167.0" style="animation-duration:3.64s;animation-delay:-2.12s">@</text>
+<text class="sp" x="326.5" y="167.0" style="animation-duration:6.03s;animation-delay:-5.50s">@</text>
+<text class="sp" x="349.0" y="167.0" style="animation-duration:4.26s;animation-delay:-1.69s">@</text>
+<text class="sp" x="356.5" y="167.0" style="animation-duration:2.00s;animation-delay:-1.59s">0</text>
+<text class="sp" x="364.0" y="167.0" style="animation-duration:1.94s;animation-delay:-0.90s">@</text>
+<text class="sp" x="379.0" y="167.0" style="animation-duration:3.51s;animation-delay:-2.31s">m</text>
+<text class="sp" x="386.5" y="167.0" style="animation-duration:1.85s;animation-delay:-1.10s">m</text>
+<text class="sp" x="394.0" y="167.0" style="animation-duration:5.87s;animation-delay:-2.44s">m</text>
+<text class="sp" x="139.0" y="182.0" style="animation-duration:3.65s;animation-delay:-2.18s">_</text>
+<text class="sp" x="146.5" y="182.0" style="animation-duration:3.87s;animation-delay:-0.49s">u</text>
+<text class="sp" x="154.0" y="182.0" style="animation-duration:5.35s;animation-delay:-3.02s">C</text>
+<text class="sp" x="169.0" y="182.0" style="animation-duration:2.67s;animation-delay:-1.54s">0</text>
+<text class="sp" x="176.5" y="182.0" style="animation-duration:3.61s;animation-delay:-1.14s">@</text>
+<text class="sp" x="184.0" y="182.0" style="animation-duration:2.04s;animation-delay:-1.13s">@</text>
+<text class="sp" x="191.5" y="182.0" style="animation-duration:5.32s;animation-delay:-5.10s">m</text>
+<text class="sp" x="199.0" y="182.0" style="animation-duration:4.88s;animation-delay:-2.16s">@</text>
+<text class="sp" x="206.5" y="182.0" style="animation-duration:5.98s;animation-delay:-4.46s">@</text>
+<text class="sp" x="236.5" y="182.0" style="animation-duration:1.87s;animation-delay:-0.37s">@</text>
+<text class="sp" x="244.0" y="182.0" style="animation-duration:5.03s;animation-delay:-2.21s">@</text>
+<text class="sp" x="251.5" y="182.0" style="animation-duration:5.38s;animation-delay:-0.38s">@</text>
+<text class="sp" x="259.0" y="182.0" style="animation-duration:2.03s;animation-delay:-0.50s">@</text>
+<text class="sp" x="274.0" y="182.0" style="animation-duration:3.70s;animation-delay:-1.09s">0</text>
+<text class="sp" x="289.0" y="182.0" style="animation-duration:1.95s;animation-delay:-0.48s">0</text>
+<text class="sp" x="296.5" y="182.0" style="animation-duration:5.61s;animation-delay:-0.69s">@</text>
+<text class="sp" x="311.5" y="182.0" style="animation-duration:3.24s;animation-delay:-1.90s">@</text>
+<text class="sp" x="319.0" y="182.0" style="animation-duration:3.58s;animation-delay:-0.37s">@</text>
+<text class="sp" x="326.5" y="182.0" style="animation-duration:1.92s;animation-delay:-0.43s">@</text>
+<text class="sp" x="341.5" y="182.0" style="animation-duration:3.07s;animation-delay:-2.09s">@</text>
+<text class="sp" x="356.5" y="182.0" style="animation-duration:3.57s;animation-delay:-2.55s">@</text>
+<text class="sp" x="371.5" y="182.0" style="animation-duration:2.64s;animation-delay:-0.48s">@</text>
+<text class="sp" x="124.0" y="197.0" style="animation-duration:8.40s;animation-delay:-5.84s">_</text>
+<text class="sp" x="146.5" y="197.0" style="animation-duration:3.41s;animation-delay:-1.96s">0</text>
+<text class="sp" x="184.0" y="197.0" style="animation-duration:3.55s;animation-delay:-3.29s">0</text>
+<text class="sp" x="191.5" y="197.0" style="animation-duration:5.56s;animation-delay:-0.52s">@</text>
+<text class="sp" x="199.0" y="197.0" style="animation-duration:4.23s;animation-delay:-3.42s">@</text>
+<text class="sp" x="214.0" y="197.0" style="animation-duration:4.70s;animation-delay:-2.96s">@</text>
+<text class="sp" x="221.5" y="197.0" style="animation-duration:5.72s;animation-delay:-3.16s">@</text>
+<text class="sp" x="236.5" y="197.0" style="animation-duration:4.27s;animation-delay:-1.38s">@</text>
+<text class="sp" x="244.0" y="197.0" style="animation-duration:4.66s;animation-delay:-2.39s">@</text>
+<text class="sp" x="251.5" y="197.0" style="animation-duration:4.17s;animation-delay:-1.55s">@</text>
+<text class="sp" x="289.0" y="197.0" style="animation-duration:3.02s;animation-delay:-0.77s">0</text>
+<text class="sp" x="304.0" y="197.0" style="animation-duration:5.88s;animation-delay:-3.50s">@</text>
+<text class="sp" x="319.0" y="197.0" style="animation-duration:6.23s;animation-delay:-4.81s">@</text>
+<text class="sp" x="326.5" y="197.0" style="animation-duration:5.13s;animation-delay:-3.71s">0</text>
+<text class="sp" x="334.0" y="197.0" style="animation-duration:4.78s;animation-delay:-1.09s">0</text>
+<text class="sp" x="341.5" y="197.0" style="animation-duration:4.98s;animation-delay:-2.36s">@</text>
+<text class="sp" x="356.5" y="197.0" style="animation-duration:5.64s;animation-delay:-5.57s">@</text>
+<text class="sp" x="379.0" y="197.0" style="animation-duration:2.58s;animation-delay:-0.59s">@</text>
+<text class="sp" x="386.5" y="197.0" style="animation-duration:2.34s;animation-delay:-0.35s">@</text>
+<text class="sp" x="394.0" y="197.0" style="animation-duration:6.19s;animation-delay:-2.23s">@</text>
+<text class="sp" x="401.5" y="197.0" style="animation-duration:3.94s;animation-delay:-2.92s">@</text>
+<text class="sp" x="416.5" y="197.0" style="animation-duration:6.44s;animation-delay:-0.63s">j</text>
+<text class="sp" x="131.5" y="212.0" style="animation-duration:5.28s;animation-delay:-3.04s">j</text>
+<text class="sp" x="139.0" y="212.0" style="animation-duration:3.34s;animation-delay:-2.77s">0</text>
+<text class="sp" x="146.5" y="212.0" style="animation-duration:1.82s;animation-delay:-0.10s">@</text>
+<text class="sp" x="161.5" y="212.0" style="animation-duration:5.22s;animation-delay:-5.00s">@</text>
+<text class="sp" x="169.0" y="212.0" style="animation-duration:6.12s;animation-delay:-1.49s">@</text>
+<text class="sp" x="176.5" y="212.0" style="animation-duration:5.00s;animation-delay:-3.99s">@</text>
+<text class="sp" x="184.0" y="212.0" style="animation-duration:4.04s;animation-delay:-0.18s">@</text>
+<text class="sp" x="191.5" y="212.0" style="animation-duration:6.41s;animation-delay:-5.80s">@</text>
+<text class="sp" x="199.0" y="212.0" style="animation-duration:5.50s;animation-delay:-4.96s">@</text>
+<text class="sp" x="206.5" y="212.0" style="animation-duration:6.41s;animation-delay:-2.87s">@</text>
+<text class="sp" x="214.0" y="212.0" style="animation-duration:4.29s;animation-delay:-2.55s">0</text>
+<text class="sp" x="221.5" y="212.0" style="animation-duration:4.95s;animation-delay:-0.21s">@</text>
+<text class="sp" x="229.0" y="212.0" style="animation-duration:6.13s;animation-delay:-4.11s">0</text>
+<text class="sp" x="259.0" y="212.0" style="animation-duration:8.43s;animation-delay:-3.68s">_</text>
+<text class="sp" x="304.0" y="212.0" style="animation-duration:5.78s;animation-delay:-4.11s">@</text>
+<text class="sp" x="311.5" y="212.0" style="animation-duration:6.36s;animation-delay:-0.56s">@</text>
+<text class="sp" x="319.0" y="212.0" style="animation-duration:4.39s;animation-delay:-4.19s">0</text>
+<text class="sp" x="334.0" y="212.0" style="animation-duration:2.31s;animation-delay:-1.03s">@</text>
+<text class="sp" x="341.5" y="212.0" style="animation-duration:4.00s;animation-delay:-2.48s">@</text>
+<text class="sp" x="349.0" y="212.0" style="animation-duration:5.94s;animation-delay:-1.71s">@</text>
+<text class="sp" x="356.5" y="212.0" style="animation-duration:3.44s;animation-delay:-3.22s">@</text>
+<text class="sp" x="364.0" y="212.0" style="animation-duration:3.11s;animation-delay:-2.88s">@</text>
+<text class="sp" x="371.5" y="212.0" style="animation-duration:5.76s;animation-delay:-0.26s">@</text>
+<text class="sp" x="386.5" y="212.0" style="animation-duration:2.65s;animation-delay:-1.97s">@</text>
+<text class="sp" x="124.0" y="227.0" style="animation-duration:2.48s;animation-delay:-2.11s">0</text>
+<text class="sp" x="131.5" y="227.0" style="animation-duration:3.27s;animation-delay:-1.64s">0</text>
+<text class="sp" x="139.0" y="227.0" style="animation-duration:1.89s;animation-delay:-0.50s">@</text>
+<text class="sp" x="146.5" y="227.0" style="animation-duration:5.32s;animation-delay:-5.09s">@</text>
+<text class="sp" x="169.0" y="227.0" style="animation-duration:5.25s;animation-delay:-3.08s">@</text>
+<text class="sp" x="176.5" y="227.0" style="animation-duration:2.09s;animation-delay:-1.59s">@</text>
+<text class="sp" x="184.0" y="227.0" style="animation-duration:5.51s;animation-delay:-2.56s">@</text>
+<text class="sp" x="191.5" y="227.0" style="animation-duration:4.44s;animation-delay:-1.97s">@</text>
+<text class="sp" x="199.0" y="227.0" style="animation-duration:3.03s;animation-delay:-0.93s">@</text>
+<text class="sp" x="206.5" y="227.0" style="animation-duration:5.12s;animation-delay:-0.86s">@</text>
+<text class="sp" x="214.0" y="227.0" style="animation-duration:4.65s;animation-delay:-4.40s">m</text>
+<text class="sp" x="221.5" y="227.0" style="animation-duration:2.17s;animation-delay:-0.42s">0</text>
+<text class="sp" x="229.0" y="227.0" style="animation-duration:2.57s;animation-delay:-0.19s">0</text>
+<text class="sp" x="244.0" y="227.0" style="animation-duration:4.05s;animation-delay:-2.63s">0</text>
+<text class="sp" x="251.5" y="227.0" style="animation-duration:2.59s;animation-delay:-0.25s">0</text>
+<text class="sp" x="304.0" y="227.0" style="animation-duration:4.06s;animation-delay:-3.54s">0</text>
+<text class="sp" x="319.0" y="227.0" style="animation-duration:3.70s;animation-delay:-0.25s">r</text>
+<text class="sp" x="326.5" y="227.0" style="animation-duration:3.51s;animation-delay:-2.39s">0</text>
+<text class="sp" x="334.0" y="227.0" style="animation-duration:3.00s;animation-delay:-2.05s">0</text>
+<text class="sp" x="349.0" y="227.0" style="animation-duration:6.04s;animation-delay:-0.68s">0</text>
+<text class="sp" x="356.5" y="227.0" style="animation-duration:4.46s;animation-delay:-2.52s">@</text>
+<text class="sp" x="379.0" y="227.0" style="animation-duration:5.37s;animation-delay:-3.74s">@</text>
+<text class="sp" x="386.5" y="227.0" style="animation-duration:4.63s;animation-delay:-1.42s">0</text>
+<text class="sp" x="394.0" y="227.0" style="animation-duration:2.53s;animation-delay:-0.02s">@</text>
+<text class="sp" x="424.0" y="227.0" style="animation-duration:5.80s;animation-delay:-1.02s">C</text>
+<text class="sp" x="161.5" y="242.0" style="animation-duration:5.10s;animation-delay:-0.65s">@</text>
+<text class="sp" x="169.0" y="242.0" style="animation-duration:2.32s;animation-delay:-1.25s">@</text>
+<text class="sp" x="176.5" y="242.0" style="animation-duration:3.43s;animation-delay:-1.20s">@</text>
+<text class="sp" x="191.5" y="242.0" style="animation-duration:3.72s;animation-delay:-0.42s">@</text>
+<text class="sp" x="199.0" y="242.0" style="animation-duration:5.78s;animation-delay:-5.62s">@</text>
+<text class="sp" x="206.5" y="242.0" style="animation-duration:8.29s;animation-delay:-7.24s">C</text>
+<text class="sp" x="221.5" y="242.0" style="animation-duration:5.07s;animation-delay:-1.55s">m</text>
+<text class="sp" x="236.5" y="242.0" style="animation-duration:5.23s;animation-delay:-3.70s">m</text>
+<text class="sp" x="244.0" y="242.0" style="animation-duration:8.26s;animation-delay:-2.72s">u</text>
+<text class="sp" x="251.5" y="242.0" style="animation-duration:3.78s;animation-delay:-1.71s">u</text>
+<text class="sp" x="296.5" y="242.0" style="animation-duration:8.13s;animation-delay:-2.18s">u</text>
+<text class="sp" x="311.5" y="242.0" style="animation-duration:3.03s;animation-delay:-0.48s">m</text>
+<text class="sp" x="319.0" y="242.0" style="animation-duration:3.45s;animation-delay:-1.36s">m</text>
+<text class="sp" x="334.0" y="242.0" style="animation-duration:4.65s;animation-delay:-1.81s">m</text>
+<text class="sp" x="371.5" y="242.0" style="animation-duration:3.85s;animation-delay:-1.01s">@</text>
+<text class="sp" x="401.5" y="242.0" style="animation-duration:3.85s;animation-delay:-3.40s">@</text>
+<text class="sp" x="409.0" y="242.0" style="animation-duration:5.63s;animation-delay:-3.03s">0</text>
+<text class="sp" x="416.5" y="242.0" style="animation-duration:5.57s;animation-delay:-0.42s">L</text>
+<text class="sp" x="139.0" y="257.0" style="animation-duration:5.22s;animation-delay:-0.15s">m</text>
+<text class="sp" x="146.5" y="257.0" style="animation-duration:5.41s;animation-delay:-1.08s">0</text>
+<text class="sp" x="154.0" y="257.0" style="animation-duration:5.59s;animation-delay:-3.18s">0</text>
+<text class="sp" x="161.5" y="257.0" style="animation-duration:6.07s;animation-delay:-4.53s">@</text>
+<text class="sp" x="169.0" y="257.0" style="animation-duration:3.36s;animation-delay:-1.96s">@</text>
+<text class="sp" x="176.5" y="257.0" style="animation-duration:2.36s;animation-delay:-0.29s">@</text>
+<text class="sp" x="184.0" y="257.0" style="animation-duration:2.60s;animation-delay:-0.64s">@</text>
+<text class="sp" x="191.5" y="257.0" style="animation-duration:4.53s;animation-delay:-2.67s">@</text>
+<text class="sp" x="206.5" y="257.0" style="animation-duration:5.64s;animation-delay:-0.45s">J</text>
+<text class="sp" x="229.0" y="257.0" style="animation-duration:3.86s;animation-delay:-0.40s">_</text>
+<text class="sp" x="236.5" y="257.0" style="animation-duration:5.39s;animation-delay:-1.52s">g</text>
+<text class="sp" x="296.5" y="257.0" style="animation-duration:5.97s;animation-delay:-3.48s">`</text>
+<text class="sp" x="311.5" y="257.0" style="animation-duration:5.56s;animation-delay:-3.17s">m</text>
+<text class="sp" x="326.5" y="257.0" style="animation-duration:8.34s;animation-delay:-2.31s">.</text>
+<text class="sp" x="356.5" y="257.0" style="animation-duration:6.46s;animation-delay:-1.50s">@</text>
+<text class="sp" x="364.0" y="257.0" style="animation-duration:4.51s;animation-delay:-2.32s">@</text>
+<text class="sp" x="371.5" y="257.0" style="animation-duration:4.39s;animation-delay:-1.48s">@</text>
+<text class="sp" x="379.0" y="257.0" style="animation-duration:2.19s;animation-delay:-1.05s">@</text>
+<text class="sp" x="386.5" y="257.0" style="animation-duration:2.80s;animation-delay:-1.59s">@</text>
+<text class="sp" x="394.0" y="257.0" style="animation-duration:2.39s;animation-delay:-0.71s">0</text>
+<text class="sp" x="401.5" y="257.0" style="animation-duration:4.61s;animation-delay:-0.38s">@</text>
+<text class="sp" x="409.0" y="257.0" style="animation-duration:3.90s;animation-delay:-1.76s">m</text>
+<text class="sp" x="416.5" y="257.0" style="animation-duration:8.71s;animation-delay:-2.00s">J</text>
+<text class="sp" x="161.5" y="272.0" style="animation-duration:3.30s;animation-delay:-1.56s">@</text>
+<text class="sp" x="169.0" y="272.0" style="animation-duration:4.61s;animation-delay:-3.17s">@</text>
+<text class="sp" x="176.5" y="272.0" style="animation-duration:2.23s;animation-delay:-0.57s">@</text>
+<text class="sp" x="184.0" y="272.0" style="animation-duration:4.65s;animation-delay:-1.93s">@</text>
+<text class="sp" x="191.5" y="272.0" style="animation-duration:2.26s;animation-delay:-1.35s">@</text>
+<text class="sp" x="199.0" y="272.0" style="animation-duration:6.34s;animation-delay:-4.37s">}</text>
+<text class="sp" x="236.5" y="272.0" style="animation-duration:5.46s;animation-delay:-5.14s">"</text>
+<text class="sp" x="244.0" y="272.0" style="animation-duration:7.23s;animation-delay:-3.16s">"</text>
+<text class="sp" x="311.5" y="272.0" style="animation-duration:4.44s;animation-delay:-0.03s">0</text>
+<text class="sp" x="356.5" y="272.0" style="animation-duration:4.33s;animation-delay:-2.28s">@</text>
+<text class="sp" x="371.5" y="272.0" style="animation-duration:3.20s;animation-delay:-1.30s">@</text>
+<text class="sp" x="394.0" y="272.0" style="animation-duration:1.85s;animation-delay:-1.20s">m</text>
+<text class="sp" x="154.0" y="287.0" style="animation-duration:6.97s;animation-delay:-3.10s">=</text>
+<text class="sp" x="161.5" y="287.0" style="animation-duration:3.07s;animation-delay:-1.60s">0</text>
+<text class="sp" x="169.0" y="287.0" style="animation-duration:5.66s;animation-delay:-5.33s">h</text>
+<text class="sp" x="176.5" y="287.0" style="animation-duration:2.99s;animation-delay:-1.56s">@</text>
+<text class="sp" x="199.0" y="287.0" style="animation-duration:6.03s;animation-delay:-4.56s">@</text>
+<text class="sp" x="274.0" y="287.0" style="animation-duration:7.53s;animation-delay:-4.77s">`</text>
+<text class="sp" x="386.5" y="287.0" style="animation-duration:3.33s;animation-delay:-3.32s">0</text>
+<text class="sp" x="169.0" y="302.0" style="animation-duration:3.54s;animation-delay:-0.88s">`</text>
+<text class="sp" x="266.5" y="302.0" style="animation-duration:5.91s;animation-delay:-1.59s">%</text>
+<text class="sp" x="281.5" y="302.0" style="animation-duration:4.38s;animation-delay:-2.41s">_</text>
+<text class="sp" x="289.0" y="302.0" style="animation-duration:4.37s;animation-delay:-0.74s">@</text>
+<text class="sp" x="319.0" y="302.0" style="animation-duration:4.64s;animation-delay:-1.25s">`</text>
+<text class="sp" x="371.5" y="302.0" style="animation-duration:4.35s;animation-delay:-1.49s">@</text>
+<text class="sp" x="379.0" y="302.0" style="animation-duration:8.25s;animation-delay:-3.38s">^</text>
+<text class="sp" x="386.5" y="302.0" style="animation-duration:2.12s;animation-delay:-0.77s">0</text>
+<text class="sp" x="176.5" y="317.0" style="animation-duration:5.45s;animation-delay:-4.00s">=</text>
+<text class="sp" x="184.0" y="317.0" style="animation-duration:5.01s;animation-delay:-0.62s">0</text>
+<text class="sp" x="191.5" y="317.0" style="animation-duration:3.73s;animation-delay:-1.90s">0</text>
+<text class="sp" x="199.0" y="317.0" style="animation-duration:5.08s;animation-delay:-4.49s">0</text>
+<text class="sp" x="214.0" y="317.0" style="animation-duration:6.18s;animation-delay:-2.13s">_</text>
+<text class="sp" x="251.5" y="317.0" style="animation-duration:7.51s;animation-delay:-3.13s">_</text>
+<text class="sp" x="266.5" y="317.0" style="animation-duration:5.80s;animation-delay:-2.82s">J</text>
+<text class="sp" x="289.0" y="317.0" style="animation-duration:5.19s;animation-delay:-3.82s">u</text>
+<text class="sp" x="356.5" y="317.0" style="animation-duration:4.38s;animation-delay:-4.07s">0</text>
+<text class="sp" x="364.0" y="317.0" style="animation-duration:8.50s;animation-delay:-7.52s">j</text>
+<text class="sp" x="199.0" y="332.0" style="animation-duration:4.54s;animation-delay:-0.90s">U</text>
+<text class="sp" x="206.5" y="332.0" style="animation-duration:4.96s;animation-delay:-2.41s">@</text>
+<text class="sp" x="214.0" y="332.0" style="animation-duration:3.95s;animation-delay:-3.18s">@</text>
+<text class="sp" x="229.0" y="332.0" style="animation-duration:7.73s;animation-delay:-2.20s">_</text>
+<text class="sp" x="236.5" y="332.0" style="animation-duration:4.17s;animation-delay:-1.35s">J</text>
+<text class="sp" x="244.0" y="332.0" style="animation-duration:3.35s;animation-delay:-0.68s">@</text>
+<text class="sp" x="259.0" y="332.0" style="animation-duration:8.31s;animation-delay:-2.03s">C</text>
+<text class="sp" x="304.0" y="332.0" style="animation-duration:5.33s;animation-delay:-1.89s">0</text>
+<text class="sp" x="326.5" y="332.0" style="animation-duration:3.58s;animation-delay:-2.72s">_</text>
+<text class="sp" x="349.0" y="332.0" style="animation-duration:5.72s;animation-delay:-0.13s">@</text>
+<text class="sp" x="356.5" y="332.0" style="animation-duration:6.70s;animation-delay:-3.53s">r</text>
+<text class="sp" x="214.0" y="347.0" style="animation-duration:6.45s;animation-delay:-1.95s">0</text>
+<text class="sp" x="221.5" y="347.0" style="animation-duration:4.66s;animation-delay:-4.63s">0</text>
+<text class="sp" x="229.0" y="347.0" style="animation-duration:5.05s;animation-delay:-2.09s">@</text>
+<text class="sp" x="236.5" y="347.0" style="animation-duration:3.01s;animation-delay:-1.40s">@</text>
+<text class="sp" x="266.5" y="347.0" style="animation-duration:6.28s;animation-delay:-3.99s">L</text>
+<text class="sp" x="319.0" y="347.0" style="animation-duration:2.01s;animation-delay:-1.83s">@</text>
+<text class="sp" x="326.5" y="347.0" style="animation-duration:2.51s;animation-delay:-0.97s">@</text>
+<text class="sp" x="334.0" y="347.0" style="animation-duration:3.47s;animation-delay:-2.95s">0</text>
+<text class="sp" x="341.5" y="347.0" style="animation-duration:2.42s;animation-delay:-0.52s">0</text>
+<text class="sp" x="229.0" y="362.0" style="animation-duration:5.45s;animation-delay:-5.10s">@</text>
+<text class="sp" x="236.5" y="362.0" style="animation-duration:5.63s;animation-delay:-1.49s">0</text>
+<text class="sp" x="244.0" y="362.0" style="animation-duration:4.51s;animation-delay:-1.07s">@</text>
+<text class="sp" x="259.0" y="362.0" style="animation-duration:4.94s;animation-delay:-4.15s">_</text>
+<text class="sp" x="274.0" y="362.0" style="animation-duration:3.44s;animation-delay:-2.48s">@</text>
+<text class="sp" x="304.0" y="362.0" style="animation-duration:5.47s;animation-delay:-4.49s">g</text>
+<text class="sp" x="311.5" y="362.0" style="animation-duration:2.91s;animation-delay:-0.10s">0</text>
+<text class="sp" x="319.0" y="362.0" style="animation-duration:4.77s;animation-delay:-0.01s">@</text>
+<text class="sp" x="326.5" y="362.0" style="animation-duration:6.21s;animation-delay:-0.18s">0</text>
+<text class="sp" x="334.0" y="362.0" style="animation-duration:3.82s;animation-delay:-1.67s">r</text>
+<text class="sp" x="236.5" y="377.0" style="animation-duration:4.60s;animation-delay:-4.32s">j</text>
+<text class="sp" x="244.0" y="377.0" style="animation-duration:3.02s;animation-delay:-1.19s">@</text>
+<text class="sp" x="251.5" y="377.0" style="animation-duration:3.15s;animation-delay:-1.90s">@</text>
+<text class="sp" x="259.0" y="377.0" style="animation-duration:4.66s;animation-delay:-3.03s">@</text>
+<text class="sp" x="266.5" y="377.0" style="animation-duration:1.96s;animation-delay:-1.28s">@</text>
+<text class="sp" x="274.0" y="377.0" style="animation-duration:2.82s;animation-delay:-1.18s">@</text>
+<text class="sp" x="281.5" y="377.0" style="animation-duration:5.88s;animation-delay:-1.64s">@</text>
+<text class="sp" x="289.0" y="377.0" style="animation-duration:5.54s;animation-delay:-4.22s">@</text>
+<text class="sp" x="304.0" y="377.0" style="animation-duration:3.76s;animation-delay:-1.79s">@</text>
+<text class="sp" x="311.5" y="377.0" style="animation-duration:4.60s;animation-delay:-4.35s">@</text>
+<text class="sp" x="319.0" y="377.0" style="animation-duration:5.41s;animation-delay:-0.09s">0</text>
+<text class="sp" x="326.5" y="377.0" style="animation-duration:8.69s;animation-delay:-2.18s">`</text>
+<text class="sp" x="251.5" y="392.0" style="animation-duration:4.10s;animation-delay:-2.87s">0</text>
+<text class="sp" x="274.0" y="392.0" style="animation-duration:2.46s;animation-delay:-0.71s">@</text>
+<text class="sp" x="281.5" y="392.0" style="animation-duration:5.39s;animation-delay:-4.49s">@</text>
+<text class="sp" x="289.0" y="392.0" style="animation-duration:2.14s;animation-delay:-0.69s">@</text>
+<text class="sp" x="296.5" y="392.0" style="animation-duration:5.42s;animation-delay:-2.50s">@</text>
+<text class="sp" x="304.0" y="392.0" style="animation-duration:6.11s;animation-delay:-5.38s">0</text>
+<text class="sp" x="311.5" y="392.0" style="animation-duration:7.42s;animation-delay:-5.76s">"</text>
+<text class="sp" x="334.0" y="392.0" style="animation-duration:6.11s;animation-delay:-2.26s">`</text>
+<text class="sp" x="206.5" y="407.0" style="animation-duration:5.57s;animation-delay:-3.63s">m</text>
+<text class="sp" x="251.5" y="407.0" style="animation-duration:3.82s;animation-delay:-1.51s">"</text>
+<text class="sp" x="184.0" y="422.0" style="animation-duration:3.70s;animation-delay:-3.42s">J</text>
+<text class="sp" x="191.5" y="422.0" style="animation-duration:3.24s;animation-delay:-0.44s">m</text>
+<text class="sp" x="199.0" y="422.0" style="animation-duration:1.94s;animation-delay:-1.55s">0</text>
+<text class="sp" x="206.5" y="422.0" style="animation-duration:5.30s;animation-delay:-4.82s">@</text>
+<text class="sp" x="214.0" y="422.0" style="animation-duration:3.80s;animation-delay:-2.37s">m</text>
+<text class="sp" x="259.0" y="422.0" style="animation-duration:8.34s;animation-delay:-5.20s">`</text>
+<text class="sp" x="274.0" y="422.0" style="animation-duration:6.53s;animation-delay:-3.85s">"</text>
+<text class="sp" x="319.0" y="422.0" style="animation-duration:5.20s;animation-delay:-1.76s">_</text>
+<text class="sp" x="349.0" y="422.0" style="animation-duration:3.65s;animation-delay:-0.38s">@</text>
+<text class="sp" x="371.5" y="422.0" style="animation-duration:6.25s;animation-delay:-1.53s">s</text>
+<text class="sp" x="169.0" y="437.0" style="animation-duration:4.35s;animation-delay:-1.35s">@</text>
+<text class="sp" x="176.5" y="437.0" style="animation-duration:4.63s;animation-delay:-0.72s">0</text>
+<text class="sp" x="184.0" y="437.0" style="animation-duration:5.31s;animation-delay:-0.76s">@</text>
+<text class="sp" x="191.5" y="437.0" style="animation-duration:2.78s;animation-delay:-2.12s">@</text>
+<text class="sp" x="199.0" y="437.0" style="animation-duration:5.04s;animation-delay:-3.27s">@</text>
+<text class="sp" x="206.5" y="437.0" style="animation-duration:2.82s;animation-delay:-2.36s">@</text>
+<text class="sp" x="214.0" y="437.0" style="animation-duration:5.42s;animation-delay:-2.58s">@</text>
+<text class="sp" x="221.5" y="437.0" style="animation-duration:5.15s;animation-delay:-1.75s">@</text>
+<text class="sp" x="236.5" y="437.0" style="animation-duration:5.28s;animation-delay:-3.68s">m</text>
+<text class="sp" x="334.0" y="437.0" style="animation-duration:3.17s;animation-delay:-2.57s">0</text>
+<text class="sp" x="364.0" y="437.0" style="animation-duration:5.28s;animation-delay:-4.58s">@</text>
+<text class="sp" x="371.5" y="437.0" style="animation-duration:2.18s;animation-delay:-1.18s">@</text>
+<text class="sp" x="379.0" y="437.0" style="animation-duration:1.95s;animation-delay:-1.83s">@</text>
+<text class="sp" x="394.0" y="437.0" style="animation-duration:5.32s;animation-delay:-3.57s">m</text>
+<text class="sp" x="124.0" y="452.0" style="animation-duration:5.09s;animation-delay:-2.57s">_</text>
+<text class="sp" x="139.0" y="452.0" style="animation-duration:2.40s;animation-delay:-0.82s">0</text>
+<text class="sp" x="146.5" y="452.0" style="animation-duration:6.17s;animation-delay:-1.36s">@</text>
+<text class="sp" x="154.0" y="452.0" style="animation-duration:4.35s;animation-delay:-1.10s">@</text>
+<text class="sp" x="161.5" y="452.0" style="animation-duration:4.40s;animation-delay:-0.22s">@</text>
+<text class="sp" x="176.5" y="452.0" style="animation-duration:2.49s;animation-delay:-2.44s">@</text>
+<text class="sp" x="184.0" y="452.0" style="animation-duration:5.22s;animation-delay:-2.52s">@</text>
+<text class="sp" x="191.5" y="452.0" style="animation-duration:3.58s;animation-delay:-1.72s">@</text>
+<text class="sp" x="199.0" y="452.0" style="animation-duration:2.96s;animation-delay:-1.23s">@</text>
+<text class="sp" x="206.5" y="452.0" style="animation-duration:5.03s;animation-delay:-0.99s">@</text>
+<text class="sp" x="214.0" y="452.0" style="animation-duration:5.72s;animation-delay:-0.40s">@</text>
+<text class="sp" x="221.5" y="452.0" style="animation-duration:4.38s;animation-delay:-4.27s">@</text>
+<text class="sp" x="229.0" y="452.0" style="animation-duration:5.97s;animation-delay:-0.78s">@</text>
+<text class="sp" x="236.5" y="452.0" style="animation-duration:4.87s;animation-delay:-0.81s">@</text>
+<text class="sp" x="244.0" y="452.0" style="animation-duration:4.97s;animation-delay:-0.62s">@</text>
+<text class="sp" x="259.0" y="452.0" style="animation-duration:6.35s;animation-delay:-0.07s">@</text>
+<text class="sp" x="266.5" y="452.0" style="animation-duration:4.71s;animation-delay:-1.21s">@</text>
+<text class="sp" x="274.0" y="452.0" style="animation-duration:6.07s;animation-delay:-2.09s">@</text>
+<text class="sp" x="281.5" y="452.0" style="animation-duration:2.47s;animation-delay:-1.37s">@</text>
+<text class="sp" x="304.0" y="452.0" style="animation-duration:2.93s;animation-delay:-0.38s">@</text>
+<text class="sp" x="311.5" y="452.0" style="animation-duration:2.74s;animation-delay:-2.49s">@</text>
+<text class="sp" x="319.0" y="452.0" style="animation-duration:2.35s;animation-delay:-1.50s">@</text>
+<text class="sp" x="326.5" y="452.0" style="animation-duration:1.94s;animation-delay:-1.90s">@</text>
+<text class="sp" x="341.5" y="452.0" style="animation-duration:5.72s;animation-delay:-2.60s">@</text>
+<text class="sp" x="349.0" y="452.0" style="animation-duration:4.87s;animation-delay:-3.56s">@</text>
+<text class="sp" x="356.5" y="452.0" style="animation-duration:2.49s;animation-delay:-2.00s">@</text>
+<text class="sp" x="364.0" y="452.0" style="animation-duration:3.88s;animation-delay:-2.94s">@</text>
+<text class="sp" x="371.5" y="452.0" style="animation-duration:6.45s;animation-delay:-2.50s">@</text>
+<text class="sp" x="379.0" y="452.0" style="animation-duration:2.19s;animation-delay:-0.25s">@</text>
+<text class="sp" x="386.5" y="452.0" style="animation-duration:3.12s;animation-delay:-1.39s">0</text>
+<text class="sp" x="394.0" y="452.0" style="animation-duration:6.20s;animation-delay:-2.65s">@</text>
+<text class="sp" x="401.5" y="452.0" style="animation-duration:6.04s;animation-delay:-4.81s">@</text>
+<text class="sp" x="109.0" y="467.0" style="animation-duration:6.02s;animation-delay:-2.52s">m</text>
+<text class="sp" x="116.5" y="467.0" style="animation-duration:4.03s;animation-delay:-1.61s">@</text>
+<text class="sp" x="146.5" y="467.0" style="animation-duration:3.87s;animation-delay:-0.29s">@</text>
+<text class="sp" x="161.5" y="467.0" style="animation-duration:3.66s;animation-delay:-0.55s">@</text>
+<text class="sp" x="184.0" y="467.0" style="animation-duration:5.90s;animation-delay:-1.05s">@</text>
+<text class="sp" x="199.0" y="467.0" style="animation-duration:3.89s;animation-delay:-2.38s">@</text>
+<text class="sp" x="206.5" y="467.0" style="animation-duration:2.73s;animation-delay:-1.60s">@</text>
+<text class="sp" x="229.0" y="467.0" style="animation-duration:3.01s;animation-delay:-0.23s">@</text>
+<text class="sp" x="236.5" y="467.0" style="animation-duration:1.92s;animation-delay:-0.48s">@</text>
+<text class="sp" x="251.5" y="467.0" style="animation-duration:4.84s;animation-delay:-1.43s">@</text>
+<text class="sp" x="259.0" y="467.0" style="animation-duration:4.07s;animation-delay:-1.78s">@</text>
+<text class="sp" x="266.5" y="467.0" style="animation-duration:2.35s;animation-delay:-1.33s">@</text>
+<text class="sp" x="281.5" y="467.0" style="animation-duration:2.18s;animation-delay:-1.28s">@</text>
+<text class="sp" x="289.0" y="467.0" style="animation-duration:2.98s;animation-delay:-2.95s">@</text>
+<text class="sp" x="296.5" y="467.0" style="animation-duration:6.13s;animation-delay:-3.78s">@</text>
+<text class="sp" x="304.0" y="467.0" style="animation-duration:3.05s;animation-delay:-0.23s">@</text>
+<text class="sp" x="311.5" y="467.0" style="animation-duration:6.07s;animation-delay:-0.32s">@</text>
+<text class="sp" x="319.0" y="467.0" style="animation-duration:1.94s;animation-delay:-0.53s">@</text>
+<text class="sp" x="326.5" y="467.0" style="animation-duration:6.35s;animation-delay:-4.92s">@</text>
+<text class="sp" x="341.5" y="467.0" style="animation-duration:5.66s;animation-delay:-4.01s">@</text>
+<text class="sp" x="349.0" y="467.0" style="animation-duration:4.87s;animation-delay:-1.41s">@</text>
+<text class="sp" x="356.5" y="467.0" style="animation-duration:5.67s;animation-delay:-1.25s">@</text>
+<text class="sp" x="364.0" y="467.0" style="animation-duration:5.80s;animation-delay:-2.69s">@</text>
+<text class="sp" x="371.5" y="467.0" style="animation-duration:3.29s;animation-delay:-0.92s">@</text>
+<text class="sp" x="386.5" y="467.0" style="animation-duration:6.12s;animation-delay:-2.88s">0</text>
+<text class="sp" x="409.0" y="467.0" style="animation-duration:5.50s;animation-delay:-1.58s">@</text>
+<text class="sp" x="416.5" y="467.0" style="animation-duration:4.64s;animation-delay:-0.26s">@</text>
+<text class="sp" x="424.0" y="467.0" style="animation-duration:4.71s;animation-delay:-3.62s">@</text>
+<text class="sp" x="439.0" y="467.0" style="animation-duration:5.87s;animation-delay:-2.91s">m</text>
+<text class="name fade" x="590" y="94">Ahmad Hassan</text>
+<text class="m fade" x="590" y="122" style="font-size:13px;animation-delay:.2s">AI engineer · computational neuroscience · music</text>
+<text class="acc fade" x="590" y="150" style="font-size:13px;animation-delay:.35s">&gt; how does anything turn patterns into meaning?</text>
+<text class="m sm fade" x="590" y="200" style="animation-delay:.5s">SPIKE RASTER · one neuron per obsession</text>
+<line x1="590" x2="982" y1="211" y2="211" stroke="#57606a" stroke-opacity=".35"/>
+<g class="fade" style="animation-delay:0.60s">
+<text class="lab" x="590" y="244">neuroscience</text>
+<line x1="714" x2="914" y1="240" y2="240" stroke="#57606a" stroke-opacity=".18"/>
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-0.08s">
+<line x1="738.7" x2="738.7" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="745.7" x2="745.7" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="745.8" x2="745.8" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="784.8" x2="784.8" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="803.5" x2="803.5" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="830.9" x2="830.9" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="831.6" x2="831.6" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="837.4" x2="837.4" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="859.9" x2="859.9" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="881.2" x2="881.2" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="908.1" x2="908.1" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="938.7" x2="938.7" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="945.7" x2="945.7" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="945.8" x2="945.8" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="984.8" x2="984.8" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1003.5" x2="1003.5" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1030.9" x2="1030.9" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1031.6" x2="1031.6" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1037.4" x2="1037.4" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1059.9" x2="1059.9" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1081.2" x2="1081.2" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1108.1" x2="1108.1" y1="231" y2="249" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+</g></g>
+<rect x="714" y="228" width="200" height="24" fill="url(#fadeR)"/>
+<text class="m sm" x="982" y="244" text-anchor="end">5.5 Hz</text>
+</g>
+<g class="fade" style="animation-delay:0.68s">
+<text class="lab" x="590" y="280">ai agents</text>
+<line x1="714" x2="914" y1="276" y2="276" stroke="#57606a" stroke-opacity=".18"/>
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-3.90s">
+<line x1="736.9" x2="736.9" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="742.8" x2="742.8" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="751.4" x2="751.4" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="779.5" x2="779.5" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="790.2" x2="790.2" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="809.9" x2="809.9" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="834.1" x2="834.1" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="862.7" x2="862.7" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="884.1" x2="884.1" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="896.3" x2="896.3" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="898.2" x2="898.2" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="936.9" x2="936.9" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="942.8" x2="942.8" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="951.4" x2="951.4" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="979.5" x2="979.5" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="990.2" x2="990.2" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1009.9" x2="1009.9" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1034.1" x2="1034.1" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1062.7" x2="1062.7" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1084.1" x2="1084.1" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1096.3" x2="1096.3" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1098.2" x2="1098.2" y1="267" y2="285" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+</g></g>
+<rect x="714" y="264" width="200" height="24" fill="url(#fadeR)"/>
+<text class="m sm" x="982" y="280" text-anchor="end">5.5 Hz</text>
+</g>
+<g class="fade" style="animation-delay:0.76s">
+<text class="lab" x="590" y="316">cuda kernels</text>
+<line x1="714" x2="914" y1="312" y2="312" stroke="#57606a" stroke-opacity=".18"/>
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-2.64s">
+<line x1="732.8" x2="732.8" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="736.3" x2="736.3" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="739.8" x2="739.8" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="743.3" x2="743.3" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="783.5" x2="783.5" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="787.0" x2="787.0" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="790.5" x2="790.5" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="794.0" x2="794.0" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="803.0" x2="803.0" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="806.5" x2="806.5" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="810.0" x2="810.0" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="813.5" x2="813.5" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="932.8" x2="932.8" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="936.3" x2="936.3" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="939.8" x2="939.8" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="943.3" x2="943.3" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="983.5" x2="983.5" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="987.0" x2="987.0" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="990.5" x2="990.5" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="994.0" x2="994.0" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1003.0" x2="1003.0" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1006.5" x2="1006.5" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1010.0" x2="1010.0" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1013.5" x2="1013.5" y1="303" y2="321" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+</g></g>
+<rect x="714" y="300" width="200" height="24" fill="url(#fadeR)"/>
+<text class="m sm" x="982" y="316" text-anchor="end">6.0 Hz</text>
+</g>
+<g class="fade" style="animation-delay:0.84s">
+<text class="lab" x="590" y="352">inference</text>
+<line x1="714" x2="914" y1="348" y2="348" stroke="#57606a" stroke-opacity=".18"/>
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-1.23s">
+<line x1="718.9" x2="718.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="727.9" x2="727.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="739.5" x2="739.5" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="748.3" x2="748.3" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="760.6" x2="760.6" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="769.9" x2="769.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="781.9" x2="781.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="792.9" x2="792.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="803.0" x2="803.0" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="811.6" x2="811.6" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="822.3" x2="822.3" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="832.8" x2="832.8" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="844.5" x2="844.5" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="854.8" x2="854.8" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="865.1" x2="865.1" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="875.8" x2="875.8" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="886.5" x2="886.5" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="897.0" x2="897.0" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="908.4" x2="908.4" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="918.9" x2="918.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="927.9" x2="927.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="939.5" x2="939.5" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="948.3" x2="948.3" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="960.6" x2="960.6" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="969.9" x2="969.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="981.9" x2="981.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="992.9" x2="992.9" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1003.0" x2="1003.0" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1011.6" x2="1011.6" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1022.3" x2="1022.3" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1032.8" x2="1032.8" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1044.5" x2="1044.5" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1054.8" x2="1054.8" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1065.1" x2="1065.1" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1075.8" x2="1075.8" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1086.5" x2="1086.5" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1097.0" x2="1097.0" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1108.4" x2="1108.4" y1="339" y2="357" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+</g></g>
+<rect x="714" y="336" width="200" height="24" fill="url(#fadeR)"/>
+<text class="m sm" x="982" y="352" text-anchor="end">9.5 Hz</text>
+</g>
+<g class="fade" style="animation-delay:0.92s">
+<text class="lab" x="590" y="388">music</text>
+<line x1="714" x2="914" y1="384" y2="384" stroke="#57606a" stroke-opacity=".18"/>
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-3.95s">
+<line x1="714.0" x2="714.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="764.0" x2="764.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="814.0" x2="814.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="864.0" x2="864.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="889.0" x2="889.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="914.0" x2="914.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="964.0" x2="964.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1014.0" x2="1014.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1064.0" x2="1064.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1089.0" x2="1089.0" y1="375" y2="393" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+</g></g>
+<rect x="714" y="372" width="200" height="24" fill="url(#fadeR)"/>
+<text class="m sm" x="982" y="388" text-anchor="end">2.5 Hz</text>
+</g>
+<g class="fade" style="animation-delay:1.00s">
+<text class="lab" x="590" y="424">reading</text>
+<line x1="714" x2="914" y1="420" y2="420" stroke="#57606a" stroke-opacity=".18"/>
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-4.08s">
+<line x1="744.0" x2="744.0" y1="411" y2="429" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="844.0" x2="844.0" y1="411" y2="429" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="944.0" x2="944.0" y1="411" y2="429" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1044.0" x2="1044.0" y1="411" y2="429" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+</g></g>
+<rect x="714" y="408" width="200" height="24" fill="url(#fadeR)"/>
+<text class="m sm" x="982" y="424" text-anchor="end">1.0 Hz</text>
+</g>
+<g class="fade" style="animation-delay:1.08s">
+<text class="lab" x="590" y="460">coffee</text>
+<line x1="714" x2="914" y1="456" y2="456" stroke="#57606a" stroke-opacity=".18"/>
+<g clip-path="url(#lanes)"><g class="lane" style="animation-delay:-4.28s">
+<line x1="783.9" x2="783.9" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="788.9" x2="788.9" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="793.9" x2="793.9" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="835.3" x2="835.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="840.3" x2="840.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="845.3" x2="845.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="871.8" x2="871.8" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="876.8" x2="876.8" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="881.8" x2="881.8" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="874.3" x2="874.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="879.3" x2="879.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="884.3" x2="884.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="723.3" x2="723.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="774.4" x2="774.4" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="778.5" x2="778.5" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="784.8" x2="784.8" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="796.0" x2="796.0" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="827.7" x2="827.7" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="863.5" x2="863.5" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="875.4" x2="875.4" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="890.9" x2="890.9" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="894.4" x2="894.4" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="983.9" x2="983.9" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="988.9" x2="988.9" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="993.9" x2="993.9" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1035.3" x2="1035.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1040.3" x2="1040.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1045.3" x2="1045.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1071.8" x2="1071.8" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1076.8" x2="1076.8" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1081.8" x2="1081.8" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1074.3" x2="1074.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1079.3" x2="1079.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1084.3" x2="1084.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="923.3" x2="923.3" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="974.4" x2="974.4" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="978.5" x2="978.5" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="984.8" x2="984.8" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="996.0" x2="996.0" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1027.7" x2="1027.7" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1063.5" x2="1063.5" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1075.4" x2="1075.4" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1090.9" x2="1090.9" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+<line x1="1094.4" x2="1094.4" y1="447" y2="465" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+</g></g>
+<rect x="714" y="444" width="200" height="24" fill="url(#fadeR)"/>
+<text class="m sm" x="982" y="460" text-anchor="end">11.0 Hz</text>
+</g>
+<line x1="34" x2="982" y1="514" y2="514" stroke="#57606a" stroke-opacity=".2"/>
+<text class="m sm" x="34" y="506">V<tspan dy="2" style="font-size:9px">m</tspan><tspan dy="-2">  membrane potential · leaky integrate-and-fire</tspan></text>
+<text class="m sm" x="982" y="506" text-anchor="end">ahmadhassan.engineer</text>
+<g clip-path="url(#card)"><polyline class="trace" points="0.0,561.0 2.0,560.6 4.0,560.2 6.0,559.8 8.0,559.4 10.0,558.9 12.0,558.4 14.0,557.8 16.0,557.4 18.0,557.0 20.0,556.4 22.0,556.1 24.0,555.6 26.0,555.4 28.0,555.2 30.0,555.0 32.0,554.9 34.0,554.7 36.0,554.5 38.0,554.4 40.0,554.0 42.0,553.8 44.0,552.6 46.0,544.3 48.0,530.3 50.0,543.7 52.0,560.9 54.0,560.5 56.0,560.1 58.0,559.7 60.0,559.3 62.0,558.9 64.0,558.3 66.0,557.9 68.0,557.4 70.0,556.7 72.0,556.2 74.0,555.7 76.0,555.4 78.0,555.1 80.0,555.0 82.0,554.9 84.0,554.5 86.0,554.2 88.0,554.1 90.0,554.0 92.0,553.8 94.0,553.8 96.0,553.8 98.0,553.8 100.0,553.7 102.0,553.8 104.0,553.8 106.0,553.8 108.0,553.7 110.0,553.6 112.0,551.3 114.0,540.7 116.0,532.8 118.0,547.8 120.0,560.8 122.0,560.4 124.0,560.0 126.0,559.6 128.0,559.2 130.0,558.8 132.0,558.5 134.0,558.1 136.0,557.6 138.0,557.2 140.0,556.9 142.0,556.5 144.0,556.1 146.0,555.7 148.0,555.3 150.0,555.1 152.0,554.8 154.0,554.5 156.0,554.4 158.0,554.3 160.0,554.0 162.0,553.8 164.0,553.6 166.0,550.3 168.0,537.8 170.0,534.7 172.0,551.0 174.0,560.8 176.0,560.4 178.0,560.0 180.0,559.6 182.0,559.2 184.0,558.8 186.0,558.4 188.0,558.1 190.0,557.8 192.0,557.5 194.0,557.3 196.0,556.9 198.0,556.5 200.0,556.3 202.0,555.9 204.0,555.6 206.0,555.4 208.0,555.2 210.0,554.9 212.0,554.5 214.0,554.2 216.0,554.1 218.0,553.9 220.0,553.9 222.0,553.7 224.0,553.7 226.0,549.1 228.0,534.5 230.0,536.9 232.0,554.6 234.0,560.7 236.0,560.3 238.0,559.9 240.0,559.5 242.0,559.1 244.0,558.8 246.0,558.3 248.0,557.7 250.0,557.5 252.0,557.2 254.0,556.7 256.0,556.2 258.0,556.0 260.0,555.9 262.0,555.8 264.0,555.7 266.0,555.5 268.0,555.0 270.0,554.7 272.0,554.6 274.0,554.4 276.0,554.1 278.0,553.8 280.0,553.8 282.0,548.0 284.0,531.5 286.0,538.9 288.0,558.0 290.0,560.6 292.0,560.2 294.0,559.8 296.0,559.4 298.0,559.0 300.0,558.7 302.0,558.3 304.0,557.8 306.0,557.2 308.0,556.8 310.0,556.5 312.0,555.9 314.0,555.6 316.0,555.1 318.0,554.7 320.0,554.5 322.0,554.2 324.0,553.8 326.0,553.7 328.0,547.0 330.0,529.0 332.0,540.5 334.0,560.7 336.0,560.6 338.0,560.2 340.0,559.8 342.0,559.4 344.0,559.0 346.0,558.8 348.0,558.5 350.0,557.8 352.0,557.4 354.0,557.1 356.0,556.7 358.0,556.2 360.0,556.0 362.0,555.6 364.0,555.3 366.0,555.1 368.0,554.9 370.0,554.5 372.0,554.5 374.0,554.3 376.0,554.1 378.0,554.1 380.0,554.1 382.0,553.9 384.0,553.7 386.0,552.7 388.0,544.1 390.0,530.5 392.0,544.0 394.0,560.9 396.0,560.5 398.0,560.1 400.0,559.7 402.0,559.3 404.0,558.9 406.0,558.5 408.0,557.7 410.0,557.4 412.0,557.2 414.0,557.0 416.0,556.7 418.0,556.1 420.0,555.8 422.0,555.5 424.0,555.2 426.0,554.8 428.0,554.6 430.0,554.5 432.0,554.2 434.0,554.1 436.0,553.8 438.0,551.7 440.0,541.3 442.0,532.3 444.0,547.1 446.0,560.9 448.0,560.5 450.0,560.0 452.0,559.6 454.0,559.2 456.0,558.8 458.0,558.4 460.0,558.1 462.0,557.8 464.0,557.3 466.0,557.0 468.0,556.6 470.0,556.5 472.0,556.4 474.0,556.2 476.0,555.8 478.0,555.6 480.0,555.5 482.0,555.4 484.0,555.2 486.0,555.0 488.0,554.8 490.0,554.7 492.0,554.6 494.0,554.4 496.0,554.2 498.0,554.0 500.0,550.5 502.0,538.0 504.0,534.6 506.0,550.8 508.0,560.8 510.0,560.4 512.0,560.0 514.0,559.6 516.0,559.2 518.0,558.7 520.0,558.2 522.0,557.8 524.0,557.4 526.0,557.1 528.0,556.9 530.0,556.8 532.0,556.5 534.0,556.2 536.0,555.9 538.0,555.5 540.0,555.4 542.0,555.3 544.0,554.9 546.0,554.6 548.0,554.6 550.0,554.4 552.0,554.1 554.0,553.7 556.0,553.6 558.0,549.2 560.0,534.9 562.0,536.7 564.0,554.3 566.0,560.7 568.0,560.3 570.0,559.9 572.0,559.5 574.0,559.1 576.0,558.6 578.0,558.0 580.0,557.3 582.0,556.8 584.0,556.4 586.0,556.0 588.0,555.7 590.0,555.5 592.0,555.4 594.0,555.1 596.0,555.0 598.0,554.7 600.0,554.5 602.0,554.3 604.0,554.1 606.0,554.0 608.0,553.8 610.0,548.2 612.0,532.1 614.0,538.5 616.0,557.4 618.0,560.7 620.0,560.2 622.0,559.8 624.0,559.4 626.0,559.0 628.0,558.1 630.0,557.8 632.0,557.4 634.0,557.1 636.0,556.8 638.0,556.5 640.0,556.3 642.0,556.0 644.0,555.5 646.0,555.6 648.0,555.3 650.0,555.0 652.0,554.9 654.0,554.6 656.0,554.3 658.0,554.2 660.0,553.9 662.0,553.9 664.0,553.6 666.0,553.5 668.0,553.6 670.0,546.9 672.0,528.8 674.0,540.7 676.0,561.0 678.0,560.6 680.0,560.2 682.0,559.8 684.0,559.4 686.0,559.0 688.0,558.5 690.0,558.0 692.0,557.8 694.0,557.5 696.0,557.1 698.0,556.5 700.0,556.4 702.0,555.9 704.0,555.9 706.0,555.6 708.0,555.3 710.0,555.1 712.0,555.0 714.0,555.1 716.0,555.0 718.0,554.6 720.0,554.4 722.0,554.3 724.0,554.0 726.0,554.0 728.0,553.9 730.0,553.9 732.0,552.5 734.0,543.7 736.0,530.8 738.0,544.5 740.0,560.9 742.0,560.5 744.0,560.1 746.0,559.7 748.0,559.3 750.0,558.9 752.0,558.6 754.0,558.0 756.0,557.4 758.0,556.9 760.0,556.8 762.0,556.5 764.0,556.1 766.0,556.0 768.0,555.7 770.0,555.4 772.0,555.1 774.0,554.9 776.0,554.6 778.0,554.5 780.0,554.2 782.0,554.0 784.0,554.0 786.0,553.9 788.0,551.4 790.0,540.7 792.0,532.8 794.0,547.8 796.0,560.8 798.0,560.4 800.0,560.0 802.0,559.6 804.0,559.2 806.0,558.7 808.0,558.2 810.0,557.9 812.0,557.4 814.0,556.9 816.0,556.5 818.0,556.3 820.0,556.0 822.0,555.7 824.0,555.5 826.0,555.3 828.0,554.9 830.0,554.6 832.0,554.5 834.0,554.5 836.0,554.4 838.0,554.1 840.0,553.9 842.0,553.7 844.0,550.2 846.0,537.7 848.0,534.8 850.0,551.2 852.0,560.8 854.0,560.4 856.0,560.0 858.0,559.6 860.0,559.1 862.0,558.8 864.0,558.6 866.0,558.5 868.0,558.3 870.0,558.0 872.0,557.6 874.0,557.0 876.0,556.6 878.0,556.4 880.0,555.9 882.0,555.5 884.0,555.2 886.0,555.0 888.0,554.9 890.0,554.7 892.0,554.5 894.0,554.1 896.0,553.7 898.0,549.1 900.0,534.8 902.0,536.7 904.0,554.4 906.0,560.7 908.0,560.3 910.0,559.9 912.0,559.5 914.0,559.1 916.0,558.5 918.0,558.0 920.0,557.7 922.0,557.3 924.0,557.1 926.0,556.8 928.0,556.5 930.0,556.1 932.0,555.8 934.0,555.8 936.0,555.6 938.0,555.1 940.0,555.1 942.0,555.0 944.0,554.8 946.0,554.8 948.0,554.7 950.0,554.5 952.0,554.5 954.0,554.3 956.0,554.0 958.0,554.0 960.0,553.9 962.0,553.6 964.0,547.8 966.0,531.2 968.0,539.1 970.0,558.4 972.0,560.6 974.0,560.2 976.0,559.8 978.0,559.4 980.0,559.0 982.0,558.5 984.0,557.9 986.0,557.6 988.0,557.0 990.0,556.6 992.0,556.4 994.0,556.0 996.0,555.6 998.0,555.2 1000.0,555.1 1002.0,554.8 1004.0,554.3 1006.0,554.1 1008.0,553.7 1010.0,546.9 1012.0,528.7 1014.0,540.8 1016.0,561.0 1018.0,560.6 1020.0,560.2 1022.0,559.8 1024.0,559.4 1026.0,558.9 1028.0,558.4 1030.0,557.8 1032.0,557.4 1034.0,557.0 1036.0,556.4 1038.0,556.1 1040.0,555.6 1042.0,555.4 1044.0,555.2 1046.0,555.0 1048.0,554.9 1050.0,554.7 1052.0,554.5 1054.0,554.4 1056.0,554.0 1058.0,553.8 1060.0,552.6 1062.0,544.3 1064.0,530.3 1066.0,543.7 1068.0,560.9 1070.0,560.5 1072.0,560.1 1074.0,559.7 1076.0,559.3 1078.0,558.9 1080.0,558.3 1082.0,557.9 1084.0,557.4 1086.0,556.7 1088.0,556.2 1090.0,555.7 1092.0,555.4 1094.0,555.1 1096.0,555.0 1098.0,554.9 1100.0,554.5 1102.0,554.2 1104.0,554.1 1106.0,554.0 1108.0,553.8 1110.0,553.8 1112.0,553.8 1114.0,553.8 1116.0,553.7 1118.0,553.8 1120.0,553.8 1122.0,553.8 1124.0,553.7 1126.0,553.6 1128.0,551.3 1130.0,540.7 1132.0,532.8 1134.0,547.8 1136.0,560.8 1138.0,560.4 1140.0,560.0 1142.0,559.6 1144.0,559.2 1146.0,558.8 1148.0,558.5 1150.0,558.1 1152.0,557.6 1154.0,557.2 1156.0,556.9 1158.0,556.5 1160.0,556.1 1162.0,555.7 1164.0,555.3 1166.0,555.1 1168.0,554.8 1170.0,554.5 1172.0,554.4 1174.0,554.3 1176.0,554.0 1178.0,553.8 1180.0,553.6 1182.0,550.3 1184.0,537.8 1186.0,534.7 1188.0,551.0 1190.0,560.8 1192.0,560.4 1194.0,560.0 1196.0,559.6 1198.0,559.2 1200.0,558.8 1202.0,558.4 1204.0,558.1 1206.0,557.8 1208.0,557.5 1210.0,557.3 1212.0,556.9 1214.0,556.5 1216.0,556.3 1218.0,555.9 1220.0,555.6 1222.0,555.4 1224.0,555.2 1226.0,554.9 1228.0,554.5 1230.0,554.2 1232.0,554.1 1234.0,553.9 1236.0,553.9 1238.0,553.7 1240.0,553.7 1242.0,549.1 1244.0,534.5 1246.0,536.9 1248.0,554.6 1250.0,560.7 1252.0,560.3 1254.0,559.9 1256.0,559.5 1258.0,559.1 1260.0,558.8 1262.0,558.3 1264.0,557.7 1266.0,557.5 1268.0,557.2 1270.0,556.7 1272.0,556.2 1274.0,556.0 1276.0,555.9 1278.0,555.8 1280.0,555.7 1282.0,555.5 1284.0,555.0 1286.0,554.7 1288.0,554.6 1290.0,554.4 1292.0,554.1 1294.0,553.8 1296.0,553.8 1298.0,548.0 1300.0,531.5 1302.0,538.9 1304.0,558.0 1306.0,560.6 1308.0,560.2 1310.0,559.8 1312.0,559.4 1314.0,559.0 1316.0,558.7 1318.0,558.3 1320.0,557.8 1322.0,557.2 1324.0,556.8 1326.0,556.5 1328.0,555.9 1330.0,555.6 1332.0,555.1 1334.0,554.7 1336.0,554.5 1338.0,554.2 1340.0,553.8 1342.0,553.7 1344.0,547.0 1346.0,529.0 1348.0,540.5 1350.0,560.7 1352.0,560.6 1354.0,560.2 1356.0,559.8 1358.0,559.4 1360.0,559.0 1362.0,558.8 1364.0,558.5 1366.0,557.8 1368.0,557.4 1370.0,557.1 1372.0,556.7 1374.0,556.2 1376.0,556.0 1378.0,555.6 1380.0,555.3 1382.0,555.1 1384.0,554.9 1386.0,554.5 1388.0,554.5 1390.0,554.3 1392.0,554.1 1394.0,554.1 1396.0,554.1 1398.0,553.9 1400.0,553.7 1402.0,552.7 1404.0,544.1 1406.0,530.5 1408.0,544.0 1410.0,560.9 1412.0,560.5 1414.0,560.1 1416.0,559.7 1418.0,559.3 1420.0,558.9 1422.0,558.5 1424.0,557.7 1426.0,557.4 1428.0,557.2 1430.0,557.0 1432.0,556.7 1434.0,556.1 1436.0,555.8 1438.0,555.5 1440.0,555.2 1442.0,554.8 1444.0,554.6 1446.0,554.5 1448.0,554.2 1450.0,554.1 1452.0,553.8 1454.0,551.7 1456.0,541.3 1458.0,532.3 1460.0,547.1 1462.0,560.9 1464.0,560.5 1466.0,560.0 1468.0,559.6 1470.0,559.2 1472.0,558.8 1474.0,558.4 1476.0,558.1 1478.0,557.8 1480.0,557.3 1482.0,557.0 1484.0,556.6 1486.0,556.5 1488.0,556.4 1490.0,556.2 1492.0,555.8 1494.0,555.6 1496.0,555.5 1498.0,555.4 1500.0,555.2 1502.0,555.0 1504.0,554.8 1506.0,554.7 1508.0,554.6 1510.0,554.4 1512.0,554.2 1514.0,554.0 1516.0,550.5 1518.0,538.0 1520.0,534.6 1522.0,550.8 1524.0,560.8 1526.0,560.4 1528.0,560.0 1530.0,559.6 1532.0,559.2 1534.0,558.7 1536.0,558.2 1538.0,557.8 1540.0,557.4 1542.0,557.1 1544.0,556.9 1546.0,556.8 1548.0,556.5 1550.0,556.2 1552.0,555.9 1554.0,555.5 1556.0,555.4 1558.0,555.3 1560.0,554.9 1562.0,554.6 1564.0,554.6 1566.0,554.4 1568.0,554.1 1570.0,553.7 1572.0,553.6 1574.0,549.2 1576.0,534.9 1578.0,536.7 1580.0,554.3 1582.0,560.7 1584.0,560.3 1586.0,559.9 1588.0,559.5 1590.0,559.1 1592.0,558.6 1594.0,558.0 1596.0,557.3 1598.0,556.8 1600.0,556.4 1602.0,556.0 1604.0,555.7 1606.0,555.5 1608.0,555.4 1610.0,555.1 1612.0,555.0 1614.0,554.7 1616.0,554.5 1618.0,554.3 1620.0,554.1 1622.0,554.0 1624.0,553.8 1626.0,548.2 1628.0,532.1 1630.0,538.5 1632.0,557.4 1634.0,560.7 1636.0,560.2 1638.0,559.8 1640.0,559.4 1642.0,559.0 1644.0,558.1 1646.0,557.8 1648.0,557.4 1650.0,557.1 1652.0,556.8 1654.0,556.5 1656.0,556.3 1658.0,556.0 1660.0,555.5 1662.0,555.6 1664.0,555.3 1666.0,555.0 1668.0,554.9 1670.0,554.6 1672.0,554.3 1674.0,554.2 1676.0,553.9 1678.0,553.9 1680.0,553.6 1682.0,553.5 1684.0,553.6 1686.0,546.9 1688.0,528.8 1690.0,540.7 1692.0,561.0 1694.0,560.6 1696.0,560.2 1698.0,559.8 1700.0,559.4 1702.0,559.0 1704.0,558.5 1706.0,558.0 1708.0,557.8 1710.0,557.5 1712.0,557.1 1714.0,556.5 1716.0,556.4 1718.0,555.9 1720.0,555.9 1722.0,555.6 1724.0,555.3 1726.0,555.1 1728.0,555.0 1730.0,555.1 1732.0,555.0 1734.0,554.6 1736.0,554.4 1738.0,554.3 1740.0,554.0 1742.0,554.0 1744.0,553.9 1746.0,553.9 1748.0,552.5 1750.0,543.7 1752.0,530.8 1754.0,544.5 1756.0,560.9 1758.0,560.5 1760.0,560.1 1762.0,559.7 1764.0,559.3 1766.0,558.9 1768.0,558.6 1770.0,558.0 1772.0,557.4 1774.0,556.9 1776.0,556.8 1778.0,556.5 1780.0,556.1 1782.0,556.0 1784.0,555.7 1786.0,555.4 1788.0,555.1 1790.0,554.9 1792.0,554.6 1794.0,554.5 1796.0,554.2 1798.0,554.0 1800.0,554.0 1802.0,553.9 1804.0,551.4 1806.0,540.7 1808.0,532.8 1810.0,547.8 1812.0,560.8 1814.0,560.4 1816.0,560.0 1818.0,559.6 1820.0,559.2 1822.0,558.7 1824.0,558.2 1826.0,557.9 1828.0,557.4 1830.0,556.9 1832.0,556.5 1834.0,556.3 1836.0,556.0 1838.0,555.7 1840.0,555.5 1842.0,555.3 1844.0,554.9 1846.0,554.6 1848.0,554.5 1850.0,554.5 1852.0,554.4 1854.0,554.1 1856.0,553.9 1858.0,553.7 1860.0,550.2 1862.0,537.7 1864.0,534.8 1866.0,551.2 1868.0,560.8 1870.0,560.4 1872.0,560.0 1874.0,559.6 1876.0,559.1 1878.0,558.8 1880.0,558.6 1882.0,558.5 1884.0,558.3 1886.0,558.0 1888.0,557.6 1890.0,557.0 1892.0,556.6 1894.0,556.4 1896.0,555.9 1898.0,555.5 1900.0,555.2 1902.0,555.0 1904.0,554.9 1906.0,554.7 1908.0,554.5 1910.0,554.1 1912.0,553.7 1914.0,549.1 1916.0,534.8 1918.0,536.7 1920.0,554.4 1922.0,560.7 1924.0,560.3 1926.0,559.9 1928.0,559.5 1930.0,559.1 1932.0,558.5 1934.0,558.0 1936.0,557.7 1938.0,557.3 1940.0,557.1 1942.0,556.8 1944.0,556.5 1946.0,556.1 1948.0,555.8 1950.0,555.8 1952.0,555.6 1954.0,555.1 1956.0,555.1 1958.0,555.0 1960.0,554.8 1962.0,554.8 1964.0,554.7 1966.0,554.5 1968.0,554.5 1970.0,554.3 1972.0,554.0 1974.0,554.0 1976.0,553.9 1978.0,553.6 1980.0,547.8 1982.0,531.2 1984.0,539.1 1986.0,558.4 1988.0,560.6 1990.0,560.2 1992.0,559.8 1994.0,559.4 1996.0,559.0 1998.0,558.5 2000.0,557.9 2002.0,557.6 2004.0,557.0 2006.0,556.6 2008.0,556.4 2010.0,556.0 2012.0,555.6 2014.0,555.2 2016.0,555.1 2018.0,554.8 2020.0,554.3 2022.0,554.1 2024.0,553.7 2026.0,546.9 2028.0,528.7 2030.0,540.8" fill="none" stroke="#0969da" stroke-width="1.6" stroke-linejoin="round"/></g>
 </svg>

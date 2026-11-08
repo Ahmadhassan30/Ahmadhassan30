@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img width="100%" src="assets/hero-light.svg" alt="ASCII portrait of Ahmad next to a neofetch-style card: AI engineer, researcher and music producer; computational neuroscience; CUDA and inference engineering; Python, TypeScript, Rust, C++, CUDA; contact ahmadhassan.engineer">
+  <img width="100%" src="assets/hero-light.svg" alt="Neural portrait of Ahmad: an ASCII face made of spiking neurons with traveling waves, a spike raster with one neuron per obsession (neuroscience, AI agents, CUDA kernels, inference, music, reading, coffee), and a scrolling membrane-potential trace">
 </picture>
 
 ## Hey, I'm Ahmad
