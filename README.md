@@ -1,4 +1,7 @@
-<img align="right" width="300" src="assets/matrix-ascii.gif" alt="Ahmad, assembling out of falling green ASCII code">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img width="100%" src="assets/hero-light.svg" alt="ASCII portrait of Ahmad next to a neofetch-style card: AI engineer, researcher and music producer; computational neuroscience; CUDA and inference engineering; Python, TypeScript, Rust, C++, CUDA; contact ahmadhassan.engineer">
+</picture>
 
 ## Hey, I'm Ahmad
 
@@ -17,8 +20,6 @@ I build systems that reason in steps and read books that reason in centuries.
 <a href="https://www.linkedin.com/in/ahmad-hassan3110"><img height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linkedin/linkedin-original.svg" alt="LinkedIn" title="LinkedIn"></a>
 &nbsp;&nbsp;
 <a href="mailto:ahmadhassan30nov@gmail.com"><img height="44" src="assets/icons/gmail.svg" alt="Email" title="Email"></a>
-
-<br clear="right">
 
 > It looks like four hobbies. It's one question: **how does anything turn patterns into meaning?**
 > A brain does it with neurons, a model with weights, a novel with foreshadowing, a song with tension and release.
