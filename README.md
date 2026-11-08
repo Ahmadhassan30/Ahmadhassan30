@@ -1,4 +1,4 @@
-<img align="right" width="300" src="assets/matrix.gif" alt="Ahmad, assembling out of falling green code">
+<img align="right" width="300" src="assets/matrix-ascii.gif" alt="Ahmad, assembling out of falling green ASCII code">
 
 ## Hey, I'm Ahmad
 
@@ -40,25 +40,25 @@ I build systems that reason in steps and read books that reason in centuries.
 
 ## Research interests
 
-<img align="right" width="210" src="assets/avatar.gif" alt="Ahmad at his laptop, thinking, then getting an idea">
-
 - **Computational neuroscience:** computational models of the brain, and what they can teach machines
 - **Resilient multi-agent reasoning:** coordination under uncertainty, long-context memory, changing course when wrong
 - **Emergent alignment:** the quiet preferences and biases instruction-tuned models pick up that benchmarks miss
 - **Retrieval past naive RAG:** knowledge graphs + dense vectors + tool outputs, so retrieval can reason
 - **Literature as reasoning:** stories are compressed causal reasoning, so I read them as research &nbsp;→&nbsp; [recommend me a book](https://github.com/Ahmadhassan30/Ahmadhassan30/issues/new?title=Book%20recommendation%3A%20&body=Title%3A%0AAuthor%3A%0AWhy%20I%27d%20like%20it%3A%0A)
 
-<br clear="right">
+## What I love to do
 
-## In the studio
+<p align="center">
+  <img width="220" src="assets/studio.gif" alt="Ahmad in headphones at a pad controller, nodding along to a beat">
+  <img width="220" src="assets/reading.gif" alt="Ahmad reading Nietzsche's Thus Spoke Zarathustra beside a stack of Dostoevsky, Camus, Kafka and Plato">
+  <img width="220" src="assets/coffee.gif" alt="Ahmad pouring himself a cup of coffee">
+</p>
 
-<img align="left" width="200" src="assets/studio.gif" alt="Ahmad in headphones at a pad controller, nodding along to a beat">
+**Making music.** Producing is pattern work too: build tension, hold it, and release it at exactly the right moment. It's also why [Harmony](https://github.com/Ahmadhassan30/Harmony) exists.
 
-I make music. Producing is pattern work too: build tension, hold it, and release it at exactly the right moment.
+**Reading.** Dostoevsky, Camus, Kafka, Plato, Nietzsche. Old novels and philosophy are where I take the questions code can't answer.
 
-It's also why [Harmony](https://github.com/Ahmadhassan30/Harmony) exists.
-
-<br clear="left">
+**Coffee.** The fuel behind most of the code above, and most of the reading too.
 
 ## Tech stack
 
