@@ -170,7 +170,7 @@ I build systems that reason in steps and read books that reason in centuries.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img alt="Contributions over the last year: weekly activity curve and calendar heatmap, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
+  <img alt="Daily contributions over the last year as an intraday-style line chart, with idle stretches folded out of the time axis, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
 </picture>
 
 <br>
