@@ -166,7 +166,7 @@ I build systems that reason in steps and read books that reason in centuries.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img alt="Contributions per month over the last year as a bar chart with the monthly average, plus total, longest streak, active days and best day, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
+  <img alt="Contributions per month over the last year as a smooth blue signal with the monthly average, plus total, longest streak, active days and best day, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
 </picture>
 
 <br>
