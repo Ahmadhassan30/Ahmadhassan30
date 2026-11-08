@@ -17,8 +17,10 @@ const FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvet
 
 const THEMES = {
   // same blues as the hero
-  light: { ink: '#1f2328', muted: '#59636e', faint: '#d1d9e0', line: '#0969da', hot: '#0550ae', glow: 'rgba(9,105,218,.22)', bg: '#ffffff' },
-  dark: { ink: '#f0f6fc', muted: '#9198a1', faint: '#3d444d', line: '#58a6ff', hot: '#a5d6ff', glow: 'rgba(56,139,253,.32)', bg: '#0d1117' },
+  light: { ink: '#1f2328', muted: '#59636e', faint: '#d1d9e0', line: '#0969da', bg: '#ffffff',
+    barTop: '#54aeff', barBot: '#b6e3ff', peakTop: '#0969da', peakBot: '#0550ae' },
+  dark: { ink: '#f0f6fc', muted: '#9198a1', faint: '#3d444d', line: '#58a6ff', bg: '#0d1117',
+    barTop: '#1f6feb', barBot: '#0c2d6b', peakTop: '#79c0ff', peakBot: '#1f6feb' },
 };
 
 async function calendar() {
@@ -87,30 +89,29 @@ function option(s, t) {
       { type: 'text', left: 36, top: H - 22, style: { text: `live from the GitHub API · updated ${s.updated}`, fill: t.muted, font: `400 11px ${FONT}` } },
       { type: 'text', right: 22, top: H - 22, style: { text: 'contributions per month', fill: t.muted, font: `400 11px ${FONT}`, align: 'right' } },
     ],
-    grid: { left: 34, right: 34, top: 134, bottom: 70 },
+    grid: { left: 22, right: 22, top: 128, bottom: 70 },
     xAxis: {
-      type: 'category', data: ms.map(m => m[0]), boundaryGap: false,
+      type: 'category', data: ms.map(m => m[0]),
       axisLine: { lineStyle: { color: t.faint } }, axisTick: { show: false },
-      axisLabel: { color: t.muted, fontSize: 12, margin: 14 },
+      axisLabel: { color: t.muted, fontSize: 12, margin: 12 },
     },
-    yAxis: { type: 'value', show: false, min: 0, max: Math.ceil(top * 1.18) },
+    yAxis: { type: 'value', show: false, max: Math.ceil(top * 1.12) },
     series: [{
-      // a smooth signal through the monthly totals; every month keeps its point and its number
-      type: 'line', smooth: .5, symbol: 'circle', showSymbol: true,
-      animation: false,   // ECharts' SSR clip animation leaves the line undrawn in a static image
-      lineStyle: { width: 2.6, color: t.line, shadowColor: t.glow, shadowBlur: 14, shadowOffsetY: 6 },
-      areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-        { offset: 0, color: t.glow }, { offset: 1, color: 'rgba(0,0,0,0)' }]) },
+      type: 'bar', barWidth: '54%',
       data: ms.map(([, n]) => ({
         value: n,
-        symbolSize: n === top ? 11 : 7,
-        itemStyle: { color: n === top ? t.hot : t.line, borderColor: t.bg, borderWidth: 2 },
-        label: { show: true, position: 'top', distance: 9, color: n === top ? t.ink : t.muted,
-          fontSize: n === top ? 13 : 12, fontWeight: n === top ? 600 : 400, formatter: String(n) },
+        itemStyle: {
+          borderRadius: [5, 5, 0, 0],
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, n === top
+            ? [{ offset: 0, color: t.peakTop }, { offset: 1, color: t.peakBot }]
+            : [{ offset: 0, color: t.barTop }, { offset: 1, color: t.barBot }]),
+        },
+        label: { show: true, position: 'top', distance: 6, color: n === top ? t.ink : t.muted,
+          fontSize: n === top ? 13 : 12, fontWeight: n === top ? 600 : 400, formatter: n ? String(n) : '–' },
       })),
       markLine: {
         silent: true, symbol: 'none',
-        lineStyle: { color: t.muted, type: [4, 4], width: 1, opacity: .5 },
+        lineStyle: { color: t.muted, type: [4, 4], width: 1, opacity: .55 },
         label: { position: 'insideEndTop', color: t.muted, fontSize: 11, formatter: `avg ${avg} / month` },
         data: [{ yAxis: avg }],
       },

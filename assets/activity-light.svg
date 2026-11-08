@@ -2,72 +2,66 @@
 <rect width="1000" height="432" x="0" y="0" fill="none"></rect>
 <text dominant-baseline="central" text-anchor="start" style="font: 600 44px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" y="22" transform="translate(22 6)" fill="#1f2328">1,287</text>
 <text dominant-baseline="central" text-anchor="start" style="font: 400 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="7.5" transform="translate(22 60)" fill="#59636e">contributions in the last year</text>
-<text dominant-baseline="central" text-anchor="start" style="font: 600 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="10" transform="translate(578.8 14)" fill="#1f2328">7 days</text>
+<text dominant-baseline="central" text-anchor="start" style="font: 600 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="10" transform="translate(578.8 14)" fill="#1f2328">6 days</text>
 <text dominant-baseline="central" text-anchor="start" style="font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="6.5" transform="translate(556.75 42)" fill="#59636e">longest streak</text>
-<text dominant-baseline="central" text-anchor="start" style="font: 600 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="10" transform="translate(724 14)" fill="#1f2328">118 / 365</text>
+<text dominant-baseline="central" text-anchor="start" style="font: 600 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="10" transform="translate(724 14)" fill="#1f2328">115 / 365</text>
 <text dominant-baseline="central" text-anchor="start" style="font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="6.5" transform="translate(742.74 42)" fill="#59636e">active days</text>
-<text dominant-baseline="central" text-anchor="start" style="font: 600 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="10" transform="translate(862 14)" fill="#1f2328">59 · 24 Mar</text>
+<text dominant-baseline="central" text-anchor="start" style="font: 600 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="10" transform="translate(862 14)" fill="#1f2328">60 · 24 Mar</text>
 <text dominant-baseline="central" text-anchor="start" style="font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="6.5" transform="translate(928.6 42)" fill="#59636e">best day</text>
 <circle cx="0" cy="0" r="4" transform="translate(26 415)" fill="#0969da" class="zr0-cls-0"></circle>
 <text dominant-baseline="central" text-anchor="start" style="font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="5.5" transform="translate(36 410)" fill="#59636e">live from the GitHub API · updated 8 Nov 2026</text>
 <text dominant-baseline="central" text-anchor="start" style="font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" xml:space="preserve" y="5.5" transform="translate(862.61 410)" fill="#59636e">contributions per month</text>
-<path d="M34 362.5L966 362.5" fill="none" pointer-events="visible" stroke="#d1d9e0" stroke-linecap="round" class="zr0-cls-1"></path>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(34 376)" fill="#59636e">Nov ’25</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(111.6667 376)" fill="#59636e">Dec</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(189.3333 376)" fill="#59636e">Jan ’26</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(267 376)" fill="#59636e">Feb</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(344.6667 376)" fill="#59636e">Mar</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(422.3333 376)" fill="#59636e">Apr</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(500 376)" fill="#59636e">May</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(577.6667 376)" fill="#59636e">Jun</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(655.3333 376)" fill="#59636e">Jul</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(733 376)" fill="#59636e">Aug</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(810.6667 376)" fill="#59636e">Sep</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(888.3333 376)" fill="#59636e">Oct</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(966 376)" fill="#59636e">Nov</text>
-<g clip-path="url(#zr0-c0)">
-<path d="M34 346C34 346 72.8 340.7 111.7 336.5C150.4 332.3 151.7 336.5 189.3 329.2C229.4 321.5 231.3 320.3 267 300.1C309 276.3 302.2 263.4 344.7 241.1C379.9 222.6 390.5 218.5 422.3 218.5C468.2 218.5 454.1 305.2 500 305.2C531.8 305.2 549.2 305.2 577.7 284.1C626.8 247.6 615.5 169 655.3 169C693.1 169 689.1 226.9 733 275.3C766.7 312.5 767.6 340.1 810.7 340.1C845.3 340.1 848.6 316.1 888.3 316.1C926.3 316.1 966 319 966 319L966 362L888.3 362L810.7 362L733 362L655.3 362L577.7 362L500 362L422.3 362L344.7 362L267 362L189.3 362L111.7 362L34 362Z" fill="url(#zr0-g0)" fill-opacity="0.7" class="zr0-cls-3"></path>
-<path d="M34 346C34 346 72.8 340.7 111.7 336.5C150.4 332.3 151.7 336.5 189.3 329.2C229.4 321.5 231.3 320.3 267 300.1C309 276.3 302.2 263.4 344.7 241.1C379.9 222.6 390.5 218.5 422.3 218.5C468.2 218.5 454.1 305.2 500 305.2C531.8 305.2 549.2 305.2 577.7 284.1C626.8 247.6 615.5 169 655.3 169C693.1 169 689.1 226.9 733 275.3C766.7 312.5 767.6 340.1 810.7 340.1C845.3 340.1 848.6 316.1 888.3 316.1C926.3 316.1 966 319 966 319" fill="none" pointer-events="visible" stroke="#0969da" stroke-width="2.6" stroke-linejoin="bevel" filter="url(#zr0-s0)" class="zr0-cls-4"></path>
-</g>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,34,345.9744)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,111.6667,336.5048)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,189.3333,329.2205)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,267,300.0831)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,344.6667,241.0799)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,422.3333,218.4984)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,500,305.1821)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,577.6667,284.0575)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(5.5,0,0,5.5,655.3333,168.9649)" fill="#0550ae" stroke="#ffffff" stroke-width="0.36363636363636365" ecmeta_series_index="0" ecmeta_data_index="8" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,733,275.3163)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="9" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,810.6667,340.147)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="10" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,888.3333,316.1086)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="11" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(3.5,0,0,3.5,966,319.0224)" fill="#0969da" stroke="#ffffff" stroke-width="0.5714285714285714" ecmeta_series_index="0" ecmeta_data_index="12" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(34 332.4744)" fill="#59636e">22</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(111.6667 323.0048)" fill="#59636e">35</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(189.3333 315.7205)" fill="#59636e">45</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(267 286.5831)" fill="#59636e">85</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(344.6667 227.5799)" fill="#59636e">166</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(422.3333 204.9984)" fill="#59636e">197</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(500 291.6821)" fill="#59636e">78</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(577.6667 270.5575)" fill="#59636e">107</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:13px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:600;" y="-6.5" transform="translate(655.3333 153.4649)" fill="#1f2328">265</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(733 261.8163)" fill="#59636e">119</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(810.6667 326.647)" fill="#59636e">30</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(888.3333 302.6086)" fill="#59636e">63</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(966 305.5224)" fill="#59636e">59</text>
-<path d="M34 290.5L966 290.5" fill="none" pointer-events="visible" stroke="#59636e" stroke-opacity="0.5" stroke-dasharray="4,4" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-1"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" xml:space="preserve" y="-5.5" transform="translate(961 284.885)" fill="#59636e" fill-opacity="0.5">avg 99 / month</text>
+<path d="M22 362.5L978 362.5" fill="none" pointer-events="visible" stroke="#d1d9e0" stroke-linecap="round" class="zr0-cls-1"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(58.7692 374)" fill="#59636e">Nov ’25</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(132.3077 374)" fill="#59636e">Dec</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(205.8462 374)" fill="#59636e">Jan ’26</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(279.3846 374)" fill="#59636e">Feb</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(352.9231 374)" fill="#59636e">Mar</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(426.4615 374)" fill="#59636e">Apr</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(500 374)" fill="#59636e">May</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(573.5385 374)" fill="#59636e">Jun</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(647.0769 374)" fill="#59636e">Jul</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(720.6154 374)" fill="#59636e">Aug</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(794.1538 374)" fill="#59636e">Sep</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(867.6923 374)" fill="#59636e">Oct</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" y="6" transform="translate(941.2308 374)" fill="#59636e">Nov</text>
+<path d="M43.9 344.7L73.6 344.7A5 5 0 0 1 78.6 349.7L78.6 362L38.9 362L38.9 349.7A5 5 0 0 1 43.9 344.7Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M117.5 334.4L147.2 334.4A5 5 0 0 1 152.2 339.4L152.2 362L112.5 362L112.5 339.4A5 5 0 0 1 117.5 334.4Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M191 326.5L220.7 326.5A5 5 0 0 1 225.7 331.5L225.7 362L186 362L186 331.5A5 5 0 0 1 191 326.5Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M264.5 295L294.2 295A5 5 0 0 1 299.2 300L299.2 362L259.5 362L259.5 300A5 5 0 0 1 264.5 295Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M338.1 231.2L367.8 231.2A5 5 0 0 1 372.8 236.2L372.8 362L333.1 362L333.1 236.2A5 5 0 0 1 338.1 231.2Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M411.6 206.8L441.3 206.8A5 5 0 0 1 446.3 211.8L446.3 362L406.6 362L406.6 211.8A5 5 0 0 1 411.6 206.8Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M485.1 300.5L514.9 300.5A5 5 0 0 1 519.9 305.5L519.9 362L480.1 362L480.1 305.5A5 5 0 0 1 485.1 300.5Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M558.7 277.7L588.4 277.7A5 5 0 0 1 593.4 282.7L593.4 362L553.7 362L553.7 282.7A5 5 0 0 1 558.7 277.7Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M632.2 153.2L661.9 153.2A5 5 0 0 1 666.9 158.2L666.9 362L627.2 362L627.2 158.2A5 5 0 0 1 632.2 153.2Z" fill="url(#zr0-g1)" ecmeta_series_index="0" ecmeta_data_index="8" ecmeta_ssr_type="chart" class="zr0-cls-3"></path>
+<path d="M705.8 268.2L735.5 268.2A5 5 0 0 1 740.5 273.2L740.5 362L700.8 362L700.8 273.2A5 5 0 0 1 705.8 268.2Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="9" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M779.3 338.4L809 338.4A5 5 0 0 1 814 343.4L814 362L774.3 362L774.3 343.4A5 5 0 0 1 779.3 338.4Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="10" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M852.8 312.4L882.5 312.4A5 5 0 0 1 887.5 317.4L887.5 362L847.8 362L847.8 317.4A5 5 0 0 1 852.8 312.4Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="11" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M926.4 315.5L956.1 315.5A5 5 0 0 1 961.1 320.5L961.1 362L921.4 362L921.4 320.5A5 5 0 0 1 926.4 315.5Z" fill="url(#zr0-g0)" ecmeta_series_index="0" ecmeta_data_index="12" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(58.7692 338.6667)" fill="#59636e">22</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(132.3077 328.4242)" fill="#59636e">35</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(205.8462 320.5455)" fill="#59636e">45</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(279.3846 289.0303)" fill="#59636e">85</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(352.9231 225.2121)" fill="#59636e">166</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(426.4615 200.7879)" fill="#59636e">197</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(500 294.5455)" fill="#59636e">78</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(573.5385 271.697)" fill="#59636e">107</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:13px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:600;" y="-6.5" transform="translate(647.0769 147.2121)" fill="#1f2328">265</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(720.6154 262.2424)" fill="#59636e">119</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(794.1538 332.3636)" fill="#59636e">30</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(867.6923 306.3636)" fill="#59636e">63</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:400;" y="-6" transform="translate(941.2308 309.5152)" fill="#59636e">59</text>
+<path d="M22 284.5L978 284.5" fill="none" pointer-events="visible" stroke="#59636e" stroke-opacity="0.55" stroke-dasharray="4,4" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" ecmeta_silent="true" class="zr0-cls-1"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:11px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;" xml:space="preserve" y="-5.5" transform="translate(973 279)" fill="#59636e" fill-opacity="0.55">avg 99 / month</text>
 <defs >
-<clipPath id="zr0-c0">
-<path d="M32 132.7l936 0l0 230.6l-936 0Z" fill="#000" class="zr0-cls-2"></path>
-</clipPath>
 <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="zr0-g0">
-<stop offset="0%" stop-color="rgb(9,105,218)" stop-opacity="0.22"></stop>
-<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="0"></stop>
+<stop offset="0%" stop-color="#54aeff"></stop>
+<stop offset="100%" stop-color="#b6e3ff"></stop>
 </linearGradient>
-<filter id="zr0-s0" x="-100%" y="-100%" width="300%" height="300%">
-<feDropShadow dx="0" dy="6" stdDeviation="7 7" flood-color="rgb(9,105,218)" flood-opacity="0.22"></feDropShadow>
-</filter>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="zr0-g1">
+<stop offset="0%" stop-color="#0969da"></stop>
+<stop offset="100%" stop-color="#0550ae"></stop>
+</linearGradient>
 </defs>
 <style ><![CDATA[
 .zr0-cls-0:hover {
@@ -79,18 +73,11 @@ pointer-events:none;
 }
 .zr0-cls-2:hover {
 cursor:pointer;
-fill:rgba(0,0,0,1);
+fill:[object Object];
 }
 .zr0-cls-3:hover {
 cursor:pointer;
 fill:[object Object];
-}
-.zr0-cls-4:hover {
-cursor:pointer;
-}
-.zr0-cls-5:hover {
-cursor:pointer;
-fill:rgba(5,88,191,1);
 }
 
 ]]>
