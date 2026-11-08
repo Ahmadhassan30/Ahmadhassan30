@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: a blue thermal ASCII portrait acting as the soma of a neuron, with a glowing dendritic tree growing out of his head to his fields (neuroscience, AI systems, inference, life) and skills, light flowing continuously back into him">
+  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: glowing blue light beams flow from his skills and fields into an ASCII portrait of him, and each signal spreads through the portrait as a wave of lit characters">
 </picture>
 
 ## Hey, I'm Ahmad
