@@ -12,9 +12,11 @@ I build systems that reason in steps and read books that reason in centuries.
 - Reading **Dostoevsky, Kafka and Tolstoy** like they're research papers
 - Ask me about agents, RAG, or the last book I finished
 
-<a href="https://www.ahmadhassan.engineer/"><img alt="Website" src="https://img.shields.io/badge/ahmadhassan.engineer-000000?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-<a href="https://www.linkedin.com/in/ahmad-hassan3110"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image%2Fsvg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTN6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6Ii8%2BPC9zdmc%2B"></a>
-<a href="mailto:ahmadhassan30nov@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://www.ahmadhassan.engineer/"><img height="44" src="https://api.iconify.design/mdi/web.svg?color=%2358a6ff" alt="ahmadhassan.engineer" title="ahmadhassan.engineer"></a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/ahmad-hassan3110"><img height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linkedin/linkedin-original.svg" alt="LinkedIn" title="LinkedIn"></a>
+&nbsp;&nbsp;
+<a href="mailto:ahmadhassan30nov@gmail.com"><img height="44" src="https://api.iconify.design/logos/google-gmail.svg" alt="Email" title="Email"></a>
 
 <br clear="right">
 
