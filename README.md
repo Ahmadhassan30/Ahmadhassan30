@@ -12,11 +12,11 @@ I build systems that reason in steps and read books that reason in centuries.
 - Reading **Dostoevsky, Kafka and Tolstoy** like they're research papers
 - Ask me about agents, RAG, or the last book I finished
 
-<a href="https://www.ahmadhassan.engineer/"><img height="44" src="https://api.iconify.design/mdi/web.svg?color=%2358a6ff" alt="ahmadhassan.engineer" title="ahmadhassan.engineer"></a>
+<a href="https://www.ahmadhassan.engineer/"><img height="44" src="assets/icons/web.svg" alt="ahmadhassan.engineer" title="ahmadhassan.engineer"></a>
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/ahmad-hassan3110"><img height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linkedin/linkedin-original.svg" alt="LinkedIn" title="LinkedIn"></a>
 &nbsp;&nbsp;
-<a href="mailto:ahmadhassan30nov@gmail.com"><img height="44" src="https://api.iconify.design/logos/google-gmail.svg" alt="Email" title="Email"></a>
+<a href="mailto:ahmadhassan30nov@gmail.com"><img height="44" src="assets/icons/gmail.svg" alt="Email" title="Email"></a>
 
 <br clear="right">
 
