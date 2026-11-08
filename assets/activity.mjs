@@ -12,7 +12,7 @@ import * as echarts from 'echarts';
 
 const USER = 'Ahmadhassan30';
 const OUT = process.env.ASSETS_DIR || dirname(fileURLToPath(import.meta.url));
-const W = 1000, H = 432;
+const W = 1000, H = 400;
 const FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif";
 
 const THEMES = {
@@ -73,6 +73,10 @@ function option(s, t) {
   const dates = s.days.map(d => d[0]);
   const roll = s.days.map((_, i) => s.days.slice(Math.max(0, i - 6), i + 1).reduce((x, d) => x + d[1], 0));
   const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const peaks = [];
+  roll.map((v, i) => [v, i]).sort((a, b) => b[0] - a[0]).forEach(([v, i]) => {
+    if (v > 0 && peaks.length < 6 && peaks.every(j => Math.abs(j - i) >= 21)) peaks.push(i);
+  });
   return {
     animationDuration: 1200,
     animationEasing: 'cubicOut',
@@ -88,11 +92,8 @@ function option(s, t) {
         { type: 'text', right: 22 + (2 - i) * 170, top: 14, style: { text: value, fill: t.ink, font: `600 20px ${FONT}`, align: 'right' } },
         { type: 'text', right: 22 + (2 - i) * 170, top: 42, style: { text: label, fill: t.muted, font: `400 13px ${FONT}`, align: 'right' } },
       ]),
-      { type: 'circle', left: 22, top: H - 21, shape: { r: 4 }, style: { fill: t.line } },
-      { type: 'text', left: 36, top: H - 22, style: { text: `live from the GitHub API · updated ${s.updated}`, fill: t.muted, font: `400 11px ${FONT}` } },
-      { type: 'text', right: 22, top: H - 22, style: { text: 'rolling 7-day contributions', fill: t.muted, font: `400 11px ${FONT}`, align: 'right' } },
     ],
-    grid: { left: 46, right: 22, top: 120, height: 196 },
+    grid: { left: 46, right: 22, top: 124, height: 200 },
     xAxis: {
       type: 'category', data: dates, boundaryGap: false,
       axisLine: { lineStyle: { color: t.faint } }, axisTick: { show: false },
@@ -105,7 +106,7 @@ function option(s, t) {
       splitLine: { lineStyle: { color: t.faint, type: [3, 4], opacity: .6 } },
     },
     dataZoom: [{
-      type: 'slider', start: 0, end: 100, left: 46, right: 22, top: 346, height: 30,
+      type: 'slider', start: 0, end: 100, left: 46, right: 22, top: 354, height: 28,
       borderColor: t.faint, backgroundColor: 'transparent', fillerColor: t.zoomFill,
       handleStyle: { color: t.line, borderColor: t.line }, moveHandleStyle: { color: t.faint, opacity: .6 },
       labelFormatter: () => '', brushSelect: false,
@@ -119,6 +120,12 @@ function option(s, t) {
       lineStyle: { width: 1.6, color: t.line },
       areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
         { offset: 0, color: t.areaTop }, { offset: 1, color: t.areaBot }]) },
+      markPoint: {
+        symbol: 'circle', symbolSize: 6, animation: false,
+        itemStyle: { color: t.line, borderColor: t.bg, borderWidth: 1.5 },
+        label: { show: true, position: 'top', distance: 6, color: t.ink, fontSize: 11, fontWeight: 600 },
+        data: peaks.map(i => ({ coord: [dates[i], roll[i]], value: roll[i] })),
+      },
     }],
   };
 }
