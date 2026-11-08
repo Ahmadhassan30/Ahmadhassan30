@@ -3,6 +3,13 @@
   <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: glowing blue light beams flow from his skills and fields into an ASCII portrait of him, and each signal spreads through the portrait as a wave of lit characters">
 </picture>
 
+## GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img alt="Contributions over the last year as a blue area chart of the rolling 7-day total, plus total, longest streak, active days and best day, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
+</picture>
+
 ## Hey, I'm Ahmad
 
 **AI engineer · computational neuroscience researcher · music producer**
@@ -161,13 +168,6 @@ I build systems that reason in steps and read books that reason in centuries.
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/nextdotjs/white"><img hspace="7" height="44" src="https://cdn.simpleicons.org/nextdotjs/000000" alt="Next.js" title="Next.js"></picture>
   <img hspace="7" height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" title="Tailwind CSS">
 </p>
-
-## GitHub activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img alt="Contributions over the last year as a blue area chart of the rolling 7-day total, plus total, longest streak, active days and best day, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
-</picture>
 
 <br>
 
