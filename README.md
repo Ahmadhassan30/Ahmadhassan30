@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan: glowing blue light beams flow from his skills and fields into an ASCII portrait of him, and each signal spreads through the portrait as a wave of lit characters">
+  <img width="100%" src="assets/hero-light.svg" alt="Ahmad Hassan. Glowing blue beams flow from his fields into an ASCII portrait of him. I study how brains turn noise into meaning, and build machines that try to do the same. Most days that means agents, retrieval and GPU inference. Most nights it means music, and Dostoevsky read like a research paper. Research: spiking networks and neural dynamics. Agents: multi-agent systems that notice when they&#39;re wrong, and change course. Inference: CUDA kernels and serving stacks. Music: he produces, and wrote his own BPM, key and scale detector. Reading: Dostoevsky, Kafka, Tolstoy. Links: ahmadhassan.engineer, LinkedIn, email.">
 </picture>
 
 ## GitHub activity
@@ -9,27 +9,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
   <img alt="Contributions over the last year as a blue area chart of the rolling 7-day total, plus total, longest streak, active days and best day, rendered with Apache ECharts." src="assets/activity-light.svg" width="100%">
 </picture>
-
-## Hey, I'm Ahmad
-
-**AI engineer · computational neuroscience researcher · music producer**
-
-I build systems that reason in steps and read books that reason in centuries.
-
-- Researching **computational neuroscience**, and what brains can teach machines
-- Building **multi-agent systems** and **retrieval pipelines** that hold up in production
-- Producing **music**, and I wrote my own BPM, key and scale detector for it
-- Reading **Dostoevsky, Kafka and Tolstoy** like they're research papers
-- Ask me about agents, RAG, or the last book I finished
-
-<a href="https://www.ahmadhassan.engineer/"><img height="44" src="assets/icons/web.svg" alt="ahmadhassan.engineer" title="ahmadhassan.engineer"></a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/ahmad-hassan3110"><img height="44" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linkedin/linkedin-original.svg" alt="LinkedIn" title="LinkedIn"></a>
-&nbsp;&nbsp;
-<a href="mailto:ahmadhassan30nov@gmail.com"><img height="44" src="assets/icons/gmail.svg" alt="Email" title="Email"></a>
-
-> It looks like four hobbies. It's one question: **how does anything turn patterns into meaning?**
-> A brain does it with neurons, a model with weights, a novel with foreshadowing, a song with tension and release.
 
 ## Tech stack
 
