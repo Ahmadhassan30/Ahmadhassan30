@@ -5,15 +5,22 @@
 //
 // The workflow (.github/workflows/activity.yml) runs this every 6 hours and commits the SVGs when they change.
 
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as echarts from 'echarts';
 
 const USER = 'Ahmadhassan30';
-const OUT = process.env.ASSETS_DIR || dirname(fileURLToPath(import.meta.url));
+const HERE = dirname(fileURLToPath(import.meta.url));
+const OUT = process.env.ASSETS_DIR || HERE;
 const W = 1000, H = 400;
-const FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif";
+// One typeface across the README: JetBrains Mono (SIL OFL 1.1, see assets/fonts/OFL.txt).
+// GitHub's image proxy blocks web-font requests, so the subsets are embedded in each SVG.
+const FONT = "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace";
+const FACES = [[400, 'jetbrains-mono-400.woff'], [600, 'jetbrains-mono-600.woff']]
+  .map(([w, f]) => `@font-face{font-family:'JetBrains Mono';font-weight:${w};src:url(data:font/woff;base64,${
+    readFileSync(join(HERE, 'fonts', f)).toString('base64')}) format('woff')}`).join('');
+const withFonts = svg => svg.replace(/<svg\b[^>]*>/, m => `${m}<defs><style>${FACES}</style></defs>`);
 
 const THEMES = {
   // same blues as the hero
@@ -96,8 +103,9 @@ function option(s, t) {
         ['active days', `${s.active} / ${s.days.length}`],
         ['best day', `${s.best[1]} · ${fmtDay(s.best[0])}`],
       ].flatMap(([label, value], i) => [
-        { type: 'text', right: 22 + (2 - i) * 170, top: 14, style: { text: value, fill: t.ink, font: `600 20px ${FONT}`, align: 'right' } },
-        { type: 'text', right: 22 + (2 - i) * 170, top: 42, style: { text: label, fill: t.muted, font: `400 13px ${FONT}`, align: 'right' } },
+        // anchored by x (text-anchor: end) rather than `right`, so layout never depends on ECharts' width estimate
+        { type: 'text', x: W - 22 - (2 - i) * 170, y: 14, style: { text: value, fill: t.ink, font: `600 20px ${FONT}`, align: 'right' } },
+        { type: 'text', x: W - 22 - (2 - i) * 170, y: 42, style: { text: label, fill: t.muted, font: `400 13px ${FONT}`, align: 'right' } },
       ]),
     ],
     grid: { left: 46, right: 22, top: 124, height: 200 },
@@ -141,7 +149,7 @@ const s = stats(await calendar());
 for (const [name, t] of Object.entries(THEMES)) {
   const chart = echarts.init(null, null, { renderer: 'svg', ssr: true, width: W, height: H });
   chart.setOption(option(s, t));
-  const svg = chart.renderToSVGString();
+  const svg = withFonts(chart.renderToSVGString());
   writeFileSync(join(OUT, `activity-${name}.svg`), svg);
   chart.dispose();
   console.log(`activity-${name}.svg  ${(svg.length / 1024).toFixed(0)} KB`);
